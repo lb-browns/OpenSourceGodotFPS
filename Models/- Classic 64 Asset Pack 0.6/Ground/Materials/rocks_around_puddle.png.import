@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfe4qsg35x1wo"
-path="res://.godot/imported/rocks_around_puddle.png-b798c51220917fa86a2cf7076c251fc4.ctex"
+path="res://.godot/imported/rocks_around_puddle.png-9b7e3aeac0836a7359048a548ff6ead3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Ground/Materials/rocks_around_puddle.png"
-dest_files=["res://.godot/imported/rocks_around_puddle.png-b798c51220917fa86a2cf7076c251fc4.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Ground/Materials/rocks_around_puddle.png"
+dest_files=["res://.godot/imported/rocks_around_puddle.png-9b7e3aeac0836a7359048a548ff6ead3.ctex"]
 
 [params]
 

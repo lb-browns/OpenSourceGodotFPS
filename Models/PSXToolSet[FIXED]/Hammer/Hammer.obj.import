@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dar7ud88edm12"
-path="res://.godot/imported/Hammer.obj-26685980446964780b03b0ef9659edef.mesh"
+path="res://.godot/imported/Hammer.obj-9eba1ee5cb97779bdc76ad722b3e7e47.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Hammer.obj-26685980446964780b03b0ef9659edef.mesh"]
+files=["res://.godot/imported/Hammer.obj-9eba1ee5cb97779bdc76ad722b3e7e47.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Hammer/Hammer.obj"
-dest_files=["res://.godot/imported/Hammer.obj-26685980446964780b03b0ef9659edef.mesh", "res://.godot/imported/Hammer.obj-26685980446964780b03b0ef9659edef.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/Hammer/Hammer.obj"
+dest_files=["res://.godot/imported/Hammer.obj-9eba1ee5cb97779bdc76ad722b3e7e47.mesh", "res://.godot/imported/Hammer.obj-9eba1ee5cb97779bdc76ad722b3e7e47.mesh"]
 
 [params]
 

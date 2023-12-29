@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6bjc4c6julrw"
-path="res://.godot/imported/valve_wheel_2.png-bf7ca742b659954dc9a9fcd1e876f6a0.ctex"
+path="res://.godot/imported/valve_wheel_2.png-251bb7d4969c2f149d778e34f6394f93.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/valve_wheel_2.png"
-dest_files=["res://.godot/imported/valve_wheel_2.png-bf7ca742b659954dc9a9fcd1e876f6a0.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/valve_wheel_2.png"
+dest_files=["res://.godot/imported/valve_wheel_2.png-251bb7d4969c2f149d778e34f6394f93.ctex"]
 
 [params]
 

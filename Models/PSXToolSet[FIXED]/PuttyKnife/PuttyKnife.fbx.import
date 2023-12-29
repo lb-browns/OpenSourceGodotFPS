@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c4adec34hc7t2"
-path="res://.godot/imported/PuttyKnife.fbx-068c7aad301e20e08b7f66cb2c800aa6.scn"
+path="res://.godot/imported/PuttyKnife.fbx-5b3a0db6982d82458ca99ed3801c9558.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/PuttyKnife/PuttyKnife.fbx"
-dest_files=["res://.godot/imported/PuttyKnife.fbx-068c7aad301e20e08b7f66cb2c800aa6.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/PuttyKnife/PuttyKnife.fbx"
+dest_files=["res://.godot/imported/PuttyKnife.fbx-5b3a0db6982d82458ca99ed3801c9558.scn"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dp4gkeft6xegn"
-path="res://.godot/imported/BFG2.WAV-187353fe70bfc504580361152845e435.sample"
+path="res://.godot/imported/BFG2.WAV-29934a0ce504f35a1e379b24fec77780.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/BFG2.WAV"
-dest_files=["res://.godot/imported/BFG2.WAV-187353fe70bfc504580361152845e435.sample"]
+source_file="res://sfx/CustomSoundsPack1/BFG2.WAV"
+dest_files=["res://.godot/imported/BFG2.WAV-29934a0ce504f35a1e379b24fec77780.sample"]
 
 [params]
 

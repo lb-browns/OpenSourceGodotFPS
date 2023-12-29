@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://2x6hiycqsyjb"
-path="res://.godot/imported/RifleAmmo_240.obj-a85efbea5d0304414cc1614fa6f28e2f.mesh"
+path="res://.godot/imported/RifleAmmo_240.obj-7ac330d9172fdfd2691d1c4c1fec9766.mesh"
 
 [deps]
 
-files=["res://.godot/imported/RifleAmmo_240.obj-a85efbea5d0304414cc1614fa6f28e2f.mesh"]
+files=["res://.godot/imported/RifleAmmo_240.obj-7ac330d9172fdfd2691d1c4c1fec9766.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/Rifle Ammo/RifleAmmo_240.obj"
-dest_files=["res://.godot/imported/RifleAmmo_240.obj-a85efbea5d0304414cc1614fa6f28e2f.mesh", "res://.godot/imported/RifleAmmo_240.obj-a85efbea5d0304414cc1614fa6f28e2f.mesh"]
+source_file="res://Models/PSXAmmoBoxes/Rifle Ammo/RifleAmmo_240.obj"
+dest_files=["res://.godot/imported/RifleAmmo_240.obj-7ac330d9172fdfd2691d1c4c1fec9766.mesh", "res://.godot/imported/RifleAmmo_240.obj-7ac330d9172fdfd2691d1c4c1fec9766.mesh"]
 
 [params]
 

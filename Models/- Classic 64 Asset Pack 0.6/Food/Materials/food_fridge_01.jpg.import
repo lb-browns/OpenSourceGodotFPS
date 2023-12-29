@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3grl02upjv84"
-path="res://.godot/imported/food_fridge_01.jpg-ceb7d3c0228a10f1ea4d8b67b52d3ec0.ctex"
+path="res://.godot/imported/food_fridge_01.jpg-a42a8476112a25e164c391fba912df49.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_fridge_01.jpg"
-dest_files=["res://.godot/imported/food_fridge_01.jpg-ceb7d3c0228a10f1ea4d8b67b52d3ec0.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_fridge_01.jpg"
+dest_files=["res://.godot/imported/food_fridge_01.jpg-a42a8476112a25e164c391fba912df49.ctex"]
 
 [params]
 

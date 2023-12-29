@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5qm6lr4h5tte"
-path="res://.godot/imported/BackSaw.fbx-e25f5e39b0488a873a8e3505dfef6611.scn"
+path="res://.godot/imported/BackSaw.fbx-54950014852c6ddbc2519d391a78b249.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/BackSaw/BackSaw.fbx"
-dest_files=["res://.godot/imported/BackSaw.fbx-e25f5e39b0488a873a8e3505dfef6611.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/BackSaw/BackSaw.fbx"
+dest_files=["res://.godot/imported/BackSaw.fbx-54950014852c6ddbc2519d391a78b249.scn"]
 
 [params]
 

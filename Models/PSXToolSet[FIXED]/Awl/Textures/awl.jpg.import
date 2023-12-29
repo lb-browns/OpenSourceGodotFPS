@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brre1e2xwk1w1"
-path.s3tc="res://.godot/imported/awl.jpg-fdcefa97f6c10de4fe14c786ed83b6bc.s3tc.ctex"
+path.s3tc="res://.godot/imported/awl.jpg-1befd25cd2fe5b1eaacf583440ce4796.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Awl/Textures/awl.jpg"
-dest_files=["res://.godot/imported/awl.jpg-fdcefa97f6c10de4fe14c786ed83b6bc.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/Awl/Textures/awl.jpg"
+dest_files=["res://.godot/imported/awl.jpg-1befd25cd2fe5b1eaacf583440ce4796.s3tc.ctex"]
 
 [params]
 

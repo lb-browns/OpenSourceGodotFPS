@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bja0yyxp0hj8d"
-path="res://.godot/imported/sign_money_01.jpg-a9443fd44dd0da25a2d9277938897dfa.ctex"
+path="res://.godot/imported/sign_money_01.jpg-b35df5c177de0a6d4f03f259c2d125e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_money_01.jpg"
-dest_files=["res://.godot/imported/sign_money_01.jpg-a9443fd44dd0da25a2d9277938897dfa.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_money_01.jpg"
+dest_files=["res://.godot/imported/sign_money_01.jpg-b35df5c177de0a6d4f03f259c2d125e7.ctex"]
 
 [params]
 

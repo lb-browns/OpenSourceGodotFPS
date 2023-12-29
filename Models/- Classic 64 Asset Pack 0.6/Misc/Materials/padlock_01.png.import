@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvnxl6kb51nva"
-path="res://.godot/imported/padlock_01.png-91d5abf0b3f9026fff58f90f56c848a2.ctex"
+path="res://.godot/imported/padlock_01.png-39a582150ea0d9ffc7c8b234bf775908.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/padlock_01.png"
-dest_files=["res://.godot/imported/padlock_01.png-91d5abf0b3f9026fff58f90f56c848a2.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/padlock_01.png"
+dest_files=["res://.godot/imported/padlock_01.png-39a582150ea0d9ffc7c8b234bf775908.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbfnmmwaferob"
-path="res://.godot/imported/white_stripes_02.jpg-9275055f803cccbc22257b94ab683d96.ctex"
+path="res://.godot/imported/white_stripes_02.jpg-02678b87c4e5e8c2f2557769ba505227.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/white_stripes_02.jpg"
-dest_files=["res://.godot/imported/white_stripes_02.jpg-9275055f803cccbc22257b94ab683d96.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/white_stripes_02.jpg"
+dest_files=["res://.godot/imported/white_stripes_02.jpg-02678b87c4e5e8c2f2557769ba505227.ctex"]
 
 [params]
 

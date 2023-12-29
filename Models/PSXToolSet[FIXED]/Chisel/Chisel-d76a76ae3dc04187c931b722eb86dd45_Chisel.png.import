@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fs6q4u81cqw0"
-path.s3tc="res://.godot/imported/Chisel-d76a76ae3dc04187c931b722eb86dd45_Chisel.png-1105a78596fc3affe0461083214ff390.s3tc.ctex"
+path.s3tc="res://.godot/imported/Chisel-d76a76ae3dc04187c931b722eb86dd45_Chisel.png-160f1be43602d78bb9678da51afc44bd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Chisel/Chisel-d76a76ae3dc04187c931b722eb86dd45_Chisel.png"
-dest_files=["res://.godot/imported/Chisel-d76a76ae3dc04187c931b722eb86dd45_Chisel.png-1105a78596fc3affe0461083214ff390.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/Chisel/Chisel-d76a76ae3dc04187c931b722eb86dd45_Chisel.png"
+dest_files=["res://.godot/imported/Chisel-d76a76ae3dc04187c931b722eb86dd45_Chisel.png-160f1be43602d78bb9678da51afc44bd.s3tc.ctex"]
 
 [params]
 

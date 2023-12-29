@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://sspvxqwlkmf4"
-path.s3tc="res://.godot/imported/12G_240px.png-8e72f8e87383bbb5c28f91fb9c0d066a.s3tc.ctex"
+path.s3tc="res://.godot/imported/12G_240px.png-73428af7f6ecb657d561036b1ad4670e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/12g/Textures/12G_240px.png"
-dest_files=["res://.godot/imported/12G_240px.png-8e72f8e87383bbb5c28f91fb9c0d066a.s3tc.ctex"]
+source_file="res://Models/PSXAmmoBoxes/12g/Textures/12G_240px.png"
+dest_files=["res://.godot/imported/12G_240px.png-73428af7f6ecb657d561036b1ad4670e.s3tc.ctex"]
 
 [params]
 

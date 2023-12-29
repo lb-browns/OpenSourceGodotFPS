@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bad8ju65ri8yy"
-path="res://.godot/imported/1911.fbx-d3787ebb0a81fc9d771f193f6217a1af.scn"
+path="res://.godot/imported/1911.fbx-5864e17187353142146c2b4947c69454.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/1911/1911.fbx"
-dest_files=["res://.godot/imported/1911.fbx-d3787ebb0a81fc9d771f193f6217a1af.scn"]
+source_file="res://Models/PSXMiscGuns/1911/1911.fbx"
+dest_files=["res://.godot/imported/1911.fbx-5864e17187353142146c2b4947c69454.scn"]
 
 [params]
 

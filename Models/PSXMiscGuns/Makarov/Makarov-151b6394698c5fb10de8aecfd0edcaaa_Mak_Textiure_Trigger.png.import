@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chdup5r25qn0s"
-path.s3tc="res://.godot/imported/Makarov-151b6394698c5fb10de8aecfd0edcaaa_Mak_Textiure_Trigger.png-09dbd426173c38c963ea5f59035a75fc.s3tc.ctex"
+path.s3tc="res://.godot/imported/Makarov-151b6394698c5fb10de8aecfd0edcaaa_Mak_Textiure_Trigger.png-9eec5b8529c54869265788c1a4a27d90.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/Makarov/Makarov-151b6394698c5fb10de8aecfd0edcaaa_Mak_Textiure_Trigger.png"
-dest_files=["res://.godot/imported/Makarov-151b6394698c5fb10de8aecfd0edcaaa_Mak_Textiure_Trigger.png-09dbd426173c38c963ea5f59035a75fc.s3tc.ctex"]
+source_file="res://Models/PSXMiscGuns/Makarov/Makarov-151b6394698c5fb10de8aecfd0edcaaa_Mak_Textiure_Trigger.png"
+dest_files=["res://.godot/imported/Makarov-151b6394698c5fb10de8aecfd0edcaaa_Mak_Textiure_Trigger.png-9eec5b8529c54869265788c1a4a27d90.s3tc.ctex"]
 
 [params]
 

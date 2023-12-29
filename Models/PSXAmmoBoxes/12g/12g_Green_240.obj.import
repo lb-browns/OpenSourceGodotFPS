@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bqitxau8oels8"
-path="res://.godot/imported/12g_Green_240.obj-f9ff0b593e0edeea1a2035f5e9b5be32.mesh"
+path="res://.godot/imported/12g_Green_240.obj-b35c0bc6b5f0e85ab0a7dda7fa2a8007.mesh"
 
 [deps]
 
-files=["res://.godot/imported/12g_Green_240.obj-f9ff0b593e0edeea1a2035f5e9b5be32.mesh"]
+files=["res://.godot/imported/12g_Green_240.obj-b35c0bc6b5f0e85ab0a7dda7fa2a8007.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/12g/12g_Green_240.obj"
-dest_files=["res://.godot/imported/12g_Green_240.obj-f9ff0b593e0edeea1a2035f5e9b5be32.mesh", "res://.godot/imported/12g_Green_240.obj-f9ff0b593e0edeea1a2035f5e9b5be32.mesh"]
+source_file="res://Models/PSXAmmoBoxes/12g/12g_Green_240.obj"
+dest_files=["res://.godot/imported/12g_Green_240.obj-b35c0bc6b5f0e85ab0a7dda7fa2a8007.mesh", "res://.godot/imported/12g_Green_240.obj-b35c0bc6b5f0e85ab0a7dda7fa2a8007.mesh"]
 
 [params]
 

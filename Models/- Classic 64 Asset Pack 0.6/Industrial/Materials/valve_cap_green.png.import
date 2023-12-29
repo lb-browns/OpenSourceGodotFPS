@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccuu8oarxsx25"
-path="res://.godot/imported/valve_cap_green.png-e0569ee29d7c72d7fb2c66164a0c274a.ctex"
+path="res://.godot/imported/valve_cap_green.png-e9c9466574358b4e37c0c62aa4289cde.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/valve_cap_green.png"
-dest_files=["res://.godot/imported/valve_cap_green.png-e0569ee29d7c72d7fb2c66164a0c274a.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/valve_cap_green.png"
+dest_files=["res://.godot/imported/valve_cap_green.png-e9c9466574358b4e37c0c62aa4289cde.ctex"]
 
 [params]
 

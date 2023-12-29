@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcdw6j6xh3csb"
-path="res://.godot/imported/sign_tyeer.jpg-1eff268347790fd8d24ea8b5526d1ec0.ctex"
+path="res://.godot/imported/sign_tyeer.jpg-0adeb68cee8b84a9caf8853e8f045c7c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_tyeer.jpg"
-dest_files=["res://.godot/imported/sign_tyeer.jpg-1eff268347790fd8d24ea8b5526d1ec0.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_tyeer.jpg"
+dest_files=["res://.godot/imported/sign_tyeer.jpg-0adeb68cee8b84a9caf8853e8f045c7c.ctex"]
 
 [params]
 

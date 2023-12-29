@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://70kpobkwtea0"
-path="res://.godot/imported/branches_small_leaves.png-2e688ec28df23542e1e87fb0433f3c58.ctex"
+path="res://.godot/imported/branches_small_leaves.png-2bc1f56a9da2efb18e01db985bdae406.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Nature/Materials/branches_small_leaves.png"
-dest_files=["res://.godot/imported/branches_small_leaves.png-2e688ec28df23542e1e87fb0433f3c58.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Nature/Materials/branches_small_leaves.png"
+dest_files=["res://.godot/imported/branches_small_leaves.png-2bc1f56a9da2efb18e01db985bdae406.ctex"]
 
 [params]
 

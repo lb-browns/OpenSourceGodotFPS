@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfg16fairpfhn"
-path="res://.godot/imported/slime_green_01.jpg-738c9e5cc7b84e6a546751b39a7cefc0.ctex"
+path="res://.godot/imported/slime_green_01.jpg-6ed18b36d78e02abca56671ff262d761.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/slime_green_01.jpg"
-dest_files=["res://.godot/imported/slime_green_01.jpg-738c9e5cc7b84e6a546751b39a7cefc0.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/slime_green_01.jpg"
+dest_files=["res://.godot/imported/slime_green_01.jpg-6ed18b36d78e02abca56671ff262d761.ctex"]
 
 [params]
 

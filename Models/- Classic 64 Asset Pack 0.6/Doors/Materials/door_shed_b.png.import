@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckp7ej1kqpgug"
-path="res://.godot/imported/door_shed_b.png-d8754c73afb37205d62b5464168e0d3c.ctex"
+path="res://.godot/imported/door_shed_b.png-a5cd748acdd46d03935d4b126975ce09.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Doors/Materials/door_shed_b.png"
-dest_files=["res://.godot/imported/door_shed_b.png-d8754c73afb37205d62b5464168e0d3c.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Doors/Materials/door_shed_b.png"
+dest_files=["res://.godot/imported/door_shed_b.png-a5cd748acdd46d03935d4b126975ce09.ctex"]
 
 [params]
 

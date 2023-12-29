@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cutrsldpgtnqj"
-path="res://.godot/imported/1911.obj-110ca8529f838b92f5c1b8e1b9779fe6.mesh"
+path="res://.godot/imported/1911.obj-aa579c76e9f6f15fc023eafb1dc22442.mesh"
 
 [deps]
 
-files=["res://.godot/imported/1911.obj-110ca8529f838b92f5c1b8e1b9779fe6.mesh"]
+files=["res://.godot/imported/1911.obj-aa579c76e9f6f15fc023eafb1dc22442.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/1911/1911.obj"
-dest_files=["res://.godot/imported/1911.obj-110ca8529f838b92f5c1b8e1b9779fe6.mesh", "res://.godot/imported/1911.obj-110ca8529f838b92f5c1b8e1b9779fe6.mesh"]
+source_file="res://Models/PSXMiscGuns/1911/1911.obj"
+dest_files=["res://.godot/imported/1911.obj-aa579c76e9f6f15fc023eafb1dc22442.mesh", "res://.godot/imported/1911.obj-aa579c76e9f6f15fc023eafb1dc22442.mesh"]
 
 [params]
 

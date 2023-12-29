@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqwyp1jr2tml8"
-path="res://.godot/imported/building_old_tan_02.png-46f9e30a94f6291bcf2a431bfe986064.ctex"
+path="res://.godot/imported/building_old_tan_02.png-1d7b362852587f1a3694fbeae7377a74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Buildings/Materials/building_old_tan_02.png"
-dest_files=["res://.godot/imported/building_old_tan_02.png-46f9e30a94f6291bcf2a431bfe986064.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Buildings/Materials/building_old_tan_02.png"
+dest_files=["res://.godot/imported/building_old_tan_02.png-1d7b362852587f1a3694fbeae7377a74.ctex"]
 
 [params]
 

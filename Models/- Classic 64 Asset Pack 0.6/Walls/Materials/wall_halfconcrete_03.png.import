@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clqkkbu3i6640"
-path="res://.godot/imported/wall_halfconcrete_03.png-636724d80574c52da52a11c778673931.ctex"
+path="res://.godot/imported/wall_halfconcrete_03.png-ee2c750cc7a60e42a24dff460602cca0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_halfconcrete_03.png"
-dest_files=["res://.godot/imported/wall_halfconcrete_03.png-636724d80574c52da52a11c778673931.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_halfconcrete_03.png"
+dest_files=["res://.godot/imported/wall_halfconcrete_03.png-ee2c750cc7a60e42a24dff460602cca0.ctex"]
 
 [params]
 

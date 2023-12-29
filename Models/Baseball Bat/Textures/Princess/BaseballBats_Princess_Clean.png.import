@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nev8wtafxvqb"
-path="res://.godot/imported/BaseballBats_Princess_Clean.png-4fa486dd6a5b8cd984aa2eef8d77a9c9.ctex"
+path="res://.godot/imported/BaseballBats_Princess_Clean.png-41ed18e26fab1c26bd6abb53677bd753.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Baseball Bat/Textures/Princess/BaseballBats_Princess_Clean.png"
-dest_files=["res://.godot/imported/BaseballBats_Princess_Clean.png-4fa486dd6a5b8cd984aa2eef8d77a9c9.ctex"]
+source_file="res://Models/Baseball Bat/Textures/Princess/BaseballBats_Princess_Clean.png"
+dest_files=["res://.godot/imported/BaseballBats_Princess_Clean.png-41ed18e26fab1c26bd6abb53677bd753.ctex"]
 
 [params]
 

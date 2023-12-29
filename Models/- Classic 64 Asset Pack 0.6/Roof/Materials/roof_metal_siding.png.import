@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cf3p1l2uht7va"
-path="res://.godot/imported/roof_metal_siding.png-97fb6bae4723db990ca0f11c53bd00be.ctex"
+path="res://.godot/imported/roof_metal_siding.png-ca8cc0c21f6750e0669136b3dbfa0e82.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Roof/Materials/roof_metal_siding.png"
-dest_files=["res://.godot/imported/roof_metal_siding.png-97fb6bae4723db990ca0f11c53bd00be.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/roof_metal_siding.png"
+dest_files=["res://.godot/imported/roof_metal_siding.png-ca8cc0c21f6750e0669136b3dbfa0e82.ctex"]
 
 [params]
 

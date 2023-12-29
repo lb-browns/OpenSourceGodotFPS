@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwuu4nyij1spy"
-path="res://.godot/imported/window_boarded.png-ed8ac96fbc1093063202ee79595217a4.ctex"
+path="res://.godot/imported/window_boarded.png-f881477af35e7b2c34050179921a1456.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Windows/Materials/window_boarded.png"
-dest_files=["res://.godot/imported/window_boarded.png-ed8ac96fbc1093063202ee79595217a4.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Windows/Materials/window_boarded.png"
+dest_files=["res://.godot/imported/window_boarded.png-f881477af35e7b2c34050179921a1456.ctex"]
 
 [params]
 

@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="weaponResource" load_steps=3 format=3 uid="uid://b3m4wv2brbbng"]
 
-[ext_resource type="Texture2D" uid="uid://dvd415dykiyb5" path="res://SlavSlaughterMouseMain/2dAssets/weapon icons/Bat.png" id="1_b5dw4"]
-[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/weaponResource.gd" id="1_hfvid"]
+[ext_resource type="Texture2D" uid="uid://dvd415dykiyb5" path="res://2dAssets/weapon icons/Bat.png" id="1_b5dw4"]
+[ext_resource type="Script" path="res://Scripts/Weapon/weaponResource.gd" id="1_hfvid"]
 
 [resource]
 script = ExtResource("1_hfvid")

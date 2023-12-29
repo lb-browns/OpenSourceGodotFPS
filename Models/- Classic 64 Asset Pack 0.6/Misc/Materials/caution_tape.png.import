@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ca2x164kdjbcs"
-path="res://.godot/imported/caution_tape.png-3133a82fd83ff67c8e88303a46cec55e.ctex"
+path="res://.godot/imported/caution_tape.png-a3bcb39de56b9cc557dac470daa3b274.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/caution_tape.png"
-dest_files=["res://.godot/imported/caution_tape.png-3133a82fd83ff67c8e88303a46cec55e.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/caution_tape.png"
+dest_files=["res://.godot/imported/caution_tape.png-a3bcb39de56b9cc557dac470daa3b274.ctex"]
 
 [params]
 

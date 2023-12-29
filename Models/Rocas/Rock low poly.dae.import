@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://certsa2cxx8sy"
-path="res://.godot/imported/Rock low poly.dae-c47e6b675221a725f2dec8ff3045fa25.scn"
+path="res://.godot/imported/Rock low poly.dae-bbd275c521cbcc7175f4c8c605d27e3a.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Rocas/Rock low poly.dae"
-dest_files=["res://.godot/imported/Rock low poly.dae-c47e6b675221a725f2dec8ff3045fa25.scn"]
+source_file="res://Models/Rocas/Rock low poly.dae"
+dest_files=["res://.godot/imported/Rock low poly.dae-bbd275c521cbcc7175f4c8c605d27e3a.scn"]
 
 [params]
 

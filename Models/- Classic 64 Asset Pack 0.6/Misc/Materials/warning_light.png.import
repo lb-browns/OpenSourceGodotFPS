@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvartvh0ok8yt"
-path="res://.godot/imported/warning_light.png-9dc343951905a014c6406bf40b2d56a7.ctex"
+path="res://.godot/imported/warning_light.png-e066ae29c4cddde598bf561fb25be812.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/warning_light.png"
-dest_files=["res://.godot/imported/warning_light.png-9dc343951905a014c6406bf40b2d56a7.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/warning_light.png"
+dest_files=["res://.godot/imported/warning_light.png-e066ae29c4cddde598bf561fb25be812.ctex"]
 
 [params]
 

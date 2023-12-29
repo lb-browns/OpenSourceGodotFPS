@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://chchpg5wqvr2a"
-path="res://.godot/imported/12g_Green_240.fbx-77355a05aa7e67e5f2dda45243fd3149.scn"
+path="res://.godot/imported/12g_Green_240.fbx-f485188ec11739f3d43782ead4e67d00.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/12g/12g_Green_240.fbx"
-dest_files=["res://.godot/imported/12g_Green_240.fbx-77355a05aa7e67e5f2dda45243fd3149.scn"]
+source_file="res://Models/PSXAmmoBoxes/12g/12g_Green_240.fbx"
+dest_files=["res://.godot/imported/12g_Green_240.fbx-f485188ec11739f3d43782ead4e67d00.scn"]
 
 [params]
 

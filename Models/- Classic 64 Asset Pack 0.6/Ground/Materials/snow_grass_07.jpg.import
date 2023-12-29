@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ljm536dcc0al"
-path="res://.godot/imported/snow_grass_07.jpg-d99aa4d0ad63751a2d6c4c32dda83f42.ctex"
+path="res://.godot/imported/snow_grass_07.jpg-cd0374528a67d884d7caae556ae7e5bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Ground/Materials/snow_grass_07.jpg"
-dest_files=["res://.godot/imported/snow_grass_07.jpg-d99aa4d0ad63751a2d6c4c32dda83f42.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Ground/Materials/snow_grass_07.jpg"
+dest_files=["res://.godot/imported/snow_grass_07.jpg-cd0374528a67d884d7caae556ae7e5bc.ctex"]
 
 [params]
 

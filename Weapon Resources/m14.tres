@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="weaponResource" load_steps=4 format=3 uid="uid://23kq6vyhhc4n"]
 
-[ext_resource type="Texture2D" uid="uid://cnnjloj7biip2" path="res://SlavSlaughterMouseMain/2dAssets/weapon icons/m14.png" id="1_4gkoj"]
-[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/weaponResource.gd" id="1_uwt58"]
-[ext_resource type="PackedScene" uid="uid://bri6it71khuda" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/m_14_pickup.tscn" id="3_wj8fx"]
+[ext_resource type="Texture2D" uid="uid://cnnjloj7biip2" path="res://2dAssets/weapon icons/m14.png" id="1_4gkoj"]
+[ext_resource type="Script" path="res://Scripts/Weapon/weaponResource.gd" id="1_uwt58"]
+[ext_resource type="PackedScene" uid="uid://bri6it71khuda" path="res://tscn/Weapons/Pickups/m_14_pickup.tscn" id="3_wj8fx"]
 
 [resource]
 script = ExtResource("1_uwt58")

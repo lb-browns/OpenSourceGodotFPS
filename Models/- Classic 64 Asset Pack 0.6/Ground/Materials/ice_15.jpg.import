@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yt65vp6dr0g1"
-path="res://.godot/imported/ice_15.jpg-4c4160f21e32110dec99d8a4198858fe.ctex"
+path="res://.godot/imported/ice_15.jpg-aa85516dc29b023086b24e7d8a8de27b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Ground/Materials/ice_15.jpg"
-dest_files=["res://.godot/imported/ice_15.jpg-4c4160f21e32110dec99d8a4198858fe.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Ground/Materials/ice_15.jpg"
+dest_files=["res://.godot/imported/ice_15.jpg-aa85516dc29b023086b24e7d8a8de27b.ctex"]
 
 [params]
 

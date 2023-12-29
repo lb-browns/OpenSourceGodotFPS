@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcqqcwgxvt7rv"
-path="res://.godot/imported/drink_can_soda_2.png-48f34cd7ace0ce5dbbb9e584d240b3e9.ctex"
+path="res://.godot/imported/drink_can_soda_2.png-49260da21886b5e9d4d4d444d061251f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Food/Materials/drink_can_soda_2.png"
-dest_files=["res://.godot/imported/drink_can_soda_2.png-48f34cd7ace0ce5dbbb9e584d240b3e9.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Food/Materials/drink_can_soda_2.png"
+dest_files=["res://.godot/imported/drink_can_soda_2.png-49260da21886b5e9d4d4d444d061251f.ctex"]
 
 [params]
 

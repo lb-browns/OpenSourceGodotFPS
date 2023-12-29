@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cqq8r2fm7nbjx"
-path="res://.godot/imported/50AE_240.obj-fe37e11d399b43a79f58162cd9cb0ed3.mesh"
+path="res://.godot/imported/50AE_240.obj-1009c60ba571ab5b3a22b83d63acd0f6.mesh"
 
 [deps]
 
-files=["res://.godot/imported/50AE_240.obj-fe37e11d399b43a79f58162cd9cb0ed3.mesh"]
+files=["res://.godot/imported/50AE_240.obj-1009c60ba571ab5b3a22b83d63acd0f6.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/50AE/50AE_240.obj"
-dest_files=["res://.godot/imported/50AE_240.obj-fe37e11d399b43a79f58162cd9cb0ed3.mesh", "res://.godot/imported/50AE_240.obj-fe37e11d399b43a79f58162cd9cb0ed3.mesh"]
+source_file="res://Models/PSXAmmoBoxes/50AE/50AE_240.obj"
+dest_files=["res://.godot/imported/50AE_240.obj-1009c60ba571ab5b3a22b83d63acd0f6.mesh", "res://.godot/imported/50AE_240.obj-1009c60ba571ab5b3a22b83d63acd0f6.mesh"]
 
 [params]
 

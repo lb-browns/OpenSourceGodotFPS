@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqk0hytyrjv4"
-path="res://.godot/imported/BlueSkySkybox.png-0acd55260a4e3126835462966a815a3b.ctex"
+path="res://.godot/imported/BlueSkySkybox.png-93f69cc23dd535d874b069ca6a23f998.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Textures/Skyboxes/BlueSkySkybox.png"
-dest_files=["res://.godot/imported/BlueSkySkybox.png-0acd55260a4e3126835462966a815a3b.ctex"]
+source_file="res://Textures/Skyboxes/BlueSkySkybox.png"
+dest_files=["res://.godot/imported/BlueSkySkybox.png-93f69cc23dd535d874b069ca6a23f998.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxpsktqtqoqi0"
-path="res://.godot/imported/crosshair056.png-2ed01e46fe2a1f4bb1563775bdbb97cf.ctex"
+path="res://.godot/imported/crosshair056.png-8ea9cc17eafdf3230bf01bfd0e495d43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/2dAssets/kenney_crosshairPack/PNG/Black Retina/crosshair056.png"
-dest_files=["res://.godot/imported/crosshair056.png-2ed01e46fe2a1f4bb1563775bdbb97cf.ctex"]
+source_file="res://2dAssets/kenney_crosshairPack/PNG/Black Retina/crosshair056.png"
+dest_files=["res://.godot/imported/crosshair056.png-8ea9cc17eafdf3230bf01bfd0e495d43.ctex"]
 
 [params]
 

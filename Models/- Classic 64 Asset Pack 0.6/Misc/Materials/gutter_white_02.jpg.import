@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cixur06ksmmhx"
-path="res://.godot/imported/gutter_white_02.jpg-0e9ea98e4f08451e4ca15bffe529b882.ctex"
+path="res://.godot/imported/gutter_white_02.jpg-a5d17a14423f5035ef213f7b2b273478.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/gutter_white_02.jpg"
-dest_files=["res://.godot/imported/gutter_white_02.jpg-0e9ea98e4f08451e4ca15bffe529b882.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/gutter_white_02.jpg"
+dest_files=["res://.godot/imported/gutter_white_02.jpg-a5d17a14423f5035ef213f7b2b273478.ctex"]
 
 [params]
 

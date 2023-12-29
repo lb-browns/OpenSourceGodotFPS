@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://co5lnq86antva"
-path="res://.godot/imported/wooden_handle.png-29f25ccfc4aafc4915963c313c5127d9.ctex"
+path="res://.godot/imported/wooden_handle.png-ef862f96e57169c8087ad5eacd79145d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Tools/Materials/wooden_handle.png"
-dest_files=["res://.godot/imported/wooden_handle.png-29f25ccfc4aafc4915963c313c5127d9.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Tools/Materials/wooden_handle.png"
+dest_files=["res://.godot/imported/wooden_handle.png-ef862f96e57169c8087ad5eacd79145d.ctex"]
 
 [params]
 

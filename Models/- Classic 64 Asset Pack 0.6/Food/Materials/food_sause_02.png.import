@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5qkx4ikuehsx"
-path="res://.godot/imported/food_sause_02.png-9b5d3a2c5e5c929b61a3a7b5d3c483fd.ctex"
+path="res://.godot/imported/food_sause_02.png-436ccf4e063b78ca65d8d85f706042c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_sause_02.png"
-dest_files=["res://.godot/imported/food_sause_02.png-9b5d3a2c5e5c929b61a3a7b5d3c483fd.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_sause_02.png"
+dest_files=["res://.godot/imported/food_sause_02.png-436ccf4e063b78ca65d8d85f706042c1.ctex"]
 
 [params]
 

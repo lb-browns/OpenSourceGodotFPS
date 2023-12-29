@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://iuarndersma8"
-path="res://.godot/imported/Tactical_Rifle.fbx-1fc8419b5011c2e53473d3c7a7c3cf23.scn"
+path="res://.godot/imported/Tactical_Rifle.fbx-025944ded1e0e70a812573621d0878d6.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/tactical rifle/Tactical_Rifle.fbx"
-dest_files=["res://.godot/imported/Tactical_Rifle.fbx-1fc8419b5011c2e53473d3c7a7c3cf23.scn"]
+source_file="res://Models/PSXMiscGuns/tactical rifle/Tactical_Rifle.fbx"
+dest_files=["res://.godot/imported/Tactical_Rifle.fbx-025944ded1e0e70a812573621d0878d6.scn"]
 
 [params]
 

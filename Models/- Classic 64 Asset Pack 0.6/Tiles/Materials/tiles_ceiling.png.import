@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rclm5h0urqb4"
-path="res://.godot/imported/tiles_ceiling.png-d1c8c16060e04dd33e9e5c1660d67d24.ctex"
+path="res://.godot/imported/tiles_ceiling.png-0432eced2b57532a740cf1828cc5f93a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Tiles/Materials/tiles_ceiling.png"
-dest_files=["res://.godot/imported/tiles_ceiling.png-d1c8c16060e04dd33e9e5c1660d67d24.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Tiles/Materials/tiles_ceiling.png"
+dest_files=["res://.godot/imported/tiles_ceiling.png-0432eced2b57532a740cf1828cc5f93a.ctex"]
 
 [params]
 

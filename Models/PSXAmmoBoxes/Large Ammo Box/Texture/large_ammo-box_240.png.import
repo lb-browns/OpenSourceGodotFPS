@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwf2bvjsd7o6m"
-path.s3tc="res://.godot/imported/large_ammo-box_240.png-32f2bcae28df4c3cc8ac88ff961020c9.s3tc.ctex"
+path.s3tc="res://.godot/imported/large_ammo-box_240.png-825a6fbe08e11f395c72ca93d91e5af5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/Large Ammo Box/Texture/large_ammo-box_240.png"
-dest_files=["res://.godot/imported/large_ammo-box_240.png-32f2bcae28df4c3cc8ac88ff961020c9.s3tc.ctex"]
+source_file="res://Models/PSXAmmoBoxes/Large Ammo Box/Texture/large_ammo-box_240.png"
+dest_files=["res://.godot/imported/large_ammo-box_240.png-825a6fbe08e11f395c72ca93d91e5af5.s3tc.ctex"]
 
 [params]
 

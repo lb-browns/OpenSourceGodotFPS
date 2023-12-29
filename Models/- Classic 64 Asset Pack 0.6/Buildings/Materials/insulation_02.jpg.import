@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn16ssgfqbjoo"
-path="res://.godot/imported/insulation_02.jpg-1509022715195a3e8fd42357fc4c553d.ctex"
+path="res://.godot/imported/insulation_02.jpg-37179d88f908a41988530097d3093706.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Buildings/Materials/insulation_02.jpg"
-dest_files=["res://.godot/imported/insulation_02.jpg-1509022715195a3e8fd42357fc4c553d.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Buildings/Materials/insulation_02.jpg"
+dest_files=["res://.godot/imported/insulation_02.jpg-37179d88f908a41988530097d3093706.ctex"]
 
 [params]
 

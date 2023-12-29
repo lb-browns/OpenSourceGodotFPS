@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvn5shmus1q3g"
-path="res://.godot/imported/Wood_19-128x128.png-eeda20caedbeadd609b4b91ab162bb41.ctex"
+path="res://.godot/imported/Wood_19-128x128.png-88f4af6a5866f3cf52be7b62037b7d73.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_19-128x128.png"
-dest_files=["res://.godot/imported/Wood_19-128x128.png-eeda20caedbeadd609b4b91ab162bb41.ctex"]
+source_file="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_19-128x128.png"
+dest_files=["res://.godot/imported/Wood_19-128x128.png-88f4af6a5866f3cf52be7b62037b7d73.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg51cgg7dxx1r"
-path="res://.godot/imported/shotgunShellTexture.jpg-5ab91393b6cfd059afac0db64b8c6224.ctex"
+path="res://.godot/imported/shotgunShellTexture.jpg-8e56dabaf44b98ae9da785dd65ae1b69.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/shotgunShellTexture.jpg"
-dest_files=["res://.godot/imported/shotgunShellTexture.jpg-5ab91393b6cfd059afac0db64b8c6224.ctex"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/shotgunShellTexture.jpg"
+dest_files=["res://.godot/imported/shotgunShellTexture.jpg-8e56dabaf44b98ae9da785dd65ae1b69.ctex"]
 
 [params]
 

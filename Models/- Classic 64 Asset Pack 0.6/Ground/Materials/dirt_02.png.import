@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci04mbpwx4rf8"
-path="res://.godot/imported/dirt_02.png-c15666fdfe293bc9066b425b69d5f0a4.ctex"
+path="res://.godot/imported/dirt_02.png-a90ec1ed7a89a5346c7bfba23eb3f5e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Ground/Materials/dirt_02.png"
-dest_files=["res://.godot/imported/dirt_02.png-c15666fdfe293bc9066b425b69d5f0a4.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Ground/Materials/dirt_02.png"
+dest_files=["res://.godot/imported/dirt_02.png-a90ec1ed7a89a5346c7bfba23eb3f5e8.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tfopvpywis4l"
-path="res://.godot/imported/wood_plank_red.png-27837de38eb688bba8e15bb4130803e1.ctex"
+path="res://.godot/imported/wood_plank_red.png-2892c699514fec810001c140673b94ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_plank_red.png"
-dest_files=["res://.godot/imported/wood_plank_red.png-27837de38eb688bba8e15bb4130803e1.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_plank_red.png"
+dest_files=["res://.godot/imported/wood_plank_red.png-2892c699514fec810001c140673b94ae.ctex"]
 
 [params]
 

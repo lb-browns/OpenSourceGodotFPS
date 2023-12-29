@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crm3637hsvul2"
-path.s3tc="res://.godot/imported/Auto_Ammo_240-f2d332abef7059f771c1f90625f063af_Automatic-Ammo-Front.png-cb5818fac7460a5de74422e24526e96b.s3tc.ctex"
+path.s3tc="res://.godot/imported/Auto_Ammo_240-f2d332abef7059f771c1f90625f063af_Automatic-Ammo-Front.png-77227c2fa6e3f7cca2521199a5056923.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/Automatic Ammo/Auto_Ammo_240-f2d332abef7059f771c1f90625f063af_Automatic-Ammo-Front.png"
-dest_files=["res://.godot/imported/Auto_Ammo_240-f2d332abef7059f771c1f90625f063af_Automatic-Ammo-Front.png-cb5818fac7460a5de74422e24526e96b.s3tc.ctex"]
+source_file="res://Models/PSXAmmoBoxes/Automatic Ammo/Auto_Ammo_240-f2d332abef7059f771c1f90625f063af_Automatic-Ammo-Front.png"
+dest_files=["res://.godot/imported/Auto_Ammo_240-f2d332abef7059f771c1f90625f063af_Automatic-Ammo-Front.png-77227c2fa6e3f7cca2521199a5056923.s3tc.ctex"]
 
 [params]
 

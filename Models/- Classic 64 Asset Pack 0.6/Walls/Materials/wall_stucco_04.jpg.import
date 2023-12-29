@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgvy7akyh8m5o"
-path.s3tc="res://.godot/imported/wall_stucco_04.jpg-916f5426b2ec72317ca145f653886d56.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_stucco_04.jpg-ffaba8ad7df2c929f0566b79a614fbbb.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_stucco_04.jpg"
-dest_files=["res://.godot/imported/wall_stucco_04.jpg-916f5426b2ec72317ca145f653886d56.s3tc.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_stucco_04.jpg"
+dest_files=["res://.godot/imported/wall_stucco_04.jpg-ffaba8ad7df2c929f0566b79a614fbbb.s3tc.ctex"]
 
 [params]
 

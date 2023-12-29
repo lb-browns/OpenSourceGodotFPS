@@ -7,7 +7,7 @@ signal updateWeaponStack
 @onready var animPlayer = get_node("../../../AnimationPlayer") 
 @onready var bulletPoint = get_node("%bulletPoint")
 
-var raycastDebug = preload("res://SlavSlaughterMouseMain/tscn/Weapons/Misc/raycastDebug.tscn")
+var raycastDebug = preload("res://tscn/Weapons/Misc/raycastDebug.tscn")
 
 var currentWeapon = null
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lvjy4kj6ake8"
-path="res://.godot/imported/PSX Banner.png-35496f6f68a298b2d86c8c8d8bec7c31.ctex"
+path="res://.godot/imported/PSX Banner.png-c7d03daa1c3672850b26084ecdeedb3a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Images/PSX Banner.png"
-dest_files=["res://.godot/imported/PSX Banner.png-35496f6f68a298b2d86c8c8d8bec7c31.ctex"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Images/PSX Banner.png"
+dest_files=["res://.godot/imported/PSX Banner.png-c7d03daa1c3672850b26084ecdeedb3a.ctex"]
 
 [params]
 

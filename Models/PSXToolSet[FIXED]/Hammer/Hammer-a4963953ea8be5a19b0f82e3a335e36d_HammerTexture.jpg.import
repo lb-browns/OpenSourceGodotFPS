@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lbculpv70s4b"
-path.s3tc="res://.godot/imported/Hammer-a4963953ea8be5a19b0f82e3a335e36d_HammerTexture.jpg-179883485e992f56a733a0f59a46e45a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Hammer-a4963953ea8be5a19b0f82e3a335e36d_HammerTexture.jpg-0be257717901e61e0ce4966e87b0091c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Hammer/Hammer-a4963953ea8be5a19b0f82e3a335e36d_HammerTexture.jpg"
-dest_files=["res://.godot/imported/Hammer-a4963953ea8be5a19b0f82e3a335e36d_HammerTexture.jpg-179883485e992f56a733a0f59a46e45a.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/Hammer/Hammer-a4963953ea8be5a19b0f82e3a335e36d_HammerTexture.jpg"
+dest_files=["res://.godot/imported/Hammer-a4963953ea8be5a19b0f82e3a335e36d_HammerTexture.jpg-0be257717901e61e0ce4966e87b0091c.s3tc.ctex"]
 
 [params]
 

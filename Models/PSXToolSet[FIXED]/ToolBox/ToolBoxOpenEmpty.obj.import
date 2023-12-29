@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://q7wg82ffeke0"
-path="res://.godot/imported/ToolBoxOpenEmpty.obj-420f201d4ac605736048fa58ca393be7.mesh"
+path="res://.godot/imported/ToolBoxOpenEmpty.obj-83d793625c9635d1f26a725d3b7ec368.mesh"
 
 [deps]
 
-files=["res://.godot/imported/ToolBoxOpenEmpty.obj-420f201d4ac605736048fa58ca393be7.mesh"]
+files=["res://.godot/imported/ToolBoxOpenEmpty.obj-83d793625c9635d1f26a725d3b7ec368.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ToolBox/ToolBoxOpenEmpty.obj"
-dest_files=["res://.godot/imported/ToolBoxOpenEmpty.obj-420f201d4ac605736048fa58ca393be7.mesh", "res://.godot/imported/ToolBoxOpenEmpty.obj-420f201d4ac605736048fa58ca393be7.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/ToolBox/ToolBoxOpenEmpty.obj"
+dest_files=["res://.godot/imported/ToolBoxOpenEmpty.obj-83d793625c9635d1f26a725d3b7ec368.mesh", "res://.godot/imported/ToolBoxOpenEmpty.obj-83d793625c9635d1f26a725d3b7ec368.mesh"]
 
 [params]
 

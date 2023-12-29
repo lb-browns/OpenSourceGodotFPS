@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccete6fcmttn2"
-path.s3tc="res://.godot/imported/Dirt_09-128x128.png-3fb9fd846e9b87cb66e42ae767f80f96.s3tc.ctex"
+path.s3tc="res://.godot/imported/Dirt_09-128x128.png-5394a9a9d250dd82b5e3af6835357734.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Dirt/Dirt_09-128x128.png"
-dest_files=["res://.godot/imported/Dirt_09-128x128.png-3fb9fd846e9b87cb66e42ae767f80f96.s3tc.ctex"]
+source_file="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Dirt/Dirt_09-128x128.png"
+dest_files=["res://.godot/imported/Dirt_09-128x128.png-5394a9a9d250dd82b5e3af6835357734.s3tc.ctex"]
 
 [params]
 

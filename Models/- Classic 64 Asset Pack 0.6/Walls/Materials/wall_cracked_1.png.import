@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3qm0d3enp7ww"
-path.s3tc="res://.godot/imported/wall_cracked_1.png-6269e39a88a8a9b38d940e49cab852cf.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_cracked_1.png-8bba758469754ee7895c613e0817015c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_cracked_1.png"
-dest_files=["res://.godot/imported/wall_cracked_1.png-6269e39a88a8a9b38d940e49cab852cf.s3tc.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_cracked_1.png"
+dest_files=["res://.godot/imported/wall_cracked_1.png-8bba758469754ee7895c613e0817015c.s3tc.ctex"]
 
 [params]
 

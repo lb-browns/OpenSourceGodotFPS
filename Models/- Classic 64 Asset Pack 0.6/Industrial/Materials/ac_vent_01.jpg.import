@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhan4undpjtyq"
-path="res://.godot/imported/ac_vent_01.jpg-ad72070daab4455461366c6a6f356e24.ctex"
+path="res://.godot/imported/ac_vent_01.jpg-f352afc87335b1332e46a7628d997ea1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/ac_vent_01.jpg"
-dest_files=["res://.godot/imported/ac_vent_01.jpg-ad72070daab4455461366c6a6f356e24.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/ac_vent_01.jpg"
+dest_files=["res://.godot/imported/ac_vent_01.jpg-f352afc87335b1332e46a7628d997ea1.ctex"]
 
 [params]
 

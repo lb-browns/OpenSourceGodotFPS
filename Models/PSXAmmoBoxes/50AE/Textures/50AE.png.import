@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpc5nlpjdnn7q"
-path="res://.godot/imported/50AE.png-055cadf4e46d0ba00a481dc4bbda3ed4.ctex"
+path="res://.godot/imported/50AE.png-424759bdeb8f7f868cda1c3fb8162bc3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/50AE/Textures/50AE.png"
-dest_files=["res://.godot/imported/50AE.png-055cadf4e46d0ba00a481dc4bbda3ed4.ctex"]
+source_file="res://Models/PSXAmmoBoxes/50AE/Textures/50AE.png"
+dest_files=["res://.godot/imported/50AE.png-424759bdeb8f7f868cda1c3fb8162bc3.ctex"]
 
 [params]
 

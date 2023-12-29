@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8eo1o8gscsnk"
-path="res://.godot/imported/OUSH.png-12ad7363c6c0fa504ba3dcbd05302768.ctex"
+path="res://.godot/imported/OUSH.png-be887d974a192aebd49f56720f2a4b23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Images/OUSH.png"
-dest_files=["res://.godot/imported/OUSH.png-12ad7363c6c0fa504ba3dcbd05302768.ctex"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Images/OUSH.png"
+dest_files=["res://.godot/imported/OUSH.png-be887d974a192aebd49f56720f2a4b23.ctex"]
 
 [params]
 

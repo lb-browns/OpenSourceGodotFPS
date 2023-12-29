@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nksuo5yqhso7"
-path="res://.godot/imported/products_papertowels_pack.png-095271a1fdc13321b179332ca1cbe70f.ctex"
+path="res://.godot/imported/products_papertowels_pack.png-6ea90b996273a6cfffb8a9af5dfc8b86.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Products/Materials/products_papertowels_pack.png"
-dest_files=["res://.godot/imported/products_papertowels_pack.png-095271a1fdc13321b179332ca1cbe70f.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Products/Materials/products_papertowels_pack.png"
+dest_files=["res://.godot/imported/products_papertowels_pack.png-6ea90b996273a6cfffb8a9af5dfc8b86.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://8ofmwmo5vjnl"
-path="res://.godot/imported/ScrewDriverPlastic.fbx-6fced0718e470dfc28dfc900b5edd5e8.scn"
+path="res://.godot/imported/ScrewDriverPlastic.fbx-e081d0970caec7a2d08462862b14ddec.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.fbx"
-dest_files=["res://.godot/imported/ScrewDriverPlastic.fbx-6fced0718e470dfc28dfc900b5edd5e8.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.fbx"
+dest_files=["res://.godot/imported/ScrewDriverPlastic.fbx-e081d0970caec7a2d08462862b14ddec.scn"]
 
 [params]
 

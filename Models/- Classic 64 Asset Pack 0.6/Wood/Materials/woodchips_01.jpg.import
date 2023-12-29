@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6oxmaoqqcgm3"
-path="res://.godot/imported/woodchips_01.jpg-09fd738557799e1fc42894e6c61e6f00.ctex"
+path="res://.godot/imported/woodchips_01.jpg-77f3fd9fb644130db7379e916bcd9608.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Wood/Materials/woodchips_01.jpg"
-dest_files=["res://.godot/imported/woodchips_01.jpg-09fd738557799e1fc42894e6c61e6f00.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/woodchips_01.jpg"
+dest_files=["res://.godot/imported/woodchips_01.jpg-77f3fd9fb644130db7379e916bcd9608.ctex"]
 
 [params]
 

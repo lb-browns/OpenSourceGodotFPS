@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://duanbd18vfssi"
-path="res://.godot/imported/sign_no_smoking_01.png-8d628b977cd73818381b7b33c66d9015.ctex"
+path="res://.godot/imported/sign_no_smoking_01.png-482a4076d8bf09f7b98759176c3894f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_no_smoking_01.png"
-dest_files=["res://.godot/imported/sign_no_smoking_01.png-8d628b977cd73818381b7b33c66d9015.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_no_smoking_01.png"
+dest_files=["res://.godot/imported/sign_no_smoking_01.png-482a4076d8bf09f7b98759176c3894f6.ctex"]
 
 [params]
 

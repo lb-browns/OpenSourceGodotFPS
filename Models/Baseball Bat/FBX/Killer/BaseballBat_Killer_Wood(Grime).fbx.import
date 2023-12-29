@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dpxtt2gjduk3p"
-path="res://.godot/imported/BaseballBat_Killer_Wood(Grime).fbx-2752311453212c2b534c557d4b79c9f9.scn"
+path="res://.godot/imported/BaseballBat_Killer_Wood(Grime).fbx-9faeb4f33c8fe68c43dfd1b1e95c3565.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Baseball Bat/FBX/Killer/BaseballBat_Killer_Wood(Grime).fbx"
-dest_files=["res://.godot/imported/BaseballBat_Killer_Wood(Grime).fbx-2752311453212c2b534c557d4b79c9f9.scn"]
+source_file="res://Models/Baseball Bat/FBX/Killer/BaseballBat_Killer_Wood(Grime).fbx"
+dest_files=["res://.godot/imported/BaseballBat_Killer_Wood(Grime).fbx-9faeb4f33c8fe68c43dfd1b1e95c3565.scn"]
 
 [params]
 

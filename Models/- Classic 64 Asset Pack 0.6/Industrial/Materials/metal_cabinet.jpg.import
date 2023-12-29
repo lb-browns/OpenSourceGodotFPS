@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvorq5vh17ppw"
-path="res://.godot/imported/metal_cabinet.jpg-a9a186976dbc651ea341c48523921cfa.ctex"
+path="res://.godot/imported/metal_cabinet.jpg-d3e4beab88ca505f3169f2ac37b012ab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/metal_cabinet.jpg"
-dest_files=["res://.godot/imported/metal_cabinet.jpg-a9a186976dbc651ea341c48523921cfa.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/metal_cabinet.jpg"
+dest_files=["res://.godot/imported/metal_cabinet.jpg-d3e4beab88ca505f3169f2ac37b012ab.ctex"]
 
 [params]
 

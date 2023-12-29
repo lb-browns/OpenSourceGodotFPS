@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3k1ejiqm4nk8"
-path="res://.godot/imported/book_blue_01.png-f2fe31ea1f6eee4636d3b3d85abbecf8.ctex"
+path="res://.godot/imported/book_blue_01.png-8982301fe4dc9d66f31aa2daae8243c2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Books/Materials/book_blue_01.png"
-dest_files=["res://.godot/imported/book_blue_01.png-f2fe31ea1f6eee4636d3b3d85abbecf8.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Books/Materials/book_blue_01.png"
+dest_files=["res://.godot/imported/book_blue_01.png-8982301fe4dc9d66f31aa2daae8243c2.ctex"]
 
 [params]
 

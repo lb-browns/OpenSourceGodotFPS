@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b28alfbiw0icy"
-path="res://.godot/imported/tactical_Rifle_Stock_Folded.obj-06205cc39b71cb73ce3ab794067f5762.mesh"
+path="res://.godot/imported/tactical_Rifle_Stock_Folded.obj-b01d66094756e17fd0fa63bd45d2b34c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/tactical_Rifle_Stock_Folded.obj-06205cc39b71cb73ce3ab794067f5762.mesh"]
+files=["res://.godot/imported/tactical_Rifle_Stock_Folded.obj-b01d66094756e17fd0fa63bd45d2b34c.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/tactical rifle/tactical_Rifle_Stock_Folded.obj"
-dest_files=["res://.godot/imported/tactical_Rifle_Stock_Folded.obj-06205cc39b71cb73ce3ab794067f5762.mesh", "res://.godot/imported/tactical_Rifle_Stock_Folded.obj-06205cc39b71cb73ce3ab794067f5762.mesh"]
+source_file="res://Models/PSXMiscGuns/tactical rifle/tactical_Rifle_Stock_Folded.obj"
+dest_files=["res://.godot/imported/tactical_Rifle_Stock_Folded.obj-b01d66094756e17fd0fa63bd45d2b34c.mesh", "res://.godot/imported/tactical_Rifle_Stock_Folded.obj-b01d66094756e17fd0fa63bd45d2b34c.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c8ar3f51seqbe"
-path="res://.godot/imported/Wrench.fbx-db45fa66968a65f336890fe477b6a785.scn"
+path="res://.godot/imported/Wrench.fbx-14b56b4c75c47e8c1ab08bd40ecf25db.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Wrench/Wrench.fbx"
-dest_files=["res://.godot/imported/Wrench.fbx-db45fa66968a65f336890fe477b6a785.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/Wrench/Wrench.fbx"
+dest_files=["res://.godot/imported/Wrench.fbx-14b56b4c75c47e8c1ab08bd40ecf25db.scn"]
 
 [params]
 

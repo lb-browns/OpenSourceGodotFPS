@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yl8xjkcflu6b"
-path="res://.godot/imported/rock1.png-6a5c650fe57bc22a5e6d005f45d087c7.ctex"
+path="res://.godot/imported/rock1.png-4ca29f24b4430b52fafa1de7082d8319.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Rocks/Materials/rock1.png"
-dest_files=["res://.godot/imported/rock1.png-6a5c650fe57bc22a5e6d005f45d087c7.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Rocks/Materials/rock1.png"
+dest_files=["res://.godot/imported/rock1.png-4ca29f24b4430b52fafa1de7082d8319.ctex"]
 
 [params]
 

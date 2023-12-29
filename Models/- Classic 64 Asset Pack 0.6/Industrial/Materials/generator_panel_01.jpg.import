@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bukqbr8v5r1c8"
-path="res://.godot/imported/generator_panel_01.jpg-0419e0f7f41f5f499f1ceca3f06bdc24.ctex"
+path="res://.godot/imported/generator_panel_01.jpg-d81d6e47cb512dd617382ee01602a41e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/generator_panel_01.jpg"
-dest_files=["res://.godot/imported/generator_panel_01.jpg-0419e0f7f41f5f499f1ceca3f06bdc24.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/generator_panel_01.jpg"
+dest_files=["res://.godot/imported/generator_panel_01.jpg-d81d6e47cb512dd617382ee01602a41e.ctex"]
 
 [params]
 

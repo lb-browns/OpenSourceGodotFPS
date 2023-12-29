@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cteuqrjfwskhe"
-path="res://.godot/imported/DBshottyIco.png-a92e8f39f443ae211d7036b453021c59.ctex"
+path="res://.godot/imported/DBshottyIco.png-27b686bd2690a257c8b1d1844405fbc3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/2dAssets/weapon icons/DBshottyIco.png"
-dest_files=["res://.godot/imported/DBshottyIco.png-a92e8f39f443ae211d7036b453021c59.ctex"]
+source_file="res://2dAssets/weapon icons/DBshottyIco.png"
+dest_files=["res://.godot/imported/DBshottyIco.png-27b686bd2690a257c8b1d1844405fbc3.ctex"]
 
 [params]
 

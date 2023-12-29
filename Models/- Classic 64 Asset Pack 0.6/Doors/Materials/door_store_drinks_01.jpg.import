@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8gisuqn2mcpu"
-path="res://.godot/imported/door_store_drinks_01.jpg-4e386a18388fa49734abc6b1a41527dd.ctex"
+path="res://.godot/imported/door_store_drinks_01.jpg-ac88aa6bff61dc74236e574cc9b06509.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Doors/Materials/door_store_drinks_01.jpg"
-dest_files=["res://.godot/imported/door_store_drinks_01.jpg-4e386a18388fa49734abc6b1a41527dd.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Doors/Materials/door_store_drinks_01.jpg"
+dest_files=["res://.godot/imported/door_store_drinks_01.jpg-ac88aa6bff61dc74236e574cc9b06509.ctex"]
 
 [params]
 

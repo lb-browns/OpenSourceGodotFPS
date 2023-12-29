@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmho5nr8ehobo"
-path="res://.godot/imported/conrete_painted_blue_dirty_02.png.png-10f47dfc61970e989dd982179b2ea5cb.ctex"
+path="res://.godot/imported/conrete_painted_blue_dirty_02.png.png-ac429feeba18013b15dffe7204ae4b9a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/conrete_painted_blue_dirty_02.png.png"
-dest_files=["res://.godot/imported/conrete_painted_blue_dirty_02.png.png-10f47dfc61970e989dd982179b2ea5cb.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/conrete_painted_blue_dirty_02.png.png"
+dest_files=["res://.godot/imported/conrete_painted_blue_dirty_02.png.png-ac429feeba18013b15dffe7204ae4b9a.ctex"]
 
 [params]
 

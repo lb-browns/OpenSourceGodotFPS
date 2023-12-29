@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dqsgyyapl5iyp"
-path="res://.godot/imported/RifleAmmo_240.fbx-98727635df8a53599a163e6cd28ee524.scn"
+path="res://.godot/imported/RifleAmmo_240.fbx-2e4f03105abdbab32b18b30cf7edc6f5.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/Rifle Ammo/RifleAmmo_240.fbx"
-dest_files=["res://.godot/imported/RifleAmmo_240.fbx-98727635df8a53599a163e6cd28ee524.scn"]
+source_file="res://Models/PSXAmmoBoxes/Rifle Ammo/RifleAmmo_240.fbx"
+dest_files=["res://.godot/imported/RifleAmmo_240.fbx-2e4f03105abdbab32b18b30cf7edc6f5.scn"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2iyu5jw5vwwm"
-path="res://.godot/imported/wood_plywood.png-059cf2a15c46113af52f21ad13b9e1df.ctex"
+path="res://.godot/imported/wood_plywood.png-e5c380b7277f4e9875242714937274bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_plywood.png"
-dest_files=["res://.godot/imported/wood_plywood.png-059cf2a15c46113af52f21ad13b9e1df.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_plywood.png"
+dest_files=["res://.godot/imported/wood_plywood.png-e5c380b7277f4e9875242714937274bc.ctex"]
 
 [params]
 

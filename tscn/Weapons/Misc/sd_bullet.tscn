@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://chwq7sov5br5p"]
 
-[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/sd_bullet.gd" id="1_bctcb"]
-[ext_resource type="ArrayMesh" uid="uid://dbqqr4y7k8ctq" path="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.obj" id="1_vog8f"]
+[ext_resource type="Script" path="res://Scripts/Weapon/sd_bullet.gd" id="1_bctcb"]
+[ext_resource type="ArrayMesh" uid="uid://dbqqr4y7k8ctq" path="res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.obj" id="1_vog8f"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_60ab1"]
 height = 1.66325

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1d3rihpse52b"
-path="res://.godot/imported/panel_amp_controls.png-e424b78cfd55ca149e02eafa7a9be9c1.ctex"
+path="res://.godot/imported/panel_amp_controls.png-c028d155a0ad095ac7ea70d3a72e5c21.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Panels/Materials/panel_amp_controls.png"
-dest_files=["res://.godot/imported/panel_amp_controls.png-e424b78cfd55ca149e02eafa7a9be9c1.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/panel_amp_controls.png"
+dest_files=["res://.godot/imported/panel_amp_controls.png-c028d155a0ad095ac7ea70d3a72e5c21.ctex"]
 
 [params]
 

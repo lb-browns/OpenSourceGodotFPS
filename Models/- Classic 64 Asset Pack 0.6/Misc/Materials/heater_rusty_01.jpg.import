@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nvx4gwi25oud"
-path="res://.godot/imported/heater_rusty_01.jpg-2fb59cfc5504de7d0403858d6547bed7.ctex"
+path="res://.godot/imported/heater_rusty_01.jpg-50f4dca9f209906baf666377fda6e45e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/heater_rusty_01.jpg"
-dest_files=["res://.godot/imported/heater_rusty_01.jpg-2fb59cfc5504de7d0403858d6547bed7.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/heater_rusty_01.jpg"
+dest_files=["res://.godot/imported/heater_rusty_01.jpg-50f4dca9f209906baf666377fda6e45e.ctex"]
 
 [params]
 

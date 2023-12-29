@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hq02ih4bx8md"
-path="res://.godot/imported/wood_charred.jpg-5cce2ef9943e7912ba6273c0fb7d2815.ctex"
+path="res://.godot/imported/wood_charred.jpg-e2d06c83ac9fb98fb253764dcbd0ef2e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_charred.jpg"
-dest_files=["res://.godot/imported/wood_charred.jpg-5cce2ef9943e7912ba6273c0fb7d2815.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_charred.jpg"
+dest_files=["res://.godot/imported/wood_charred.jpg-e2d06c83ac9fb98fb253764dcbd0ef2e.ctex"]
 
 [params]
 

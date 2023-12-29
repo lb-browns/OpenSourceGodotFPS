@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjtrrykt0jjwd"
-path.s3tc="res://.godot/imported/PuttyKnife-5b3a0db6982d82458ca99ed3801c9558_Putty_knives.jpg-077841d0c8c2753b2178e8ce3e187691.s3tc.ctex"
+path.s3tc="res://.godot/imported/PuttyKnife-5b3a0db6982d82458ca99ed3801c9558_Putty_knives.jpg-d2f44dbec515326545b26be25e535ae6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/PuttyKnife/PuttyKnife-5b3a0db6982d82458ca99ed3801c9558_Putty_knives.jpg"
-dest_files=["res://.godot/imported/PuttyKnife-5b3a0db6982d82458ca99ed3801c9558_Putty_knives.jpg-077841d0c8c2753b2178e8ce3e187691.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/PuttyKnife/PuttyKnife-5b3a0db6982d82458ca99ed3801c9558_Putty_knives.jpg"
+dest_files=["res://.godot/imported/PuttyKnife-5b3a0db6982d82458ca99ed3801c9558_Putty_knives.jpg-d2f44dbec515326545b26be25e535ae6.s3tc.ctex"]
 
 [params]
 

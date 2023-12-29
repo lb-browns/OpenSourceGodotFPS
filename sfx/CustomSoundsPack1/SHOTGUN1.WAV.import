@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://by6x5rajxuue4"
-path="res://.godot/imported/SHOTGUN1.WAV-7c92922d240c1d8ec8c74a9c3cf1b0e4.sample"
+path="res://.godot/imported/SHOTGUN1.WAV-7c09b3758f5e6062e9df803ff19cfae8.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/SHOTGUN1.WAV"
-dest_files=["res://.godot/imported/SHOTGUN1.WAV-7c92922d240c1d8ec8c74a9c3cf1b0e4.sample"]
+source_file="res://sfx/CustomSoundsPack1/SHOTGUN1.WAV"
+dest_files=["res://.godot/imported/SHOTGUN1.WAV-7c09b3758f5e6062e9df803ff19cfae8.sample"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wtxp558txkvi"
-path="res://.godot/imported/gutter_brown_01.jpg-ea9b34e1ddde014d49e958b79dbb9618.ctex"
+path="res://.godot/imported/gutter_brown_01.jpg-aae41df72cfde3e5205b83ec219320ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/gutter_brown_01.jpg"
-dest_files=["res://.godot/imported/gutter_brown_01.jpg-ea9b34e1ddde014d49e958b79dbb9618.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/gutter_brown_01.jpg"
+dest_files=["res://.godot/imported/gutter_brown_01.jpg-aae41df72cfde3e5205b83ec219320ae.ctex"]
 
 [params]
 

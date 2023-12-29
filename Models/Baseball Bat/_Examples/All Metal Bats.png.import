@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkm0300gd0fnw"
-path="res://.godot/imported/All Metal Bats.png-12d84f119e41b13c68d3c06a962864fa.ctex"
+path="res://.godot/imported/All Metal Bats.png-42183667a691614500afc652eead70c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Baseball Bat/_Examples/All Metal Bats.png"
-dest_files=["res://.godot/imported/All Metal Bats.png-12d84f119e41b13c68d3c06a962864fa.ctex"]
+source_file="res://Models/Baseball Bat/_Examples/All Metal Bats.png"
+dest_files=["res://.godot/imported/All Metal Bats.png-42183667a691614500afc652eead70c7.ctex"]
 
 [params]
 

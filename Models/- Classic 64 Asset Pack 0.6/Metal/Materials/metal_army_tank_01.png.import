@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dh04mlrcmaew3"
-path="res://.godot/imported/metal_army_tank_01.png-b54d3325bacf7b28737a84a651cc1780.ctex"
+path="res://.godot/imported/metal_army_tank_01.png-aa9118a5fdd4bed91bddba7cf468394b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Metal/Materials/metal_army_tank_01.png"
-dest_files=["res://.godot/imported/metal_army_tank_01.png-b54d3325bacf7b28737a84a651cc1780.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Metal/Materials/metal_army_tank_01.png"
+dest_files=["res://.godot/imported/metal_army_tank_01.png-aa9118a5fdd4bed91bddba7cf468394b.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://by6s5nnvedyrc"
-path="res://.godot/imported/marbel_02.jpg-4d87ff4b86746a889d3d8c7fd9da9835.ctex"
+path="res://.godot/imported/marbel_02.jpg-c058093244567cf50b15ef98217d53d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/marbel_02.jpg"
-dest_files=["res://.godot/imported/marbel_02.jpg-4d87ff4b86746a889d3d8c7fd9da9835.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/marbel_02.jpg"
+dest_files=["res://.godot/imported/marbel_02.jpg-c058093244567cf50b15ef98217d53d9.ctex"]
 
 [params]
 

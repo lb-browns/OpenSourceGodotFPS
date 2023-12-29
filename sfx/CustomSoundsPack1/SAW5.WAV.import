@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://s4vrobbu512g"
-path="res://.godot/imported/SAW5.WAV-c3709b7679f39cc0d4b4c12403a7384a.sample"
+path="res://.godot/imported/SAW5.WAV-6ae9e0d785e4debbc592a8c054eeb1f9.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/SAW5.WAV"
-dest_files=["res://.godot/imported/SAW5.WAV-c3709b7679f39cc0d4b4c12403a7384a.sample"]
+source_file="res://sfx/CustomSoundsPack1/SAW5.WAV"
+dest_files=["res://.godot/imported/SAW5.WAV-6ae9e0d785e4debbc592a8c054eeb1f9.sample"]
 
 [params]
 

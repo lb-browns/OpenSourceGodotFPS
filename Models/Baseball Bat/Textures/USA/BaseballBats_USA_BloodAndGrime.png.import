@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cs54q432mv4oy"
-path.s3tc="res://.godot/imported/BaseballBats_USA_BloodAndGrime.png-4928c30e4381edc7c4203cf52f3149ec.s3tc.ctex"
+path.s3tc="res://.godot/imported/BaseballBats_USA_BloodAndGrime.png-62d5730d310680f6b6ce003ffa3a110c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Baseball Bat/Textures/USA/BaseballBats_USA_BloodAndGrime.png"
-dest_files=["res://.godot/imported/BaseballBats_USA_BloodAndGrime.png-4928c30e4381edc7c4203cf52f3149ec.s3tc.ctex"]
+source_file="res://Models/Baseball Bat/Textures/USA/BaseballBats_USA_BloodAndGrime.png"
+dest_files=["res://.godot/imported/BaseballBats_USA_BloodAndGrime.png-62d5730d310680f6b6ce003ffa3a110c.s3tc.ctex"]
 
 [params]
 

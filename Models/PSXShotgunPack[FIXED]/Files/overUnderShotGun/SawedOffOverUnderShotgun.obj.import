@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://54ml54o7eedu"
-path="res://.godot/imported/SawedOffOverUnderShotgun.obj-6688f74c3646204887f33f4f6562f8a6.mesh"
+path="res://.godot/imported/SawedOffOverUnderShotgun.obj-426f79211a23a1c66246ef7e01cf29c9.mesh"
 
 [deps]
 
-files=["res://.godot/imported/SawedOffOverUnderShotgun.obj-6688f74c3646204887f33f4f6562f8a6.mesh"]
+files=["res://.godot/imported/SawedOffOverUnderShotgun.obj-426f79211a23a1c66246ef7e01cf29c9.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/overUnderShotGun/SawedOffOverUnderShotgun.obj"
-dest_files=["res://.godot/imported/SawedOffOverUnderShotgun.obj-6688f74c3646204887f33f4f6562f8a6.mesh", "res://.godot/imported/SawedOffOverUnderShotgun.obj-6688f74c3646204887f33f4f6562f8a6.mesh"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/overUnderShotGun/SawedOffOverUnderShotgun.obj"
+dest_files=["res://.godot/imported/SawedOffOverUnderShotgun.obj-426f79211a23a1c66246ef7e01cf29c9.mesh", "res://.godot/imported/SawedOffOverUnderShotgun.obj-426f79211a23a1c66246ef7e01cf29c9.mesh"]
 
 [params]
 

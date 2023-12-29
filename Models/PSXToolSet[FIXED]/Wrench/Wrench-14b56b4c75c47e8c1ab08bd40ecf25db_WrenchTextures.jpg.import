@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci5qnjm60ivyr"
-path.s3tc="res://.godot/imported/Wrench-14b56b4c75c47e8c1ab08bd40ecf25db_WrenchTextures.jpg-aac6e7a369f9f4a6ec59b68c99c5ffa0.s3tc.ctex"
+path.s3tc="res://.godot/imported/Wrench-14b56b4c75c47e8c1ab08bd40ecf25db_WrenchTextures.jpg-d4b83fe7cc1fc6315cc937b7713d9b81.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Wrench/Wrench-14b56b4c75c47e8c1ab08bd40ecf25db_WrenchTextures.jpg"
-dest_files=["res://.godot/imported/Wrench-14b56b4c75c47e8c1ab08bd40ecf25db_WrenchTextures.jpg-aac6e7a369f9f4a6ec59b68c99c5ffa0.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/Wrench/Wrench-14b56b4c75c47e8c1ab08bd40ecf25db_WrenchTextures.jpg"
+dest_files=["res://.godot/imported/Wrench-14b56b4c75c47e8c1ab08bd40ecf25db_WrenchTextures.jpg-d4b83fe7cc1fc6315cc937b7713d9b81.s3tc.ctex"]
 
 [params]
 

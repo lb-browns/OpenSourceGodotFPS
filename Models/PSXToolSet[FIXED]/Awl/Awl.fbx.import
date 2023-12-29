@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cbt5cs81ke54h"
-path="res://.godot/imported/Awl.fbx-3d3f58fd4c2c332de29cbc6e141f6a26.scn"
+path="res://.godot/imported/Awl.fbx-f33a4c964fec7df1e713dad8a5ee3875.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Awl/Awl.fbx"
-dest_files=["res://.godot/imported/Awl.fbx-3d3f58fd4c2c332de29cbc6e141f6a26.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/Awl/Awl.fbx"
+dest_files=["res://.godot/imported/Awl.fbx-f33a4c964fec7df1e713dad8a5ee3875.scn"]
 
 [params]
 

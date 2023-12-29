@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxd3l1av10a2p"
-path="res://.godot/imported/bolt_head_01.png-37be7c0ca31bb0ac0f217e52e7c1f286.ctex"
+path="res://.godot/imported/bolt_head_01.png-2cfa285c3cde57692ee3e2b1ded56269.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/bolt_head_01.png"
-dest_files=["res://.godot/imported/bolt_head_01.png-37be7c0ca31bb0ac0f217e52e7c1f286.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/bolt_head_01.png"
+dest_files=["res://.godot/imported/bolt_head_01.png-2cfa285c3cde57692ee3e2b1ded56269.ctex"]
 
 [params]
 

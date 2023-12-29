@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ddb4fy3yi1ev5"
-path="res://.godot/imported/OverUnderShotgun.obj-cd4403705db853d98ace17215919df01.mesh"
+path="res://.godot/imported/OverUnderShotgun.obj-039921582079acc93ff048942877e37e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/OverUnderShotgun.obj-cd4403705db853d98ace17215919df01.mesh"]
+files=["res://.godot/imported/OverUnderShotgun.obj-039921582079acc93ff048942877e37e.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/overUnderShotGun/OverUnderShotgun.obj"
-dest_files=["res://.godot/imported/OverUnderShotgun.obj-cd4403705db853d98ace17215919df01.mesh", "res://.godot/imported/OverUnderShotgun.obj-cd4403705db853d98ace17215919df01.mesh"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/overUnderShotGun/OverUnderShotgun.obj"
+dest_files=["res://.godot/imported/OverUnderShotgun.obj-039921582079acc93ff048942877e37e.mesh", "res://.godot/imported/OverUnderShotgun.obj-039921582079acc93ff048942877e37e.mesh"]
 
 [params]
 

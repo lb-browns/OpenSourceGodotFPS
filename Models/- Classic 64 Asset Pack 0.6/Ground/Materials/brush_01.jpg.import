@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5ws0qcvcvjg6"
-path="res://.godot/imported/brush_01.jpg-7a6111c7f5d64f6c81a5295a4e8193d6.ctex"
+path="res://.godot/imported/brush_01.jpg-094d125b8fd79401d45d61ded9021cea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Ground/Materials/brush_01.jpg"
-dest_files=["res://.godot/imported/brush_01.jpg-7a6111c7f5d64f6c81a5295a4e8193d6.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Ground/Materials/brush_01.jpg"
+dest_files=["res://.godot/imported/brush_01.jpg-094d125b8fd79401d45d61ded9021cea.ctex"]
 
 [params]
 

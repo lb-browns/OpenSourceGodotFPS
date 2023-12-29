@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://du8oy8cnmspbb"
-path="res://.godot/imported/brick_painted_white.png-f31da990446fa6f5faf4911caf67d090.ctex"
+path="res://.godot/imported/brick_painted_white.png-58a1ec06c79eeb2f68d82889c383ddee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Bricks/Materials/brick_painted_white.png"
-dest_files=["res://.godot/imported/brick_painted_white.png-f31da990446fa6f5faf4911caf67d090.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Bricks/Materials/brick_painted_white.png"
+dest_files=["res://.godot/imported/brick_painted_white.png-58a1ec06c79eeb2f68d82889c383ddee.ctex"]
 
 [params]
 

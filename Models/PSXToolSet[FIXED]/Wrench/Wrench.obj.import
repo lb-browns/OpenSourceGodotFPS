@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cesjhk1ww4ku8"
-path="res://.godot/imported/Wrench.obj-42f6d8e28b52f30053b6a9c90012bf78.mesh"
+path="res://.godot/imported/Wrench.obj-03bbe39c07b1c8522cb37140619c5cee.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Wrench.obj-42f6d8e28b52f30053b6a9c90012bf78.mesh"]
+files=["res://.godot/imported/Wrench.obj-03bbe39c07b1c8522cb37140619c5cee.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Wrench/Wrench.obj"
-dest_files=["res://.godot/imported/Wrench.obj-42f6d8e28b52f30053b6a9c90012bf78.mesh", "res://.godot/imported/Wrench.obj-42f6d8e28b52f30053b6a9c90012bf78.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/Wrench/Wrench.obj"
+dest_files=["res://.godot/imported/Wrench.obj-03bbe39c07b1c8522cb37140619c5cee.mesh", "res://.godot/imported/Wrench.obj-03bbe39c07b1c8522cb37140619c5cee.mesh"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cuym1xwd2746e"
-path.s3tc="res://.godot/imported/large_ammo_box_240-0941d3e10684f6f08af07695e6306818_large_ammo-box_240.png-a84da801f5151cc25cccd91feb78cae2.s3tc.ctex"
+path.s3tc="res://.godot/imported/large_ammo_box_240-0941d3e10684f6f08af07695e6306818_large_ammo-box_240.png-869e8a06f56cea29e7872bbfe5660009.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/Large Ammo Box/large_ammo_box_240-0941d3e10684f6f08af07695e6306818_large_ammo-box_240.png"
-dest_files=["res://.godot/imported/large_ammo_box_240-0941d3e10684f6f08af07695e6306818_large_ammo-box_240.png-a84da801f5151cc25cccd91feb78cae2.s3tc.ctex"]
+source_file="res://Models/PSXAmmoBoxes/Large Ammo Box/large_ammo_box_240-0941d3e10684f6f08af07695e6306818_large_ammo-box_240.png"
+dest_files=["res://.godot/imported/large_ammo_box_240-0941d3e10684f6f08af07695e6306818_large_ammo-box_240.png-869e8a06f56cea29e7872bbfe5660009.s3tc.ctex"]
 
 [params]
 

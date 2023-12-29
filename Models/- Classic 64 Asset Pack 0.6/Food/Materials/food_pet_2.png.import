@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8y2d05cg1m75"
-path="res://.godot/imported/food_pet_2.png-e4220c4898e890de74547aa7de3d79da.ctex"
+path="res://.godot/imported/food_pet_2.png-22810cd3c91fc5e084c47b0c1e1a1ae7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_pet_2.png"
-dest_files=["res://.godot/imported/food_pet_2.png-e4220c4898e890de74547aa7de3d79da.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_pet_2.png"
+dest_files=["res://.godot/imported/food_pet_2.png-22810cd3c91fc5e084c47b0c1e1a1ae7.ctex"]
 
 [params]
 

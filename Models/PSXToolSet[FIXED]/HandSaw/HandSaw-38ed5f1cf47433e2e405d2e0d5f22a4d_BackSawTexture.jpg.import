@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx3o3bpldb43q"
-path.s3tc="res://.godot/imported/HandSaw-38ed5f1cf47433e2e405d2e0d5f22a4d_BackSawTexture.jpg-87772fddb3dee3cbadb6075d24bcc9ab.s3tc.ctex"
+path.s3tc="res://.godot/imported/HandSaw-38ed5f1cf47433e2e405d2e0d5f22a4d_BackSawTexture.jpg-c3edcbe68d785ac6784a308d6588d466.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/HandSaw/HandSaw-38ed5f1cf47433e2e405d2e0d5f22a4d_BackSawTexture.jpg"
-dest_files=["res://.godot/imported/HandSaw-38ed5f1cf47433e2e405d2e0d5f22a4d_BackSawTexture.jpg-87772fddb3dee3cbadb6075d24bcc9ab.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/HandSaw/HandSaw-38ed5f1cf47433e2e405d2e0d5f22a4d_BackSawTexture.jpg"
+dest_files=["res://.godot/imported/HandSaw-38ed5f1cf47433e2e405d2e0d5f22a4d_BackSawTexture.jpg-c3edcbe68d785ac6784a308d6588d466.s3tc.ctex"]
 
 [params]
 

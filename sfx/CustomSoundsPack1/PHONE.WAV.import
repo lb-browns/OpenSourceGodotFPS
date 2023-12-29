@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://blgwfsmapj6e6"
-path="res://.godot/imported/PHONE.WAV-9c5b979ef7f38d07514daa52e801d296.sample"
+path="res://.godot/imported/PHONE.WAV-bc7ad62935732b8d011569d8fcc8c153.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/PHONE.WAV"
-dest_files=["res://.godot/imported/PHONE.WAV-9c5b979ef7f38d07514daa52e801d296.sample"]
+source_file="res://sfx/CustomSoundsPack1/PHONE.WAV"
+dest_files=["res://.godot/imported/PHONE.WAV-bc7ad62935732b8d011569d8fcc8c153.sample"]
 
 [params]
 

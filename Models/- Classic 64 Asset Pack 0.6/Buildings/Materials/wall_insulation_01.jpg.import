@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgngfryvwudr8"
-path.s3tc="res://.godot/imported/wall_insulation_01.jpg-c042add5136674e001644168da239238.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_insulation_01.jpg-c783e60197591ad338c52cd89f632599.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Buildings/Materials/wall_insulation_01.jpg"
-dest_files=["res://.godot/imported/wall_insulation_01.jpg-c042add5136674e001644168da239238.s3tc.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Buildings/Materials/wall_insulation_01.jpg"
+dest_files=["res://.godot/imported/wall_insulation_01.jpg-c783e60197591ad338c52cd89f632599.s3tc.ctex"]
 
 [params]
 

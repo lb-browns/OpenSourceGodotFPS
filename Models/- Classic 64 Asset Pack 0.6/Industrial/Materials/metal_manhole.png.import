@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjtd4eynqjs27"
-path="res://.godot/imported/metal_manhole.png-203a764ee8eb50dffadf446e3c12c0dc.ctex"
+path="res://.godot/imported/metal_manhole.png-bef2d00ac53e913aa7dde89174df10b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/metal_manhole.png"
-dest_files=["res://.godot/imported/metal_manhole.png-203a764ee8eb50dffadf446e3c12c0dc.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/metal_manhole.png"
+dest_files=["res://.godot/imported/metal_manhole.png-bef2d00ac53e913aa7dde89174df10b5.ctex"]
 
 [params]
 

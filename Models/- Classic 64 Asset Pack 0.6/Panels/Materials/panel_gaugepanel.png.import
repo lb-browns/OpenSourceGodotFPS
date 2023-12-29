@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ecomdqr4loao"
-path="res://.godot/imported/panel_gaugepanel.png-be8f08e7eead61a546b28e6302798498.ctex"
+path="res://.godot/imported/panel_gaugepanel.png-bb5d2a618ba1c8bf108e72ab94b685a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Panels/Materials/panel_gaugepanel.png"
-dest_files=["res://.godot/imported/panel_gaugepanel.png-be8f08e7eead61a546b28e6302798498.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/panel_gaugepanel.png"
+dest_files=["res://.godot/imported/panel_gaugepanel.png-bb5d2a618ba1c8bf108e72ab94b685a9.ctex"]
 
 [params]
 

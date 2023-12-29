@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bl46vj0sbyxmd"
-path="res://.godot/imported/window_shutter_red.png-6538f2d1444c1505743bd9efbf38780d.ctex"
+path="res://.godot/imported/window_shutter_red.png-9fbaf7dc10d309838c20b4ffe67f1549.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Windows/Materials/window_shutter_red.png"
-dest_files=["res://.godot/imported/window_shutter_red.png-6538f2d1444c1505743bd9efbf38780d.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Windows/Materials/window_shutter_red.png"
+dest_files=["res://.godot/imported/window_shutter_red.png-9fbaf7dc10d309838c20b4ffe67f1549.ctex"]
 
 [params]
 

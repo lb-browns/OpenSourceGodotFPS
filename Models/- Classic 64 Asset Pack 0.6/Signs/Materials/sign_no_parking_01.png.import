@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnmplva77f8mm"
-path="res://.godot/imported/sign_no_parking_01.png-7cb58efedfba52eb1498c7e84ef2c59c.ctex"
+path="res://.godot/imported/sign_no_parking_01.png-51ff04dbb135bcc9c27a3b0101b298d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_no_parking_01.png"
-dest_files=["res://.godot/imported/sign_no_parking_01.png-7cb58efedfba52eb1498c7e84ef2c59c.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_no_parking_01.png"
+dest_files=["res://.godot/imported/sign_no_parking_01.png-51ff04dbb135bcc9c27a3b0101b298d2.ctex"]
 
 [params]
 

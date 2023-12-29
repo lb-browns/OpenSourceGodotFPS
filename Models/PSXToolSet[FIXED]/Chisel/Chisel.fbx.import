@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://kkiv4vkkdx7i"
-path="res://.godot/imported/Chisel.fbx-d76a76ae3dc04187c931b722eb86dd45.scn"
+path="res://.godot/imported/Chisel.fbx-574b2e0de02dca67d1b9e642093995d1.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Chisel/Chisel.fbx"
-dest_files=["res://.godot/imported/Chisel.fbx-d76a76ae3dc04187c931b722eb86dd45.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/Chisel/Chisel.fbx"
+dest_files=["res://.godot/imported/Chisel.fbx-574b2e0de02dca67d1b9e642093995d1.scn"]
 
 [params]
 

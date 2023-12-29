@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7h5k3l0y2ot4"
-path.s3tc="res://.godot/imported/wall_plaster_orange.png-cd8a3696b2645772e4f78303e4986850.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_plaster_orange.png-fb0ce5364fa3f5a61207249e1be40d9c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_plaster_orange.png"
-dest_files=["res://.godot/imported/wall_plaster_orange.png-cd8a3696b2645772e4f78303e4986850.s3tc.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_plaster_orange.png"
+dest_files=["res://.godot/imported/wall_plaster_orange.png-fb0ce5364fa3f5a61207249e1be40d9c.s3tc.ctex"]
 
 [params]
 

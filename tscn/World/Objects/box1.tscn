@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://uh32udldjrmi"]
 
-[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/World/physucsTarget.tres.gd" id="1_jpgci"]
+[ext_resource type="Script" path="res://Scripts/World/physucsTarget.tres.gd" id="1_jpgci"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_k3n08"]
 

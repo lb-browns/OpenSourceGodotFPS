@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://45h0riiijgry"
-path="res://.godot/imported/SawedOffOverUnderlShotgun.fbx-b7e993240975cc50f33d7872cd1cf98d.scn"
+path="res://.godot/imported/SawedOffOverUnderlShotgun.fbx-467d62fdb0ef2d7bfc987e03996a08e1.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/overUnderShotGun/Fbx/SawedOffOverUnderlShotgun.fbx"
-dest_files=["res://.godot/imported/SawedOffOverUnderlShotgun.fbx-b7e993240975cc50f33d7872cd1cf98d.scn"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/overUnderShotGun/Fbx/SawedOffOverUnderlShotgun.fbx"
+dest_files=["res://.godot/imported/SawedOffOverUnderlShotgun.fbx-467d62fdb0ef2d7bfc987e03996a08e1.scn"]
 
 [params]
 

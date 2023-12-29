@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://de5yvl7po8pak"
-path="res://.godot/imported/NeedleNosePliers.fbx-b19f310a58b84daf3f2103740aea2f49.scn"
+path="res://.godot/imported/NeedleNosePliers.fbx-c7b75cac59494bb7c3c46cbbc5bd0243.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/NeedleNosePliers/NeedleNosePliers.fbx"
-dest_files=["res://.godot/imported/NeedleNosePliers.fbx-b19f310a58b84daf3f2103740aea2f49.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/NeedleNosePliers/NeedleNosePliers.fbx"
+dest_files=["res://.godot/imported/NeedleNosePliers.fbx-c7b75cac59494bb7c3c46cbbc5bd0243.scn"]
 
 [params]
 

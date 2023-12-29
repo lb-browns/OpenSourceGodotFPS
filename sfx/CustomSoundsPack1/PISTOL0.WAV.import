@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://0ag8kiaph7vj"
-path="res://.godot/imported/PISTOL0.WAV-6536d02b51196c227a366b528b682c61.sample"
+path="res://.godot/imported/PISTOL0.WAV-fb246b37a3a9bbda717a6a4c9ee1349b.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/PISTOL0.WAV"
-dest_files=["res://.godot/imported/PISTOL0.WAV-6536d02b51196c227a366b528b682c61.sample"]
+source_file="res://sfx/CustomSoundsPack1/PISTOL0.WAV"
+dest_files=["res://.godot/imported/PISTOL0.WAV-fb246b37a3a9bbda717a6a4c9ee1349b.sample"]
 
 [params]
 

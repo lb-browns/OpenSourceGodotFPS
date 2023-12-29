@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ck5hbkifqfmua"
-path="res://.godot/imported/panel_thermostat.png-e4091a08b2da720cda080a88b0cb819e.ctex"
+path="res://.godot/imported/panel_thermostat.png-801c11da4946f4bcfd02f34a3fc38558.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Panels/Materials/panel_thermostat.png"
-dest_files=["res://.godot/imported/panel_thermostat.png-e4091a08b2da720cda080a88b0cb819e.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/panel_thermostat.png"
+dest_files=["res://.godot/imported/panel_thermostat.png-801c11da4946f4bcfd02f34a3fc38558.ctex"]
 
 [params]
 

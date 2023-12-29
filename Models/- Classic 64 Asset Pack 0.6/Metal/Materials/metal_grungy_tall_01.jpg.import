@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgbv0mlgmp8hg"
-path="res://.godot/imported/metal_grungy_tall_01.jpg-59aa497d1bd44e14680906ab168d736a.ctex"
+path="res://.godot/imported/metal_grungy_tall_01.jpg-eb0b260adf9fcc44156d57ac54325a87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Metal/Materials/metal_grungy_tall_01.jpg"
-dest_files=["res://.godot/imported/metal_grungy_tall_01.jpg-59aa497d1bd44e14680906ab168d736a.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Metal/Materials/metal_grungy_tall_01.jpg"
+dest_files=["res://.godot/imported/metal_grungy_tall_01.jpg-eb0b260adf9fcc44156d57ac54325a87.ctex"]
 
 [params]
 

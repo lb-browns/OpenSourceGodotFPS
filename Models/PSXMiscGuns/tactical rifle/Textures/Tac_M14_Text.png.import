@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b16kcv061wskj"
-path.s3tc="res://.godot/imported/Tac_M14_Text.png-cc0295e7130ee619a920a4a58366828d.s3tc.ctex"
+path.s3tc="res://.godot/imported/Tac_M14_Text.png-1f867dac4ceae79b69909e036630c423.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/tactical rifle/Textures/Tac_M14_Text.png"
-dest_files=["res://.godot/imported/Tac_M14_Text.png-cc0295e7130ee619a920a4a58366828d.s3tc.ctex"]
+source_file="res://Models/PSXMiscGuns/tactical rifle/Textures/Tac_M14_Text.png"
+dest_files=["res://.godot/imported/Tac_M14_Text.png-1f867dac4ceae79b69909e036630c423.s3tc.ctex"]
 
 [params]
 

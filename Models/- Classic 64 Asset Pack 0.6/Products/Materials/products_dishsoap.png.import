@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjpbgsycjapf4"
-path="res://.godot/imported/products_dishsoap.png-338857bdeaa1ed7f7f5603f9f2d8f535.ctex"
+path="res://.godot/imported/products_dishsoap.png-257db738b9a2bfeba5587f00944e1343.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Products/Materials/products_dishsoap.png"
-dest_files=["res://.godot/imported/products_dishsoap.png-338857bdeaa1ed7f7f5603f9f2d8f535.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Products/Materials/products_dishsoap.png"
+dest_files=["res://.godot/imported/products_dishsoap.png-257db738b9a2bfeba5587f00944e1343.ctex"]
 
 [params]
 

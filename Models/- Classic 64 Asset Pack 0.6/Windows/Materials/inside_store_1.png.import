@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://coosoyeyetbxg"
-path="res://.godot/imported/inside_store_1.png-00f1bc4d8143291465bf6dc0562e69e1.ctex"
+path="res://.godot/imported/inside_store_1.png-e7dd6475797b83804c9b634a0d07b94f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Windows/Materials/inside_store_1.png"
-dest_files=["res://.godot/imported/inside_store_1.png-00f1bc4d8143291465bf6dc0562e69e1.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Windows/Materials/inside_store_1.png"
+dest_files=["res://.godot/imported/inside_store_1.png-e7dd6475797b83804c9b634a0d07b94f.ctex"]
 
 [params]
 

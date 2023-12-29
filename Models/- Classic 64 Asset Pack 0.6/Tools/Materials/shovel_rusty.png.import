@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6jx4lrq6o6g4"
-path="res://.godot/imported/shovel_rusty.png-d7d1eef69bc6925c9cddc4c5eec679e7.ctex"
+path="res://.godot/imported/shovel_rusty.png-8039399436eccdaf132a865ff36985ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Tools/Materials/shovel_rusty.png"
-dest_files=["res://.godot/imported/shovel_rusty.png-d7d1eef69bc6925c9cddc4c5eec679e7.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Tools/Materials/shovel_rusty.png"
+dest_files=["res://.godot/imported/shovel_rusty.png-8039399436eccdaf132a865ff36985ea.ctex"]
 
 [params]
 

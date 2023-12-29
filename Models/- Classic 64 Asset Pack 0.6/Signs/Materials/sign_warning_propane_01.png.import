@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://l7bviyyg3yjp"
-path="res://.godot/imported/sign_warning_propane_01.png-1d59e04d18b034484d99ae8a5234ee94.ctex"
+path="res://.godot/imported/sign_warning_propane_01.png-cf1d8aae6f5664fc912f0723106fcb20.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_warning_propane_01.png"
-dest_files=["res://.godot/imported/sign_warning_propane_01.png-1d59e04d18b034484d99ae8a5234ee94.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_warning_propane_01.png"
+dest_files=["res://.godot/imported/sign_warning_propane_01.png-cf1d8aae6f5664fc912f0723106fcb20.ctex"]
 
 [params]
 

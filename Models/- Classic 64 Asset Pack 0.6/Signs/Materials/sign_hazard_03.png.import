@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg82rfj8peu2a"
-path="res://.godot/imported/sign_hazard_03.png-72290fbf0a3fb8d69db00873583096d9.ctex"
+path="res://.godot/imported/sign_hazard_03.png-80699e77f18c14a041fc35d8e6181fb1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_hazard_03.png"
-dest_files=["res://.godot/imported/sign_hazard_03.png-72290fbf0a3fb8d69db00873583096d9.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_hazard_03.png"
+dest_files=["res://.godot/imported/sign_hazard_03.png-80699e77f18c14a041fc35d8e6181fb1.ctex"]
 
 [params]
 

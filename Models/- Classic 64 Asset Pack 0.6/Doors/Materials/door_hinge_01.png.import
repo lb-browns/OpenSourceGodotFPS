@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rl51nrfucw7v"
-path="res://.godot/imported/door_hinge_01.png-d1e1793c13fe55fcd008e9460a30ecd2.ctex"
+path="res://.godot/imported/door_hinge_01.png-8fbfc4907bdfb593987fc33317aec2e9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Doors/Materials/door_hinge_01.png"
-dest_files=["res://.godot/imported/door_hinge_01.png-d1e1793c13fe55fcd008e9460a30ecd2.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Doors/Materials/door_hinge_01.png"
+dest_files=["res://.godot/imported/door_hinge_01.png-8fbfc4907bdfb593987fc33317aec2e9.ctex"]
 
 [params]
 

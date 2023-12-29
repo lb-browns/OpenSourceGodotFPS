@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddtr3l6bel7ay"
-path="res://.godot/imported/SSH ico.png-5e3829747a1648fd43c9e27f96ee60e4.ctex"
+path="res://.godot/imported/SSH ico.png-7e3bdeffdadd73b25d5b6600174cca47.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Game Meta Data/SSH ico.png"
-dest_files=["res://.godot/imported/SSH ico.png-5e3829747a1648fd43c9e27f96ee60e4.ctex"]
+source_file="res://Game Meta Data/SSH ico.png"
+dest_files=["res://.godot/imported/SSH ico.png-7e3bdeffdadd73b25d5b6600174cca47.ctex"]
 
 [params]
 

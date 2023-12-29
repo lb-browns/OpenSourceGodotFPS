@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jbd3lp80kc0u"
-path="res://.godot/imported/concrete_metalbeams_01.jpg-a5b543e1579e4b518b412e680b79ff72.ctex"
+path="res://.godot/imported/concrete_metalbeams_01.jpg-be4fc96d38752e9939b313433a72add5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_metalbeams_01.jpg"
-dest_files=["res://.godot/imported/concrete_metalbeams_01.jpg-a5b543e1579e4b518b412e680b79ff72.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_metalbeams_01.jpg"
+dest_files=["res://.godot/imported/concrete_metalbeams_01.jpg-be4fc96d38752e9939b313433a72add5.ctex"]
 
 [params]
 

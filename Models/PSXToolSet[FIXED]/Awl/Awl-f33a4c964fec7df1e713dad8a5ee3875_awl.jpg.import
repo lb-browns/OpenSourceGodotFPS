@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyeb5aiw1sxer"
-path.s3tc="res://.godot/imported/Awl-f33a4c964fec7df1e713dad8a5ee3875_awl.jpg-77fa8b93d2e11108096a3385f20eb876.s3tc.ctex"
+path.s3tc="res://.godot/imported/Awl-f33a4c964fec7df1e713dad8a5ee3875_awl.jpg-0ee2799f2e366a28303b0aa00d66724f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Awl/Awl-f33a4c964fec7df1e713dad8a5ee3875_awl.jpg"
-dest_files=["res://.godot/imported/Awl-f33a4c964fec7df1e713dad8a5ee3875_awl.jpg-77fa8b93d2e11108096a3385f20eb876.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/Awl/Awl-f33a4c964fec7df1e713dad8a5ee3875_awl.jpg"
+dest_files=["res://.godot/imported/Awl-f33a4c964fec7df1e713dad8a5ee3875_awl.jpg-0ee2799f2e366a28303b0aa00d66724f.s3tc.ctex"]
 
 [params]
 

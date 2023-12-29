@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://w7s1vjkjhbrk"
-path="res://.godot/imported/Tactical_Rifle_Stock_Folded.png-27d30ae75d223ee9f0dbddd5b643c9d0.ctex"
+path="res://.godot/imported/Tactical_Rifle_Stock_Folded.png-3cd6b9e47c9bde6c950b89b60ca98e04.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/#Images/Tactical_Rifle_Stock_Folded.png"
-dest_files=["res://.godot/imported/Tactical_Rifle_Stock_Folded.png-27d30ae75d223ee9f0dbddd5b643c9d0.ctex"]
+source_file="res://Models/PSXMiscGuns/#Images/Tactical_Rifle_Stock_Folded.png"
+dest_files=["res://.godot/imported/Tactical_Rifle_Stock_Folded.png-3cd6b9e47c9bde6c950b89b60ca98e04.ctex"]
 
 [params]
 

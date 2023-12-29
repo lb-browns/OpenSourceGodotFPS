@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cponikef7qyuc"]
 
-[ext_resource type="PackedScene" uid="uid://8ofmwmo5vjnl" path="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.fbx" id="1_x11y6"]
+[ext_resource type="PackedScene" uid="uid://8ofmwmo5vjnl" path="res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.fbx" id="1_x11y6"]
 
 [node name="ThrowableScrewdriver" instance=ExtResource("1_x11y6")]
 transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)

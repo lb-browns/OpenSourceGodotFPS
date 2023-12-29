@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dj4xca0pmqtwy"
-path="res://.godot/imported/wall_stucco.png-61ac3f1abe7984a0f1de712ee2de9291.ctex"
+path="res://.godot/imported/wall_stucco.png-48a5267c165cea7ab60285e26ac1c3a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_stucco.png"
-dest_files=["res://.godot/imported/wall_stucco.png-61ac3f1abe7984a0f1de712ee2de9291.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_stucco.png"
+dest_files=["res://.godot/imported/wall_stucco.png-48a5267c165cea7ab60285e26ac1c3a4.ctex"]
 
 [params]
 

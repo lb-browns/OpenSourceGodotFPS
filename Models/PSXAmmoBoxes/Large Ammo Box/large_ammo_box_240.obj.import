@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://byv84jfoe1rc4"
-path="res://.godot/imported/large_ammo_box_240.obj-21ea0c5dd390b29fe328971dab70b2cc.mesh"
+path="res://.godot/imported/large_ammo_box_240.obj-c1edeee383f5c405c67e283fce7dd8c2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/large_ammo_box_240.obj-21ea0c5dd390b29fe328971dab70b2cc.mesh"]
+files=["res://.godot/imported/large_ammo_box_240.obj-c1edeee383f5c405c67e283fce7dd8c2.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/Large Ammo Box/large_ammo_box_240.obj"
-dest_files=["res://.godot/imported/large_ammo_box_240.obj-21ea0c5dd390b29fe328971dab70b2cc.mesh", "res://.godot/imported/large_ammo_box_240.obj-21ea0c5dd390b29fe328971dab70b2cc.mesh"]
+source_file="res://Models/PSXAmmoBoxes/Large Ammo Box/large_ammo_box_240.obj"
+dest_files=["res://.godot/imported/large_ammo_box_240.obj-c1edeee383f5c405c67e283fce7dd8c2.mesh", "res://.godot/imported/large_ammo_box_240.obj-c1edeee383f5c405c67e283fce7dd8c2.mesh"]
 
 [params]
 

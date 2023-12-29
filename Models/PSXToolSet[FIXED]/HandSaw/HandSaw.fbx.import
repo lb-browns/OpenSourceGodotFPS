@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dbett7d3ev8gw"
-path="res://.godot/imported/HandSaw.fbx-573225060ff59de428d8ca085a167dce.scn"
+path="res://.godot/imported/HandSaw.fbx-38ed5f1cf47433e2e405d2e0d5f22a4d.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/HandSaw/HandSaw.fbx"
-dest_files=["res://.godot/imported/HandSaw.fbx-573225060ff59de428d8ca085a167dce.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/HandSaw/HandSaw.fbx"
+dest_files=["res://.godot/imported/HandSaw.fbx-38ed5f1cf47433e2e405d2e0d5f22a4d.scn"]
 
 [params]
 

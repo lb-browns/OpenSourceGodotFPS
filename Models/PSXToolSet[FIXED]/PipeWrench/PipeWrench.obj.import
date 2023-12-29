@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://coodrj0obf2cl"
-path="res://.godot/imported/PipeWrench.obj-21ef24ee672218bc5c5d923408c1718b.mesh"
+path="res://.godot/imported/PipeWrench.obj-9b6c8ea12d544d1bd445d7a343717db8.mesh"
 
 [deps]
 
-files=["res://.godot/imported/PipeWrench.obj-21ef24ee672218bc5c5d923408c1718b.mesh"]
+files=["res://.godot/imported/PipeWrench.obj-9b6c8ea12d544d1bd445d7a343717db8.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/PipeWrench/PipeWrench.obj"
-dest_files=["res://.godot/imported/PipeWrench.obj-21ef24ee672218bc5c5d923408c1718b.mesh", "res://.godot/imported/PipeWrench.obj-21ef24ee672218bc5c5d923408c1718b.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/PipeWrench/PipeWrench.obj"
+dest_files=["res://.godot/imported/PipeWrench.obj-9b6c8ea12d544d1bd445d7a343717db8.mesh", "res://.godot/imported/PipeWrench.obj-9b6c8ea12d544d1bd445d7a343717db8.mesh"]
 
 [params]
 

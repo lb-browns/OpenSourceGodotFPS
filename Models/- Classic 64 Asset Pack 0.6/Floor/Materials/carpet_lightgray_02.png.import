@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ds738jnx33q6b"
-path="res://.godot/imported/carpet_lightgray_02.png-717d93a7198cb8df7769e77ec8b2340e.ctex"
+path="res://.godot/imported/carpet_lightgray_02.png-75a0da587ac98be4f90391cb3ad20a6f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Floor/Materials/carpet_lightgray_02.png"
-dest_files=["res://.godot/imported/carpet_lightgray_02.png-717d93a7198cb8df7769e77ec8b2340e.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Floor/Materials/carpet_lightgray_02.png"
+dest_files=["res://.godot/imported/carpet_lightgray_02.png-75a0da587ac98be4f90391cb3ad20a6f.ctex"]
 
 [params]
 

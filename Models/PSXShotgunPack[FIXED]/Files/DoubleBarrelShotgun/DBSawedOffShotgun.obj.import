@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bidsq18vy1w1x"
-path="res://.godot/imported/DBSawedOffShotgun.obj-a89d49e59e6764ad9f4a196d0c1b1694.mesh"
+path="res://.godot/imported/DBSawedOffShotgun.obj-208a71aebe868554d20e7d429b7ef694.mesh"
 
 [deps]
 
-files=["res://.godot/imported/DBSawedOffShotgun.obj-a89d49e59e6764ad9f4a196d0c1b1694.mesh"]
+files=["res://.godot/imported/DBSawedOffShotgun.obj-208a71aebe868554d20e7d429b7ef694.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DBSawedOffShotgun.obj"
-dest_files=["res://.godot/imported/DBSawedOffShotgun.obj-a89d49e59e6764ad9f4a196d0c1b1694.mesh", "res://.godot/imported/DBSawedOffShotgun.obj-a89d49e59e6764ad9f4a196d0c1b1694.mesh"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DBSawedOffShotgun.obj"
+dest_files=["res://.godot/imported/DBSawedOffShotgun.obj-208a71aebe868554d20e7d429b7ef694.mesh", "res://.godot/imported/DBSawedOffShotgun.obj-208a71aebe868554d20e7d429b7ef694.mesh"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://co70ch28fq7c3"
-path="res://.godot/imported/Wrench.png-a8c04b5a46d5337fd031380160cba357.ctex"
+path="res://.godot/imported/Wrench.png-39855cb8da989c851b176831f0ba83b7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/$Images/Wrench.png"
-dest_files=["res://.godot/imported/Wrench.png-a8c04b5a46d5337fd031380160cba357.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/$Images/Wrench.png"
+dest_files=["res://.godot/imported/Wrench.png-39855cb8da989c851b176831f0ba83b7.ctex"]
 
 [params]
 

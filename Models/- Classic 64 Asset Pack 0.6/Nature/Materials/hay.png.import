@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bak1vf48vgjkj"
-path="res://.godot/imported/hay.png-24b493ad59fc10ab87c1a983772fa8a2.ctex"
+path="res://.godot/imported/hay.png-b9af0dddee0b34eb8ec3098a1ae4f159.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Nature/Materials/hay.png"
-dest_files=["res://.godot/imported/hay.png-24b493ad59fc10ab87c1a983772fa8a2.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Nature/Materials/hay.png"
+dest_files=["res://.godot/imported/hay.png-b9af0dddee0b34eb8ec3098a1ae4f159.ctex"]
 
 [params]
 

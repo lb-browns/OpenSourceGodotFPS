@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhslep2fc8ptb"
-path="res://.godot/imported/metal_rack_stackable.png-7f1f88f5b859e616dfe0c194071ea01f.ctex"
+path="res://.godot/imported/metal_rack_stackable.png-1869425958e69bf728990609aa8b2632.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Shelves/Materials/metal_rack_stackable.png"
-dest_files=["res://.godot/imported/metal_rack_stackable.png-7f1f88f5b859e616dfe0c194071ea01f.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Shelves/Materials/metal_rack_stackable.png"
+dest_files=["res://.godot/imported/metal_rack_stackable.png-1869425958e69bf728990609aa8b2632.ctex"]
 
 [params]
 

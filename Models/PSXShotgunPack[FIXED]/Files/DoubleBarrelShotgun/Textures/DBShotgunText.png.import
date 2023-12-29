@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbwlgjab4kwad"
-path.s3tc="res://.godot/imported/DBShotgunText.png-8a23fce628c29e776fe6235dc7c21e8b.s3tc.ctex"
+path.s3tc="res://.godot/imported/DBShotgunText.png-1310f12048b884e794171173b38f46d2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/Textures/DBShotgunText.png"
-dest_files=["res://.godot/imported/DBShotgunText.png-8a23fce628c29e776fe6235dc7c21e8b.s3tc.ctex"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/Textures/DBShotgunText.png"
+dest_files=["res://.godot/imported/DBShotgunText.png-1310f12048b884e794171173b38f46d2.s3tc.ctex"]
 
 [params]
 

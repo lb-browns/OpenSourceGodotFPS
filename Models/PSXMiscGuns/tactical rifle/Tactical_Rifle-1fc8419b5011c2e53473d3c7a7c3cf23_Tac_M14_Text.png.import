@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dm4p7bxaql28m"
-path.s3tc="res://.godot/imported/Tactical_Rifle-1fc8419b5011c2e53473d3c7a7c3cf23_Tac_M14_Text.png-3f534ad361b4088b11ca20e7f1252516.s3tc.ctex"
+path.s3tc="res://.godot/imported/Tactical_Rifle-1fc8419b5011c2e53473d3c7a7c3cf23_Tac_M14_Text.png-9084cc0f9a814890a9704a896f0a4b82.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/tactical rifle/Tactical_Rifle-1fc8419b5011c2e53473d3c7a7c3cf23_Tac_M14_Text.png"
-dest_files=["res://.godot/imported/Tactical_Rifle-1fc8419b5011c2e53473d3c7a7c3cf23_Tac_M14_Text.png-3f534ad361b4088b11ca20e7f1252516.s3tc.ctex"]
+source_file="res://Models/PSXMiscGuns/tactical rifle/Tactical_Rifle-1fc8419b5011c2e53473d3c7a7c3cf23_Tac_M14_Text.png"
+dest_files=["res://.godot/imported/Tactical_Rifle-1fc8419b5011c2e53473d3c7a7c3cf23_Tac_M14_Text.png-9084cc0f9a814890a9704a896f0a4b82.s3tc.ctex"]
 
 [params]
 

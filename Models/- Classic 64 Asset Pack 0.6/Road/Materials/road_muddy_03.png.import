@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cs8omd0wbrjyh"
-path="res://.godot/imported/road_muddy_03.png-7998b5efcc1503d3950e12fae4a8dd94.ctex"
+path="res://.godot/imported/road_muddy_03.png-d1752474b3d4ec5e7ac29e74443bb5e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Road/Materials/road_muddy_03.png"
-dest_files=["res://.godot/imported/road_muddy_03.png-7998b5efcc1503d3950e12fae4a8dd94.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Road/Materials/road_muddy_03.png"
+dest_files=["res://.godot/imported/road_muddy_03.png-d1752474b3d4ec5e7ac29e74443bb5e4.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cs0p6f6l0xewg"
-path="res://.godot/imported/shingles_wood_01.jpg-3b4bafcd0bcbc0104808ce98c360138f.ctex"
+path="res://.godot/imported/shingles_wood_01.jpg-7e4acd91bc4a54780ca0bb1fbea1c0a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Roof/Materials/shingles_wood_01.jpg"
-dest_files=["res://.godot/imported/shingles_wood_01.jpg-3b4bafcd0bcbc0104808ce98c360138f.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/shingles_wood_01.jpg"
+dest_files=["res://.godot/imported/shingles_wood_01.jpg-7e4acd91bc4a54780ca0bb1fbea1c0a8.ctex"]
 
 [params]
 

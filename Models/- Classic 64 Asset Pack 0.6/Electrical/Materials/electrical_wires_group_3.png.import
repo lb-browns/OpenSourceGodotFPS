@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfxy71a2sp8v6"
-path="res://.godot/imported/electrical_wires_group_3.png-97d38e6fbaeb82419bf44d0eaf467960.ctex"
+path="res://.godot/imported/electrical_wires_group_3.png-41573e73ac9f02420ea6303a5eceac10.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Electrical/Materials/electrical_wires_group_3.png"
-dest_files=["res://.godot/imported/electrical_wires_group_3.png-97d38e6fbaeb82419bf44d0eaf467960.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Electrical/Materials/electrical_wires_group_3.png"
+dest_files=["res://.godot/imported/electrical_wires_group_3.png-41573e73ac9f02420ea6303a5eceac10.ctex"]
 
 [params]
 

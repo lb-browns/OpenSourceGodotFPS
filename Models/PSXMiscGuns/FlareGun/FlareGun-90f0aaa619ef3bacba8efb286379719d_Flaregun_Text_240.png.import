@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccb8q7m011avq"
-path.s3tc="res://.godot/imported/FlareGun-90f0aaa619ef3bacba8efb286379719d_Flaregun_Text_240.png-141837b6d768269227b228852ff3e0b5.s3tc.ctex"
+path.s3tc="res://.godot/imported/FlareGun-90f0aaa619ef3bacba8efb286379719d_Flaregun_Text_240.png-9d0c6727012cd2adcd7b76d8ba6e2d69.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/FlareGun/FlareGun-90f0aaa619ef3bacba8efb286379719d_Flaregun_Text_240.png"
-dest_files=["res://.godot/imported/FlareGun-90f0aaa619ef3bacba8efb286379719d_Flaregun_Text_240.png-141837b6d768269227b228852ff3e0b5.s3tc.ctex"]
+source_file="res://Models/PSXMiscGuns/FlareGun/FlareGun-90f0aaa619ef3bacba8efb286379719d_Flaregun_Text_240.png"
+dest_files=["res://.godot/imported/FlareGun-90f0aaa619ef3bacba8efb286379719d_Flaregun_Text_240.png-9d0c6727012cd2adcd7b76d8ba6e2d69.s3tc.ctex"]
 
 [params]
 

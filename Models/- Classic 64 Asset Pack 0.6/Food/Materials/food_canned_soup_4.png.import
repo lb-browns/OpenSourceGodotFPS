@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctwvxdu7xgede"
-path="res://.godot/imported/food_canned_soup_4.png-4667e29ae4d87b2cce02a68e89c326bb.ctex"
+path="res://.godot/imported/food_canned_soup_4.png-2828f46e2fb8f83326630b1d05803342.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_canned_soup_4.png"
-dest_files=["res://.godot/imported/food_canned_soup_4.png-4667e29ae4d87b2cce02a68e89c326bb.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_canned_soup_4.png"
+dest_files=["res://.godot/imported/food_canned_soup_4.png-2828f46e2fb8f83326630b1d05803342.ctex"]
 
 [params]
 

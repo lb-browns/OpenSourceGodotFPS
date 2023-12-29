@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ee6fadk81cjq"
-path="res://.godot/imported/ScrewDriverWood.obj-460b1841ca36bdda3211fef21ac699ac.mesh"
+path="res://.godot/imported/ScrewDriverWood.obj-51f51c6e746dbc24287058f159cbba65.mesh"
 
 [deps]
 
-files=["res://.godot/imported/ScrewDriverWood.obj-460b1841ca36bdda3211fef21ac699ac.mesh"]
+files=["res://.godot/imported/ScrewDriverWood.obj-51f51c6e746dbc24287058f159cbba65.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverWood/ScrewDriverWood.obj"
-dest_files=["res://.godot/imported/ScrewDriverWood.obj-460b1841ca36bdda3211fef21ac699ac.mesh", "res://.godot/imported/ScrewDriverWood.obj-460b1841ca36bdda3211fef21ac699ac.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverWood/ScrewDriverWood.obj"
+dest_files=["res://.godot/imported/ScrewDriverWood.obj-51f51c6e746dbc24287058f159cbba65.mesh", "res://.godot/imported/ScrewDriverWood.obj-51f51c6e746dbc24287058f159cbba65.mesh"]
 
 [params]
 

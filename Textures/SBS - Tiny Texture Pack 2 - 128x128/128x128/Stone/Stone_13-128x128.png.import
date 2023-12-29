@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dy2yrsdnbs6k8"
-path="res://.godot/imported/Stone_13-128x128.png-58eaaad297484ceb8ccea46fe7313909.ctex"
+path="res://.godot/imported/Stone_13-128x128.png-995a6212a0774f6dd6a107d371f506e5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Stone/Stone_13-128x128.png"
-dest_files=["res://.godot/imported/Stone_13-128x128.png-58eaaad297484ceb8ccea46fe7313909.ctex"]
+source_file="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Stone/Stone_13-128x128.png"
+dest_files=["res://.godot/imported/Stone_13-128x128.png-995a6212a0774f6dd6a107d371f506e5.ctex"]
 
 [params]
 

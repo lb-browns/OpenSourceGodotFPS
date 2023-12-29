@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dglw23l4x1k25"
-path="res://.godot/imported/HeavyPliers.png-f3fb1f440ab28fa080ed7636ce6df276.ctex"
+path="res://.godot/imported/HeavyPliers.png-b7051da09629bb6d39b351146cb6c93a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/$Images/HeavyPliers.png"
-dest_files=["res://.godot/imported/HeavyPliers.png-f3fb1f440ab28fa080ed7636ce6df276.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/$Images/HeavyPliers.png"
+dest_files=["res://.godot/imported/HeavyPliers.png-b7051da09629bb6d39b351146cb6c93a.ctex"]
 
 [params]
 

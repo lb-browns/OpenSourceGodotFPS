@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b76ok08lc7gbq"
-path="res://.godot/imported/AjustableWrench.fbx-33a234bf46f628be9876121177e58e3f.scn"
+path="res://.godot/imported/AjustableWrench.fbx-a071c2ee345b873fc7a95ee210ad0092.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/AdjustableWrench/AjustableWrench.fbx"
-dest_files=["res://.godot/imported/AjustableWrench.fbx-33a234bf46f628be9876121177e58e3f.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/AdjustableWrench/AjustableWrench.fbx"
+dest_files=["res://.godot/imported/AjustableWrench.fbx-a071c2ee345b873fc7a95ee210ad0092.scn"]
 
 [params]
 

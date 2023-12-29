@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpuiljb0vx0rp"
-path="res://.godot/imported/gutter_brown_elbow_01.jpg-0bce55bb761bfa0714c45807a0760483.ctex"
+path="res://.godot/imported/gutter_brown_elbow_01.jpg-8cf010024b966a02520294118f66d731.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/gutter_brown_elbow_01.jpg"
-dest_files=["res://.godot/imported/gutter_brown_elbow_01.jpg-0bce55bb761bfa0714c45807a0760483.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/gutter_brown_elbow_01.jpg"
+dest_files=["res://.godot/imported/gutter_brown_elbow_01.jpg-8cf010024b966a02520294118f66d731.ctex"]
 
 [params]
 

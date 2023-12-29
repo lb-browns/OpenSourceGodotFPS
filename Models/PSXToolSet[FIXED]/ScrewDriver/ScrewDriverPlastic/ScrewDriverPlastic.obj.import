@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dbqqr4y7k8ctq"
-path="res://.godot/imported/ScrewDriverPlastic.obj-99e0c418982ba9b55a622fbe14870cae.mesh"
+path="res://.godot/imported/ScrewDriverPlastic.obj-d61279d92290a4fec0062d2ed125a3a1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/ScrewDriverPlastic.obj-99e0c418982ba9b55a622fbe14870cae.mesh"]
+files=["res://.godot/imported/ScrewDriverPlastic.obj-d61279d92290a4fec0062d2ed125a3a1.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.obj"
-dest_files=["res://.godot/imported/ScrewDriverPlastic.obj-99e0c418982ba9b55a622fbe14870cae.mesh", "res://.godot/imported/ScrewDriverPlastic.obj-99e0c418982ba9b55a622fbe14870cae.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.obj"
+dest_files=["res://.godot/imported/ScrewDriverPlastic.obj-d61279d92290a4fec0062d2ed125a3a1.mesh", "res://.godot/imported/ScrewDriverPlastic.obj-d61279d92290a4fec0062d2ed125a3a1.mesh"]
 
 [params]
 

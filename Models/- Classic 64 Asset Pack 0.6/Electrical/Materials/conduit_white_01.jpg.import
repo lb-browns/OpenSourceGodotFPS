@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwqmxsr5ml877"
-path="res://.godot/imported/conduit_white_01.jpg-95b282fa41154f53b8db2668c8c2bb7b.ctex"
+path="res://.godot/imported/conduit_white_01.jpg-06c7844e01ea1b0a9752cb062f664f1f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Electrical/Materials/conduit_white_01.jpg"
-dest_files=["res://.godot/imported/conduit_white_01.jpg-95b282fa41154f53b8db2668c8c2bb7b.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Electrical/Materials/conduit_white_01.jpg"
+dest_files=["res://.godot/imported/conduit_white_01.jpg-06c7844e01ea1b0a9752cb062f664f1f.ctex"]
 
 [params]
 

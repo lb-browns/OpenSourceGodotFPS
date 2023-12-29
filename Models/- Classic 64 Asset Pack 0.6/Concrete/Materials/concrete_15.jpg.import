@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfmxee011qpcw"
-path="res://.godot/imported/concrete_15.jpg-e20a0e3558e97431dc1fa02b1bcbd384.ctex"
+path="res://.godot/imported/concrete_15.jpg-b226fe7e6cc932cdbdcbfbc085ec2054.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_15.jpg"
-dest_files=["res://.godot/imported/concrete_15.jpg-e20a0e3558e97431dc1fa02b1bcbd384.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_15.jpg"
+dest_files=["res://.godot/imported/concrete_15.jpg-b226fe7e6cc932cdbdcbfbc085ec2054.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgdmqynj3wk2o"
-path="res://.godot/imported/wood_rustic_3.png-30145ba625762cef312750862a2f93ca.ctex"
+path="res://.godot/imported/wood_rustic_3.png-608cc06b189a4b9e97df1d3f7a5c7f0a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_rustic_3.png"
-dest_files=["res://.godot/imported/wood_rustic_3.png-30145ba625762cef312750862a2f93ca.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_rustic_3.png"
+dest_files=["res://.godot/imported/wood_rustic_3.png-608cc06b189a4b9e97df1d3f7a5c7f0a.ctex"]
 
 [params]
 

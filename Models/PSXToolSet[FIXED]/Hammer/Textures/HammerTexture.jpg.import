@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8pvdtcs4s41e"
-path.s3tc="res://.godot/imported/HammerTexture.jpg-bd186fc2ee103f4e4969af898c579ae0.s3tc.ctex"
+path.s3tc="res://.godot/imported/HammerTexture.jpg-1ba7908a477d8f81519a515ce7e8fc4f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Hammer/Textures/HammerTexture.jpg"
-dest_files=["res://.godot/imported/HammerTexture.jpg-bd186fc2ee103f4e4969af898c579ae0.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/Hammer/Textures/HammerTexture.jpg"
+dest_files=["res://.godot/imported/HammerTexture.jpg-1ba7908a477d8f81519a515ce7e8fc4f.s3tc.ctex"]
 
 [params]
 

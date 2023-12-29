@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ylsttlioc1kw"
-path="res://.godot/imported/screw_01.png-af7822e52815d5cde01da2d9657bb96c.ctex"
+path="res://.godot/imported/screw_01.png-9b26cdb0aea6964df88a04826004d38b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/screw_01.png"
-dest_files=["res://.godot/imported/screw_01.png-af7822e52815d5cde01da2d9657bb96c.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/screw_01.png"
+dest_files=["res://.godot/imported/screw_01.png-9b26cdb0aea6964df88a04826004d38b.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxqwa281dl8t6"
-path="res://.godot/imported/garbage_bag.png-ff73e8e31113f66225c9064a81a66d84.ctex"
+path="res://.godot/imported/garbage_bag.png-e65386d3890473a1f154db3a0de22444.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/garbage_bag.png"
-dest_files=["res://.godot/imported/garbage_bag.png-ff73e8e31113f66225c9064a81a66d84.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/garbage_bag.png"
+dest_files=["res://.godot/imported/garbage_bag.png-e65386d3890473a1f154db3a0de22444.ctex"]
 
 [params]
 

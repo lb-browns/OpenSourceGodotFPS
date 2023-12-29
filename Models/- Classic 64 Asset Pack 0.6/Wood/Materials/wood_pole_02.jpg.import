@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvrdyryy4yc24"
-path="res://.godot/imported/wood_pole_02.jpg-da188bc50099051fe9fd749017128a78.ctex"
+path="res://.godot/imported/wood_pole_02.jpg-5fb3ee16374c4f1bbfcff79042a779cb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_pole_02.jpg"
-dest_files=["res://.godot/imported/wood_pole_02.jpg-da188bc50099051fe9fd749017128a78.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_pole_02.jpg"
+dest_files=["res://.godot/imported/wood_pole_02.jpg-5fb3ee16374c4f1bbfcff79042a779cb.ctex"]
 
 [params]
 

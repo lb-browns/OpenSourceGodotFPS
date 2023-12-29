@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dklljmeequgeo"
-path.s3tc="res://.godot/imported/TacticalShotgun-4fb4d9f7a29c4173caf8989de49ccaf9_Tac_Shotgun_Text_240_Alpha.png-f5eea404c3ca5d366c2167fa9d96af71.s3tc.ctex"
+path.s3tc="res://.godot/imported/TacticalShotgun-4fb4d9f7a29c4173caf8989de49ccaf9_Tac_Shotgun_Text_240_Alpha.png-e5a10f9f341ff4420ccf1a05cbec2a70.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/TaticalShotgun/TacticalShotgun-4fb4d9f7a29c4173caf8989de49ccaf9_Tac_Shotgun_Text_240_Alpha.png"
-dest_files=["res://.godot/imported/TacticalShotgun-4fb4d9f7a29c4173caf8989de49ccaf9_Tac_Shotgun_Text_240_Alpha.png-f5eea404c3ca5d366c2167fa9d96af71.s3tc.ctex"]
+source_file="res://Models/PSXMiscGuns/TaticalShotgun/TacticalShotgun-4fb4d9f7a29c4173caf8989de49ccaf9_Tac_Shotgun_Text_240_Alpha.png"
+dest_files=["res://.godot/imported/TacticalShotgun-4fb4d9f7a29c4173caf8989de49ccaf9_Tac_Shotgun_Text_240_Alpha.png-e5a10f9f341ff4420ccf1a05cbec2a70.s3tc.ctex"]
 
 [params]
 

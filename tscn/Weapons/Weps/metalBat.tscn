@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b8wqphfr328w7"]
 
-[ext_resource type="PackedScene" uid="uid://vvx5svybm44i" path="res://SlavSlaughterMouseMain/Models/Baseball Bat/FBX/USA/BaseballBat_USA_Metal(Blood).fbx" id="1_bas85"]
-[ext_resource type="Texture2D" uid="uid://cght6ojqci42h" path="res://SlavSlaughterMouseMain/Models/Baseball Bat/Textures/Raw/BaseballBats_Raw_BloodAndGrime.png" id="2_h3n1o"]
+[ext_resource type="PackedScene" uid="uid://vvx5svybm44i" path="res://Models/Baseball Bat/FBX/USA/BaseballBat_USA_Metal(Blood).fbx" id="1_bas85"]
+[ext_resource type="Texture2D" uid="uid://cght6ojqci42h" path="res://Models/Baseball Bat/Textures/Raw/BaseballBats_Raw_BloodAndGrime.png" id="2_h3n1o"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lwchx"]
 albedo_texture = ExtResource("2_h3n1o")

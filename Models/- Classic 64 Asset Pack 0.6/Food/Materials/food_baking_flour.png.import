@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cafg21c0bmiuk"
-path="res://.godot/imported/food_baking_flour.png-84c7d1952797d7013480e518a313a4d1.ctex"
+path="res://.godot/imported/food_baking_flour.png-a964505b6783a0f1c891b07c0435e755.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_baking_flour.png"
-dest_files=["res://.godot/imported/food_baking_flour.png-84c7d1952797d7013480e518a313a4d1.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_baking_flour.png"
+dest_files=["res://.godot/imported/food_baking_flour.png-a964505b6783a0f1c891b07c0435e755.ctex"]
 
 [params]
 

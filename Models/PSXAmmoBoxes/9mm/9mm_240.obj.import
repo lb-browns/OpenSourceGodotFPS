@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dt5h3x0fb1mlp"
-path="res://.godot/imported/9mm_240.obj-700ae39d9d06f2b25629fed7642788cb.mesh"
+path="res://.godot/imported/9mm_240.obj-18677b69a1176a8eebcfc81f71af0088.mesh"
 
 [deps]
 
-files=["res://.godot/imported/9mm_240.obj-700ae39d9d06f2b25629fed7642788cb.mesh"]
+files=["res://.godot/imported/9mm_240.obj-18677b69a1176a8eebcfc81f71af0088.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/9mm/9mm_240.obj"
-dest_files=["res://.godot/imported/9mm_240.obj-700ae39d9d06f2b25629fed7642788cb.mesh", "res://.godot/imported/9mm_240.obj-700ae39d9d06f2b25629fed7642788cb.mesh"]
+source_file="res://Models/PSXAmmoBoxes/9mm/9mm_240.obj"
+dest_files=["res://.godot/imported/9mm_240.obj-18677b69a1176a8eebcfc81f71af0088.mesh", "res://.godot/imported/9mm_240.obj-18677b69a1176a8eebcfc81f71af0088.mesh"]
 
 [params]
 

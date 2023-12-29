@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://be1gl1pmrjsge"
-path="res://.godot/imported/cardboard_02.jpg-e2c57945a34f56dd4f69533d5a7c27b9.ctex"
+path="res://.godot/imported/cardboard_02.jpg-6523357137c471a38000ef2cbe842cc6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/cardboard_02.jpg"
-dest_files=["res://.godot/imported/cardboard_02.jpg-e2c57945a34f56dd4f69533d5a7c27b9.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/cardboard_02.jpg"
+dest_files=["res://.godot/imported/cardboard_02.jpg-6523357137c471a38000ef2cbe842cc6.ctex"]
 
 [params]
 

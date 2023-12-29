@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://v41klwd04iyn"
-path="res://.godot/imported/SawedOffDoubleBarrelShotgun.fbx-c8c095bc0d38187145ba2c1443d996f1.scn"
+path="res://.godot/imported/SawedOffDoubleBarrelShotgun.fbx-d860a18737b0aff859ec533aebd407a9.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/Fbx/SawedOffDoubleBarrelShotgun.fbx"
-dest_files=["res://.godot/imported/SawedOffDoubleBarrelShotgun.fbx-c8c095bc0d38187145ba2c1443d996f1.scn"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/Fbx/SawedOffDoubleBarrelShotgun.fbx"
+dest_files=["res://.godot/imported/SawedOffDoubleBarrelShotgun.fbx-d860a18737b0aff859ec533aebd407a9.scn"]
 
 [params]
 

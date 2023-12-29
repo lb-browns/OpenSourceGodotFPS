@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfe0tn6lffisj"
-path.s3tc="res://.godot/imported/concrete_wall_01.jpg-fc4cd51b6baf7b833200cecd982d5e50.s3tc.ctex"
+path.s3tc="res://.godot/imported/concrete_wall_01.jpg-71254308d6aa5cf11729be5e405ed622.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_wall_01.jpg"
-dest_files=["res://.godot/imported/concrete_wall_01.jpg-fc4cd51b6baf7b833200cecd982d5e50.s3tc.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_wall_01.jpg"
+dest_files=["res://.godot/imported/concrete_wall_01.jpg-71254308d6aa5cf11729be5e405ed622.s3tc.ctex"]
 
 [params]
 

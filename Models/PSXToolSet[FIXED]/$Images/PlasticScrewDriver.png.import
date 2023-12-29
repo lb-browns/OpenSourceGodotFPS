@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cccwlwx86wwak"
-path="res://.godot/imported/PlasticScrewDriver.png-f756a417188be730701bd0fea1c0d62c.ctex"
+path="res://.godot/imported/PlasticScrewDriver.png-87d9cffcd62767c5110300ef1a6be490.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/$Images/PlasticScrewDriver.png"
-dest_files=["res://.godot/imported/PlasticScrewDriver.png-f756a417188be730701bd0fea1c0d62c.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/$Images/PlasticScrewDriver.png"
+dest_files=["res://.godot/imported/PlasticScrewDriver.png-87d9cffcd62767c5110300ef1a6be490.ctex"]
 
 [params]
 

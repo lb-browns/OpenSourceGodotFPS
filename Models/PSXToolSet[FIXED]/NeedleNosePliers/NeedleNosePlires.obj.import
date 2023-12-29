@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dutcwn1xak7to"
-path="res://.godot/imported/NeedleNosePlires.obj-47e4ea39dba0bf46a65bb20510b2c853.mesh"
+path="res://.godot/imported/NeedleNosePlires.obj-fb6dc9e222a0da601d705fbfa9516724.mesh"
 
 [deps]
 
-files=["res://.godot/imported/NeedleNosePlires.obj-47e4ea39dba0bf46a65bb20510b2c853.mesh"]
+files=["res://.godot/imported/NeedleNosePlires.obj-fb6dc9e222a0da601d705fbfa9516724.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/NeedleNosePliers/NeedleNosePlires.obj"
-dest_files=["res://.godot/imported/NeedleNosePlires.obj-47e4ea39dba0bf46a65bb20510b2c853.mesh", "res://.godot/imported/NeedleNosePlires.obj-47e4ea39dba0bf46a65bb20510b2c853.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/NeedleNosePliers/NeedleNosePlires.obj"
+dest_files=["res://.godot/imported/NeedleNosePlires.obj-fb6dc9e222a0da601d705fbfa9516724.mesh", "res://.godot/imported/NeedleNosePlires.obj-fb6dc9e222a0da601d705fbfa9516724.mesh"]
 
 [params]
 

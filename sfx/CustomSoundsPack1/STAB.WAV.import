@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bgncbims5jfr6"
-path="res://.godot/imported/STAB.WAV-9b063c002892ecba977e8e8248c814a3.sample"
+path="res://.godot/imported/STAB.WAV-c4f3d4b2d5efa243eed34817e294a86f.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/STAB.WAV"
-dest_files=["res://.godot/imported/STAB.WAV-9b063c002892ecba977e8e8248c814a3.sample"]
+source_file="res://sfx/CustomSoundsPack1/STAB.WAV"
+dest_files=["res://.godot/imported/STAB.WAV-c4f3d4b2d5efa243eed34817e294a86f.sample"]
 
 [params]
 

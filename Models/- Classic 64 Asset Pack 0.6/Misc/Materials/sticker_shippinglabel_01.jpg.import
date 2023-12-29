@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://oq77d4xa6880"
-path="res://.godot/imported/sticker_shippinglabel_01.jpg-7426938a8f1409b5b56ba5681f98f912.ctex"
+path="res://.godot/imported/sticker_shippinglabel_01.jpg-f47116329814fd105695765d5e59acb7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/sticker_shippinglabel_01.jpg"
-dest_files=["res://.godot/imported/sticker_shippinglabel_01.jpg-7426938a8f1409b5b56ba5681f98f912.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/sticker_shippinglabel_01.jpg"
+dest_files=["res://.godot/imported/sticker_shippinglabel_01.jpg-f47116329814fd105695765d5e59acb7.ctex"]
 
 [params]
 

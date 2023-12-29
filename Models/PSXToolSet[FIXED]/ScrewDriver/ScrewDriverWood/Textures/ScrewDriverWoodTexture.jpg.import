@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ceftnimxfmmkc"
-path.s3tc="res://.godot/imported/ScrewDriverWoodTexture.jpg-4dad39e0e8b812c0621a77b1bd9c84f5.s3tc.ctex"
+path.s3tc="res://.godot/imported/ScrewDriverWoodTexture.jpg-4b6d3b406e2eca5ced61e9bc167c3aee.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverWood/Textures/ScrewDriverWoodTexture.jpg"
-dest_files=["res://.godot/imported/ScrewDriverWoodTexture.jpg-4dad39e0e8b812c0621a77b1bd9c84f5.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverWood/Textures/ScrewDriverWoodTexture.jpg"
+dest_files=["res://.godot/imported/ScrewDriverWoodTexture.jpg-4b6d3b406e2eca5ced61e9bc167c3aee.s3tc.ctex"]
 
 [params]
 

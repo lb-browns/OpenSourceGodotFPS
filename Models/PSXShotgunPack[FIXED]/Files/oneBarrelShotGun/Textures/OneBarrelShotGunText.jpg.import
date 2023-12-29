@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://q8uuky3n6wxx"
-path="res://.godot/imported/OneBarrelShotGunText.jpg-43141f9e49d35c6eb511cb7ee9d63029.ctex"
+path="res://.godot/imported/OneBarrelShotGunText.jpg-6e5ccab65f7bf1a66d0a7223d686338e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/oneBarrelShotGun/Textures/OneBarrelShotGunText.jpg"
-dest_files=["res://.godot/imported/OneBarrelShotGunText.jpg-43141f9e49d35c6eb511cb7ee9d63029.ctex"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/oneBarrelShotGun/Textures/OneBarrelShotGunText.jpg"
+dest_files=["res://.godot/imported/OneBarrelShotGunText.jpg-6e5ccab65f7bf1a66d0a7223d686338e.ctex"]
 
 [params]
 

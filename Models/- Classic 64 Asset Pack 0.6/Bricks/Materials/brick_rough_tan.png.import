@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbptqqgwgienk"
-path="res://.godot/imported/brick_rough_tan.png-9e14387e6bc5efec339703f40f6247c1.ctex"
+path="res://.godot/imported/brick_rough_tan.png-c8ea674cad12805605a84fe88312e366.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Bricks/Materials/brick_rough_tan.png"
-dest_files=["res://.godot/imported/brick_rough_tan.png-9e14387e6bc5efec339703f40f6247c1.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Bricks/Materials/brick_rough_tan.png"
+dest_files=["res://.godot/imported/brick_rough_tan.png-c8ea674cad12805605a84fe88312e366.ctex"]
 
 [params]
 

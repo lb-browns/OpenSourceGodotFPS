@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dd04ibrnyet5p"
-path="res://.godot/imported/BaseballBats_USA_Grime.png-ff6ce17dad32a4c0ad536c274b31eeaf.ctex"
+path="res://.godot/imported/BaseballBats_USA_Grime.png-6f7923fa5598bafc1586e3ec6d0f8012.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Baseball Bat/Textures/USA/BaseballBats_USA_Grime.png"
-dest_files=["res://.godot/imported/BaseballBats_USA_Grime.png-ff6ce17dad32a4c0ad536c274b31eeaf.ctex"]
+source_file="res://Models/Baseball Bat/Textures/USA/BaseballBats_USA_Grime.png"
+dest_files=["res://.godot/imported/BaseballBats_USA_Grime.png-6f7923fa5598bafc1586e3ec6d0f8012.ctex"]
 
 [params]
 

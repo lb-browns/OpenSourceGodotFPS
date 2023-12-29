@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buyslbuddfd2w"
-path.s3tc="res://.godot/imported/wall_halfconcrete_01.jpg-74505e9793bd07201f7e0272db1ae515.s3tc.ctex"
+path.s3tc="res://.godot/imported/wall_halfconcrete_01.jpg-930c4b767220cc26dc8515a9faf8de92.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_halfconcrete_01.jpg"
-dest_files=["res://.godot/imported/wall_halfconcrete_01.jpg-74505e9793bd07201f7e0272db1ae515.s3tc.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_halfconcrete_01.jpg"
+dest_files=["res://.godot/imported/wall_halfconcrete_01.jpg-930c4b767220cc26dc8515a9faf8de92.s3tc.ctex"]
 
 [params]
 

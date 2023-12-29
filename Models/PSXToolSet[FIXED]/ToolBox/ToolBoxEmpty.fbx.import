@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c6m30prdtstef"
-path="res://.godot/imported/ToolBoxEmpty.fbx-43db663e64542623d50a82516145cde2.scn"
+path="res://.godot/imported/ToolBoxEmpty.fbx-442023bda57dab60cac9bcb78d4864c2.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ToolBox/ToolBoxEmpty.fbx"
-dest_files=["res://.godot/imported/ToolBoxEmpty.fbx-43db663e64542623d50a82516145cde2.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/ToolBox/ToolBoxEmpty.fbx"
+dest_files=["res://.godot/imported/ToolBoxEmpty.fbx-442023bda57dab60cac9bcb78d4864c2.scn"]
 
 [params]
 

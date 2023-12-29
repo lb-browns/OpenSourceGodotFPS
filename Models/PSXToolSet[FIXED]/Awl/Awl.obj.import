@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bv6g1vrxdhkmh"
-path="res://.godot/imported/Awl.obj-5e478e7d378c81817e909c9a54c8fc09.mesh"
+path="res://.godot/imported/Awl.obj-4fe933f8395df562832161787d3a9c9b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Awl.obj-5e478e7d378c81817e909c9a54c8fc09.mesh"]
+files=["res://.godot/imported/Awl.obj-4fe933f8395df562832161787d3a9c9b.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Awl/Awl.obj"
-dest_files=["res://.godot/imported/Awl.obj-5e478e7d378c81817e909c9a54c8fc09.mesh", "res://.godot/imported/Awl.obj-5e478e7d378c81817e909c9a54c8fc09.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/Awl/Awl.obj"
+dest_files=["res://.godot/imported/Awl.obj-4fe933f8395df562832161787d3a9c9b.mesh", "res://.godot/imported/Awl.obj-4fe933f8395df562832161787d3a9c9b.mesh"]
 
 [params]
 

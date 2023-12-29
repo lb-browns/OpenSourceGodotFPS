@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://j1klkgyhsfsh"]
 
-[ext_resource type="PackedScene" uid="uid://bad8ju65ri8yy" path="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/1911/1911.fbx" id="1_pg1lf"]
+[ext_resource type="PackedScene" uid="uid://bad8ju65ri8yy" path="res://Models/PSXMiscGuns/1911/1911.fbx" id="1_pg1lf"]
 
 [node name="1911" instance=ExtResource("1_pg1lf")]
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)

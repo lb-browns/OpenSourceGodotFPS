@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://daej0hmmgha2k"
-path="res://.godot/imported/decal_yellow_stripes_01.png-2f90ac320f80cd0306dc0b04357bbd28.ctex"
+path="res://.godot/imported/decal_yellow_stripes_01.png-38781fd201606cdc60b54374c1658c76.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/decal_yellow_stripes_01.png"
-dest_files=["res://.godot/imported/decal_yellow_stripes_01.png-2f90ac320f80cd0306dc0b04357bbd28.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/decal_yellow_stripes_01.png"
+dest_files=["res://.godot/imported/decal_yellow_stripes_01.png-38781fd201606cdc60b54374c1658c76.ctex"]
 
 [params]
 

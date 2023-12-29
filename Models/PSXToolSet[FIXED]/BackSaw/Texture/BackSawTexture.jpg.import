@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7pho784wk71d"
-path.s3tc="res://.godot/imported/BackSawTexture.jpg-b6f8b88dcfe1a7324c985bf7234dfa75.s3tc.ctex"
+path.s3tc="res://.godot/imported/BackSawTexture.jpg-358250d19350d171e1cc9118b7e520ea.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/BackSaw/Texture/BackSawTexture.jpg"
-dest_files=["res://.godot/imported/BackSawTexture.jpg-b6f8b88dcfe1a7324c985bf7234dfa75.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/BackSaw/Texture/BackSawTexture.jpg"
+dest_files=["res://.godot/imported/BackSawTexture.jpg-358250d19350d171e1cc9118b7e520ea.s3tc.ctex"]
 
 [params]
 

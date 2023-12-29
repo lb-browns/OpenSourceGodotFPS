@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7wxq7d78ktyu"
-path="res://.godot/imported/small_stones_2.jpg-f502053ae9154423720715d9b4d1cde3.ctex"
+path="res://.godot/imported/small_stones_2.jpg-de95a65fc6848b155caacb2d866a7e66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Ground/Materials/small_stones_2.jpg"
-dest_files=["res://.godot/imported/small_stones_2.jpg-f502053ae9154423720715d9b4d1cde3.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Ground/Materials/small_stones_2.jpg"
+dest_files=["res://.godot/imported/small_stones_2.jpg-de95a65fc6848b155caacb2d866a7e66.ctex"]
 
 [params]
 

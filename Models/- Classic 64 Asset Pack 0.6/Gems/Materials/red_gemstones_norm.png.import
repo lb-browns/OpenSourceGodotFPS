@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://61mx5y1jmql1"
-path="res://.godot/imported/red_gemstones_norm.png-fb10e96f88b3b5d007102048b7e0e6f1.ctex"
+path="res://.godot/imported/red_gemstones_norm.png-1745b62527435732fc7ddca6ef283e5d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Gems/Materials/red_gemstones_norm.png"
-dest_files=["res://.godot/imported/red_gemstones_norm.png-fb10e96f88b3b5d007102048b7e0e6f1.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Gems/Materials/red_gemstones_norm.png"
+dest_files=["res://.godot/imported/red_gemstones_norm.png-1745b62527435732fc7ddca6ef283e5d.ctex"]
 
 [params]
 

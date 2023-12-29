@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cb330wb63na1w"
-path="res://.godot/imported/rock_cliff_2_norm.png-c5d2e76096a3e2c2b53b5dae012f9ad1.ctex"
+path="res://.godot/imported/rock_cliff_2_norm.png-76a7af9a8a2183a7d479f77b6e00cb50.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Rocks/Materials/rock_cliff_2_norm.png"
-dest_files=["res://.godot/imported/rock_cliff_2_norm.png-c5d2e76096a3e2c2b53b5dae012f9ad1.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Rocks/Materials/rock_cliff_2_norm.png"
+dest_files=["res://.godot/imported/rock_cliff_2_norm.png-76a7af9a8a2183a7d479f77b6e00cb50.ctex"]
 
 [params]
 

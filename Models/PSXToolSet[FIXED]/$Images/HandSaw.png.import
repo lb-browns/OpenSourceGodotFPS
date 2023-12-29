@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djs0u1sinnb0o"
-path="res://.godot/imported/HandSaw.png-28daa675d5cd55f819161f18935ecb6d.ctex"
+path="res://.godot/imported/HandSaw.png-70471be1bbf7babcc9c8dc2ef47df036.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/$Images/HandSaw.png"
-dest_files=["res://.godot/imported/HandSaw.png-28daa675d5cd55f819161f18935ecb6d.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/$Images/HandSaw.png"
+dest_files=["res://.godot/imported/HandSaw.png-70471be1bbf7babcc9c8dc2ef47df036.ctex"]
 
 [params]
 

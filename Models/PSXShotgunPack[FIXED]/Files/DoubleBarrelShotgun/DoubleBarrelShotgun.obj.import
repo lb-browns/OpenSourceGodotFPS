@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://co084nah7b4s5"
-path="res://.godot/imported/DoubleBarrelShotgun.obj-55b361bba20bab047150d3f27d774acb.mesh"
+path="res://.godot/imported/DoubleBarrelShotgun.obj-79ba18aec9fe51456fd6111d483be19f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/DoubleBarrelShotgun.obj-55b361bba20bab047150d3f27d774acb.mesh"]
+files=["res://.godot/imported/DoubleBarrelShotgun.obj-79ba18aec9fe51456fd6111d483be19f.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DoubleBarrelShotgun.obj"
-dest_files=["res://.godot/imported/DoubleBarrelShotgun.obj-55b361bba20bab047150d3f27d774acb.mesh", "res://.godot/imported/DoubleBarrelShotgun.obj-55b361bba20bab047150d3f27d774acb.mesh"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DoubleBarrelShotgun.obj"
+dest_files=["res://.godot/imported/DoubleBarrelShotgun.obj-79ba18aec9fe51456fd6111d483be19f.mesh", "res://.godot/imported/DoubleBarrelShotgun.obj-79ba18aec9fe51456fd6111d483be19f.mesh"]
 
 [params]
 

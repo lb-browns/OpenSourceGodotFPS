@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://be431njd85lof"
-path="res://.godot/imported/large_ammo_box_240.fbx-4756adfc609a878c6686f1d3a3801cd9.scn"
+path="res://.godot/imported/large_ammo_box_240.fbx-0941d3e10684f6f08af07695e6306818.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/Large Ammo Box/large_ammo_box_240.fbx"
-dest_files=["res://.godot/imported/large_ammo_box_240.fbx-4756adfc609a878c6686f1d3a3801cd9.scn"]
+source_file="res://Models/PSXAmmoBoxes/Large Ammo Box/large_ammo_box_240.fbx"
+dest_files=["res://.godot/imported/large_ammo_box_240.fbx-0941d3e10684f6f08af07695e6306818.scn"]
 
 [params]
 

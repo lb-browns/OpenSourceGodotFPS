@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dafh4sfg0wr1a"
-path="res://.godot/imported/electrical_panel_outside_misc.png-d94e4c863d28a12bc3cc092315061aa9.ctex"
+path="res://.godot/imported/electrical_panel_outside_misc.png-35268221bf65cc726c86c79bf62e853e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Panels/Materials/electrical_panel_outside_misc.png"
-dest_files=["res://.godot/imported/electrical_panel_outside_misc.png-d94e4c863d28a12bc3cc092315061aa9.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/electrical_panel_outside_misc.png"
+dest_files=["res://.godot/imported/electrical_panel_outside_misc.png-35268221bf65cc726c86c79bf62e853e.ctex"]
 
 [params]
 

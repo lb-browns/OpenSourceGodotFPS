@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cgv3ssxu6fvfu"
-path="res://.godot/imported/PLASMA20.WAV-a90291d5db54bde615d87d926ee4e3e4.sample"
+path="res://.godot/imported/PLASMA20.WAV-c7ce584dca5dbc253c7d395cf4ae150f.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/PLASMA20.WAV"
-dest_files=["res://.godot/imported/PLASMA20.WAV-a90291d5db54bde615d87d926ee4e3e4.sample"]
+source_file="res://sfx/CustomSoundsPack1/PLASMA20.WAV"
+dest_files=["res://.godot/imported/PLASMA20.WAV-c7ce584dca5dbc253c7d395cf4ae150f.sample"]
 
 [params]
 

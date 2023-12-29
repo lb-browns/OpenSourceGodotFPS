@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ct3wtwqiyvlpk"
-path.s3tc="res://.godot/imported/ScrewDriverPlastic-6fced0718e470dfc28dfc900b5edd5e8_ScrewDriverPlasticTexture.jpg-7e3e79b9ccb99a8287ffd7a7dbca19af.s3tc.ctex"
+path.s3tc="res://.godot/imported/ScrewDriverPlastic-6fced0718e470dfc28dfc900b5edd5e8_ScrewDriverPlasticTexture.jpg-8fb6b19a7fdf4c112a68c866a63745c8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic-6fced0718e470dfc28dfc900b5edd5e8_ScrewDriverPlasticTexture.jpg"
-dest_files=["res://.godot/imported/ScrewDriverPlastic-6fced0718e470dfc28dfc900b5edd5e8_ScrewDriverPlasticTexture.jpg-7e3e79b9ccb99a8287ffd7a7dbca19af.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic-6fced0718e470dfc28dfc900b5edd5e8_ScrewDriverPlasticTexture.jpg"
+dest_files=["res://.godot/imported/ScrewDriverPlastic-6fced0718e470dfc28dfc900b5edd5e8_ScrewDriverPlasticTexture.jpg-8fb6b19a7fdf4c112a68c866a63745c8.s3tc.ctex"]
 
 [params]
 

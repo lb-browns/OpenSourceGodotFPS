@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cd02fh0ko16j1"
-path="res://.godot/imported/door_grungy_no_handle.png-2598ad78ec60a9661e5b29bcaaad7205.ctex"
+path="res://.godot/imported/door_grungy_no_handle.png-8622819b69e65d91414dc22158b229c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Doors/Materials/door_grungy_no_handle.png"
-dest_files=["res://.godot/imported/door_grungy_no_handle.png-2598ad78ec60a9661e5b29bcaaad7205.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Doors/Materials/door_grungy_no_handle.png"
+dest_files=["res://.godot/imported/door_grungy_no_handle.png-8622819b69e65d91414dc22158b229c5.ctex"]
 
 [params]
 

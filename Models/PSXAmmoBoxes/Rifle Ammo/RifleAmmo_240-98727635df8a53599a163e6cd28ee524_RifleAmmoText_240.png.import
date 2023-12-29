@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d7r057odtxpr"
-path.s3tc="res://.godot/imported/RifleAmmo_240-98727635df8a53599a163e6cd28ee524_RifleAmmoText_240.png-14474f5d3a8294cda135d45de6f7cea0.s3tc.ctex"
+path.s3tc="res://.godot/imported/RifleAmmo_240-98727635df8a53599a163e6cd28ee524_RifleAmmoText_240.png-7a55b573c4b61fb02d5f5fb5d7c027cd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/Rifle Ammo/RifleAmmo_240-98727635df8a53599a163e6cd28ee524_RifleAmmoText_240.png"
-dest_files=["res://.godot/imported/RifleAmmo_240-98727635df8a53599a163e6cd28ee524_RifleAmmoText_240.png-14474f5d3a8294cda135d45de6f7cea0.s3tc.ctex"]
+source_file="res://Models/PSXAmmoBoxes/Rifle Ammo/RifleAmmo_240-98727635df8a53599a163e6cd28ee524_RifleAmmoText_240.png"
+dest_files=["res://.godot/imported/RifleAmmo_240-98727635df8a53599a163e6cd28ee524_RifleAmmoText_240.png-7a55b573c4b61fb02d5f5fb5d7c027cd.s3tc.ctex"]
 
 [params]
 

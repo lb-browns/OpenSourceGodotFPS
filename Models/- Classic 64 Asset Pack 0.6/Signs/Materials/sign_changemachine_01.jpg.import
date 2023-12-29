@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlr4ijqrodqal"
-path="res://.godot/imported/sign_changemachine_01.jpg-4e7d2f054252e3de9705278fd98df08c.ctex"
+path="res://.godot/imported/sign_changemachine_01.jpg-46d4057522d64435ed0ca8ff403bec1e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_changemachine_01.jpg"
-dest_files=["res://.godot/imported/sign_changemachine_01.jpg-4e7d2f054252e3de9705278fd98df08c.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_changemachine_01.jpg"
+dest_files=["res://.godot/imported/sign_changemachine_01.jpg-46d4057522d64435ed0ca8ff403bec1e.ctex"]
 
 [params]
 

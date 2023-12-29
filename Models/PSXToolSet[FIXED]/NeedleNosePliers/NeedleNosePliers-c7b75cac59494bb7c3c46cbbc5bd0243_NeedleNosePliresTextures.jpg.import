@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cm03l5kxct55l"
-path.s3tc="res://.godot/imported/NeedleNosePliers-c7b75cac59494bb7c3c46cbbc5bd0243_NeedleNosePliresTextures.jpg-5044fb0c32a23d85db065c4cdd3b225c.s3tc.ctex"
+path.s3tc="res://.godot/imported/NeedleNosePliers-c7b75cac59494bb7c3c46cbbc5bd0243_NeedleNosePliresTextures.jpg-7ac8a9368f4a89ac639d1bd1f1ada781.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/NeedleNosePliers/NeedleNosePliers-c7b75cac59494bb7c3c46cbbc5bd0243_NeedleNosePliresTextures.jpg"
-dest_files=["res://.godot/imported/NeedleNosePliers-c7b75cac59494bb7c3c46cbbc5bd0243_NeedleNosePliresTextures.jpg-5044fb0c32a23d85db065c4cdd3b225c.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/NeedleNosePliers/NeedleNosePliers-c7b75cac59494bb7c3c46cbbc5bd0243_NeedleNosePliresTextures.jpg"
+dest_files=["res://.godot/imported/NeedleNosePliers-c7b75cac59494bb7c3c46cbbc5bd0243_NeedleNosePliresTextures.jpg-7ac8a9368f4a89ac639d1bd1f1ada781.s3tc.ctex"]
 
 [params]
 

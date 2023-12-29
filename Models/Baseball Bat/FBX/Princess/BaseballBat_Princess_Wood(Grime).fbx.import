@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://rcnat6r3doim"
-path="res://.godot/imported/BaseballBat_Princess_Wood(Grime).fbx-e333327e4e3294af0d91e4b59d7ed243.scn"
+path="res://.godot/imported/BaseballBat_Princess_Wood(Grime).fbx-67f5bf8e3fdaf53b16175ed843b845cd.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Baseball Bat/FBX/Princess/BaseballBat_Princess_Wood(Grime).fbx"
-dest_files=["res://.godot/imported/BaseballBat_Princess_Wood(Grime).fbx-e333327e4e3294af0d91e4b59d7ed243.scn"]
+source_file="res://Models/Baseball Bat/FBX/Princess/BaseballBat_Princess_Wood(Grime).fbx"
+dest_files=["res://.godot/imported/BaseballBat_Princess_Wood(Grime).fbx-67f5bf8e3fdaf53b16175ed843b845cd.scn"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cstpjawqjsg0r"
-path="res://.godot/imported/products_electronics.png-901752773bb9f69b4f0515069e4b9c19.ctex"
+path="res://.godot/imported/products_electronics.png-bea4d5e78c162b2cfef91ab13d4f4c29.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Products/Materials/products_electronics.png"
-dest_files=["res://.godot/imported/products_electronics.png-901752773bb9f69b4f0515069e4b9c19.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Products/Materials/products_electronics.png"
+dest_files=["res://.godot/imported/products_electronics.png-bea4d5e78c162b2cfef91ab13d4f4c29.ctex"]
 
 [params]
 

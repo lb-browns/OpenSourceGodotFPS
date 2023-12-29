@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ckl2g4suslgvv"
-path="res://.godot/imported/SawedOffOneBarrelShotGun.obj-710f05aa6af1334078a1110f882ff3d9.mesh"
+path="res://.godot/imported/SawedOffOneBarrelShotGun.obj-f6eef439a51dd3b6090ef9296c823b1a.mesh"
 
 [deps]
 
-files=["res://.godot/imported/SawedOffOneBarrelShotGun.obj-710f05aa6af1334078a1110f882ff3d9.mesh"]
+files=["res://.godot/imported/SawedOffOneBarrelShotGun.obj-f6eef439a51dd3b6090ef9296c823b1a.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/oneBarrelShotGun/SawedOffOneBarrelShotGun.obj"
-dest_files=["res://.godot/imported/SawedOffOneBarrelShotGun.obj-710f05aa6af1334078a1110f882ff3d9.mesh", "res://.godot/imported/SawedOffOneBarrelShotGun.obj-710f05aa6af1334078a1110f882ff3d9.mesh"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/oneBarrelShotGun/SawedOffOneBarrelShotGun.obj"
+dest_files=["res://.godot/imported/SawedOffOneBarrelShotGun.obj-f6eef439a51dd3b6090ef9296c823b1a.mesh", "res://.godot/imported/SawedOffOneBarrelShotGun.obj-f6eef439a51dd3b6090ef9296c823b1a.mesh"]
 
 [params]
 

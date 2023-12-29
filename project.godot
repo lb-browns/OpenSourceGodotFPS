@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Slav Slaughter House"
 config/version="0.01"
-run/main_scene="res://SlavSlaughterMouseMain/tscn/World/Maps/map.tscn"
+run/main_scene="res://tscn/World/Maps/map.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://SSH ico.png"
 config/windows_native_icon="res://SSH ico.ico"

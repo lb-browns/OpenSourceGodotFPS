@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://do8mj607v2pt0"
-path="res://.godot/imported/AdjustableWrench.obj-242e462216b3d1264096b85cbaec7417.mesh"
+path="res://.godot/imported/AdjustableWrench.obj-e65f75c53fbf58155543997221117c45.mesh"
 
 [deps]
 
-files=["res://.godot/imported/AdjustableWrench.obj-242e462216b3d1264096b85cbaec7417.mesh"]
+files=["res://.godot/imported/AdjustableWrench.obj-e65f75c53fbf58155543997221117c45.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/AdjustableWrench/AdjustableWrench.obj"
-dest_files=["res://.godot/imported/AdjustableWrench.obj-242e462216b3d1264096b85cbaec7417.mesh", "res://.godot/imported/AdjustableWrench.obj-242e462216b3d1264096b85cbaec7417.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/AdjustableWrench/AdjustableWrench.obj"
+dest_files=["res://.godot/imported/AdjustableWrench.obj-e65f75c53fbf58155543997221117c45.mesh", "res://.godot/imported/AdjustableWrench.obj-e65f75c53fbf58155543997221117c45.mesh"]
 
 [params]
 

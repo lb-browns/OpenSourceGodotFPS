@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2vdup802c5hd"
-path="res://.godot/imported/switch_01.jpg-255c1d37d0df5bc446f0545aba8220c7.ctex"
+path="res://.godot/imported/switch_01.jpg-9a8fb501181069ebd7ed58e1f000b73f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/switch_01.jpg"
-dest_files=["res://.godot/imported/switch_01.jpg-255c1d37d0df5bc446f0545aba8220c7.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/switch_01.jpg"
+dest_files=["res://.godot/imported/switch_01.jpg-9a8fb501181069ebd7ed58e1f000b73f.ctex"]
 
 [params]
 

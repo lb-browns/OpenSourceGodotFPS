@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5scqeucm1cta"
-path="res://.godot/imported/filingcabinet_01.jpg-d071c5b1b741b54602b28c67ec3eebb9.ctex"
+path="res://.godot/imported/filingcabinet_01.jpg-b4c703ef03f953c1651c6824a8161bb3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/filingcabinet_01.jpg"
-dest_files=["res://.godot/imported/filingcabinet_01.jpg-d071c5b1b741b54602b28c67ec3eebb9.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/filingcabinet_01.jpg"
+dest_files=["res://.godot/imported/filingcabinet_01.jpg-b4c703ef03f953c1651c6824a8161bb3.ctex"]
 
 [params]
 

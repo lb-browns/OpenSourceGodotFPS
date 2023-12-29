@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cs8t01ot2633c"
-path="res://.godot/imported/PipeWrench.fbx-c913f77c3e16fd80b5b38e142bc5ca10.scn"
+path="res://.godot/imported/PipeWrench.fbx-f328216496b7f809c6f78f3050da39a1.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/PipeWrench/PipeWrench.fbx"
-dest_files=["res://.godot/imported/PipeWrench.fbx-c913f77c3e16fd80b5b38e142bc5ca10.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/PipeWrench/PipeWrench.fbx"
+dest_files=["res://.godot/imported/PipeWrench.fbx-f328216496b7f809c6f78f3050da39a1.scn"]
 
 [params]
 

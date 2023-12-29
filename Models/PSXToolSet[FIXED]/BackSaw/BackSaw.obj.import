@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bw0683q0b8x"
-path="res://.godot/imported/BackSaw.obj-759c74ffca5216386532e26d8d2b9023.mesh"
+path="res://.godot/imported/BackSaw.obj-42b7d8e846b9d05f9a19e0c224ede80e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/BackSaw.obj-759c74ffca5216386532e26d8d2b9023.mesh"]
+files=["res://.godot/imported/BackSaw.obj-42b7d8e846b9d05f9a19e0c224ede80e.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/BackSaw/BackSaw.obj"
-dest_files=["res://.godot/imported/BackSaw.obj-759c74ffca5216386532e26d8d2b9023.mesh", "res://.godot/imported/BackSaw.obj-759c74ffca5216386532e26d8d2b9023.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/BackSaw/BackSaw.obj"
+dest_files=["res://.godot/imported/BackSaw.obj-42b7d8e846b9d05f9a19e0c224ede80e.mesh", "res://.godot/imported/BackSaw.obj-42b7d8e846b9d05f9a19e0c224ede80e.mesh"]
 
 [params]
 

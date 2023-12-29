@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://uq7er66v5emr"
-path="res://.godot/imported/shotgunShellTexture.jpg-b72dd677d99647af024df4b676a69313.ctex"
+path="res://.godot/imported/shotgunShellTexture.jpg-fb9441582bafebf9f655f46415c6d5cb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/overUnderShotGun/Textures/shotgunShellTexture.jpg"
-dest_files=["res://.godot/imported/shotgunShellTexture.jpg-b72dd677d99647af024df4b676a69313.ctex"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/overUnderShotGun/Textures/shotgunShellTexture.jpg"
+dest_files=["res://.godot/imported/shotgunShellTexture.jpg-fb9441582bafebf9f655f46415c6d5cb.ctex"]
 
 [params]
 

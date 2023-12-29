@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cl5idpj5nv533"
-path="res://.godot/imported/plastic_pipe.png-81eea7ea9ea0cceb2bb3f843b887eab5.ctex"
+path="res://.godot/imported/plastic_pipe.png-136799fea8632bc838eedfbbffcc51c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/plastic_pipe.png"
-dest_files=["res://.godot/imported/plastic_pipe.png-81eea7ea9ea0cceb2bb3f843b887eab5.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/plastic_pipe.png"
+dest_files=["res://.godot/imported/plastic_pipe.png-136799fea8632bc838eedfbbffcc51c5.ctex"]
 
 [params]
 

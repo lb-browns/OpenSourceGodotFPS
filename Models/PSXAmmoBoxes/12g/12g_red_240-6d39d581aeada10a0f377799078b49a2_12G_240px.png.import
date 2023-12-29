@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djhcl7yweqvgl"
-path.s3tc="res://.godot/imported/12g_red_240-6d39d581aeada10a0f377799078b49a2_12G_240px.png-25984cc0b7c75cca86bd3aa90bf5687d.s3tc.ctex"
+path.s3tc="res://.godot/imported/12g_red_240-6d39d581aeada10a0f377799078b49a2_12G_240px.png-8bda55e746550895959974a4c38f6865.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/12g/12g_red_240-6d39d581aeada10a0f377799078b49a2_12G_240px.png"
-dest_files=["res://.godot/imported/12g_red_240-6d39d581aeada10a0f377799078b49a2_12G_240px.png-25984cc0b7c75cca86bd3aa90bf5687d.s3tc.ctex"]
+source_file="res://Models/PSXAmmoBoxes/12g/12g_red_240-6d39d581aeada10a0f377799078b49a2_12G_240px.png"
+dest_files=["res://.godot/imported/12g_red_240-6d39d581aeada10a0f377799078b49a2_12G_240px.png-8bda55e746550895959974a4c38f6865.s3tc.ctex"]
 
 [params]
 

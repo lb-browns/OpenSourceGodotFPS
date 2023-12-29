@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3kpuad0rjdp4"
-path="res://.godot/imported/wood_sign.jpg-fe13d259805bc7c1f66e425cbb456831.ctex"
+path="res://.godot/imported/wood_sign.jpg-c385bf380aa664e7ecd0a1efd1467deb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_sign.jpg"
-dest_files=["res://.godot/imported/wood_sign.jpg-fe13d259805bc7c1f66e425cbb456831.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_sign.jpg"
+dest_files=["res://.godot/imported/wood_sign.jpg-c385bf380aa664e7ecd0a1efd1467deb.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvptck5nbuy8x"
-path="res://.godot/imported/gauge_pressure.png-243993c7e5e876fb7feb0e71258c0bce.ctex"
+path="res://.godot/imported/gauge_pressure.png-e8c064c925703cc7ea1b18d7526b8f73.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Panels/Materials/gauge_pressure.png"
-dest_files=["res://.godot/imported/gauge_pressure.png-243993c7e5e876fb7feb0e71258c0bce.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/gauge_pressure.png"
+dest_files=["res://.godot/imported/gauge_pressure.png-e8c064c925703cc7ea1b18d7526b8f73.ctex"]
 
 [params]
 

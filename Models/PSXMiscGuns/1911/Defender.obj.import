@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bc0ktkgmxm0mf"
-path="res://.godot/imported/Defender.obj-cb5a1887c44e4c38dd94757709a57cd8.mesh"
+path="res://.godot/imported/Defender.obj-8bd65eb5a6052d7b807af0d7d09769d5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Defender.obj-cb5a1887c44e4c38dd94757709a57cd8.mesh"]
+files=["res://.godot/imported/Defender.obj-8bd65eb5a6052d7b807af0d7d09769d5.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/1911/Defender.obj"
-dest_files=["res://.godot/imported/Defender.obj-cb5a1887c44e4c38dd94757709a57cd8.mesh", "res://.godot/imported/Defender.obj-cb5a1887c44e4c38dd94757709a57cd8.mesh"]
+source_file="res://Models/PSXMiscGuns/1911/Defender.obj"
+dest_files=["res://.godot/imported/Defender.obj-8bd65eb5a6052d7b807af0d7d09769d5.mesh", "res://.godot/imported/Defender.obj-8bd65eb5a6052d7b807af0d7d09769d5.mesh"]
 
 [params]
 

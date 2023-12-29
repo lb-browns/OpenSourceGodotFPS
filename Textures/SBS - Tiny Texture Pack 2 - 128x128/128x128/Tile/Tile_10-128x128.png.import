@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chl5emw8enb1f"
-path="res://.godot/imported/Tile_10-128x128.png-0b12271d5d5f5f3b5b833489b7ff9874.ctex"
+path="res://.godot/imported/Tile_10-128x128.png-074fa4e2bf0d811d67b6715c7f50d784.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Tile/Tile_10-128x128.png"
-dest_files=["res://.godot/imported/Tile_10-128x128.png-0b12271d5d5f5f3b5b833489b7ff9874.ctex"]
+source_file="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Tile/Tile_10-128x128.png"
+dest_files=["res://.godot/imported/Tile_10-128x128.png-074fa4e2bf0d811d67b6715c7f50d784.ctex"]
 
 [params]
 

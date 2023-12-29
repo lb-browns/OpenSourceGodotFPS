@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://wlv5kx7p022u"
-path="res://.godot/imported/HandSaw.obj-554ab1312ffdaa7f2d19b329b792c573.mesh"
+path="res://.godot/imported/HandSaw.obj-5ed1079b0c2df1bcc1102e3462ef3efd.mesh"
 
 [deps]
 
-files=["res://.godot/imported/HandSaw.obj-554ab1312ffdaa7f2d19b329b792c573.mesh"]
+files=["res://.godot/imported/HandSaw.obj-5ed1079b0c2df1bcc1102e3462ef3efd.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/HandSaw/HandSaw.obj"
-dest_files=["res://.godot/imported/HandSaw.obj-554ab1312ffdaa7f2d19b329b792c573.mesh", "res://.godot/imported/HandSaw.obj-554ab1312ffdaa7f2d19b329b792c573.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/HandSaw/HandSaw.obj"
+dest_files=["res://.godot/imported/HandSaw.obj-5ed1079b0c2df1bcc1102e3462ef3efd.mesh", "res://.godot/imported/HandSaw.obj-5ed1079b0c2df1bcc1102e3462ef3efd.mesh"]
 
 [params]
 

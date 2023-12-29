@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://dd8s3wyaxi5kv"]
 
-[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/WeaponPickup.gd" id="1_qms5y"]
-[ext_resource type="ArrayMesh" uid="uid://dbqqr4y7k8ctq" path="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.obj" id="2_p5d5e"]
-[ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://SlavSlaughterMouseMain/Weapon Resources/WeaponPickupGlow.tres" id="3_kf20v"]
+[ext_resource type="Script" path="res://Scripts/Weapon/WeaponPickup.gd" id="1_qms5y"]
+[ext_resource type="ArrayMesh" uid="uid://dbqqr4y7k8ctq" path="res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.obj" id="2_p5d5e"]
+[ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_kf20v"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_sr2xd"]
 size = Vector3(0.230837, 0.269731, 0.38)

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://q2i0api064c"
-path="res://.godot/imported/EXPLODE23.WAV-76458e87cc9f20a98f95d03b3c6a494b.sample"
+path="res://.godot/imported/EXPLODE23.WAV-d03ceffdd29a6eec15f2c0899239e334.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/EXPLODE23.WAV"
-dest_files=["res://.godot/imported/EXPLODE23.WAV-76458e87cc9f20a98f95d03b3c6a494b.sample"]
+source_file="res://sfx/CustomSoundsPack1/EXPLODE23.WAV"
+dest_files=["res://.godot/imported/EXPLODE23.WAV-d03ceffdd29a6eec15f2c0899239e334.sample"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dugg1s2mwbrau"
-path="res://.godot/imported/ROCKET10.WAV-d51ff85ad69a3618e524621451ff9568.sample"
+path="res://.godot/imported/ROCKET10.WAV-1a4199e47581cbf89d3cf89fc6fbff0e.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/ROCKET10.WAV"
-dest_files=["res://.godot/imported/ROCKET10.WAV-d51ff85ad69a3618e524621451ff9568.sample"]
+source_file="res://sfx/CustomSoundsPack1/ROCKET10.WAV"
+dest_files=["res://.godot/imported/ROCKET10.WAV-1a4199e47581cbf89d3cf89fc6fbff0e.sample"]
 
 [params]
 

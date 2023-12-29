@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ca44e10reefko"
-path="res://.godot/imported/carpet_tan_01.jpg-b570cd2f1c742c75971e4020b6a3497b.ctex"
+path="res://.godot/imported/carpet_tan_01.jpg-95da426206378a2ba4dbbebffa9428cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Floor/Materials/carpet_tan_01.jpg"
-dest_files=["res://.godot/imported/carpet_tan_01.jpg-b570cd2f1c742c75971e4020b6a3497b.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Floor/Materials/carpet_tan_01.jpg"
+dest_files=["res://.godot/imported/carpet_tan_01.jpg-95da426206378a2ba4dbbebffa9428cf.ctex"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bw1ghcv10x35f"
-path="res://.godot/imported/PuttyKnife.obj-224e7799c85180799884440cbea52990.mesh"
+path="res://.godot/imported/PuttyKnife.obj-92f9dc94e24dbca0deada1c9942f0f8c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/PuttyKnife.obj-224e7799c85180799884440cbea52990.mesh"]
+files=["res://.godot/imported/PuttyKnife.obj-92f9dc94e24dbca0deada1c9942f0f8c.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/PuttyKnife/PuttyKnife.obj"
-dest_files=["res://.godot/imported/PuttyKnife.obj-224e7799c85180799884440cbea52990.mesh", "res://.godot/imported/PuttyKnife.obj-224e7799c85180799884440cbea52990.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/PuttyKnife/PuttyKnife.obj"
+dest_files=["res://.godot/imported/PuttyKnife.obj-92f9dc94e24dbca0deada1c9942f0f8c.mesh", "res://.godot/imported/PuttyKnife.obj-92f9dc94e24dbca0deada1c9942f0f8c.mesh"]
 
 [params]
 

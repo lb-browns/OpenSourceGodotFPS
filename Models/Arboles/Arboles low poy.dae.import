@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bdhhr2cnhsjmp"
-path="res://.godot/imported/Arboles low poy.dae-bb4ab2ec18b55a6603aeaf4239f76e01.scn"
+path="res://.godot/imported/Arboles low poy.dae-7c9002c8779258d9137e6483885662fe.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Arboles/Arboles low poy.dae"
-dest_files=["res://.godot/imported/Arboles low poy.dae-bb4ab2ec18b55a6603aeaf4239f76e01.scn"]
+source_file="res://Models/Arboles/Arboles low poy.dae"
+dest_files=["res://.godot/imported/Arboles low poy.dae-7c9002c8779258d9137e6483885662fe.scn"]
 
 [params]
 

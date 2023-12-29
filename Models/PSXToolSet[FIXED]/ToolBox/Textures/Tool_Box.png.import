@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://er87muwhi6he"
-path.s3tc="res://.godot/imported/Tool_Box.png-5af93a560398147c88fb2d74ef8fe863.s3tc.ctex"
+path.s3tc="res://.godot/imported/Tool_Box.png-2113b74821765c33d69c35b8e6f4c5ea.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ToolBox/Textures/Tool_Box.png"
-dest_files=["res://.godot/imported/Tool_Box.png-5af93a560398147c88fb2d74ef8fe863.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/ToolBox/Textures/Tool_Box.png"
+dest_files=["res://.godot/imported/Tool_Box.png-2113b74821765c33d69c35b8e6f4c5ea.s3tc.ctex"]
 
 [params]
 

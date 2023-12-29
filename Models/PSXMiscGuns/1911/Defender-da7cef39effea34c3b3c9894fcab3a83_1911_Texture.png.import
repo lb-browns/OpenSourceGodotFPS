@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn5gon5i3kx6n"
-path.s3tc="res://.godot/imported/Defender-da7cef39effea34c3b3c9894fcab3a83_1911_Texture.png-320be47deb042b61b804d78eb350a002.s3tc.ctex"
+path.s3tc="res://.godot/imported/Defender-da7cef39effea34c3b3c9894fcab3a83_1911_Texture.png-bc63a799007a995a50f32e4ab8f9c7ff.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/1911/Defender-da7cef39effea34c3b3c9894fcab3a83_1911_Texture.png"
-dest_files=["res://.godot/imported/Defender-da7cef39effea34c3b3c9894fcab3a83_1911_Texture.png-320be47deb042b61b804d78eb350a002.s3tc.ctex"]
+source_file="res://Models/PSXMiscGuns/1911/Defender-da7cef39effea34c3b3c9894fcab3a83_1911_Texture.png"
+dest_files=["res://.godot/imported/Defender-da7cef39effea34c3b3c9894fcab3a83_1911_Texture.png-bc63a799007a995a50f32e4ab8f9c7ff.s3tc.ctex"]
 
 [params]
 

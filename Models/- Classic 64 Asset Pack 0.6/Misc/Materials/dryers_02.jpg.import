@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckge00x8m23iq"
-path="res://.godot/imported/dryers_02.jpg-c3db3b300ea1a59c8680532c1a6a515d.ctex"
+path="res://.godot/imported/dryers_02.jpg-c84f0334b45f047d6d8adeb625bd30b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/dryers_02.jpg"
-dest_files=["res://.godot/imported/dryers_02.jpg-c3db3b300ea1a59c8680532c1a6a515d.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/dryers_02.jpg"
+dest_files=["res://.godot/imported/dryers_02.jpg-c84f0334b45f047d6d8adeb625bd30b0.ctex"]
 
 [params]
 

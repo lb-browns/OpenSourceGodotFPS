@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byp2rmuccvcmv"
-path="res://.godot/imported/window_old_01.jpg-7ad72e349eda31f9658605918f59d5cc.ctex"
+path="res://.godot/imported/window_old_01.jpg-b31835df18856a065da26b164fb5a148.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Windows/Materials/window_old_01.jpg"
-dest_files=["res://.godot/imported/window_old_01.jpg-7ad72e349eda31f9658605918f59d5cc.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Windows/Materials/window_old_01.jpg"
+dest_files=["res://.godot/imported/window_old_01.jpg-b31835df18856a065da26b164fb5a148.ctex"]
 
 [params]
 

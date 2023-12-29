@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b07vdsrgl6bya"
-path="res://.godot/imported/tactical_Rifle.obj-49318ba9adad6c53855b2cee6e8209d0.mesh"
+path="res://.godot/imported/tactical_Rifle.obj-eaa048808909f025b8b5c592e793e2b3.mesh"
 
 [deps]
 
-files=["res://.godot/imported/tactical_Rifle.obj-49318ba9adad6c53855b2cee6e8209d0.mesh"]
+files=["res://.godot/imported/tactical_Rifle.obj-eaa048808909f025b8b5c592e793e2b3.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/tactical rifle/tactical_Rifle.obj"
-dest_files=["res://.godot/imported/tactical_Rifle.obj-49318ba9adad6c53855b2cee6e8209d0.mesh", "res://.godot/imported/tactical_Rifle.obj-49318ba9adad6c53855b2cee6e8209d0.mesh"]
+source_file="res://Models/PSXMiscGuns/tactical rifle/tactical_Rifle.obj"
+dest_files=["res://.godot/imported/tactical_Rifle.obj-eaa048808909f025b8b5c592e793e2b3.mesh", "res://.godot/imported/tactical_Rifle.obj-eaa048808909f025b8b5c592e793e2b3.mesh"]
 
 [params]
 

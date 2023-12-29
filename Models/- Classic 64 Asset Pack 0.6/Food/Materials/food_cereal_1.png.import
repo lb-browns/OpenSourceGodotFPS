@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn7agxjase68l"
-path="res://.godot/imported/food_cereal_1.png-92ddc7df1a8c7b4167e0b27d30da5c7c.ctex"
+path="res://.godot/imported/food_cereal_1.png-4254c06a724ed61d3dbb28c7cf5a59e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_cereal_1.png"
-dest_files=["res://.godot/imported/food_cereal_1.png-92ddc7df1a8c7b4167e0b27d30da5c7c.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_cereal_1.png"
+dest_files=["res://.godot/imported/food_cereal_1.png-4254c06a724ed61d3dbb28c7cf5a59e8.ctex"]
 
 [params]
 

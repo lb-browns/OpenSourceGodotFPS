@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6lgm5hyr3ht7"
-path="res://.godot/imported/guard_rail.png-d92c922d8ddac21a6c25fd47ce7bf230.ctex"
+path="res://.godot/imported/guard_rail.png-9ccf05149d3f1aaf4069ef3c4f0b1e48.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Road/Materials/guard_rail.png"
-dest_files=["res://.godot/imported/guard_rail.png-d92c922d8ddac21a6c25fd47ce7bf230.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Road/Materials/guard_rail.png"
+dest_files=["res://.godot/imported/guard_rail.png-9ccf05149d3f1aaf4069ef3c4f0b1e48.ctex"]
 
 [params]
 

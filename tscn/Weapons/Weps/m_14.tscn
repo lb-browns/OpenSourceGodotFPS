@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://drqee68f0x5m0"]
 
-[ext_resource type="PackedScene" uid="uid://iuarndersma8" path="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/tactical rifle/Tactical_Rifle.fbx" id="1_vrpgn"]
+[ext_resource type="PackedScene" uid="uid://iuarndersma8" path="res://Models/PSXMiscGuns/tactical rifle/Tactical_Rifle.fbx" id="1_vrpgn"]
 
 [node name="m14" instance=ExtResource("1_vrpgn")]
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)

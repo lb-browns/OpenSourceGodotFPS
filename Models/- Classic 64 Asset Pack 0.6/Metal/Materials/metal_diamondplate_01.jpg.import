@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr0pv86gdu512"
-path="res://.godot/imported/metal_diamondplate_01.jpg-30e5e1beee36985486590deac0b97a0c.ctex"
+path="res://.godot/imported/metal_diamondplate_01.jpg-31962d73b25a66bb7b31ee660b2488db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Metal/Materials/metal_diamondplate_01.jpg"
-dest_files=["res://.godot/imported/metal_diamondplate_01.jpg-30e5e1beee36985486590deac0b97a0c.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Metal/Materials/metal_diamondplate_01.jpg"
+dest_files=["res://.godot/imported/metal_diamondplate_01.jpg-31962d73b25a66bb7b31ee660b2488db.ctex"]
 
 [params]
 

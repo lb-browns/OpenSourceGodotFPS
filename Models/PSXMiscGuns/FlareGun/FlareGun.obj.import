@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dyk26mds6lp5k"
-path="res://.godot/imported/FlareGun.obj-a26a37a10cae9ae173bedfabde1ee5bf.mesh"
+path="res://.godot/imported/FlareGun.obj-1bd09bd41e883c638fb7684eb84606bf.mesh"
 
 [deps]
 
-files=["res://.godot/imported/FlareGun.obj-a26a37a10cae9ae173bedfabde1ee5bf.mesh"]
+files=["res://.godot/imported/FlareGun.obj-1bd09bd41e883c638fb7684eb84606bf.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/FlareGun/FlareGun.obj"
-dest_files=["res://.godot/imported/FlareGun.obj-a26a37a10cae9ae173bedfabde1ee5bf.mesh", "res://.godot/imported/FlareGun.obj-a26a37a10cae9ae173bedfabde1ee5bf.mesh"]
+source_file="res://Models/PSXMiscGuns/FlareGun/FlareGun.obj"
+dest_files=["res://.godot/imported/FlareGun.obj-1bd09bd41e883c638fb7684eb84606bf.mesh", "res://.godot/imported/FlareGun.obj-1bd09bd41e883c638fb7684eb84606bf.mesh"]
 
 [params]
 

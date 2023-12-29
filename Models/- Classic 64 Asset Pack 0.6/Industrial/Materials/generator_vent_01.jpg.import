@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvpbgodnl2ja3"
-path="res://.godot/imported/generator_vent_01.jpg-e7a705d16a3d931ec4fb637a83530096.ctex"
+path="res://.godot/imported/generator_vent_01.jpg-9488eb8479e4f5e761b0d01eff8a0c69.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/generator_vent_01.jpg"
-dest_files=["res://.godot/imported/generator_vent_01.jpg-e7a705d16a3d931ec4fb637a83530096.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/generator_vent_01.jpg"
+dest_files=["res://.godot/imported/generator_vent_01.jpg-9488eb8479e4f5e761b0d01eff8a0c69.ctex"]
 
 [params]
 

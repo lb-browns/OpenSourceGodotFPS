@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cd4lasxsdmco8"
-path="res://.godot/imported/bark_3.png-152133a7a1d4be7132b9c84bab77ef1e.ctex"
+path="res://.godot/imported/bark_3.png-a01eb6ba282ffd4c5e2bf6b07c9aed06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Nature/Materials/bark_3.png"
-dest_files=["res://.godot/imported/bark_3.png-152133a7a1d4be7132b9c84bab77ef1e.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Nature/Materials/bark_3.png"
+dest_files=["res://.godot/imported/bark_3.png-a01eb6ba282ffd4c5e2bf6b07c9aed06.ctex"]
 
 [params]
 

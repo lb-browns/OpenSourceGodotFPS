@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://csj108lqiqcoq"
-path="res://.godot/imported/Hammer.fbx-9fdb93da5fe08f0b7c3c272fc5f43291.scn"
+path="res://.godot/imported/Hammer.fbx-a4963953ea8be5a19b0f82e3a335e36d.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/Hammer/Hammer.fbx"
-dest_files=["res://.godot/imported/Hammer.fbx-9fdb93da5fe08f0b7c3c272fc5f43291.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/Hammer/Hammer.fbx"
+dest_files=["res://.godot/imported/Hammer.fbx-a4963953ea8be5a19b0f82e3a335e36d.scn"]
 
 [params]
 

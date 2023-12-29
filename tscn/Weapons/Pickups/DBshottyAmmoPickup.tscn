@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://b2w48jkgfw3yg"]
 
-[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/WeaponPickup.gd" id="1_a6buj"]
-[ext_resource type="ArrayMesh" uid="uid://b3wfsgnum48a4" path="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/12g/12g_red_240.obj" id="2_jtnga"]
-[ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://SlavSlaughterMouseMain/Weapon Resources/WeaponPickupGlow.tres" id="3_0vj6d"]
+[ext_resource type="Script" path="res://Scripts/Weapon/WeaponPickup.gd" id="1_a6buj"]
+[ext_resource type="ArrayMesh" uid="uid://b3wfsgnum48a4" path="res://Models/PSXAmmoBoxes/12g/12g_red_240.obj" id="2_jtnga"]
+[ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_0vj6d"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_4a3ih"]
 points = PackedVector3Array(0.151326, 0.545456, 0.0265486, 0.151326, 0.545456, -0.0265893, -0.246919, 0.544202, 0.0265486, -0.490172, 0.528429, 0.207673, 0.410249, 0.528429, 0.207673, -0.490172, 0.528429, -0.207673, -0.246919, 0.544202, -0.0265893, 0.410249, 0.528429, -0.207673, -0.490712, 0.528429, -4.06504e-05, -0.490712, 0.528272, 0.202347, -0.490712, 0.011868, 0.202347, -0.482607, 0.424803, 0.207632, 0.410159, 0.360977, 0.207632, 0.427181, 0.15686, 0.14738, 0.429342, 0.173208, 0.137825, 0.421867, 0.512864, 0.132662, -0.482607, 0.424803, -0.207673, -0.490712, 0.011868, -0.202388, -0.490712, 0.528115, -0.202388, 0.421867, 0.512864, -0.132703, 0.429342, 0.173208, -0.137866, 0.427181, 0.15686, -0.14742, 0.410159, 0.360977, -0.207673, 0.404936, 0.011868, 0.202347, 0.404936, 0.011868, -0.202388)

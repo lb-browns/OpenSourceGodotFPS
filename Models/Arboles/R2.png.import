@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lvfkqp3t342c"
-path.s3tc="res://.godot/imported/R2.png-e6110c7b101cffeda43108b885accea5.s3tc.ctex"
+path.s3tc="res://.godot/imported/R2.png-94babd80f4cd19f976185edf003eb654.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Arboles/R2.png"
-dest_files=["res://.godot/imported/R2.png-e6110c7b101cffeda43108b885accea5.s3tc.ctex"]
+source_file="res://Models/Arboles/R2.png"
+dest_files=["res://.godot/imported/R2.png-94babd80f4cd19f976185edf003eb654.s3tc.ctex"]
 
 [params]
 

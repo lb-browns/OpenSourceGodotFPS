@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtihfm3toqo1o"
-path="res://.godot/imported/wood_fancy_01.jpg-a4f5ffe7e90c24596807c6ae4910df84.ctex"
+path="res://.godot/imported/wood_fancy_01.jpg-38001bfcf7bac45c11c5f00ebf08932a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_fancy_01.jpg"
-dest_files=["res://.godot/imported/wood_fancy_01.jpg-a4f5ffe7e90c24596807c6ae4910df84.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_fancy_01.jpg"
+dest_files=["res://.godot/imported/wood_fancy_01.jpg-38001bfcf7bac45c11c5f00ebf08932a.ctex"]
 
 [params]
 

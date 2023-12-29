@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b3h6vbatskerh"
-path="res://.godot/imported/FIRE0.WAV-25808d96faadd20f170b42f1974ee7b8.sample"
+path="res://.godot/imported/FIRE0.WAV-520feaa323cd90643c9e780dc17fba38.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/FIRE0.WAV"
-dest_files=["res://.godot/imported/FIRE0.WAV-25808d96faadd20f170b42f1974ee7b8.sample"]
+source_file="res://sfx/CustomSoundsPack1/FIRE0.WAV"
+dest_files=["res://.godot/imported/FIRE0.WAV-520feaa323cd90643c9e780dc17fba38.sample"]
 
 [params]
 

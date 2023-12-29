@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc2efspskbo5j"
-path="res://.godot/imported/color_blackdirty.png-6267f38b7e420410064c567687d1977d.ctex"
+path="res://.godot/imported/color_blackdirty.png-3da7d10d71ef4ac3aa598d5a6437873d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Colors/color_blackdirty.png"
-dest_files=["res://.godot/imported/color_blackdirty.png-6267f38b7e420410064c567687d1977d.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Colors/color_blackdirty.png"
+dest_files=["res://.godot/imported/color_blackdirty.png-3da7d10d71ef4ac3aa598d5a6437873d.ctex"]
 
 [params]
 

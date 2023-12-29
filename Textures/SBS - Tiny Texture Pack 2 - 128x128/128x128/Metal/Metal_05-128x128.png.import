@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcqfalaikoeys"
-path.s3tc="res://.godot/imported/Metal_05-128x128.png-910dc8e253135ad8d8d0257c7fb8ab03.s3tc.ctex"
+path.s3tc="res://.godot/imported/Metal_05-128x128.png-ba2a8746bb5c8985d834a37c5ff173c8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_05-128x128.png"
-dest_files=["res://.godot/imported/Metal_05-128x128.png-910dc8e253135ad8d8d0257c7fb8ab03.s3tc.ctex"]
+source_file="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_05-128x128.png"
+dest_files=["res://.godot/imported/Metal_05-128x128.png-ba2a8746bb5c8985d834a37c5ff173c8.s3tc.ctex"]
 
 [params]
 

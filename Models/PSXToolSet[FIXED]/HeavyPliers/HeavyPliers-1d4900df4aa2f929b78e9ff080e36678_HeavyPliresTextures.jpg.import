@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tvg27uwxapl6"
-path.s3tc="res://.godot/imported/HeavyPliers-1d4900df4aa2f929b78e9ff080e36678_HeavyPliresTextures.jpg-2f9a11f32632614640945e2367dc0bdf.s3tc.ctex"
+path.s3tc="res://.godot/imported/HeavyPliers-1d4900df4aa2f929b78e9ff080e36678_HeavyPliresTextures.jpg-47aaa36c15f3e19b2d76ec2ca6a33c58.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/HeavyPliers/HeavyPliers-1d4900df4aa2f929b78e9ff080e36678_HeavyPliresTextures.jpg"
-dest_files=["res://.godot/imported/HeavyPliers-1d4900df4aa2f929b78e9ff080e36678_HeavyPliresTextures.jpg-2f9a11f32632614640945e2367dc0bdf.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/HeavyPliers/HeavyPliers-1d4900df4aa2f929b78e9ff080e36678_HeavyPliresTextures.jpg"
+dest_files=["res://.godot/imported/HeavyPliers-1d4900df4aa2f929b78e9ff080e36678_HeavyPliresTextures.jpg-47aaa36c15f3e19b2d76ec2ca6a33c58.s3tc.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyt0t8by2arih"
-path="res://.godot/imported/building_misc.png-7972c0a69ec4547d2b1eeed842f53e4a.ctex"
+path="res://.godot/imported/building_misc.png-37f33063ab658b57f91c1dc633fcaf03.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Buildings/Materials/building_misc.png"
-dest_files=["res://.godot/imported/building_misc.png-7972c0a69ec4547d2b1eeed842f53e4a.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Buildings/Materials/building_misc.png"
+dest_files=["res://.godot/imported/building_misc.png-37f33063ab658b57f91c1dc633fcaf03.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://be7lodu6p1rd3"
-path="res://.godot/imported/Makarov.fbx-151b6394698c5fb10de8aecfd0edcaaa.scn"
+path="res://.godot/imported/Makarov.fbx-3355654c8ffd6067ecb2711fdbb8bc8a.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/Makarov/Makarov.fbx"
-dest_files=["res://.godot/imported/Makarov.fbx-151b6394698c5fb10de8aecfd0edcaaa.scn"]
+source_file="res://Models/PSXMiscGuns/Makarov/Makarov.fbx"
+dest_files=["res://.godot/imported/Makarov.fbx-3355654c8ffd6067ecb2711fdbb8bc8a.scn"]
 
 [params]
 

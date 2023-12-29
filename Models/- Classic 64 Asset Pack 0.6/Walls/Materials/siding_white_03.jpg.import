@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u0pi4okf4oj1"
-path="res://.godot/imported/siding_white_03.jpg-900d932aef85a09fe6e8d82206b11f30.ctex"
+path="res://.godot/imported/siding_white_03.jpg-a5de311d9f02fc0ddbf9c1dea517a9a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Walls/Materials/siding_white_03.jpg"
-dest_files=["res://.godot/imported/siding_white_03.jpg-900d932aef85a09fe6e8d82206b11f30.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/siding_white_03.jpg"
+dest_files=["res://.godot/imported/siding_white_03.jpg-a5de311d9f02fc0ddbf9c1dea517a9a4.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bs5v14bkj311i"
-path="res://.godot/imported/metal_misc_02.jpg-eb004fd733544e2aa575fd09df824ae1.ctex"
+path="res://.godot/imported/metal_misc_02.jpg-a16c95890fa3ce78ea9e8c465f141aa1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Metal/Materials/metal_misc_02.jpg"
-dest_files=["res://.godot/imported/metal_misc_02.jpg-eb004fd733544e2aa575fd09df824ae1.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Metal/Materials/metal_misc_02.jpg"
+dest_files=["res://.godot/imported/metal_misc_02.jpg-a16c95890fa3ce78ea9e8c465f141aa1.ctex"]
 
 [params]
 

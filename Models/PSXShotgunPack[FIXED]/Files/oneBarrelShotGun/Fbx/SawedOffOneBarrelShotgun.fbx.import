@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bb8xwlmoktasb"
-path="res://.godot/imported/SawedOffOneBarrelShotgun.fbx-a5542998465cc7351c78a706e9444ad4.scn"
+path="res://.godot/imported/SawedOffOneBarrelShotgun.fbx-643d9f22aae7e4f25da6ae887d82e481.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/oneBarrelShotGun/Fbx/SawedOffOneBarrelShotgun.fbx"
-dest_files=["res://.godot/imported/SawedOffOneBarrelShotgun.fbx-a5542998465cc7351c78a706e9444ad4.scn"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/oneBarrelShotGun/Fbx/SawedOffOneBarrelShotgun.fbx"
+dest_files=["res://.godot/imported/SawedOffOneBarrelShotgun.fbx-643d9f22aae7e4f25da6ae887d82e481.scn"]
 
 [params]
 

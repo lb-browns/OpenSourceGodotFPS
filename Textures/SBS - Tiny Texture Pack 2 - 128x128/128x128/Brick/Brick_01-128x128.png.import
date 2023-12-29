@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbrhsd16mpor6"
-path.s3tc="res://.godot/imported/Brick_01-128x128.png-49e82ac361ec9ca20769448b7dc05bba.s3tc.ctex"
+path.s3tc="res://.godot/imported/Brick_01-128x128.png-b3487f04d7ab93501e73d70410f6a6b7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_01-128x128.png"
-dest_files=["res://.godot/imported/Brick_01-128x128.png-49e82ac361ec9ca20769448b7dc05bba.s3tc.ctex"]
+source_file="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_01-128x128.png"
+dest_files=["res://.godot/imported/Brick_01-128x128.png-b3487f04d7ab93501e73d70410f6a6b7.s3tc.ctex"]
 
 [params]
 

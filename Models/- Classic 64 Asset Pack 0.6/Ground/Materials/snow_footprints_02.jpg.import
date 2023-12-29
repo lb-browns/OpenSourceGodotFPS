@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bq2xmvk1s4qsh"
-path="res://.godot/imported/snow_footprints_02.jpg-df48993a8c7d3ca26189c605a03be956.ctex"
+path="res://.godot/imported/snow_footprints_02.jpg-0bf923df95f0cb5f5fdc25f632339013.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Ground/Materials/snow_footprints_02.jpg"
-dest_files=["res://.godot/imported/snow_footprints_02.jpg-df48993a8c7d3ca26189c605a03be956.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Ground/Materials/snow_footprints_02.jpg"
+dest_files=["res://.godot/imported/snow_footprints_02.jpg-0bf923df95f0cb5f5fdc25f632339013.ctex"]
 
 [params]
 

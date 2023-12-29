@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dngou0yo625m0"
-path="res://.godot/imported/food_baking_sugar.png-4a188b03b8f65cec55e327290c8a3e99.ctex"
+path="res://.godot/imported/food_baking_sugar.png-ee96c43e505994c8eb253d55b7f2d61e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_baking_sugar.png"
-dest_files=["res://.godot/imported/food_baking_sugar.png-4a188b03b8f65cec55e327290c8a3e99.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_baking_sugar.png"
+dest_files=["res://.godot/imported/food_baking_sugar.png-ee96c43e505994c8eb253d55b7f2d61e.ctex"]
 
 [params]
 

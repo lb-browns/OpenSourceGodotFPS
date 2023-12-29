@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cwp2pv3x7bred"
-path="res://.godot/imported/TELEPORT2.WAV-bd372e6f4eea986b1e7b5a40fdfffdf4.sample"
+path="res://.godot/imported/TELEPORT2.WAV-59b0de1a3097c471a0b62f9971425395.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/TELEPORT2.WAV"
-dest_files=["res://.godot/imported/TELEPORT2.WAV-bd372e6f4eea986b1e7b5a40fdfffdf4.sample"]
+source_file="res://sfx/CustomSoundsPack1/TELEPORT2.WAV"
+dest_files=["res://.godot/imported/TELEPORT2.WAV-59b0de1a3097c471a0b62f9971425395.sample"]
 
 [params]
 

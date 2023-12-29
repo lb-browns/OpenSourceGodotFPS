@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://di8sobw1wh342"
-path.s3tc="res://.godot/imported/PipeWrench-f328216496b7f809c6f78f3050da39a1_pipe-wrench.png-1cb088804fa316744ba008f846220d66.s3tc.ctex"
+path.s3tc="res://.godot/imported/PipeWrench-f328216496b7f809c6f78f3050da39a1_pipe-wrench.png-e1000146bb5adef408f6b4a5936e48a0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/PipeWrench/PipeWrench-f328216496b7f809c6f78f3050da39a1_pipe-wrench.png"
-dest_files=["res://.godot/imported/PipeWrench-f328216496b7f809c6f78f3050da39a1_pipe-wrench.png-1cb088804fa316744ba008f846220d66.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/PipeWrench/PipeWrench-f328216496b7f809c6f78f3050da39a1_pipe-wrench.png"
+dest_files=["res://.godot/imported/PipeWrench-f328216496b7f809c6f78f3050da39a1_pipe-wrench.png-e1000146bb5adef408f6b4a5936e48a0.s3tc.ctex"]
 
 [params]
 

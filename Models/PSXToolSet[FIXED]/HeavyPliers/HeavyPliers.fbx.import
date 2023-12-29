@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bbw4frqp5yljq"
-path="res://.godot/imported/HeavyPliers.fbx-b4536f4d4a59259557c2e15e1c9031cc.scn"
+path="res://.godot/imported/HeavyPliers.fbx-1d4900df4aa2f929b78e9ff080e36678.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/HeavyPliers/HeavyPliers.fbx"
-dest_files=["res://.godot/imported/HeavyPliers.fbx-b4536f4d4a59259557c2e15e1c9031cc.scn"]
+source_file="res://Models/PSXToolSet[FIXED]/HeavyPliers/HeavyPliers.fbx"
+dest_files=["res://.godot/imported/HeavyPliers.fbx-1d4900df4aa2f929b78e9ff080e36678.scn"]
 
 [params]
 

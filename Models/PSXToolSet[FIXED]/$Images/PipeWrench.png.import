@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bs88lodrfluht"
-path="res://.godot/imported/PipeWrench.png-8ba79df8035d94a5564b5267fadf9fdb.ctex"
+path="res://.godot/imported/PipeWrench.png-db58ca94389bd43e8d804d6a919c05f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/$Images/PipeWrench.png"
-dest_files=["res://.godot/imported/PipeWrench.png-8ba79df8035d94a5564b5267fadf9fdb.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/$Images/PipeWrench.png"
+dest_files=["res://.godot/imported/PipeWrench.png-db58ca94389bd43e8d804d6a919c05f9.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2tojgr8r86ri"
-path="res://.godot/imported/snow_dirty.jpg-e35e5129780b5f6e0433901558a2df4b.ctex"
+path="res://.godot/imported/snow_dirty.jpg-64d4e1a3ea4348ab8cb046a140f7d163.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Ground/Materials/snow_dirty.jpg"
-dest_files=["res://.godot/imported/snow_dirty.jpg-e35e5129780b5f6e0433901558a2df4b.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Ground/Materials/snow_dirty.jpg"
+dest_files=["res://.godot/imported/snow_dirty.jpg-64d4e1a3ea4348ab8cb046a140f7d163.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbmo7uhdjoqh2"
-path="res://.godot/imported/grass.png-546c6d1b490b1170a03a1c53899aba99.ctex"
+path="res://.godot/imported/grass.png-867dc6dd5a54c543f08345230dd2b969.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Nature/Materials/grass.png"
-dest_files=["res://.godot/imported/grass.png-546c6d1b490b1170a03a1c53899aba99.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Nature/Materials/grass.png"
+dest_files=["res://.godot/imported/grass.png-867dc6dd5a54c543f08345230dd2b969.ctex"]
 
 [params]
 

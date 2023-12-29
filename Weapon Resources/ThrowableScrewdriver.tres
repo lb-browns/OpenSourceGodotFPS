@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="weaponResource" load_steps=5 format=3 uid="uid://g1pm5x2m2qxu"]
 
-[ext_resource type="PackedScene" uid="uid://chwq7sov5br5p" path="res://SlavSlaughterMouseMain/tscn/Weapons/Misc/sd_bullet.tscn" id="1_nls4k"]
-[ext_resource type="Texture2D" uid="uid://cjw6prl531l1y" path="res://SlavSlaughterMouseMain/2dAssets/weapon icons/Screwdriver.png" id="1_rhbv5"]
-[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/weaponResource.gd" id="1_rtj77"]
-[ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="4_lw8we"]
+[ext_resource type="PackedScene" uid="uid://chwq7sov5br5p" path="res://tscn/Weapons/Misc/sd_bullet.tscn" id="1_nls4k"]
+[ext_resource type="Texture2D" uid="uid://cjw6prl531l1y" path="res://2dAssets/weapon icons/Screwdriver.png" id="1_rhbv5"]
+[ext_resource type="Script" path="res://Scripts/Weapon/weaponResource.gd" id="1_rtj77"]
+[ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="4_lw8we"]
 
 [resource]
 script = ExtResource("1_rtj77")

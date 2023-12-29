@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dhyfmeci258r4"
-path="res://.godot/imported/TacticalShotgun.obj-96abe7c0fa6657b820d80988874f2ac3.mesh"
+path="res://.godot/imported/TacticalShotgun.obj-3ca4e73d357e977abea1c73e79001f84.mesh"
 
 [deps]
 
-files=["res://.godot/imported/TacticalShotgun.obj-96abe7c0fa6657b820d80988874f2ac3.mesh"]
+files=["res://.godot/imported/TacticalShotgun.obj-3ca4e73d357e977abea1c73e79001f84.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/TaticalShotgun/TacticalShotgun.obj"
-dest_files=["res://.godot/imported/TacticalShotgun.obj-96abe7c0fa6657b820d80988874f2ac3.mesh", "res://.godot/imported/TacticalShotgun.obj-96abe7c0fa6657b820d80988874f2ac3.mesh"]
+source_file="res://Models/PSXMiscGuns/TaticalShotgun/TacticalShotgun.obj"
+dest_files=["res://.godot/imported/TacticalShotgun.obj-3ca4e73d357e977abea1c73e79001f84.mesh", "res://.godot/imported/TacticalShotgun.obj-3ca4e73d357e977abea1c73e79001f84.mesh"]
 
 [params]
 

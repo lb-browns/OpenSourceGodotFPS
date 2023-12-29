@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0vwk4xyo4jrj"
-path="res://.godot/imported/PuttyKnife.png-633627911b9d89a8c2ff27f3814e95cc.ctex"
+path="res://.godot/imported/PuttyKnife.png-106cd9c59fe895a32e0a0716976df39c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/$Images/PuttyKnife.png"
-dest_files=["res://.godot/imported/PuttyKnife.png-633627911b9d89a8c2ff27f3814e95cc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/$Images/PuttyKnife.png"
+dest_files=["res://.godot/imported/PuttyKnife.png-106cd9c59fe895a32e0a0716976df39c.ctex"]
 
 [params]
 

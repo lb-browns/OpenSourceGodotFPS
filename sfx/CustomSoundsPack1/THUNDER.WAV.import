@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://74yqbj3e1oae"
-path="res://.godot/imported/THUNDER.WAV-33a37e65c4aa751b8d894dbba55d668b.sample"
+path="res://.godot/imported/THUNDER.WAV-e565fa493b6ec104ef8f22056f1435b0.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/THUNDER.WAV"
-dest_files=["res://.godot/imported/THUNDER.WAV-33a37e65c4aa751b8d894dbba55d668b.sample"]
+source_file="res://sfx/CustomSoundsPack1/THUNDER.WAV"
+dest_files=["res://.godot/imported/THUNDER.WAV-e565fa493b6ec104ef8f22056f1435b0.sample"]
 
 [params]
 

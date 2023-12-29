@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b6pi8wlwenw2y"
-path="res://.godot/imported/SIREN.WAV-1014b68cec3a3390bd5c3ed791d458e8.sample"
+path="res://.godot/imported/SIREN.WAV-25346e9f39723648427afc31975ef56d.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/SIREN.WAV"
-dest_files=["res://.godot/imported/SIREN.WAV-1014b68cec3a3390bd5c3ed791d458e8.sample"]
+source_file="res://sfx/CustomSoundsPack1/SIREN.WAV"
+dest_files=["res://.godot/imported/SIREN.WAV-25346e9f39723648427afc31975ef56d.sample"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dhiqit8hcm46n"
-path="res://.godot/imported/PumpActionShotgunShort.obj-9b6d7103c08364d38a948f2326bf2080.mesh"
+path="res://.godot/imported/PumpActionShotgunShort.obj-5af03b260dc9a0a7c842562a491bb79c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/PumpActionShotgunShort.obj-9b6d7103c08364d38a948f2326bf2080.mesh"]
+files=["res://.godot/imported/PumpActionShotgunShort.obj-5af03b260dc9a0a7c842562a491bb79c.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/PumpActionShotgunShort.obj"
-dest_files=["res://.godot/imported/PumpActionShotgunShort.obj-9b6d7103c08364d38a948f2326bf2080.mesh", "res://.godot/imported/PumpActionShotgunShort.obj-9b6d7103c08364d38a948f2326bf2080.mesh"]
+source_file="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/PumpActionShotgunShort.obj"
+dest_files=["res://.godot/imported/PumpActionShotgunShort.obj-5af03b260dc9a0a7c842562a491bb79c.mesh", "res://.godot/imported/PumpActionShotgunShort.obj-5af03b260dc9a0a7c842562a491bb79c.mesh"]
 
 [params]
 

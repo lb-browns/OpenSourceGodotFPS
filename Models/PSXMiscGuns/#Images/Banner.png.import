@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwgauxvq4ygc5"
-path="res://.godot/imported/Banner.png-bb7ec47062757fe2ed63d2da25512e9e.ctex"
+path="res://.godot/imported/Banner.png-add1235bc1ee7345d272a8f94219fb35.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/#Images/Banner.png"
-dest_files=["res://.godot/imported/Banner.png-bb7ec47062757fe2ed63d2da25512e9e.ctex"]
+source_file="res://Models/PSXMiscGuns/#Images/Banner.png"
+dest_files=["res://.godot/imported/Banner.png-add1235bc1ee7345d272a8f94219fb35.ctex"]
 
 [params]
 

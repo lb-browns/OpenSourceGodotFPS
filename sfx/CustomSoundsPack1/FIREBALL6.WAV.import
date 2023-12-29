@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dkpehm2nvhgoh"
-path="res://.godot/imported/FIREBALL6.WAV-e6fe24ea4a4de83548696cf9a656840c.sample"
+path="res://.godot/imported/FIREBALL6.WAV-cf67b6ff3b7dad2263ab344815435008.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/FIREBALL6.WAV"
-dest_files=["res://.godot/imported/FIREBALL6.WAV-e6fe24ea4a4de83548696cf9a656840c.sample"]
+source_file="res://sfx/CustomSoundsPack1/FIREBALL6.WAV"
+dest_files=["res://.godot/imported/FIREBALL6.WAV-cf67b6ff3b7dad2263ab344815435008.sample"]
 
 [params]
 

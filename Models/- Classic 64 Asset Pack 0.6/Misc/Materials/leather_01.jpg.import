@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bujvj31lut8hk"
-path="res://.godot/imported/leather_01.jpg-d360d3695d3bf56431553a31d69fc967.ctex"
+path="res://.godot/imported/leather_01.jpg-20d62f9de73f81280d575dc44e426115.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Misc/Materials/leather_01.jpg"
-dest_files=["res://.godot/imported/leather_01.jpg-d360d3695d3bf56431553a31d69fc967.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/leather_01.jpg"
+dest_files=["res://.godot/imported/leather_01.jpg-20d62f9de73f81280d575dc44e426115.ctex"]
 
 [params]
 

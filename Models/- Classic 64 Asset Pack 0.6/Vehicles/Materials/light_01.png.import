@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8t1u6k84f2rr"
-path="res://.godot/imported/light_01.png-638f3b7619ee465c745ab299570a81f1.ctex"
+path="res://.godot/imported/light_01.png-fba7622c9183a1538acb65ab56a6200d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Vehicles/Materials/light_01.png"
-dest_files=["res://.godot/imported/light_01.png-638f3b7619ee465c745ab299570a81f1.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Vehicles/Materials/light_01.png"
+dest_files=["res://.godot/imported/light_01.png-fba7622c9183a1538acb65ab56a6200d.ctex"]
 
 [params]
 

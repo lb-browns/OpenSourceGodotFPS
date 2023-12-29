@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="weaponResource" load_steps=4 format=3 uid="uid://cgjj4k1k353rn"]
 
-[ext_resource type="Texture2D" uid="uid://cteuqrjfwskhe" path="res://SlavSlaughterMouseMain/2dAssets/weapon icons/DBshottyIco.png" id="1_6yxfr"]
-[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/weaponResource.gd" id="1_yfqca"]
-[ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/DBshottyPickup.tscn" id="3_4mpd1"]
+[ext_resource type="Texture2D" uid="uid://cteuqrjfwskhe" path="res://2dAssets/weapon icons/DBshottyIco.png" id="1_6yxfr"]
+[ext_resource type="Script" path="res://Scripts/Weapon/weaponResource.gd" id="1_yfqca"]
+[ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://tscn/Weapons/Pickups/DBshottyPickup.tscn" id="3_4mpd1"]
 
 [resource]
 script = ExtResource("1_yfqca")

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kn25uma3d883"
-path="res://.godot/imported/Flaregun_Text.001.png-1ccc83e3763b7e601a04364ce5fcd303.ctex"
+path="res://.godot/imported/Flaregun_Text.001.png-71f5b63663c849603ca6c3eda5f84e38.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/FlareGun/Textures/Flaregun_Text.001.png"
-dest_files=["res://.godot/imported/Flaregun_Text.001.png-1ccc83e3763b7e601a04364ce5fcd303.ctex"]
+source_file="res://Models/PSXMiscGuns/FlareGun/Textures/Flaregun_Text.001.png"
+dest_files=["res://.godot/imported/Flaregun_Text.001.png-71f5b63663c849603ca6c3eda5f84e38.ctex"]
 
 [params]
 

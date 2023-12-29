@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw8gtsv7j8rql"
-path="res://.godot/imported/stone_sidewalk.png-121bff1010bea41acd7ce02c22375b4a.ctex"
+path="res://.godot/imported/stone_sidewalk.png-5bde4baae7f3dc8805bc9f68a45ce690.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Rocks/Materials/stone_sidewalk.png"
-dest_files=["res://.godot/imported/stone_sidewalk.png-121bff1010bea41acd7ce02c22375b4a.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Rocks/Materials/stone_sidewalk.png"
+dest_files=["res://.godot/imported/stone_sidewalk.png-5bde4baae7f3dc8805bc9f68a45ce690.ctex"]
 
 [params]
 

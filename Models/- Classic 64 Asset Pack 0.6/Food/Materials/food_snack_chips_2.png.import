@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4bhyumkft8k"
-path="res://.godot/imported/food_snack_chips_2.png-79fc5cecdd8210e703a583bd5f0efaf4.ctex"
+path="res://.godot/imported/food_snack_chips_2.png-a0dc85917ad5a66a4a2e4813910aa6e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_snack_chips_2.png"
-dest_files=["res://.godot/imported/food_snack_chips_2.png-79fc5cecdd8210e703a583bd5f0efaf4.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Food/Materials/food_snack_chips_2.png"
+dest_files=["res://.godot/imported/food_snack_chips_2.png-a0dc85917ad5a66a4a2e4813910aa6e4.ctex"]
 
 [params]
 

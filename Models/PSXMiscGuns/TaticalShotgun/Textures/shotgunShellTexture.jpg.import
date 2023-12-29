@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5gi3t6vi6jpn"
-path.s3tc="res://.godot/imported/shotgunShellTexture.jpg-2c61383382b9be9e3164678e3c22b889.s3tc.ctex"
+path.s3tc="res://.godot/imported/shotgunShellTexture.jpg-2beeadf4e74b5dd196f88da35e34b031.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/TaticalShotgun/Textures/shotgunShellTexture.jpg"
-dest_files=["res://.godot/imported/shotgunShellTexture.jpg-2c61383382b9be9e3164678e3c22b889.s3tc.ctex"]
+source_file="res://Models/PSXMiscGuns/TaticalShotgun/Textures/shotgunShellTexture.jpg"
+dest_files=["res://.godot/imported/shotgunShellTexture.jpg-2beeadf4e74b5dd196f88da35e34b031.s3tc.ctex"]
 
 [params]
 

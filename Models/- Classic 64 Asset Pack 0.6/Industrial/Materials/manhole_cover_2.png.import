@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boxt8codnhtp5"
-path="res://.godot/imported/manhole_cover_2.png-1f1bb42bcefac65643a9a553e0974484.ctex"
+path="res://.godot/imported/manhole_cover_2.png-a922e33619a874de424005687d6ab3ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/manhole_cover_2.png"
-dest_files=["res://.godot/imported/manhole_cover_2.png-1f1bb42bcefac65643a9a553e0974484.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/manhole_cover_2.png"
+dest_files=["res://.godot/imported/manhole_cover_2.png-a922e33619a874de424005687d6ab3ea.ctex"]
 
 [params]
 

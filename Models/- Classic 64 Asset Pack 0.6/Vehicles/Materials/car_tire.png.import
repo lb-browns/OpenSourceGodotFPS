@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyh1bifiyr2tr"
-path="res://.godot/imported/car_tire.png-21cdc719fef5c537aaf5eabe9154035e.ctex"
+path="res://.godot/imported/car_tire.png-c2a0dc9698db0ba35ba2b5a904dc0ac4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Vehicles/Materials/car_tire.png"
-dest_files=["res://.godot/imported/car_tire.png-21cdc719fef5c537aaf5eabe9154035e.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Vehicles/Materials/car_tire.png"
+dest_files=["res://.godot/imported/car_tire.png-c2a0dc9698db0ba35ba2b5a904dc0ac4.ctex"]
 
 [params]
 

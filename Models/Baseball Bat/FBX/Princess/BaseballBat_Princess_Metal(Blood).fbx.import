@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cvcsbdg8pimxn"
-path="res://.godot/imported/BaseballBat_Princess_Metal(Blood).fbx-965692d0becf5db3bb465f9fe442a5d3.scn"
+path="res://.godot/imported/BaseballBat_Princess_Metal(Blood).fbx-cf68b00de7470d8d1956456dbe6d70ac.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Baseball Bat/FBX/Princess/BaseballBat_Princess_Metal(Blood).fbx"
-dest_files=["res://.godot/imported/BaseballBat_Princess_Metal(Blood).fbx-965692d0becf5db3bb465f9fe442a5d3.scn"]
+source_file="res://Models/Baseball Bat/FBX/Princess/BaseballBat_Princess_Metal(Blood).fbx"
+dest_files=["res://.godot/imported/BaseballBat_Princess_Metal(Blood).fbx-cf68b00de7470d8d1956456dbe6d70ac.scn"]
 
 [params]
 

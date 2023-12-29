@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjw6prl531l1y"
-path="res://.godot/imported/Screwdriver.png-0489cb7fbfe9bdfbd8731e7db6de36d6.ctex"
+path="res://.godot/imported/Screwdriver.png-26acad051c487c694fb1b0e0a1262702.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/2dAssets/weapon icons/Screwdriver.png"
-dest_files=["res://.godot/imported/Screwdriver.png-0489cb7fbfe9bdfbd8731e7db6de36d6.ctex"]
+source_file="res://2dAssets/weapon icons/Screwdriver.png"
+dest_files=["res://.godot/imported/Screwdriver.png-26acad051c487c694fb1b0e0a1262702.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b5kg1q7hukv1v"
-path="res://.godot/imported/SPLASH0.WAV-15d2aca825d2601491e94b8b20c74813.sample"
+path="res://.godot/imported/SPLASH0.WAV-f9f5f08ff4f1958a82685ea9a8462de4.sample"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/sfx/CustomSoundsPack1/SPLASH0.WAV"
-dest_files=["res://.godot/imported/SPLASH0.WAV-15d2aca825d2601491e94b8b20c74813.sample"]
+source_file="res://sfx/CustomSoundsPack1/SPLASH0.WAV"
+dest_files=["res://.godot/imported/SPLASH0.WAV-f9f5f08ff4f1958a82685ea9a8462de4.sample"]
 
 [params]
 

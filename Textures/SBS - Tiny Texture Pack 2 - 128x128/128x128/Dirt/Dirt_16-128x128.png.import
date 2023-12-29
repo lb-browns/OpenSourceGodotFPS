@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8guqwgfa0ejn"
-path="res://.godot/imported/Dirt_16-128x128.png-e822501b99f9688907af94abc23489fc.ctex"
+path="res://.godot/imported/Dirt_16-128x128.png-5f01ddee495a9b8039145607ccf6363a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Dirt/Dirt_16-128x128.png"
-dest_files=["res://.godot/imported/Dirt_16-128x128.png-e822501b99f9688907af94abc23489fc.ctex"]
+source_file="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Dirt/Dirt_16-128x128.png"
+dest_files=["res://.godot/imported/Dirt_16-128x128.png-5f01ddee495a9b8039145607ccf6363a.ctex"]
 
 [params]
 

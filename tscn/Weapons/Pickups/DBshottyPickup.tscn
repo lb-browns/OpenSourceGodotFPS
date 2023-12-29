@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://yad7cmkucksr"]
 
-[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/WeaponPickup.gd" id="1_pkspq"]
-[ext_resource type="ArrayMesh" uid="uid://co084nah7b4s5" path="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DoubleBarrelShotgun.obj" id="2_f4cq6"]
-[ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://SlavSlaughterMouseMain/Weapon Resources/WeaponPickupGlow.tres" id="3_1k5xt"]
+[ext_resource type="Script" path="res://Scripts/Weapon/WeaponPickup.gd" id="1_pkspq"]
+[ext_resource type="ArrayMesh" uid="uid://co084nah7b4s5" path="res://Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DoubleBarrelShotgun.obj" id="2_f4cq6"]
+[ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_1k5xt"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_la0n5"]
 points = PackedVector3Array(1.58208, 1.90976, 0.0371823, 1.58208, 1.87214, 0.0746252, 1.58208, 1.90976, -0.0371975, -0.70924, 1.90976, 0.0371823, -0.70924, 1.90955, 0.0374353, -0.510777, 1.47072, 0.0241321, 1.58208, 1.83459, 0.0371823, -0.70924, 1.87214, 0.0746252, -2.3023, 1.44345, 0.107704, 1.58208, 1.87214, -0.0746404, -0.70924, 1.90955, -0.0374294, -0.70924, 1.90976, -0.0371975, -0.955886, 1.87687, 0.000245407, -2.32448, 1.67725, -7.58469e-06, -0.486686, 1.47072, -7.58469e-06, -2.27974, 1.20971, -7.58469e-06, 1.58208, 1.83459, -0.0371975, -2.3023, 1.44345, -0.107677, -0.510777, 1.47072, -0.0241262, -0.70924, 1.87214, -0.0746404)

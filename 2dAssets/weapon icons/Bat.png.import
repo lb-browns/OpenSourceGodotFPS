@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvd415dykiyb5"
-path="res://.godot/imported/Bat.png-e341d8f0059003d686f08168ec1e5f99.ctex"
+path="res://.godot/imported/Bat.png-c3cd52bb70e368cc50bff1b866097b1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/2dAssets/weapon icons/Bat.png"
-dest_files=["res://.godot/imported/Bat.png-e341d8f0059003d686f08168ec1e5f99.ctex"]
+source_file="res://2dAssets/weapon icons/Bat.png"
+dest_files=["res://.godot/imported/Bat.png-c3cd52bb70e368cc50bff1b866097b1d.ctex"]
 
 [params]
 

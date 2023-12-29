@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://6p2rj4tm0kgg"
-path="res://.godot/imported/BaseballBat_Raw_Wood(Clean).fbx-2dea899b83ffe0dc7720836f8c451f56.scn"
+path="res://.godot/imported/BaseballBat_Raw_Wood(Clean).fbx-cd8df82252ca05045429c15bdbe749e6.scn"
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/Baseball Bat/FBX/Raw/BaseballBat_Raw_Wood(Clean).fbx"
-dest_files=["res://.godot/imported/BaseballBat_Raw_Wood(Clean).fbx-2dea899b83ffe0dc7720836f8c451f56.scn"]
+source_file="res://Models/Baseball Bat/FBX/Raw/BaseballBat_Raw_Wood(Clean).fbx"
+dest_files=["res://.godot/imported/BaseballBat_Raw_Wood(Clean).fbx-cd8df82252ca05045429c15bdbe749e6.scn"]
 
 [params]
 

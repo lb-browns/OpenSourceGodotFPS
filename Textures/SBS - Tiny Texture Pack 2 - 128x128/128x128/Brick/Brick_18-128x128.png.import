@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xi5m8rurde1l"
-path="res://.godot/imported/Brick_18-128x128.png-c6e4d20011be03e54956dc0fc094b30a.ctex"
+path="res://.godot/imported/Brick_18-128x128.png-91496fe89018bcec50facc3719e13850.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_18-128x128.png"
-dest_files=["res://.godot/imported/Brick_18-128x128.png-c6e4d20011be03e54956dc0fc094b30a.ctex"]
+source_file="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_18-128x128.png"
+dest_files=["res://.godot/imported/Brick_18-128x128.png-91496fe89018bcec50facc3719e13850.ctex"]
 
 [params]
 

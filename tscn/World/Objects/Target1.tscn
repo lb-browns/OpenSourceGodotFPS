@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://ba1tbhgr8jh64"]
 
-[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/World/physucsTarget.tres.gd" id="1_7hrxh"]
-[ext_resource type="Texture2D" uid="uid://bhl1w6fv7m4e5" path="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png" id="2_i6rr5"]
+[ext_resource type="Script" path="res://Scripts/World/physucsTarget.tres.gd" id="1_7hrxh"]
+[ext_resource type="Texture2D" uid="uid://bhl1w6fv7m4e5" path="res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png" id="2_i6rr5"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ig1re"]
 

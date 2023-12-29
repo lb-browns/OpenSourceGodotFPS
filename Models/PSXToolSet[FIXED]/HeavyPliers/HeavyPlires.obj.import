@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://rja3cnwuwnp3"
-path="res://.godot/imported/HeavyPlires.obj-3fefabf317853d5dfd5639fcf0f02f75.mesh"
+path="res://.godot/imported/HeavyPlires.obj-c66b2a73816047edbdf28c061220ce31.mesh"
 
 [deps]
 
-files=["res://.godot/imported/HeavyPlires.obj-3fefabf317853d5dfd5639fcf0f02f75.mesh"]
+files=["res://.godot/imported/HeavyPlires.obj-c66b2a73816047edbdf28c061220ce31.mesh"]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/HeavyPliers/HeavyPlires.obj"
-dest_files=["res://.godot/imported/HeavyPlires.obj-3fefabf317853d5dfd5639fcf0f02f75.mesh", "res://.godot/imported/HeavyPlires.obj-3fefabf317853d5dfd5639fcf0f02f75.mesh"]
+source_file="res://Models/PSXToolSet[FIXED]/HeavyPliers/HeavyPlires.obj"
+dest_files=["res://.godot/imported/HeavyPlires.obj-c66b2a73816047edbdf28c061220ce31.mesh", "res://.godot/imported/HeavyPlires.obj-c66b2a73816047edbdf28c061220ce31.mesh"]
 
 [params]
 

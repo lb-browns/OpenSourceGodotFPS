@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckuouc1wjex3b"
-path.s3tc="res://.godot/imported/AjustableWrench-33a234bf46f628be9876121177e58e3f_AdjustableWrench.png-68c7f3fc0c8309b39dc576a6f1b92f63.s3tc.ctex"
+path.s3tc="res://.godot/imported/AjustableWrench-33a234bf46f628be9876121177e58e3f_AdjustableWrench.png-92b56aae48d9ae2557811750bedc9fe4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/AdjustableWrench/AjustableWrench-33a234bf46f628be9876121177e58e3f_AdjustableWrench.png"
-dest_files=["res://.godot/imported/AjustableWrench-33a234bf46f628be9876121177e58e3f_AdjustableWrench.png-68c7f3fc0c8309b39dc576a6f1b92f63.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/AdjustableWrench/AjustableWrench-33a234bf46f628be9876121177e58e3f_AdjustableWrench.png"
+dest_files=["res://.godot/imported/AjustableWrench-33a234bf46f628be9876121177e58e3f_AdjustableWrench.png-92b56aae48d9ae2557811750bedc9fe4.s3tc.ctex"]
 
 [params]
 

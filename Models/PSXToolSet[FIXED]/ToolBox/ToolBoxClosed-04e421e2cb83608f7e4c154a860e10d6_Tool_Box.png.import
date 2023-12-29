@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bl6mwtf8f1lkn"
-path.s3tc="res://.godot/imported/ToolBoxClosed-04e421e2cb83608f7e4c154a860e10d6_Tool_Box.png-123d4feb089e7859fd6b705ea2dfa7c1.s3tc.ctex"
+path.s3tc="res://.godot/imported/ToolBoxClosed-04e421e2cb83608f7e4c154a860e10d6_Tool_Box.png-6f344b61a4f4a285236ef0401a34d458.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ToolBox/ToolBoxClosed-04e421e2cb83608f7e4c154a860e10d6_Tool_Box.png"
-dest_files=["res://.godot/imported/ToolBoxClosed-04e421e2cb83608f7e4c154a860e10d6_Tool_Box.png-123d4feb089e7859fd6b705ea2dfa7c1.s3tc.ctex"]
+source_file="res://Models/PSXToolSet[FIXED]/ToolBox/ToolBoxClosed-04e421e2cb83608f7e4c154a860e10d6_Tool_Box.png"
+dest_files=["res://.godot/imported/ToolBoxClosed-04e421e2cb83608f7e4c154a860e10d6_Tool_Box.png-6f344b61a4f4a285236ef0401a34d458.s3tc.ctex"]
 
 [params]
 

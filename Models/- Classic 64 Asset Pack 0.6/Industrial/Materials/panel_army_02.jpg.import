@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvy1ivjiwsgjl"
-path="res://.godot/imported/panel_army_02.jpg-4e7b13694d3e663aae102093f6bd8739.ctex"
+path="res://.godot/imported/panel_army_02.jpg-53d9fcd991eb961a4a3b74906f346593.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/panel_army_02.jpg"
-dest_files=["res://.godot/imported/panel_army_02.jpg-4e7b13694d3e663aae102093f6bd8739.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/panel_army_02.jpg"
+dest_files=["res://.godot/imported/panel_army_02.jpg-53d9fcd991eb961a4a3b74906f346593.ctex"]
 
 [params]
 

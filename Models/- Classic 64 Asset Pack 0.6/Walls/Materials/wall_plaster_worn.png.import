@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhvph5m46lv01"
-path="res://.godot/imported/wall_plaster_worn.png-ef6902b57ad482944c76f04e1fbc2e0e.ctex"
+path="res://.godot/imported/wall_plaster_worn.png-54c62fa8f3c0c49b5805c8c3304df737.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_plaster_worn.png"
-dest_files=["res://.godot/imported/wall_plaster_worn.png-ef6902b57ad482944c76f04e1fbc2e0e.ctex"]
+source_file="res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_plaster_worn.png"
+dest_files=["res://.godot/imported/wall_plaster_worn.png-54c62fa8f3c0c49b5805c8c3304df737.ctex"]
 
 [params]
 
