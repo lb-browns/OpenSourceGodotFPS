@@ -1,22 +1,22 @@
 [gd_scene load_steps=20 format=3 uid="uid://dktp04p358rs1"]
 
-[ext_resource type="PackedScene" uid="uid://dq4vjocqpdjmi" path="res://SlavSlaughterMouseMain/tscn/World/Objects/ground.tscn" id="1_7dkkw"]
-[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://SlavSlaughterMouseMain/Textures/Skyboxes/world_environment.tscn" id="1_vo181"]
-[ext_resource type="PackedScene" uid="uid://ckitknmgmkb83" path="res://SlavSlaughterMouseMain/tscn/World/Objects/obstacle.tscn" id="2_7xqag"]
-[ext_resource type="Texture2D" uid="uid://cn0tuiwrd81ev" path="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/PAShotgunText.png" id="2_ddmwy"]
-[ext_resource type="ArrayMesh" uid="uid://s1vhbvtdcw84" path="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/PumpActionShotgun.obj" id="3_w2piu"]
-[ext_resource type="ArrayMesh" uid="uid://bidsq18vy1w1x" path="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DBSawedOffShotgun.obj" id="6_t36pj"]
-[ext_resource type="ArrayMesh" uid="uid://b3wfsgnum48a4" path="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/12g/12g_red_240.obj" id="7_i5l2g"]
-[ext_resource type="PackedScene" uid="uid://ba1tbhgr8jh64" path="res://SlavSlaughterMouseMain/tscn/World/Objects/Target1.tscn" id="9_ks2ji"]
-[ext_resource type="PackedScene" uid="uid://dfdxx3sv8kr6x" path="res://SlavSlaughterMouseMain/tscn/World/Misc/directional_light_3d.tscn" id="10_0e3x7"]
-[ext_resource type="PackedScene" uid="uid://bri6it71khuda" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/m_14_pickup.tscn" id="10_5nivo"]
-[ext_resource type="PackedScene" uid="uid://cob0owrdwpaa7" path="res://SlavSlaughterMouseMain/tscn/World/Objects/radio.tscn" id="10_n6jp5"]
-[ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/DBshottyPickup.tscn" id="11_7k2lt"]
-[ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/1911Pickup.tscn" id="12_i8heh"]
-[ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="13_tgfvc"]
-[ext_resource type="PackedScene" uid="uid://vvx5svybm44i" path="res://SlavSlaughterMouseMain/Models/Baseball Bat/FBX/USA/BaseballBat_USA_Metal(Blood).fbx" id="14_dif1x"]
-[ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://SlavSlaughterMouseMain/tscn/Player/player.tscn" id="17_35817"]
-[ext_resource type="PackedScene" uid="uid://b2w48jkgfw3yg" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/DBshottyAmmoPickup.tscn" id="17_mytd3"]
+[ext_resource type="PackedScene" uid="uid://dq4vjocqpdjmi" path="res://tscn/World/Objects/ground.tscn" id="1_7dkkw"]
+[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://Textures/Skyboxes/world_environment.tscn" id="1_vo181"]
+[ext_resource type="PackedScene" uid="uid://ckitknmgmkb83" path="res://tscn/World/Objects/obstacle.tscn" id="2_7xqag"]
+[ext_resource type="Texture2D" uid="uid://cn0tuiwrd81ev" path="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/PAShotgunText.png" id="2_ddmwy"]
+[ext_resource type="ArrayMesh" uid="uid://s1vhbvtdcw84" path="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/PumpActionShotgun.obj" id="3_w2piu"]
+[ext_resource type="ArrayMesh" uid="uid://bidsq18vy1w1x" path="res://Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DBSawedOffShotgun.obj" id="6_t36pj"]
+[ext_resource type="ArrayMesh" uid="uid://b3wfsgnum48a4" path="res://Models/PSXAmmoBoxes/12g/12g_red_240.obj" id="7_i5l2g"]
+[ext_resource type="PackedScene" uid="uid://ba1tbhgr8jh64" path="res://tscn/World/Objects/Target1.tscn" id="9_ks2ji"]
+[ext_resource type="PackedScene" uid="uid://dfdxx3sv8kr6x" path="res://tscn/World/Misc/directional_light_3d.tscn" id="10_0e3x7"]
+[ext_resource type="PackedScene" uid="uid://bri6it71khuda" path="res://tscn/Weapons/Pickups/m_14_pickup.tscn" id="10_5nivo"]
+[ext_resource type="PackedScene" uid="uid://cob0owrdwpaa7" path="res://tscn/World/Objects/radio.tscn" id="10_n6jp5"]
+[ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://tscn/Weapons/Pickups/DBshottyPickup.tscn" id="11_7k2lt"]
+[ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://tscn/Weapons/Pickups/1911Pickup.tscn" id="12_i8heh"]
+[ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="13_tgfvc"]
+[ext_resource type="PackedScene" uid="uid://vvx5svybm44i" path="res://Models/Baseball Bat/FBX/USA/BaseballBat_USA_Metal(Blood).fbx" id="14_dif1x"]
+[ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="17_35817"]
+[ext_resource type="PackedScene" uid="uid://b2w48jkgfw3yg" path="res://tscn/Weapons/Pickups/DBshottyAmmoPickup.tscn" id="17_mytd3"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_l167x"]
 vertices = PackedVector3Array(-24.6186, 0.500293, 6.75, -24.1186, 0.500293, 6.75, -23.8686, 0.500293, 5.75, -24.6186, 0.500293, -24.5, -8.61861, 0.500293, -0.749996, -8.11861, 0.500293, 0.250004, -5.86861, 0.500293, 3.8147e-06, -5.11861, 0.500293, -0.999996, -9.86861, 0.500293, 4.75, -9.86861, 0.500293, 2.75, -11.8686, 0.500293, 2.5, -23.8686, 0.500293, 5.75, -23.8686, 0.500293, 5.75, -11.8686, 0.500293, 2.5, -12.3686, 0.500293, -0.249996, -8.61861, 0.500293, -0.749996, -5.11861, 0.500293, -0.999996, -4.11861, 0.500293, -1.25, -4.11861, 0.500293, -24.5, -11.6186, 0.500293, -0.749996, -23.8686, 0.500293, 5.75, -12.3686, 0.500293, -0.249996, -11.6186, 0.500293, -0.749996, -4.11861, 0.500293, -24.5, -24.6186, 0.500293, -24.5, -2.86861, 0.500293, 0.250004, 0.881392, 0.750293, 3.8147e-06, 1.13139, 0.750293, -0.749996, -4.11861, 0.500293, -1.25, -4.11861, 0.500293, -1.25, 1.13139, 0.750293, -0.749996, 1.88139, 0.500293, -0.749996, 1.88139, 0.500293, -24.5, -4.11861, 0.500293, -24.5, 3.13139, 0.500293, 1.25, 2.38139, 0.500293, 1.5, 2.38139, 0.500293, 4, 24.3814, 0.500293, 2.5, 1.88139, 0.500293, -0.749996, 3.13139, 0.500293, 3.8147e-06, 24.3814, 0.500293, 2.5, 24.3814, 0.500293, -24.5, 1.88139, 0.500293, -24.5, 3.13139, 0.500293, 3.8147e-06, 3.13139, 0.500293, 1.25, 24.3814, 0.500293, 2.5, -8.61861, 0.500293, 2.5, -9.86861, 0.500293, 2.75, -9.86861, 0.500293, 4.75, -5.11861, 0.500293, 1.5, -5.86861, 0.500293, 3.8147e-06, -8.11861, 0.500293, 0.250004, -8.61861, 0.500293, 2.5, -3.36861, 0.500293, 1.25, -5.11861, 0.500293, 1.5, -8.61861, 0.500293, 2.5, 0.881392, 0.500293, 0.500004, 0.881392, 0.750293, 3.8147e-06, -2.86861, 0.500293, 0.250004, -3.36861, 0.500293, 1.25, 2.38139, 0.500293, 4, 2.38139, 0.500293, 1.5, 0.881392, 0.500293, 0.500004, -3.36861, 0.500293, 1.25, -8.61861, 0.500293, 2.5, -9.86861, 0.500293, 4.75, 0.881392, 0.500293, 6, 0.881392, 0.500293, 24.5, 24.3814, 0.500293, 24.5, 24.3814, 0.500293, 4.5, -13.8686, 0.500293, 7, -13.8686, 0.500293, 24.5, 0.881392, 0.500293, 24.5, 0.881392, 0.500293, 6, -23.8686, 0.500293, 7.75, -24.1186, 0.500293, 6.75, -24.6186, 0.500293, 6.75, -24.6186, 0.500293, 24.5, -13.8686, 0.500293, 24.5, -13.8686, 0.500293, 7, -23.8686, 0.500293, 7.75, -24.6186, 0.500293, 24.5)
@@ -149,4 +149,4 @@ mass = 9.47
 transform = Transform3D(50, 0, 0, 0, 0.01, 0, 0, 0, 50, -0.118612, 0, 0)
 
 [node name="Player" parent="." instance=ExtResource("17_35817")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.702637, 0.00498952, 2.85193)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.702637, 2.17466, 2.85193)

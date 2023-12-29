@@ -1,12 +1,12 @@
 [gd_scene load_steps=10 format=3 uid="uid://dqshf4lph4xic"]
 
-[ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://SlavSlaughterMouseMain/tscn/Player/player.tscn" id="1_501ta"]
-[ext_resource type="Texture2D" uid="uid://biwes0sbmwkxw" path="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_wall_02.jpg" id="1_robm0"]
-[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://SlavSlaughterMouseMain/Textures/Skyboxes/world_environment.tscn" id="2_k6mqt"]
-[ext_resource type="PackedScene" uid="uid://dfdxx3sv8kr6x" path="res://SlavSlaughterMouseMain/tscn/World/Misc/directional_light_3d.tscn" id="3_5g5xs"]
-[ext_resource type="PackedScene" uid="uid://ba1tbhgr8jh64" path="res://SlavSlaughterMouseMain/tscn/World/Objects/Target1.tscn" id="8_wco6c"]
-[ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="9_ekj0c"]
-[ext_resource type="PackedScene" uid="uid://cob0owrdwpaa7" path="res://SlavSlaughterMouseMain/tscn/World/Objects/radio.tscn" id="9_rlxus"]
+[ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="1_501ta"]
+[ext_resource type="Texture2D" uid="uid://biwes0sbmwkxw" path="res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_wall_02.jpg" id="1_robm0"]
+[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://Textures/Skyboxes/world_environment.tscn" id="2_k6mqt"]
+[ext_resource type="PackedScene" uid="uid://dfdxx3sv8kr6x" path="res://tscn/World/Misc/directional_light_3d.tscn" id="3_5g5xs"]
+[ext_resource type="PackedScene" uid="uid://ba1tbhgr8jh64" path="res://tscn/World/Objects/Target1.tscn" id="8_wco6c"]
+[ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="9_ekj0c"]
+[ext_resource type="PackedScene" uid="uid://cob0owrdwpaa7" path="res://tscn/World/Objects/radio.tscn" id="9_rlxus"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jrvwj"]
 albedo_texture = ExtResource("1_robm0")

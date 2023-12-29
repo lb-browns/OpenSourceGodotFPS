@@ -5,7 +5,6 @@ extends CharacterBody3D
 @onready var anim = get_node("PlayerAnimations")
 @onready var footstepAudio = $"Player Audios/Footsteps"
 @onready var wepResource = $"camHolder/Main Cam/WeaponsManager"
-
 var jumpNum
 
 
@@ -28,11 +27,14 @@ var mouseEvent : Vector2
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
+func _enter_tree():
+	set_multiplayer_authority(str(name).to_int())
+
 func _ready():
+	if not is_multiplayer_authority(): return
+	
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-	
 	defaultWeaponHolderPos = weaponHolder.position
-	
 	MainCamera.current = true
 
 func _process(delta):
@@ -40,7 +42,7 @@ func _process(delta):
 		Die()
 
 func _input(event):
-	
+	if not is_multiplayer_authority(): return
 	if event.is_action_pressed("ui_cancel"):
 		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 	if event is InputEventMouseMotion:
@@ -59,7 +61,7 @@ func CameraLook(Movement: Vector2):
 	MainCamera.rotate_object_local(Vector3(1,0,0), -CamRotation.y)
 
 func _physics_process(delta):
-	
+	if not is_multiplayer_authority(): return
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y -= gravity * delta
