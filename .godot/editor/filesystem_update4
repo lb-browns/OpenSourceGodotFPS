@@ -10,3 +10,6 @@ res://tscn/Weapons/Weps/screw_driver_plastic.tscn
 res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn
 res://tscn/Player/player.tscn
 res://Scripts/Player/Player.gd
+res://tscn/World/Maps/mp_world.tscn
+res://tscn/World/Maps/mpworld.gd
+res://Scripts/Weapon/WeaponsManager.gd

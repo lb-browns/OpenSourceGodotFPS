@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=3 uid="uid://coni7pts3q0cc"]
+[gd_scene load_steps=53 format=3 uid="uid://coni7pts3q0cc"]
 
 [ext_resource type="Script" path="res://Scripts/Player/Player.gd" id="1_sc27s"]
 [ext_resource type="Texture2D" uid="uid://dtr1htkqchj0h" path="res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png" id="3_jrayb"]
@@ -1094,7 +1094,30 @@ _data = {
 "Slide": SubResource("Animation_o1eoi")
 }
 
-[node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("weaponHolder")]
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_glvt8"]
+properties/0/path = NodePath(".:position")
+properties/0/spawn = true
+properties/0/replication_mode = 1
+properties/1/path = NodePath(".:rotation")
+properties/1/spawn = true
+properties/1/replication_mode = 1
+properties/2/path = NodePath("camHolder:rotation")
+properties/2/spawn = true
+properties/2/replication_mode = 1
+properties/3/path = NodePath("AnimationPlayer:current_animation")
+properties/3/spawn = true
+properties/3/replication_mode = 1
+properties/4/path = NodePath("camHolder/Main Cam/WeaponsManager/FPS_Rig/bulletPoint:position")
+properties/4/spawn = true
+properties/4/replication_mode = 1
+properties/5/path = NodePath("camHolder/Main Cam/WeaponsManager/FPS_Rig/AudioStreamPlayer3D:playing")
+properties/5/spawn = true
+properties/5/replication_mode = 1
+properties/6/path = NodePath("Player Audios/Footsteps:playing")
+properties/6/spawn = true
+properties/6/replication_mode = 1
+
+[node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("weaponHolder") groups=["Player"]]
 collision_layer = 2
 script = ExtResource("1_sc27s")
 weaponHolder = NodePath("camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder")
@@ -1231,6 +1254,9 @@ libraries = {
 [node name="Footsteps" type="AudioStreamPlayer3D" parent="Player Audios"]
 stream = ExtResource("23_m2x5a")
 volume_db = -40.0
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_glvt8")
 
 [connection signal="updateAmmo" from="camHolder/Main Cam/WeaponsManager" to="CanvasLayer" method="_on_weapons_manager_update_ammo"]
 [connection signal="updateWeaponStack" from="camHolder/Main Cam/WeaponsManager" to="CanvasLayer" method="_on_weapons_manager_update_weapon_stack"]

@@ -4,6 +4,7 @@ signal weaponChanged
 signal updateAmmo
 signal updateWeaponStack
 
+@onready var player = $"../../.."
 @onready var animPlayer = get_node("../../../AnimationPlayer") 
 @onready var bulletPoint = get_node("%bulletPoint")
 
@@ -41,6 +42,7 @@ func Initialize(_startWeapons: Array):
 	
 
 func _input(event):
+	if not is_multiplayer_authority(): return
 	if event.is_action_pressed("weaponUP"):
 		var getref = weaponStack.find(currentWeapon.weaponName)
 		getref = min(getref+1, weaponStack.size()-1)
@@ -52,7 +54,7 @@ func _input(event):
 		exit(weaponStack[getref])
 	
 	if event.is_action_pressed("Shoot"):
-		Shoot()
+		Shoot.rpc()
 	
 	if event.is_action_pressed("Reload"):
 		Reload()
@@ -88,8 +90,9 @@ func _on_animation_player_animation_finished(anim_name):
 		changeWeapon(nextWeapon)
 	if anim_name == currentWeapon.fireAnim && currentWeapon.Automatic == true:
 		if Input.is_action_pressed("Shoot"):
-			Shoot()
+			Shoot.rpc()
 
+@rpc("call_local")
 func Shoot():
 	if currentWeapon.Melee:
 		if !animPlayer.is_playing():
@@ -158,7 +161,7 @@ func getCameraCollision()->Vector3:
 		return collisionPoint
 	else:
 		return rayEnd
-
+@rpc("call_local")
 func hitscanCol(collisionPoint):
 	print("BOOM")
 	var bulletDirection = (collisionPoint - bulletPoint.get_global_transform().origin).normalized()
@@ -182,6 +185,10 @@ func hitscanDamage(Collider, Direction, Position):
 	if Collider.is_in_group("Target"):
 		print("BOOM 5")
 		Collider.hitSuccessful(currentWeapon.weaponDamage, Direction, Position)
+	elif Collider.is_in_group("Player"):
+		print(Collider.playerHealth)
+		player.receiveDamage.rpc_id(Collider.get_multiplayer_authority())
+		#Collider.hitSuccessful(currentWeapon.weaponDamage, Direction, Position)
 
 func launchProjectile(Point):
 	var Direction = (Point - bulletPoint.get_global_transform().origin).normalized()
@@ -247,3 +254,8 @@ func addAmmo(_Weapon: String, ammo: int)->int:
 	emit_signal("updateAmmo",[currentWeapon.currAmmo, currentWeapon.reserveAmmo])
 	
 	return remaining
+	
+	
+
+
+

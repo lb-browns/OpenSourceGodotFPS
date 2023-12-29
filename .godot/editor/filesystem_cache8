@@ -2137,7 +2137,7 @@ USA_Transparent.png::CompressedTexture2D::77263732976369558::1703818082::1703819
 ::res://Models/PSXAmmoBoxes/50AE/Textures/::1703819917
 50AE.png::CompressedTexture2D::3445227420217836668::1703818083::1703819917::1::::<><>::
 50AE_240px.png::CompressedTexture2D::6716105255502029365::1703818083::1703819917::1::::<><>::
-::res://Models/PSXAmmoBoxes/#Images/::1703820237
+::res://Models/PSXAmmoBoxes/#Images/::1703820245
 .357.png::CompressedTexture2D::6056827196493240344::1703818082::1703820245::1::::<><>::
 9mm.png::CompressedTexture2D::334891974564025169::1703818082::1703819917::1::::<><>::
 38_Special.png::CompressedTexture2D::6911280010036862071::1703818082::1703819917::1::::<><>::
@@ -2425,10 +2425,10 @@ Rock low poly.dae::PackedScene::5089876972742467368::1703818083::1703819982::1::
 ::res://music/::1703819918
 Jump (JumpStyle TikTok).mp3::AudioStreamMP3::4373658707869388185::1703818083::1703819918::1::::<><>::
 ::res://Scripts/::1703818083
-::res://Scripts/Player/::1703818083
+::res://Scripts/Player/::1703820479
 hand.gd::GDScript::-1::1703818083::0::1::::<>Node3D<>::
 HUD.gd::GDScript::-1::1703818083::0::1::::<>CanvasLayer<>::
-Player.gd::GDScript::-1::1703818083::0::1::::<>CharacterBody3D<>::
+Player.gd::GDScript::-1::1703820479::0::1::::<>CharacterBody3D<>::
 ::res://Scripts/Weapon/::1703819988
 raycastDebug.gd::GDScript::-1::1703818083::0::1::::<>Sprite3D<>::
 sd_bullet.gd::GDScript::-1::1703818083::0::1::::<>RigidBody3D<>::
@@ -2673,7 +2673,7 @@ Sample.png::CompressedTexture2D::3588932854639263778::1703818083::1703819918::1:
 texture_01.png::CompressedTexture2D::2721351976717950155::1703818083::1703819917::1::::<><>::
 texture_02.png::CompressedTexture2D::1278284275880701664::1703818083::1703819917::1::::<><>::
 texture_03.png::CompressedTexture2D::8773169235497838650::1703818083::1703819917::1::::<><>::
-texture_04.png::CompressedTexture2D::5216027692826162326::1703818083::1703819917::1::::<><>::
+texture_04.png::CompressedTexture2D::5216027692826162326::1703818083::1703820597::1::::<><>::
 texture_05.png::CompressedTexture2D::2401280725696341501::1703818083::1703819917::1::::<><>::
 texture_06.png::CompressedTexture2D::3941092567397000604::1703818083::1703819917::1::::<><>::
 texture_07.png::CompressedTexture2D::5145280711432186377::1703818083::1703819917::1::::<><>::
