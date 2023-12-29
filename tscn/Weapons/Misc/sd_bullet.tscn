@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://chwq7sov5br5p"]
+
+[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/sd_bullet.gd" id="1_bctcb"]
+[ext_resource type="ArrayMesh" uid="uid://dbqqr4y7k8ctq" path="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.obj" id="1_vog8f"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_60ab1"]
+height = 1.66325
+
+[node name="Sd Bullet" type="RigidBody3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
+top_level = true
+collision_layer = 4
+collision_mask = 5
+mass = 5.0
+gravity_scale = 2.0
+continuous_cd = true
+max_contacts_reported = 10
+contact_monitor = true
+script = ExtResource("1_bctcb")
+
+[node name="ScrewDriverPlastic" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.74846e-08, -0.4, 0, 0.4, -1.74846e-08, 0, 0, 0, 0.4, 0.4, 0, 0)
+mesh = ExtResource("1_vog8f")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-1.9233e-08, -0.44, 0, 0.44, -1.9233e-08, 0, 0, 0, 0.44, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_60ab1")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+autostart = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

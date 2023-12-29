@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://2x6hiycqsyjb"
+path="res://.godot/imported/RifleAmmo_240.obj-a85efbea5d0304414cc1614fa6f28e2f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/RifleAmmo_240.obj-a85efbea5d0304414cc1614fa6f28e2f.mesh"]
+
+source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/Rifle Ammo/RifleAmmo_240.obj"
+dest_files=["res://.godot/imported/RifleAmmo_240.obj-a85efbea5d0304414cc1614fa6f28e2f.mesh", "res://.godot/imported/RifleAmmo_240.obj-a85efbea5d0304414cc1614fa6f28e2f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

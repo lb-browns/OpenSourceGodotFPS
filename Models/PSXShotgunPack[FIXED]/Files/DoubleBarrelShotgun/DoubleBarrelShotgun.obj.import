@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://co084nah7b4s5"
+path="res://.godot/imported/DoubleBarrelShotgun.obj-55b361bba20bab047150d3f27d774acb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/DoubleBarrelShotgun.obj-55b361bba20bab047150d3f27d774acb.mesh"]
+
+source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DoubleBarrelShotgun.obj"
+dest_files=["res://.godot/imported/DoubleBarrelShotgun.obj-55b361bba20bab047150d3f27d774acb.mesh", "res://.godot/imported/DoubleBarrelShotgun.obj-55b361bba20bab047150d3f27d774acb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

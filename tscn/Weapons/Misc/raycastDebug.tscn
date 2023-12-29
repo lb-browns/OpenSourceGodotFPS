@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ceq0pbjgslan1"]
+
+[ext_resource type="Texture2D" uid="uid://oxi6q3ty246v" path="res://SlavSlaughterMouseMain/2dAssets/kenney_crosshairPack/PNG/White/crosshair007.png" id="1_rawx4"]
+[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/raycastDebug.gd" id="2_rhby8"]
+
+[node name="raycastDebug" type="Sprite3D"]
+modulate = Color(0.639216, 0, 0, 1)
+billboard = 1
+texture = ExtResource("1_rawx4")
+script = ExtResource("2_rhby8")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

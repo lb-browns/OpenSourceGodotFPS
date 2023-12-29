@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c8cm5lf78ihx0"
+path="res://.godot/imported/38S_240.obj-2f4e422074cfda1e7f08be63b61cef4a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/38S_240.obj-2f4e422074cfda1e7f08be63b61cef4a.mesh"]
+
+source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/38 SPECIAL/38S_240.obj"
+dest_files=["res://.godot/imported/38S_240.obj-2f4e422074cfda1e7f08be63b61cef4a.mesh", "res://.godot/imported/38S_240.obj-2f4e422074cfda1e7f08be63b61cef4a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

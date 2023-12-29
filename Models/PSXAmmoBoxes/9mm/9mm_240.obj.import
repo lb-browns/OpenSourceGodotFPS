@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dt5h3x0fb1mlp"
+path="res://.godot/imported/9mm_240.obj-700ae39d9d06f2b25629fed7642788cb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/9mm_240.obj-700ae39d9d06f2b25629fed7642788cb.mesh"]
+
+source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/9mm/9mm_240.obj"
+dest_files=["res://.godot/imported/9mm_240.obj-700ae39d9d06f2b25629fed7642788cb.mesh", "res://.godot/imported/9mm_240.obj-700ae39d9d06f2b25629fed7642788cb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

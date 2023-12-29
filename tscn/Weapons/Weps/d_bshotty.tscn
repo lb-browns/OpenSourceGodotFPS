@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://c2xf6jyrklxup"]
+
+[ext_resource type="PackedScene" uid="uid://br8fji6qf4upc" path="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/Fbx/DoubleBarrelShotgun.fbx" id="1_bkxgd"]
+[ext_resource type="Texture2D" uid="uid://dbwlgjab4kwad" path="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/Textures/DBShotgunText.png" id="2_5l0ba"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4ru5e"]
+albedo_texture = ExtResource("2_5l0ba")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1lydo"]
+albedo_texture = ExtResource("2_5l0ba")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vh8ae"]
+albedo_texture = ExtResource("2_5l0ba")
+
+[node name="DBshotty" instance=ExtResource("1_bkxgd")]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+
+[node name="Body" parent="RootNode" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_4ru5e")
+
+[node name="HandGaurd&Barrel" parent="RootNode" index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_1lydo")
+
+[node name="ShellLowPolyGreen_005" parent="RootNode" index="2"]
+mesh = null
+
+[node name="ShellLowPolyRed_005" parent="RootNode" index="3"]
+mesh = null
+
+[node name="Trigger&Trigger" parent="RootNode" index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_vh8ae")

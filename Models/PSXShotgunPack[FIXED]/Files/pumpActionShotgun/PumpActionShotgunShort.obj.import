@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dhiqit8hcm46n"
+path="res://.godot/imported/PumpActionShotgunShort.obj-9b6d7103c08364d38a948f2326bf2080.mesh"
+
+[deps]
+
+files=["res://.godot/imported/PumpActionShotgunShort.obj-9b6d7103c08364d38a948f2326bf2080.mesh"]
+
+source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/PumpActionShotgunShort.obj"
+dest_files=["res://.godot/imported/PumpActionShotgunShort.obj-9b6d7103c08364d38a948f2326bf2080.mesh", "res://.godot/imported/PumpActionShotgunShort.obj-9b6d7103c08364d38a948f2326bf2080.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

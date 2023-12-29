@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://cob0owrdwpaa7"]
+
+[ext_resource type="AudioStream" uid="uid://b3kvrxa5tujv2" path="res://SlavSlaughterMouseMain/music/Jump (JumpStyle TikTok).mp3" id="1_kj6hw"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_qmq8v"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_isvss"]
+emission_enabled = true
+emission = Color(0.639216, 0.337255, 1, 1)
+emission_energy_multiplier = 2.85
+
+[sub_resource type="BoxMesh" id="BoxMesh_mavk8"]
+material = SubResource("StandardMaterial3D_isvss")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7w6eu"]
+size = Vector3(3, 1, 1)
+
+[node name="Radio" type="RigidBody3D"]
+collision_layer = 4
+collision_mask = 7
+physics_material_override = SubResource("PhysicsMaterial_qmq8v")
+
+[node name="1" type="AudioStreamPlayer3D" parent="."]
+transform = Transform3D(1.09099, 0, 0, 0, 1.09099, 0, 0, 0, 1.09099, 0, 0, 0)
+stream = ExtResource("1_kj6hw")
+autoplay = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_mavk8")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_7w6eu")

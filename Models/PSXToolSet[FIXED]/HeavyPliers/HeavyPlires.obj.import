@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://rja3cnwuwnp3"
+path="res://.godot/imported/HeavyPlires.obj-3fefabf317853d5dfd5639fcf0f02f75.mesh"
+
+[deps]
+
+files=["res://.godot/imported/HeavyPlires.obj-3fefabf317853d5dfd5639fcf0f02f75.mesh"]
+
+source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/HeavyPliers/HeavyPlires.obj"
+dest_files=["res://.godot/imported/HeavyPlires.obj-3fefabf317853d5dfd5639fcf0f02f75.mesh", "res://.godot/imported/HeavyPlires.obj-3fefabf317853d5dfd5639fcf0f02f75.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

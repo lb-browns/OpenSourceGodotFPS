@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0qy3moge0a7k"]
+
+[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/World/Death Barrier.gd" id="1_4nab4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gaj8m"]
+
+[node name="DeathBarrier" type="Node3D"]
+script = ExtResource("1_4nab4")
+
+[node name="Area3D" type="Area3D" parent="."]
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+shape = SubResource("BoxShape3D_gaj8m")
+
+[connection signal="child_entered_tree" from="." to="." method="_on_child_entered_tree"]
+[connection signal="tree_entered" from="." to="." method="_on_tree_entered"]
+[connection signal="area_entered" from="Area3D" to="." method="_on_area_3d_area_entered"]
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]
+[connection signal="child_entered_tree" from="Area3D/CollisionShape3D" to="." method="_on_collision_shape_3d_child_entered_tree"]

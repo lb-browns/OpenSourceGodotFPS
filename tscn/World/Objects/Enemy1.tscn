@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://sceadi13k81u"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gxdgx"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_l6vrq"]
+
+[node name="Enemy1" type="Node3D"]
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+collision_layer = 9
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+shape = SubResource("CapsuleShape3D_gxdgx")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+mesh = SubResource("CapsuleMesh_l6vrq")
+skeleton = NodePath("../..")

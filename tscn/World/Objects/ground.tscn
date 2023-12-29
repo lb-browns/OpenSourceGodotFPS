@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=3 uid="uid://dq4vjocqpdjmi"]
+
+[ext_resource type="Texture2D" uid="uid://ccete6fcmttn2" path="res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Dirt/Dirt_09-128x128.png" id="1_i7fs1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ts76f"]
+albedo_color = Color(0.4, 0.917647, 0.54902, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_jq30f"]
+material = SubResource("StandardMaterial3D_ts76f")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_46t4o"]
+albedo_texture = ExtResource("1_i7fs1")
+uv1_scale = Vector3(18, 24, 24)
+uv1_triplanar_sharpness = 1.6245
+uv1_world_triplanar = true
+texture_filter = 0
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v3h4l"]
+resource_local_to_scene = true
+size = Vector3(1, 3.41568, 1)
+
+[node name="ground" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_jq30f")
+surface_material_override/0 = SubResource("StandardMaterial3D_46t4o")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.20894, 0)
+shape = SubResource("BoxShape3D_v3h4l")

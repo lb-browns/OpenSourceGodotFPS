@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpp68kna6jcgy"]
+
+[ext_resource type="ArrayMesh" uid="uid://dbqqr4y7k8ctq" path="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/ScrewDriverPlastic.obj" id="1_xiud7"]
+
+[node name="Screwdriver" type="MeshInstance3D"]
+mesh = ExtResource("1_xiud7")

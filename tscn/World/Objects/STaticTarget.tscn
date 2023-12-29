@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://r53bfwyku6y"]
+
+[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/World/StaticTarget.gd" id="1_cuw6b"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_fv0ou"]
+height = 3.869
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_lv6du"]
+
+[node name="StaticBody3D" type="StaticBody3D"]
+transform = Transform3D(-0.0378273, -0.000479987, 0, 2.83897e-05, -0.639548, 0, 0, 0, 0.64, 0, 0, 0)
+script = ExtResource("1_cuw6b")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-2.79753e-08, 0.64, 0, -0.64, -2.79753e-08, 0, 0, 0, 0.64, 0, 0, 0)
+shape = SubResource("CylinderShape3D_fv0ou")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-2.79753e-08, 0.64, 0, -0.64, -2.79753e-08, 0, 0, 0, 0.64, 0, 0, 0)
+mesh = SubResource("CylinderMesh_lv6du")

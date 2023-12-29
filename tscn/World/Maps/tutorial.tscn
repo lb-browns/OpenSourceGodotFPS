@@ -1,0 +1,305 @@
+[gd_scene load_steps=10 format=3 uid="uid://dqshf4lph4xic"]
+
+[ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://SlavSlaughterMouseMain/tscn/Player/player.tscn" id="1_501ta"]
+[ext_resource type="Texture2D" uid="uid://biwes0sbmwkxw" path="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_wall_02.jpg" id="1_robm0"]
+[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://SlavSlaughterMouseMain/Textures/Skyboxes/world_environment.tscn" id="2_k6mqt"]
+[ext_resource type="PackedScene" uid="uid://dfdxx3sv8kr6x" path="res://SlavSlaughterMouseMain/tscn/World/Misc/directional_light_3d.tscn" id="3_5g5xs"]
+[ext_resource type="PackedScene" uid="uid://ba1tbhgr8jh64" path="res://SlavSlaughterMouseMain/tscn/World/Objects/Target1.tscn" id="8_wco6c"]
+[ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="9_ekj0c"]
+[ext_resource type="PackedScene" uid="uid://cob0owrdwpaa7" path="res://SlavSlaughterMouseMain/tscn/World/Objects/radio.tscn" id="9_rlxus"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jrvwj"]
+albedo_texture = ExtResource("1_robm0")
+uv1_scale = Vector3(3, 3, 3)
+uv1_triplanar_sharpness = 1.07177
+uv1_world_triplanar = true
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_n65so"]
+size = Vector3(200, 1, 200)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+material_override = SubResource("StandardMaterial3D_jrvwj")
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.1659, -1.16441, 0)
+snap = 1.0
+size = Vector3(124.224, 11.52, 10)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05371, -1.67296, 0)
+operation = 2
+snap = 1.0
+size = Vector3(9, 6.46289, 9)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.5646, -2.06218, 0)
+operation = 2
+snap = 1.0
+size = Vector3(9.53723, 5.68445, 9)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.1727, -2.06218, 0)
+operation = 2
+snap = 1.0
+size = Vector3(9.53723, 5.68445, 9)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 83.1738, -2.06218, 0)
+operation = 2
+snap = 1.0
+size = Vector3(14.4953, 5.68445, 9)
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 103.904, -2.06218, 0)
+operation = 2
+snap = 1.0
+size = Vector3(10.0001, 5.68445, 9)
+
+[node name="CSGBox3D22" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 156.397, -0.074738, -2.38754)
+snap = 1.0
+size = Vector3(75.4533, 16.8493, 28.9389)
+
+[node name="CSGBox3D23" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.538, -0.152863, -2.38754)
+operation = 2
+snap = 1.0
+size = Vector3(16, 9.15625, 27)
+
+[node name="CSGBox3D24" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 154.752, -0.152863, -2.38754)
+operation = 2
+snap = 1.0
+size = Vector3(16, 9.15625, 27)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.4581, -4.56208, 0)
+snap = 1.0
+size = Vector3(0.53418, 0.953125, 9)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.1969, -1.50887, -0.0169373)
+snap = 1.0
+size = Vector3(0.53418, 4.82318, 10.1)
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 103.632, -0.626935, -0.0169373)
+snap = 1.0
+size = Vector3(1.10596, 3.05931, 10.1)
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 103.674, -4.83501, -0.0169373)
+snap = 1.0
+size = Vector3(1.18994, 3.05931, 10.1)
+
+[node name="CSGBox3D18" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 103.674, -3.78929, 3.57594)
+snap = 1.0
+size = Vector3(1.18994, 5.15075, 3.88412)
+
+[node name="CSGBox3D19" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 103.674, -3.78929, -3.47876)
+snap = 1.0
+size = Vector3(1.18994, 5.15075, 3.88412)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.0099, -1.67296, 0)
+operation = 2
+snap = 1.0
+size = Vector3(21.2109, 6.46289, 9)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.2768, -3.46482, -0.21106)
+operation = 2
+snap = 1.0
+size = Vector3(10.3965, 3.04077, 4.30151)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.7532, -3.46482, -0.21106)
+operation = 2
+snap = 1.0
+size = Vector3(10.3965, 3.04077, 4.30151)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.1594, -3.46482, -0.21106)
+operation = 2
+snap = 1.0
+size = Vector3(10.3965, 3.04077, 4.30151)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.282, -3.46482, -0.21106)
+operation = 2
+snap = 1.0
+size = Vector3(10.3965, 3.04077, 4.30151)
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 95.1961, -3.46482, -0.21106)
+operation = 2
+snap = 1.0
+size = Vector3(10.3965, 3.04077, 4.30151)
+
+[node name="CSGBox3D20" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 114.604, -3.46482, -0.21106)
+operation = 2
+snap = 1.0
+size = Vector3(11.8636, 3.04077, 4.30151)
+
+[node name="CSGBox3D25" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 141.091, -3.46482, -0.21106)
+operation = 2
+snap = 1.0
+size = Vector3(11.8636, 3.04077, 4.30151)
+
+[node name="CSGBox3D21" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 168.036, -3.46482, -0.21106)
+operation = 2
+snap = 1.0
+size = Vector3(11.8636, 3.04077, 4.30151)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 83.1404, -6.26053, -0.00647736)
+operation = 2
+snap = 1.0
+size = Vector3(7.9007, 3.04077, 8.85185)
+
+[node name="WorldEnvironment" parent="." instance=ExtResource("2_k6mqt")]
+
+[node name="DirectionalLight3D" parent="." instance=ExtResource("3_5g5xs")]
+light_color = Color(1, 0.352941, 0.270588, 1)
+light_energy = 3.939
+light_volumetric_fog_energy = 4.16
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+
+[node name="Label3D" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.33944, -2.90488, 0.075417)
+billboard = 1
+text = "Use W To Move Forward
+Use A To Move Backward
+Use S To Move Left
+Use D To Move Right"
+font_size = 50
+
+[node name="Label3D2" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 23.7669, -2.90488, 0.075417)
+billboard = 1
+text = "Use SHIFT To Sprint
+"
+font_size = 50
+
+[node name="Label3D3" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 45.3232, -3.5846, 0.075417)
+billboard = 1
+text = "Use SPACE To Jump
+"
+font_size = 50
+
+[node name="Label3D4" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 61.9886, -3.5846, 0.075417)
+billboard = 1
+text = "Hold C While Moving To Slide
+"
+font_size = 50
+
+[node name="Label3D5" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 82.0599, -3.5846, 0.075417)
+billboard = 1
+text = "Double-Tap Space To Double Jump"
+font_size = 50
+
+[node name="Label3D6" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 102.397, -2.66769, 0.075417)
+billboard = 1
+text = "Hold C and Jump At The Same Time To Crouch Jump
+"
+font_size = 50
+
+[node name="Label3D7" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 126.929, -2.66153, 0.0754859)
+billboard = 1
+text = "Walk Over An Item To Pick It Up
+"
+font_size = 50
+
+[node name="Label3D8" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 153.272, -3.66605, 0.0754859)
+billboard = 1
+text = "Use LMB To Shoot The Boxes & R To Reload, 
+Also You Can Use The Arrow Keys To Switch Weapons 
+Or The Mouse Wheel
+"
+font_size = 50
+
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 162.83, -3.2352, -0.714025)
+
+[node name="RigidBody3D" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.12469, 2.1043)
+
+[node name="RigidBody3D2" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.12469, 1.03995)
+
+[node name="RigidBody3D3" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.12469, -0.0504822)
+
+[node name="RigidBody3D4" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.12469, -1.08705)
+
+[node name="RigidBody3D5" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.08705)
+
+[node name="RigidBody3D6" parent="Node3D" instance=ExtResource("8_wco6c")]
+
+[node name="RigidBody3D7" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.08848)
+
+[node name="RigidBody3D8" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.1376)
+
+[node name="RigidBody3D9" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16943, -0.923775, 2.1376)
+
+[node name="RigidBody3D10" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16943, -0.923775, 0.999635)
+
+[node name="RigidBody3D11" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16943, -0.923775, -0.218761)
+
+[node name="RigidBody3D12" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16943, -0.923775, -1.44788)
+
+[node name="RigidBody3D13" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16943, 0.215799, -0.770468)
+
+[node name="RigidBody3D14" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16943, 0.215799, 0.448441)
+
+[node name="RigidBody3D15" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16943, 0.215799, 1.56128)
+
+[node name="RigidBody3D16" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16943, 1.32099, 1.09302)
+
+[node name="RigidBody3D17" parent="Node3D" instance=ExtResource("8_wco6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16943, 1.32099, -0.144622)
+
+[node name="Area3D" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -13.1009, 0)
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+shape = SubResource("BoxShape3D_n65so")
+
+[node name="Radio" parent="." instance=ExtResource("9_rlxus")]
+transform = Transform3D(0.53165, 0, 0.846964, 0, 1, 0, -0.846964, 0, 0.53165, 131.313, -3.28335, -4.9556)
+
+[node name="ScrewdriverPickup" parent="." instance=ExtResource("9_ekj0c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 128.087, -4.13246, -1.87235)
+
+[node name="ScrewdriverPickup2" parent="." instance=ExtResource("9_ekj0c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 126.589, -4.73099, 2.02382)
+
+[node name="Player" parent="." instance=ExtResource("1_501ta")]

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://blvuvv8314c28"
+path="res://.godot/imported/Auto_Ammo_240.obj-9b969b1bb283fb7c40aa5bcf5f42f34a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Auto_Ammo_240.obj-9b969b1bb283fb7c40aa5bcf5f42f34a.mesh"]
+
+source_file="res://SlavSlaughterMouseMain/Models/PSXAmmoBoxes/Automatic Ammo/Auto_Ammo_240.obj"
+dest_files=["res://.godot/imported/Auto_Ammo_240.obj-9b969b1bb283fb7c40aa5bcf5f42f34a.mesh", "res://.godot/imported/Auto_Ammo_240.obj-9b969b1bb283fb7c40aa5bcf5f42f34a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

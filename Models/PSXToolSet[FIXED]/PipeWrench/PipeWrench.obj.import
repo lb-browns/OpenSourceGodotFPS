@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://coodrj0obf2cl"
+path="res://.godot/imported/PipeWrench.obj-21ef24ee672218bc5c5d923408c1718b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/PipeWrench.obj-21ef24ee672218bc5c5d923408c1718b.mesh"]
+
+source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/PipeWrench/PipeWrench.obj"
+dest_files=["res://.godot/imported/PipeWrench.obj-21ef24ee672218bc5c5d923408c1718b.mesh", "res://.godot/imported/PipeWrench.obj-21ef24ee672218bc5c5d923408c1718b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

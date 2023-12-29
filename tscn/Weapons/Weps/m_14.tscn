@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://drqee68f0x5m0"]
+
+[ext_resource type="PackedScene" uid="uid://iuarndersma8" path="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/tactical rifle/Tactical_Rifle.fbx" id="1_vrpgn"]
+
+[node name="m14" instance=ExtResource("1_vrpgn")]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
+
+[node name="Tac_M14_Full_Magazene" parent="RootNode" index="4"]
+mesh = null
+
+[node name="308_Bullet_001" parent="RootNode" index="5"]
+mesh = null
+
+[node name="308_Bullet_003" parent="RootNode" index="6"]
+mesh = null

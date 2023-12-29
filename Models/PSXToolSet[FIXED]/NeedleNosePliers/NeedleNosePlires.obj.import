@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dutcwn1xak7to"
+path="res://.godot/imported/NeedleNosePlires.obj-47e4ea39dba0bf46a65bb20510b2c853.mesh"
+
+[deps]
+
+files=["res://.godot/imported/NeedleNosePlires.obj-47e4ea39dba0bf46a65bb20510b2c853.mesh"]
+
+source_file="res://SlavSlaughterMouseMain/Models/PSXToolSet[FIXED]/NeedleNosePliers/NeedleNosePlires.obj"
+dest_files=["res://.godot/imported/NeedleNosePlires.obj-47e4ea39dba0bf46a65bb20510b2c853.mesh", "res://.godot/imported/NeedleNosePlires.obj-47e4ea39dba0bf46a65bb20510b2c853.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

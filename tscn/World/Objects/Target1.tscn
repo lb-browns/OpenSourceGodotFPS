@@ -1,0 +1,26 @@
+[gd_scene load_steps=7 format=3 uid="uid://ba1tbhgr8jh64"]
+
+[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/World/physucsTarget.tres.gd" id="1_7hrxh"]
+[ext_resource type="Texture2D" uid="uid://bhl1w6fv7m4e5" path="res://SlavSlaughterMouseMain/Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png" id="2_i6rr5"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ig1re"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_voo7j"]
+albedo_texture = ExtResource("2_i6rr5")
+
+[sub_resource type="BoxMesh" id="BoxMesh_1ldvo"]
+material = SubResource("StandardMaterial3D_voo7j")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t8bpp"]
+
+[node name="RigidBody3D" type="RigidBody3D" groups=["100", "Target"]]
+collision_layer = 4
+collision_mask = 7
+physics_material_override = SubResource("PhysicsMaterial_ig1re")
+script = ExtResource("1_7hrxh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_1ldvo")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_t8bpp")

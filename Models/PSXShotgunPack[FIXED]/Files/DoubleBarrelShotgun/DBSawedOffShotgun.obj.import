@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bidsq18vy1w1x"
+path="res://.godot/imported/DBSawedOffShotgun.obj-a89d49e59e6764ad9f4a196d0c1b1694.mesh"
+
+[deps]
+
+files=["res://.godot/imported/DBSawedOffShotgun.obj-a89d49e59e6764ad9f4a196d0c1b1694.mesh"]
+
+source_file="res://SlavSlaughterMouseMain/Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DBSawedOffShotgun.obj"
+dest_files=["res://.godot/imported/DBSawedOffShotgun.obj-a89d49e59e6764ad9f4a196d0c1b1694.mesh", "res://.godot/imported/DBSawedOffShotgun.obj-a89d49e59e6764ad9f4a196d0c1b1694.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

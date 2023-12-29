@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="weaponResource" load_steps=4 format=3 uid="uid://bmwncx3w7fygj"]
+
+[ext_resource type="Texture2D" uid="uid://bn8a5joll8w63" path="res://SlavSlaughterMouseMain/2dAssets/weapon icons/1911.png" id="1_japmw"]
+[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/weaponResource.gd" id="1_xvhdv"]
+[ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://SlavSlaughterMouseMain/tscn/Weapons/Pickups/1911Pickup.tscn" id="3_j3efv"]
+
+[resource]
+script = ExtResource("1_xvhdv")
+weaponName = "1911"
+activateAnim = "1911Activate"
+deactivateAnim = "1911Deactivate"
+fireAnim = "1911fire"
+reloadAnim = "1911reload"
+icon = ExtResource("1_japmw")
+currAmmo = 4
+reserveAmmo = 150
+Mag = 9
+maxAmmo = 999
+Automatic = false
+weaponRange = 40000
+weaponDamage = 10
+Type = 1
+weaponDrop = ExtResource("3_j3efv")
+projectileVelocity = 0
+Droppable = true
+Melee = false

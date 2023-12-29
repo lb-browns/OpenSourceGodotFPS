@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://dhv6wrr2a7gs2"]
+
+[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/WeaponPickup.gd" id="1_qnfpm"]
+[ext_resource type="ArrayMesh" uid="uid://cutrsldpgtnqj" path="res://SlavSlaughterMouseMain/Models/PSXMiscGuns/1911/1911.obj" id="2_ciarm"]
+[ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://SlavSlaughterMouseMain/Weapon Resources/WeaponPickupGlow.tres" id="3_fvv3l"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_obu2p"]
+points = PackedVector3Array(-2.16979, 0.330351, -0.0896138, 1.25979, 1.83039, 0.124672, -1.79447, 1.61592, -0.0896138, 1.25979, 1.4553, -0.143185, -0.722895, 0.330351, 0.178317, -0.776272, 0.383891, -0.196794, -1.76667, 1.5326, 0.0664, 0.670291, 0.866208, 0.0711009, 1.25979, 1.77669, -0.143185, -2.06946, 0.372661, 0.0664, -0.879347, 1.73735, 0.108637, -0.669181, 0.276506, -0.143185, -1.15159, 0.544663, 0.178317, 1.25979, 1.40161, 0.124672, -0.899341, 1.76957, -0.0833224, -0.624237, 1.37098, -0.157437, 0.616242, 0.866208, -0.0896138, -0.669181, 0.276506, 0.124672, -1.95528, 0.276506, -0.0896138, -0.868917, 1.67444, -0.124247, -0.671314, 1.37793, 0.142206, -2.16979, 0.491123, -0.0896138, 1.25979, 1.34807, -0.0360055, -2.06946, 0.524026, 0.0664, -1.63367, 1.66961, -0.0360055, -0.615468, 0.276506, -0.0896138, -1.90156, 1.40161, -0.0896138, -1.86749, 0.321968, 0.0664, -1.15159, 0.383891, 0.178317, 0.670291, 0.866208, -0.0360055, -0.615468, 0.276506, 0.0711009, -1.96832, 0.877164, 0.0664)
+
+[node name="1911Pickup" type="RigidBody3D"]
+collision_layer = 8
+collision_mask = 15
+script = ExtResource("1_qnfpm")
+weaponName = "1911"
+CurrAmmo = 9
+ReserveAmmo = 25
+
+[node name="TacticalRifle" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
+mesh = ExtResource("2_ciarm")
+
+[node name="TacticalRifle2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
+mesh = ExtResource("2_ciarm")
+surface_material_override/0 = ExtResource("3_fvv3l")
+surface_material_override/1 = ExtResource("3_fvv3l")
+surface_material_override/2 = ExtResource("3_fvv3l")
+surface_material_override/3 = ExtResource("3_fvv3l")
+surface_material_override/4 = ExtResource("3_fvv3l")
+surface_material_override/5 = ExtResource("3_fvv3l")
+surface_material_override/6 = ExtResource("3_fvv3l")
+surface_material_override/7 = ExtResource("3_fvv3l")
+surface_material_override/8 = ExtResource("3_fvv3l")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_obu2p")

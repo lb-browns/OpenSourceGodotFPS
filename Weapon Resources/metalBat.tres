@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="weaponResource" load_steps=3 format=3 uid="uid://b3m4wv2brbbng"]
+
+[ext_resource type="Texture2D" uid="uid://dvd415dykiyb5" path="res://SlavSlaughterMouseMain/2dAssets/weapon icons/Bat.png" id="1_b5dw4"]
+[ext_resource type="Script" path="res://SlavSlaughterMouseMain/Scripts/Weapon/weaponResource.gd" id="1_hfvid"]
+
+[resource]
+script = ExtResource("1_hfvid")
+weaponName = "metalBat"
+activateAnim = "MetalBatActivate"
+deactivateAnim = "MetalBatDeactivate"
+fireAnim = "MetalBatFire"
+reloadAnim = "MetalBatReload"
+icon = ExtResource("1_b5dw4")
+currAmmo = 0
+reserveAmmo = 0
+Mag = 0
+maxAmmo = 999
+Automatic = false
+weaponRange = 1
+weaponDamage = 200
+Type = 1
+projectileVelocity = 0
+Droppable = false
+Melee = true
