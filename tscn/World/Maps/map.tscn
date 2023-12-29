@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://dktp04p358rs1"]
+[gd_scene load_steps=20 format=3 uid="uid://dktp04p358rs1"]
 
 [ext_resource type="PackedScene" uid="uid://dq4vjocqpdjmi" path="res://SlavSlaughterMouseMain/tscn/World/Objects/ground.tscn" id="1_7dkkw"]
 [ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://SlavSlaughterMouseMain/Textures/Skyboxes/world_environment.tscn" id="1_vo181"]
@@ -24,8 +24,6 @@ polygons = [PackedInt32Array(1, 0, 2), PackedInt32Array(2, 0, 3), PackedInt32Arr
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l4wy3"]
 albedo_texture = ExtResource("2_ddmwy")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h7a20"]
 
 [node name="Map" type="Node3D"]
 transform = Transform3D(0.916597, 0, 0, 0, 0.916597, 0, 0, 0, 0.916597, 0, 0, 0)
@@ -90,7 +88,6 @@ transform = Transform3D(-0.128501, -0.0486244, 0.266689, 0.271086, -0.0230491, 0
 material_override = SubResource("StandardMaterial3D_l4wy3")
 mesh = ExtResource("3_w2piu")
 skeleton = NodePath("../../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_h7a20")
 
 [node name="DbSawedOffShotgun" type="MeshInstance3D" parent="NavigationRegion3D/Obstacles"]
 transform = Transform3D(-0.30989, -0.392388, 1.73856e-08, -3.81434e-10, -2.18524e-08, -0.5, 0.392388, -0.30989, 1.32443e-08, 1.96007, 0.463126, -1.30614)
