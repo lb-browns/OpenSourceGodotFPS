@@ -1,12 +1,12 @@
 res://tscn/World/Objects/Target1.tscn
+res://Scripts/Weapon/weaponResource.gd
 res://tscn/Player/pauseMenu.tscn
 res://tscn/Weapons/Weps/1911.tscn
 res://tscn/Weapons/Weps/d_bshotty.tscn
-res://Scripts/Weapon/weaponResource.gd
-res://SlavSlaughterHouseMain/Scripts/Weapon/weaponResource.gd
-res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn
-res://tscn/Player/player.tscn
 res://tscn/World/Maps/room_1.tscn
 res://tscn/Weapons/Weps/metalBat.tscn
 res://tscn/Weapons/Weps/m_14.tscn
 res://tscn/Weapons/Weps/screw_driver_plastic.tscn
+res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn
+res://tscn/Player/player.tscn
+res://Scripts/Player/Player.gd

@@ -19,7 +19,7 @@ var mouseEvent : Vector2
 @export var weaponHolder : Node3D
 @export var weapontSwayAmount = 2.0
 @export var weaponRotationAmount = 0.3
-@export var camRotationAmount = 0.02
+@export var camRotationAmount = 0.01
 
 
 @onready var defaultWeaponHolderPos
