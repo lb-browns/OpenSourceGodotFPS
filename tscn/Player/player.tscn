@@ -1177,7 +1177,6 @@ shape = SubResource("CapsuleShape3D_xef1d")
 
 [node name="Main Cam" type="Camera3D" parent="camHolder"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.478314, 0)
-fov = 70.0
 
 [node name="WeaponsManager" type="Node3D" parent="camHolder/Main Cam"]
 script = ExtResource("5_svc1s")

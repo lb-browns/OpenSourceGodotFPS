@@ -18,3 +18,5 @@ res://tscn/World/Maps/mp_world.tscn
 res://Scripts/mainMenu.gd
 res://tscn/World/Maps/tutorial.tscn
 res://Scripts/Player/MpPlayer.gd
+res://tscn/World/Maps/MapSelectSP.tscn
+res://Scripts/World/MapSelectSP.gd
