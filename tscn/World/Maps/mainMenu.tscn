@@ -53,3 +53,4 @@ text = "Quit
 "
 
 [connection signal="pressed" from="CanvasLayer/PanelContainer/MarginContainer/VBoxContainer/Single Player" to="." method="_on_single_player_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelContainer/MarginContainer/VBoxContainer/Multi Player" to="." method="_on_multi_player_pressed"]

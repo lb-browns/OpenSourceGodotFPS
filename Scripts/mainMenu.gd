@@ -1,6 +1,6 @@
 extends Node
-@onready var SP = load("res://tscn/World/Maps/tutorial.tscn")
-
+var MP = load("res://tscn/World/Maps/mp_world.tscn")
+var SP = load("res://tscn/World/Maps/tutorial.tscn")
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -14,3 +14,9 @@ func _process(delta):
 func _on_single_player_pressed():
 	
 	get_tree().change_scene_to_packed(SP)
+
+
+func _on_multi_player_pressed():
+	
+	
+	get_tree().change_scene_to_packed(MP)
