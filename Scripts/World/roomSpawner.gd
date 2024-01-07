@@ -19,7 +19,7 @@ func _process(delta):
 	
 
 func _input(event):
-	if event.is_action_pressed("Jump"):
+	if event.is_action_pressed("Interact"):
 		removeCurrentRoom()
 		
 		createNewRoom()

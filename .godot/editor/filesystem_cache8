@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704588895
+::res://::1704599677
 export_presets.cfg::TextFile::-1::1703566714::0::1::::<><>::
 icon.svg::CompressedTexture2D::7607507315207210007::1702597203::1704583006::1::::<><>::
 ::res://2dAssets/::1703812646
@@ -2425,27 +2425,28 @@ R.jpg::CompressedTexture2D::1827511085527677352::1617942868::1703818290::1::::<>
 Rock low poly.dae::PackedScene::5089876972742467368::1617942868::1704583008::1::::<><>::uid://1bi3tx841g13::::res://Models/Rocas/R.jpg
 ::res://music/::1703818288
 Jump (JumpStyle TikTok).mp3::AudioStreamMP3::4373658707869388185::1703403133::1703818288::1::::<><>::
-::res://Scripts/::1704582973
+::res://Scripts/::1704600712
 mainMenu.gd::GDScript::-1::1704582973::0::1::::<>Node<>::
-::res://Scripts/Player/::1704587959
+::res://Scripts/AI/::1704600712
+::res://Scripts/Player/::1704600112
 hand.gd::GDScript::-1::1703354102::0::1::::<>Node3D<>::
 HUD.gd::GDScript::-1::1703816713::0::1::::<>CanvasLayer<>::
 MpPlayer.gd::GDScript::-1::1703844488::0::1::::<>CharacterBody3D<>::
-Player.gd::GDScript::-1::1704587959::0::1::::<>CharacterBody3D<>::
-::res://Scripts/Weapon/::1704589099
+Player.gd::GDScript::-1::1704600112::0::1::::<>CharacterBody3D<>::
+::res://Scripts/Weapon/::1704599698
 raycastDebug.gd::GDScript::-1::1703200782::0::1::::<>Sprite3D<>::
 sd_bullet.gd::GDScript::-1::1703216581::0::1::::<>RigidBody3D<>::
 WeaponPickup.gd::GDScript::-1::1703579693::0::1::::<>RigidBody3D<>::
-weaponResource.gd::GDScript::-1::1704583030::0::1::::weaponResource<>Resource<>::
+weaponResource.gd::GDScript::-1::1704599698::0::1::::weaponResource<>Resource<>::
 WeaponsManager.gd::GDScript::-1::1704589099::0::1::::<>Node3D<>::
-::res://Scripts/World/::1704590679
+::res://Scripts/World/::1704600101
 Death Barrier.gd::GDScript::-1::1703561605::0::1::::<>Node3D<>::
 map.gd::GDScript::-1::1703646535::0::1::::<>Node3D<>::
 MapSelectSP.gd::GDScript::-1::1703899090::0::1::::<>Node<>::
 mpworld.gd::GDScript::-1::1704582973::0::1::::<>Node<>::
 physicsTarget.gd::GDScript::-1::1703195076::0::1::::<>RigidBody3D<>::
 physucsTarget.tres.gd::GDScript::-1::1703644945::0::1::::<>RigidBody3D<>::
-roomSpawner.gd::GDScript::-1::1704590679::0::1::::<>Node<>::
+roomSpawner.gd::GDScript::-1::1704600101::0::1::::<>Node<>::
 StaticTarget.gd::GDScript::-1::1703217467::0::1::::<>StaticBody3D<>::
 ::res://sfx/::1703812503
 ::res://sfx/CustomSoundsPack1/::1703818308
@@ -2839,7 +2840,7 @@ Elements_17-128x128.png::CompressedTexture2D::2021724129208066903::1642055162::1
 Elements_18-128x128.png::CompressedTexture2D::615774873932914768::1642055166::1703818291::1::::<><>::
 Elements_19-128x128.png::CompressedTexture2D::8662952018259100780::1642046098::1703818291::1::::<><>::
 Elements_20-128x128.png::CompressedTexture2D::1584131297147287070::1642046106::1703818291::1::::<><>::
-::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/::1704591945
+::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/::1704592317
 Metal_01-128x128.png::CompressedTexture2D::1118486010386180798::1641896726::1704591348::1::::<><>::
 Metal_02-128x128.png::CompressedTexture2D::7287092946797227794::1641896736::1703818291::1::::<><>::
 Metal_03-128x128.png::CompressedTexture2D::7107942873996925406::1641897606::1704591713::1::::<><>::
@@ -2952,11 +2953,13 @@ PurplyBlueSky.png::CompressedTexture2D::3947347864276163059::1586839676::1703818
 SkySkybox.png::CompressedTexture2D::6364075272450833404::1586745590::1703818306::1::::<><>::
 SunsetSky.png::CompressedTexture2D::867764009910265354::1586838816::1703818307::1::::<><>::
 world_environment.tscn::PackedScene::5126210513935840691::1703577418::0::1::::<><>::
-::res://tscn/::1704588895
-::res://tscn/Player/::1704592195
+::res://tscn/::1704600294
+::res://tscn/Enemy/::1704600531
+enemyDev.tscn::PackedScene::5549749327730663123::1704600531::0::1::::<><>::
+::res://tscn/Player/::1704600117
 MPplayer.tscn::PackedScene::5055807946231179568::1704590655::0::1::::<><>::res://Scripts/Player/MpPlayer.gd<>res://Scripts/Player/HUD.gd<>uid://dtr1htkqchj0h::::res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png<>uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>res://Scripts/Weapon/WeaponsManager.gd<>uid://bmwncx3w7fygj::::res://Weapon Resources/1911.tres<>uid://cgjj4k1k353rn::::res://Weapon Resources/DBshotty.tres<>uid://23kq6vyhhc4n::::res://Weapon Resources/m14.tres<>uid://b3m4wv2brbbng::::res://Weapon Resources/metalBat.tres<>uid://g1pm5x2m2qxu::::res://Weapon Resources/ThrowableScrewdriver.tres<>uid://cfiqi0b3dklso::::res://sfx/CustomSoundsPack1/PISTOL5.WAV<>res://Scripts/Player/hand.gd<>uid://cponikef7qyuc::::res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn<>uid://c2xf6jyrklxup::::res://tscn/Weapons/Weps/d_bshotty.tscn<>uid://j1klkgyhsfsh::::res://tscn/Weapons/Weps/1911.tscn<>uid://drqee68f0x5m0::::res://tscn/Weapons/Weps/m_14.tscn<>uid://b8wqphfr328w7::::res://tscn/Weapons/Weps/metalBat.tscn<>uid://co0l5vu6rvo12::::res://sfx/CustomSoundsPack1/PISTOL15.WAV<>uid://dsq6xyuplakep::::res://sfx/CustomSoundsPack1/SHOTGUN13.WAV<>uid://bxgeibsk7f5d2::::res://sfx/CustomSoundsPack1/PUNCH1.WAV<>uid://bgncbims5jfr6::::res://sfx/CustomSoundsPack1/STAB.WAV<>uid://0ag8kiaph7vj::::res://sfx/CustomSoundsPack1/PISTOL0.WAV<>uid://bh7iwadqyhywl::::res://sfx/CustomSoundsPack1/STEP1.WAV
 pauseMenu.tscn::PackedScene::6181448006561395674::1703843037::0::1::::<><>::
-player.tscn::PackedScene::5782865788525969898::1704592195::0::1::::<><>::res://Scripts/Player/Player.gd<>uid://dtr1htkqchj0h::::res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png<>uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>res://Scripts/Weapon/WeaponsManager.gd<>uid://bmwncx3w7fygj::::res://Weapon Resources/1911.tres<>uid://cgjj4k1k353rn::::res://Weapon Resources/DBshotty.tres<>uid://23kq6vyhhc4n::::res://Weapon Resources/m14.tres<>uid://co0l5vu6rvo12::::res://sfx/CustomSoundsPack1/PISTOL15.WAV<>res://Scripts/Player/HUD.gd<>uid://b3m4wv2brbbng::::res://Weapon Resources/metalBat.tres<>uid://cfiqi0b3dklso::::res://sfx/CustomSoundsPack1/PISTOL5.WAV<>uid://dsq6xyuplakep::::res://sfx/CustomSoundsPack1/SHOTGUN13.WAV<>uid://g1pm5x2m2qxu::::res://Weapon Resources/ThrowableScrewdriver.tres<>uid://0ag8kiaph7vj::::res://sfx/CustomSoundsPack1/PISTOL0.WAV<>uid://bgncbims5jfr6::::res://sfx/CustomSoundsPack1/STAB.WAV<>res://Scripts/Player/hand.gd<>uid://cponikef7qyuc::::res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn<>uid://c2xf6jyrklxup::::res://tscn/Weapons/Weps/d_bshotty.tscn<>uid://j1klkgyhsfsh::::res://tscn/Weapons/Weps/1911.tscn<>uid://drqee68f0x5m0::::res://tscn/Weapons/Weps/m_14.tscn<>uid://bxgeibsk7f5d2::::res://sfx/CustomSoundsPack1/PUNCH1.WAV<>uid://b8wqphfr328w7::::res://tscn/Weapons/Weps/metalBat.tscn<>uid://bh7iwadqyhywl::::res://sfx/CustomSoundsPack1/STEP1.WAV
+player.tscn::PackedScene::5782865788525969898::1704600117::0::1::::<><>::res://Scripts/Player/Player.gd<>uid://dtr1htkqchj0h::::res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png<>uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>res://Scripts/Weapon/WeaponsManager.gd<>uid://bmwncx3w7fygj::::res://Weapon Resources/1911.tres<>uid://cgjj4k1k353rn::::res://Weapon Resources/DBshotty.tres<>uid://23kq6vyhhc4n::::res://Weapon Resources/m14.tres<>uid://co0l5vu6rvo12::::res://sfx/CustomSoundsPack1/PISTOL15.WAV<>res://Scripts/Player/HUD.gd<>uid://b3m4wv2brbbng::::res://Weapon Resources/metalBat.tres<>uid://cfiqi0b3dklso::::res://sfx/CustomSoundsPack1/PISTOL5.WAV<>uid://dsq6xyuplakep::::res://sfx/CustomSoundsPack1/SHOTGUN13.WAV<>uid://g1pm5x2m2qxu::::res://Weapon Resources/ThrowableScrewdriver.tres<>uid://0ag8kiaph7vj::::res://sfx/CustomSoundsPack1/PISTOL0.WAV<>uid://bgncbims5jfr6::::res://sfx/CustomSoundsPack1/STAB.WAV<>res://Scripts/Player/hand.gd<>uid://cponikef7qyuc::::res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn<>uid://c2xf6jyrklxup::::res://tscn/Weapons/Weps/d_bshotty.tscn<>uid://j1klkgyhsfsh::::res://tscn/Weapons/Weps/1911.tscn<>uid://drqee68f0x5m0::::res://tscn/Weapons/Weps/m_14.tscn<>uid://bxgeibsk7f5d2::::res://sfx/CustomSoundsPack1/PUNCH1.WAV<>uid://b8wqphfr328w7::::res://tscn/Weapons/Weps/metalBat.tscn<>uid://bh7iwadqyhywl::::res://sfx/CustomSoundsPack1/STEP1.WAV
 player_spawn.tscn::PackedScene::8189533773997451520::1704590656::0::1::::<><>::
 ::res://tscn/Weapons/::1703813375
 ::res://tscn/Weapons/Misc/::1703818407
@@ -2995,11 +2998,11 @@ obstacle.tscn::PackedScene::5492417008230864722::1703815618::0::1::::<><>::
 radio.tscn::PackedScene::5759093663948218904::1703817268::0::1::::<><>::uid://b3kvrxa5tujv2::::res://SlavSlaughterMouseMain/music/Jump (JumpStyle TikTok).mp3
 STaticTarget.tscn::PackedScene::36965995110788054::1703818471::0::1::::<><>::res://Scripts/World/StaticTarget.gd
 Target1.tscn::PackedScene::2441250291704264655::1703843037::0::1::::<><>::res://Scripts/World/physucsTarget.tres.gd<>uid://bhl1w6fv7m4e5::::res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png
-::res://tscn/World/SHRooms/::1704592196
-facility_1.tscn::PackedScene::2941923360102046366::1704592232::0::1::::<><>::uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>uid://p62kifrjvr4i::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_01-128x128.png<>uid://djqma5s2u2woa::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_19-128x128.png<>uid://dtsoumcrx7fqq::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_06-128x128.png
-Room1dev.tscn::PackedScene::6890546892136898258::1704592195::0::1::::<><>::uid://ckb1mk21awvu6::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_16-128x128.png<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn
-Room2dev.tscn::PackedScene::1747966937696167859::1704592195::0::1::::<><>::uid://dejecvdp84xqa::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_04-128x128.png<>uid://dhv6wrr2a7gs2::::res://tscn/Weapons/Pickups/1911Pickup.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn
-RoomGenTest.tscn::PackedScene::9196315308798970921::1704592196::0::1::::<><>::uid://c5f3khqp5y0os::::res://tscn/World/SHRooms/Room1dev.tscn<>res://Scripts/World/roomSpawner.gd<>uid://coni7pts3q0cc::::res://tscn/Player/player.tscn
+::res://tscn/World/SHRooms/::1704600648
+facility_1.tscn::PackedScene::2941923360102046366::1704600117::0::1::::<><>::uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>uid://p62kifrjvr4i::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_01-128x128.png<>uid://djqma5s2u2woa::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_19-128x128.png<>uid://dtsoumcrx7fqq::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_06-128x128.png
+Room1dev.tscn::PackedScene::6890546892136898258::1704600117::0::1::::<><>::uid://ckb1mk21awvu6::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_16-128x128.png<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn
+Room2dev.tscn::PackedScene::1747966937696167859::1704600648::0::1::::<><>::uid://dejecvdp84xqa::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_04-128x128.png<>uid://djqma5s2u2woa::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_19-128x128.png<>uid://dhv6wrr2a7gs2::::res://tscn/Weapons/Pickups/1911Pickup.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn
+RoomGenTest.tscn::PackedScene::9196315308798970921::1704600281::0::1::::<><>::uid://c5f3khqp5y0os::::res://tscn/World/SHRooms/Room1dev.tscn<>res://Scripts/World/roomSpawner.gd<>uid://coni7pts3q0cc::::res://tscn/Player/player.tscn
 ::res://Weapon Resources/::1703819577
 1911.tres::Resource/Resource::3274897262766722077::1703819577::0::1::::<><>::uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>res://Scripts/Weapon/weaponResource.gd<>uid://dhv6wrr2a7gs2::::res://tscn/Weapons/Pickups/1911Pickup.tscn
 DBshotty.tres::Resource/Resource::5213152635850474543::1703819577::0::1::::<><>::uid://cteuqrjfwskhe::::res://2dAssets/weapon icons/DBshottyIco.png<>res://Scripts/Weapon/weaponResource.gd<>uid://yad7cmkucksr::::res://tscn/Weapons/Pickups/DBshottyPickup.tscn
