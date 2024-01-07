@@ -12,3 +12,4 @@ res://tscn/World/SHRooms/RoomGenTest.tscn
 res://Scripts/Player/Player.gd
 res://Scripts/Weapon/WeaponsManager.gd
 res://tscn/Player/player_spawn.tscn
+res://tscn/World/SHRooms/facility_1.tscn
