@@ -16,15 +16,22 @@ func _process(delta):
 	room = Rooms[x]
 	newRoom = room.instantiate()
 	
-	playerSpawn = get_node("Node/Player_Spawn")
 	
 
 func _input(event):
 	if event.is_action_pressed("Jump"):
-		currRoom = get_tree().get_nodes_in_group("Room")
-		remove_child(currRoom[0])
-		add_child(newRoom)
+		removeCurrentRoom()
 		
-		player.position = playerSpawn.transform.origin
-		print(playerSpawn.transform.origin)
-		print(newRoom)
+		createNewRoom()
+	
+
+func removeCurrentRoom():
+	currRoom = get_tree().get_nodes_in_group("Room")
+	remove_child(currRoom[0])
+
+func createNewRoom():
+	add_child(newRoom)
+	playerSpawn = get_node("Node/Player_Spawn")
+	player.position = playerSpawn.transform.origin
+	print(playerSpawn.transform.origin)
+	print(newRoom)
