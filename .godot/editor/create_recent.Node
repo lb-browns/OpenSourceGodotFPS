@@ -1,3 +1,5 @@
+Area3D
+CollisionShape3D
 CSGBox3D
 CSGCombiner3D
 Node3D
@@ -9,6 +11,5 @@ TextureButton
 VBoxContainer
 PanelContainer
 CanvasLayer
-CollisionShape3D
 Button
 MultiplayerSynchronizer

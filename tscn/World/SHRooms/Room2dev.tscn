@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://y5y03wj4kljv"]
+[gd_scene load_steps=10 format=3 uid="uid://y5y03wj4kljv"]
 
 [ext_resource type="Texture2D" uid="uid://dejecvdp84xqa" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_04-128x128.png" id="1_teio6"]
+[ext_resource type="Texture2D" uid="uid://djqma5s2u2woa" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_19-128x128.png" id="2_hhcyv"]
 [ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://tscn/Weapons/Pickups/1911Pickup.tscn" id="3_8fqpf"]
 [ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="3_ssj4t"]
 
@@ -16,6 +17,11 @@ uv1_triplanar = true
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nwyjv"]
 albedo_texture = ExtResource("1_teio6")
 uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ee120"]
+albedo_texture = ExtResource("2_hhcyv")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_msvvv"]
 
 [node name="Node" type="Node" groups=["Room"]]
 
@@ -36,8 +42,17 @@ material = SubResource("StandardMaterial3D_7ooji")
 [node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
 operation = 2
-size = Vector3(2, 4, 20)
+size = Vector3(2, 4, 18)
 material = SubResource("StandardMaterial3D_nwyjv")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 9.5)
+size = Vector3(2, 6, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, -9.5)
+size = Vector3(2, 6, 1)
+material = SubResource("StandardMaterial3D_ee120")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-4.37114e-08, -0.422618, 0.906308, 0, 0.906308, 0.422618, -1, 1.84732e-08, -3.9616e-08, 23, 12, 0)
@@ -46,4 +61,10 @@ transform = Transform3D(-4.37114e-08, -0.422618, 0.906308, 0, 0.906308, 0.422618
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 1, -4)
 
 [node name="Player_Spawn" parent="." instance=ExtResource("3_ssj4t")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 7)
+
+[node name="Exit" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.32835, -7.52354)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Exit"]
+shape = SubResource("BoxShape3D_msvvv")
