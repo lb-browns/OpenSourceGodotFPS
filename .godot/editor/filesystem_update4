@@ -1,9 +1,12 @@
-res://tscn/World/Maps/MapSelectSP.tscn
-res://Scripts/Weapon/weaponResource.gd
 res://tscn/Player/MPplayer.tscn
+res://Scripts/Weapon/weaponResource.gd
 res://tscn/Player/player.tscn
 res://tscn/World/Maps/mp_world.tscn
 res://tscn/World/Maps/tutorial.tscn
 res://tscn/World/Maps/mainMenu.tscn
-res://Scripts/World/mpworld.gd
-res://Scripts/mainMenu.gd
+res://tscn/World/Maps/MapSelectSP.tscn
+res://tscn/World/SHRooms/Room1dev.tscn
+res://tscn/World/SHRooms/Room2dev.tscn
+res://Scripts/World/roomSpawner.gd
+res://tscn/World/SHRooms/RoomGenTest.tscn
+res://Scripts/Player/Player.gd

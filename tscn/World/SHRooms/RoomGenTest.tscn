@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d4a0771x1suy0"]
+
+[ext_resource type="PackedScene" uid="uid://c5f3khqp5y0os" path="res://tscn/World/SHRooms/Room1dev.tscn" id="1_h4slr"]
+[ext_resource type="Script" path="res://Scripts/World/roomSpawner.gd" id="1_pafx1"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_pafx1")
+
+[node name="Node" parent="." instance=ExtResource("1_h4slr")]

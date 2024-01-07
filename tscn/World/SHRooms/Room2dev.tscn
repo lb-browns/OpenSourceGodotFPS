@@ -1,0 +1,49 @@
+[gd_scene load_steps=7 format=3 uid="uid://y5y03wj4kljv"]
+
+[ext_resource type="Texture2D" uid="uid://dejecvdp84xqa" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_04-128x128.png" id="1_teio6"]
+[ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="2_48n8n"]
+[ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://tscn/Weapons/Pickups/1911Pickup.tscn" id="3_8fqpf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i7thn"]
+albedo_texture = ExtResource("1_teio6")
+uv1_triplanar = true
+uv1_world_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7ooji"]
+albedo_texture = ExtResource("1_teio6")
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nwyjv"]
+albedo_texture = ExtResource("1_teio6")
+uv1_triplanar = true
+
+[node name="Node" type="Node" groups=["Room"]]
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+size = Vector3(20, 6, 20)
+material = SubResource("StandardMaterial3D_i7thn")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+operation = 2
+size = Vector3(18, 4, 18)
+material = SubResource("StandardMaterial3D_7ooji")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+operation = 2
+size = Vector3(2, 4, 20)
+material = SubResource("StandardMaterial3D_nwyjv")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-4.37114e-08, -0.422618, 0.906308, 0, 0.906308, 0.422618, -1, 1.84732e-08, -3.9616e-08, 23, 12, 0)
+
+[node name="Player" parent="." instance=ExtResource("2_48n8n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 3, -4)
+
+[node name="1911Pickup" parent="." instance=ExtResource("3_8fqpf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 1, -4)
