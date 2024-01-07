@@ -10,3 +10,5 @@ res://tscn/World/SHRooms/Room2dev.tscn
 res://Scripts/World/roomSpawner.gd
 res://tscn/World/SHRooms/RoomGenTest.tscn
 res://Scripts/Player/Player.gd
+res://Scripts/Weapon/WeaponsManager.gd
+res://tscn/Player/player_spawn.tscn

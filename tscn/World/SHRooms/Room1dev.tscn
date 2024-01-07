@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://c5f3khqp5y0os"]
 
 [ext_resource type="Texture2D" uid="uid://ckb1mk21awvu6" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_16-128x128.png" id="1_c7nts"]
-[ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="2_oqdi3"]
+[ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="2_qx8g1"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i7thn"]
 albedo_texture = ExtResource("1_c7nts")
@@ -30,5 +30,5 @@ operation = 2
 size = Vector3(2, 4, 20)
 material = SubResource("StandardMaterial3D_i7thn")
 
-[node name="Player" parent="." instance=ExtResource("2_oqdi3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+[node name="Player_Spawn" parent="." instance=ExtResource("2_qx8g1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 2, -5)

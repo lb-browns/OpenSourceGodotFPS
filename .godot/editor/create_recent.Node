@@ -1,3 +1,4 @@
+Node3D
 Camera3D
 Node
 CSGBox3D
@@ -11,5 +12,3 @@ CanvasLayer
 CollisionShape3D
 Button
 MultiplayerSynchronizer
-MultiplayerSpawner
-LineEdit

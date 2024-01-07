@@ -193,7 +193,6 @@ func hitscanDamage(Collider, Direction, Position):
 func launchProjectile(Point):
 	var Direction = (Point - bulletPoint.get_global_transform().origin).normalized()
 	var Projectile = currentWeapon.projectileToLoad.instantiate()
-	
 	bulletPoint.add_child(Projectile)
 	Projectile.Damage = currentWeapon.weaponDamage
 	Projectile.set_linear_velocity(Direction * currentWeapon.projectileVelocity)
