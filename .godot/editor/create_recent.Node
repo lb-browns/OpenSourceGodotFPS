@@ -1,9 +1,10 @@
+AnimationTree
+MeshInstance3D
 NavigationLink3D
 NavigationRegion3D
 NavigationAgent3D
 AnimationPlayer
 CollisionShape3D
-MeshInstance3D
 CharacterBody3D
 Area3D
 CSGBox3D
@@ -12,4 +13,3 @@ Node3D
 Camera3D
 Node
 Label
-MarginContainer
