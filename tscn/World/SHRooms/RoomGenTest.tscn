@@ -1,13 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://d4a0771x1suy0"]
+[gd_scene load_steps=5 format=3 uid="uid://d4a0771x1suy0"]
 
 [ext_resource type="PackedScene" uid="uid://c5f3khqp5y0os" path="res://tscn/World/SHRooms/Room1dev.tscn" id="1_h4slr"]
 [ext_resource type="Script" path="res://Scripts/World/roomSpawner.gd" id="1_pafx1"]
 [ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="3_pav7b"]
+[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://Textures/Skyboxes/world_environment.tscn" id="4_icyym"]
 
 [node name="Node" type="Node"]
 script = ExtResource("1_pafx1")
 
-[node name="Node" parent="." instance=ExtResource("1_h4slr")]
-
 [node name="Player" parent="." instance=ExtResource("3_pav7b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+
+[node name="Node" parent="." instance=ExtResource("1_h4slr")]
+
+[node name="WorldEnvironment" parent="." instance=ExtResource("4_icyym")]

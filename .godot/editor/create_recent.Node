@@ -1,5 +1,6 @@
-SubViewportContainer
 SubViewport
+SubViewportContainer
+Camera3D
 Sprite2D
 Timer
 Node3D
@@ -11,5 +12,3 @@ BoxContainer
 CanvasLayer
 TextureProgressBar
 ProgressBar
-AnimationTree
-MeshInstance3D

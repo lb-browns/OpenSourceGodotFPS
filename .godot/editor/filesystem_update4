@@ -1,28 +1,13 @@
-res://tscn/World/SHRooms/Room2dev.tscn
+res://tscn/Player/player.tscn
+res://Scripts/AI/Enemy/EnemySpawner.gd
 res://Scripts/Weapon/weaponResource.gd
 res://Scripts/World/roomSpawner.gd
-res://tscn/Player/player.tscn
-res://Scripts/Player/Player.gd
-res://tscn/World/SHRooms/Room1dev.tscn
-res://tscn/World/SHRooms/facility_1.tscn
-res://tscn/World/SHRooms/RoomGenTest.tscn
-res://tscn/Enemy/enemyDev.tscn
-res://Scripts/AI/Enemy/EnemyAI.gd
-res://Scripts/Weapon/WeaponsManager.gd
-res://Weapon Resources/metalBat.tres
-res://tscn/Player/DeathScreen.tscn
-res://Scripts/UI/DeathScreen.gd
-res://tscn/World/Maps/MapSelectSP.tscn
-res://Scripts/mainMenu.gd
-res://Scripts/World/MapSelectSP.gd
-res://tscn/World/Maps/mainMenu.tscn
-res://tscn/World/Misc/EnemySpawner.tscn
-res://tscn/Weapons/Weps/1911.tscn
-res://Enemy Resources/DevEnemy.tres
-res://Scripts/AI/Enemy/enemyResource.gd
-res://tscn/Enemy/enemyDev2.tscn
-res://Scripts/AI/Enemy/EnemySpawner.gd
-res://tscn/Enemy/enemyDev3.tscn
-res://tscn/World/Misc/EnemySpawner3d.tscn
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
+res://tscn/World/SHRooms/Room2dev.tscn
+res://tscn/World/SHRooms/RoomGenTest.tscn
+res://tscn/Enemy/enemyDev.tscn
+res://tscn/World/Misc/EnemySpawner.tscn
+res://tscn/World/Misc/EnemySpawner3d.tscn
+res://Textures/Skyboxes/world_environment.tscn
+res://Scripts/Weapon/WeaponsManager.gd
