@@ -1,3 +1,4 @@
+Timer
 Node3D
 Node
 Button
@@ -12,4 +13,3 @@ MeshInstance3D
 NavigationLink3D
 NavigationRegion3D
 NavigationAgent3D
-AnimationPlayer

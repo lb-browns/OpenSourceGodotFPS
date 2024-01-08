@@ -9,6 +9,7 @@ extends Node3D
 
 var enemies
 var newEnemy
+var canSpawn
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -17,10 +18,16 @@ func _process(delta):
 	
 	enemies = Enemies[x]
 	newEnemy = enemies.instantiate()
-	if spawnLimit > 0:
-		spawnEnemy()
+
 
 func spawnEnemy():
-	await get_tree().create_timer(0.5)
 	add_child(newEnemy)
 	spawnLimit -= 1
+	
+	
+
+
+func _on_timer_timeout():
+	if spawnLimit > 0:
+		spawnEnemy()
+		Timer
