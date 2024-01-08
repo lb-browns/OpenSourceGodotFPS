@@ -1,4 +1,4 @@
-[gd_scene load_steps=54 format=3 uid="uid://coni7pts3q0cc"]
+[gd_scene load_steps=56 format=3 uid="uid://coni7pts3q0cc"]
 
 [ext_resource type="Script" path="res://Scripts/Player/Player.gd" id="1_sc27s"]
 [ext_resource type="Texture2D" uid="uid://dtr1htkqchj0h" path="res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png" id="3_jrayb"]
@@ -22,6 +22,7 @@
 [ext_resource type="PackedScene" uid="uid://drqee68f0x5m0" path="res://tscn/Weapons/Weps/m_14.tscn" id="16_lu3cd"]
 [ext_resource type="AudioStream" uid="uid://bxgeibsk7f5d2" path="res://sfx/CustomSoundsPack1/PUNCH1.WAV" id="16_wmdbp"]
 [ext_resource type="PackedScene" uid="uid://b8wqphfr328w7" path="res://tscn/Weapons/Weps/metalBat.tscn" id="17_hrqtn"]
+[ext_resource type="Shader" path="res://gdShaders/pixelation.gdshader" id="18_gsa4h"]
 [ext_resource type="AudioStream" uid="uid://bh7iwadqyhywl" path="res://sfx/CustomSoundsPack1/STEP1.WAV" id="23_m2x5a"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_o1olk"]
@@ -35,6 +36,13 @@ bg_color = Color(0.898039, 0.0196078, 0.333333, 1)
 bg_color = Color(0.466667, 0.764706, 0.262745, 1)
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xef1d"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rhdve"]
+shader = ExtResource("18_gsa4h")
+shader_parameter/enabled = true
+shader_parameter/dithering = true
+shader_parameter/colors = 14
+shader_parameter/dither_size = 5
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_pmh3n"]
 size = Vector3(1.92371, 1.16113, 2.0918)
@@ -1194,6 +1202,43 @@ max_value = 150.0
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_xef1d")
 
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+material = SubResource("ShaderMaterial_rhdve")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+handle_input_locally = false
+render_target_update_mode = 4
+
+[node name="PickupDetection" type="Area3D" parent="."]
+collision_layer = 0
+collision_mask = 8
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PickupDetection"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.16864, -0.0805664, 0.0180664)
+shape = SubResource("BoxShape3D_pmh3n")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../camHolder/Main Cam/WeaponsManager/FPS_Rig")
+libraries = {
+"": SubResource("AnimationLibrary_g3pyr")
+}
+
+[node name="PlayerAnimations" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_6xlyu")
+}
+
+[node name="Player Audios" type="Node3D" parent="."]
+
+[node name="Footsteps" type="AudioStreamPlayer3D" parent="Player Audios"]
+stream = ExtResource("23_m2x5a")
+volume_db = -40.0
+
 [node name="camHolder" type="Node3D" parent="."]
 
 [node name="Main Cam" type="Camera3D" parent="camHolder"]
@@ -1227,33 +1272,8 @@ swayRight = Vector3(0, -1, 0)
 
 [node name="metalBat" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" instance=ExtResource("17_hrqtn")]
 
-[node name="PickupDetection" type="Area3D" parent="."]
-collision_layer = 0
-collision_mask = 8
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PickupDetection"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.16864, -0.0805664, 0.0180664)
-shape = SubResource("BoxShape3D_pmh3n")
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-root_node = NodePath("../camHolder/Main Cam/WeaponsManager/FPS_Rig")
-libraries = {
-"": SubResource("AnimationLibrary_g3pyr")
-}
-
-[node name="PlayerAnimations" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_6xlyu")
-}
-
-[node name="Player Audios" type="Node3D" parent="."]
-
-[node name="Footsteps" type="AudioStreamPlayer3D" parent="Player Audios"]
-stream = ExtResource("23_m2x5a")
-volume_db = -40.0
-
+[connection signal="body_entered" from="PickupDetection" to="camHolder/Main Cam/WeaponsManager" method="_on_pickup_detection_body_entered"]
+[connection signal="animation_finished" from="AnimationPlayer" to="camHolder/Main Cam/WeaponsManager" method="_on_animation_player_animation_finished"]
 [connection signal="updateAmmo" from="camHolder/Main Cam/WeaponsManager" to="CanvasLayer" method="_on_weapons_manager_update_ammo"]
 [connection signal="updateWeaponStack" from="camHolder/Main Cam/WeaponsManager" to="CanvasLayer" method="_on_weapons_manager_update_weapon_stack"]
 [connection signal="weaponChanged" from="camHolder/Main Cam/WeaponsManager" to="CanvasLayer" method="_on_weapons_manager_weapon_changed"]
-[connection signal="body_entered" from="PickupDetection" to="camHolder/Main Cam/WeaponsManager" method="_on_pickup_detection_body_entered"]
-[connection signal="animation_finished" from="AnimationPlayer" to="camHolder/Main Cam/WeaponsManager" method="_on_animation_player_animation_finished"]

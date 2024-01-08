@@ -24,3 +24,5 @@ res://tscn/Enemy/enemyDev2.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://tscn/Enemy/enemyDev3.tscn
 res://tscn/World/Misc/EnemySpawner3d.tscn
+res://gdShaders/pixelation.gdshader
+res://gdShaders/sky.gdshader

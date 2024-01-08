@@ -1,3 +1,6 @@
+SubViewportContainer
+SubViewport
+Sprite2D
 Timer
 Node3D
 Node
@@ -10,6 +13,3 @@ TextureProgressBar
 ProgressBar
 AnimationTree
 MeshInstance3D
-NavigationLink3D
-NavigationRegion3D
-NavigationAgent3D
