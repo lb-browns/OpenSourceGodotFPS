@@ -16,3 +16,11 @@ res://tscn/World/Maps/MapSelectSP.tscn
 res://Scripts/mainMenu.gd
 res://Scripts/World/MapSelectSP.gd
 res://tscn/World/Maps/mainMenu.tscn
+res://tscn/World/Misc/EnemySpawner.tscn
+res://tscn/Weapons/Weps/1911.tscn
+res://Enemy Resources/DevEnemy.tres
+res://Scripts/AI/Enemy/enemyResource.gd
+res://tscn/Enemy/enemyDev2.tscn
+res://Scripts/AI/Enemy/EnemySpawner.gd
+res://tscn/Enemy/enemyDev3.tscn
+res://tscn/World/Misc/EnemySpawner3d.tscn

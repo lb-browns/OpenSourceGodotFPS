@@ -1,10 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://y5y03wj4kljv"]
+[gd_scene load_steps=13 format=3 uid="uid://y5y03wj4kljv"]
 
 [ext_resource type="Texture2D" uid="uid://dejecvdp84xqa" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_04-128x128.png" id="1_teio6"]
 [ext_resource type="Texture2D" uid="uid://djqma5s2u2woa" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_19-128x128.png" id="2_hhcyv"]
 [ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://tscn/Weapons/Pickups/1911Pickup.tscn" id="3_8fqpf"]
 [ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="3_ssj4t"]
 [ext_resource type="PackedScene" uid="uid://clcltcb15llhb" path="res://tscn/Enemy/enemyDev.tscn" id="5_7cy8u"]
+[ext_resource type="PackedScene" uid="uid://b56ats1otgo53" path="res://tscn/World/Misc/EnemySpawner3d.tscn" id="6_u3cc7"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_msvvv"]
 
@@ -79,3 +80,6 @@ material = SubResource("StandardMaterial3D_ee120")
 
 [node name="EnemyDev" parent="." instance=ExtResource("5_7cy8u")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.86535, 2.33733, 0)
+
+[node name="EnemySpawner3d" parent="." instance=ExtResource("6_u3cc7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.08896, 0)

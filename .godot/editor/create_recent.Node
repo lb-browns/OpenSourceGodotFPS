@@ -1,3 +1,5 @@
+Node3D
+Node
 Button
 Label
 Panel
@@ -11,5 +13,3 @@ NavigationLink3D
 NavigationRegion3D
 NavigationAgent3D
 AnimationPlayer
-CollisionShape3D
-CharacterBody3D
