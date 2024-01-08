@@ -11,16 +11,15 @@ var enemies
 var newEnemy
 var canSpawn
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+
+func spawnEnemy():
+	
 	randomize()
 	var x = randi() % Enemies.size()
 	
 	enemies = Enemies[x]
 	newEnemy = enemies.instantiate()
-
-
-func spawnEnemy():
+	
 	add_child(newEnemy)
 	spawnLimit -= 1
 	
