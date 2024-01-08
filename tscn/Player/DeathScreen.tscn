@@ -80,3 +80,4 @@ text = "Main Menu
 "
 
 [connection signal="pressed" from="CanvasLayer/BoxContainer/Panel/New Run" to="." method="_on_new_run_pressed"]
+[connection signal="pressed" from="CanvasLayer/BoxContainer/Panel/MainMenu" to="." method="_on_main_menu_pressed"]

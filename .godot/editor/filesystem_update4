@@ -12,3 +12,7 @@ res://Scripts/Weapon/WeaponsManager.gd
 res://Weapon Resources/metalBat.tres
 res://tscn/Player/DeathScreen.tscn
 res://Scripts/UI/DeathScreen.gd
+res://tscn/World/Maps/MapSelectSP.tscn
+res://Scripts/mainMenu.gd
+res://Scripts/World/MapSelectSP.gd
+res://tscn/World/Maps/mainMenu.tscn

@@ -14,3 +14,7 @@ func _process(delta):
 
 func _on_new_run_pressed():
 	get_tree().change_scene_to_packed(newRun)
+
+
+func _on_main_menu_pressed():
+	get_tree().change_scene_to_packed(mainMenu)
