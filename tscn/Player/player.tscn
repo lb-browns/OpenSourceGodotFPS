@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=3 uid="uid://coni7pts3q0cc"]
+[gd_scene load_steps=54 format=3 uid="uid://coni7pts3q0cc"]
 
 [ext_resource type="Script" path="res://Scripts/Player/Player.gd" id="1_sc27s"]
 [ext_resource type="Texture2D" uid="uid://dtr1htkqchj0h" path="res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png" id="3_jrayb"]
@@ -26,6 +26,13 @@
 
 [sub_resource type="LabelSettings" id="LabelSettings_o1olk"]
 font_size = 34
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cf8xn"]
+content_margin_left = 300.0
+bg_color = Color(0.898039, 0.0196078, 0.333333, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q67ej"]
+bg_color = Color(0.466667, 0.764706, 0.262745, 1)
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xef1d"]
 
@@ -1169,6 +1176,20 @@ texture = ExtResource("4_r7oxc")
 layout_mode = 2
 text = "10/10"
 label_settings = SubResource("LabelSettings_o1olk")
+
+[node name="BoxContainer" type="BoxContainer" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Health" type="ProgressBar" parent="CanvasLayer/BoxContainer"]
+layout_mode = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_cf8xn")
+theme_override_styles/fill = SubResource("StyleBoxFlat_q67ej")
+max_value = 150.0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_xef1d")

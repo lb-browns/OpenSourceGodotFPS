@@ -79,9 +79,3 @@ material = SubResource("StandardMaterial3D_ee120")
 
 [node name="EnemyDev" parent="." instance=ExtResource("5_7cy8u")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.86535, 2.33733, 0)
-
-[node name="EnemyDev2" parent="." instance=ExtResource("5_7cy8u")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.86535, 2.33733, 3.14957)
-
-[node name="EnemyDev3" parent="." instance=ExtResource("5_7cy8u")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4198, 2.33733, 3.14957)

@@ -1,10 +1,11 @@
 extends CharacterBody3D
 
-@export var playerHealth = 999.0
+@export var playerHealth = 150
 @onready var MainCamera = get_node("camHolder/Main Cam")
 @onready var anim = get_node("PlayerAnimations")
 @onready var footstepAudio = $"Player Audios/Footsteps"
 @onready var wepResource = $"camHolder/Main Cam/WeaponsManager"
+@onready var hpBar = $CanvasLayer/BoxContainer/Health
 
 var jumpNum
 
@@ -36,6 +37,7 @@ func _ready():
 	MainCamera.current = true
 
 func _process(delta):
+	hpBar.value = playerHealth
 	if playerHealth <= 0:
 		Die()
 
