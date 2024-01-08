@@ -8,3 +8,5 @@ res://tscn/World/SHRooms/facility_1.tscn
 res://tscn/World/SHRooms/RoomGenTest.tscn
 res://tscn/Enemy/enemyDev.tscn
 res://Scripts/AI/Enemy/EnemyAI.gd
+res://Scripts/Weapon/WeaponsManager.gd
+res://Weapon Resources/metalBat.tres

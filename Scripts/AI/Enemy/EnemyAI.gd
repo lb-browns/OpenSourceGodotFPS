@@ -3,6 +3,7 @@ extends CharacterBody3D
 const SPEED = 4.0
 const ATTACK_RANGE = 1.0
 const DAMAGE = 0.2
+var HEALTH = 75.0
 
 var stateMachine
 
@@ -21,8 +22,11 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	print(player)
+	
 	velocity = Vector3.ZERO
+	
+	if HEALTH <= 0:
+		Die()
 	
 	match stateMachine.get_current_node():
 		"Tracking":
@@ -48,3 +52,10 @@ func targetInRange():
 
 func hitPlayer():
 	player.playerHealth -= DAMAGE
+
+func takeDamage(damageAmnt):
+	print(HEALTH)
+	HEALTH -= damageAmnt
+
+func Die():
+	queue_free()

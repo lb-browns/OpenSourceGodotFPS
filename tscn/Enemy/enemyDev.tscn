@@ -135,7 +135,7 @@ states/Tracking/node = SubResource("AnimationNodeAnimation_vmi0v")
 states/Tracking/position = Vector2(318, 107.875)
 transitions = ["Start", "Tracking", SubResource("AnimationNodeStateMachineTransition_jgsif"), "Tracking", "Attacking", SubResource("AnimationNodeStateMachineTransition_6ylpq"), "Attacking", "Tracking", SubResource("AnimationNodeStateMachineTransition_3ab2o")]
 
-[node name="EnemyDev" type="CharacterBody3D"]
+[node name="EnemyDev" type="CharacterBody3D" groups=["Enemy"]]
 script = ExtResource("1_t0twk")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]

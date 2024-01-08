@@ -189,6 +189,8 @@ func hitscanDamage(Collider, Direction, Position):
 		print(Collider.playerHealth)
 		player.receiveDamage.rpc_id(Collider.get_multiplayer_authority())
 		#Collider.hitSuccessful(currentWeapon.weaponDamage, Direction, Position)
+	elif Collider.is_in_group("Enemy"):
+		Collider.takeDamage(currentWeapon.weaponDamage)
 
 func launchProjectile(Point):
 	var Direction = (Point - bulletPoint.get_global_transform().origin).normalized()
