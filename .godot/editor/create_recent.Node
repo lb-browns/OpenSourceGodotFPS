@@ -1,6 +1,10 @@
+Button
+Label
+Panel
+BoxContainer
+CanvasLayer
 TextureProgressBar
 ProgressBar
-BoxContainer
 AnimationTree
 MeshInstance3D
 NavigationLink3D
@@ -9,7 +13,3 @@ NavigationAgent3D
 AnimationPlayer
 CollisionShape3D
 CharacterBody3D
-Area3D
-CSGBox3D
-CSGCombiner3D
-Node3D

@@ -10,3 +10,5 @@ res://tscn/Enemy/enemyDev.tscn
 res://Scripts/AI/Enemy/EnemyAI.gd
 res://Scripts/Weapon/WeaponsManager.gd
 res://Weapon Resources/metalBat.tres
+res://tscn/Player/DeathScreen.tscn
+res://Scripts/UI/DeathScreen.gd

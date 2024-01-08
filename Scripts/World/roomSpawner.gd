@@ -1,7 +1,5 @@
 extends Node
 
-
-
 @onready var player = $Player
 @onready var playerSpawn = get_node("Node/Player_Spawn")
 var Rooms = [

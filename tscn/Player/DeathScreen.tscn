@@ -1,0 +1,82 @@
+[gd_scene load_steps=5 format=3 uid="uid://djgonr3nufxa7"]
+
+[ext_resource type="Script" path="res://Scripts/UI/DeathScreen.gd" id="1_4uelc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_avxt2"]
+bg_color = Color(0.996078, 0.254902, 0.196078, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_nxvij"]
+font_names = PackedStringArray("Raanana")
+
+[sub_resource type="LabelSettings" id="LabelSettings_mqtud"]
+font = SubResource("SystemFont_nxvij")
+font_size = 200
+
+[node name="DeathScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4uelc")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="BoxContainer" type="BoxContainer" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="CanvasLayer/BoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_avxt2")
+
+[node name="Label" type="Label" parent="CanvasLayer/BoxContainer/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.0
+offset_top = -147.0
+offset_right = 38.0
+offset_bottom = -124.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "YOU DIED"
+label_settings = SubResource("LabelSettings_mqtud")
+horizontal_alignment = 1
+
+[node name="New Run" type="Button" parent="CanvasLayer/BoxContainer/Panel"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 99.0
+offset_top = 149.0
+offset_right = 177.0
+offset_bottom = 180.0
+grow_vertical = 2
+scale = Vector2(4.72, 3.92)
+text = "New Run"
+
+[node name="MainMenu" type="Button" parent="CanvasLayer/BoxContainer/Panel"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 621.0
+offset_top = 149.0
+offset_right = 699.0
+offset_bottom = 180.0
+grow_vertical = 2
+scale = Vector2(4.72, 3.92)
+text = "Main Menu
+"
+
+[connection signal="pressed" from="CanvasLayer/BoxContainer/Panel/New Run" to="." method="_on_new_run_pressed"]

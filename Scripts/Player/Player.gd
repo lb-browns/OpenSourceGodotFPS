@@ -6,6 +6,7 @@ extends CharacterBody3D
 @onready var footstepAudio = $"Player Audios/Footsteps"
 @onready var wepResource = $"camHolder/Main Cam/WeaponsManager"
 @onready var hpBar = $CanvasLayer/BoxContainer/Health
+@onready var deathScreen = preload("res://tscn/Player/DeathScreen.tscn")
 
 var jumpNum
 
@@ -135,7 +136,9 @@ func weaponBob(vel : float, delta):
 			weaponHolder.position.y = lerp(weaponHolder.position.y, defaultWeaponHolderPos.y, 10 * delta)
 
 func Die():
-	get_tree().reload_current_scene()
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+	get_tree().change_scene_to_packed(deathScreen)
+	
 
 
 func _on_area_3d_body_entered(body):
