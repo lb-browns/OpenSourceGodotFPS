@@ -1,13 +1,13 @@
-res://tscn/Player/player.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://Scripts/Weapon/weaponResource.gd
 res://Scripts/World/roomSpawner.gd
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
+res://tscn/World/SHRooms/Facility2.tscn
+res://tscn/Player/player.tscn
 res://tscn/World/SHRooms/Room2dev.tscn
 res://tscn/World/SHRooms/RoomGenTest.tscn
 res://tscn/Enemy/enemyDev.tscn
 res://tscn/World/Misc/EnemySpawner.tscn
 res://tscn/World/Misc/EnemySpawner3d.tscn
 res://Textures/Skyboxes/world_environment.tscn
-res://Scripts/Weapon/WeaponsManager.gd

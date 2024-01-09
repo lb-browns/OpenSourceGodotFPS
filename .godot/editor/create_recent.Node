@@ -1,3 +1,8 @@
+CSGSphere3D
+CSGCylinder3D
+CSGTorus3D
+CSGBox3D
+CSGCombiner3D
 SubViewport
 SubViewportContainer
 Camera3D
@@ -8,7 +13,3 @@ Node
 Button
 Label
 Panel
-BoxContainer
-CanvasLayer
-TextureProgressBar
-ProgressBar
