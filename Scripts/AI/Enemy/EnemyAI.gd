@@ -22,7 +22,6 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	
 	velocity = Vector3.ZERO
 	
 	if HEALTH <= 0:
