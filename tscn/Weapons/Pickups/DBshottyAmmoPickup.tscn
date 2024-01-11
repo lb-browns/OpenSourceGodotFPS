@@ -4,8 +4,8 @@
 [ext_resource type="ArrayMesh" uid="uid://b3wfsgnum48a4" path="res://Models/PSXAmmoBoxes/12g/12g_red_240.obj" id="2_jtnga"]
 [ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_0vj6d"]
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_4a3ih"]
-points = PackedVector3Array(0.151326, 0.545456, 0.0265486, 0.151326, 0.545456, -0.0265893, -0.246919, 0.544202, 0.0265486, -0.490172, 0.528429, 0.207673, 0.410249, 0.528429, 0.207673, -0.490172, 0.528429, -0.207673, -0.246919, 0.544202, -0.0265893, 0.410249, 0.528429, -0.207673, -0.490712, 0.528429, -4.06504e-05, -0.490712, 0.528272, 0.202347, -0.490712, 0.011868, 0.202347, -0.482607, 0.424803, 0.207632, 0.410159, 0.360977, 0.207632, 0.427181, 0.15686, 0.14738, 0.429342, 0.173208, 0.137825, 0.421867, 0.512864, 0.132662, -0.482607, 0.424803, -0.207673, -0.490712, 0.011868, -0.202388, -0.490712, 0.528115, -0.202388, 0.421867, 0.512864, -0.132703, 0.429342, 0.173208, -0.137866, 0.427181, 0.15686, -0.14742, 0.410159, 0.360977, -0.207673, 0.404936, 0.011868, 0.202347, 0.404936, 0.011868, -0.202388)
+[sub_resource type="BoxShape3D" id="BoxShape3D_qa2kv"]
+size = Vector3(5, 5, 5)
 
 [node name="bdshotty" type="RigidBody3D"]
 collision_layer = 8
@@ -21,10 +21,9 @@ mesh = ExtResource("2_jtnga")
 
 [node name="TacticalRifle2" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.89, 0, 0, 0, 0.89, 0, 0, 0, 0.89, 0, 0, 0)
-visible = false
 mesh = ExtResource("2_jtnga")
 surface_material_override/0 = ExtResource("3_0vj6d")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(0.89, 0, 0, 0, 0.89, 0, 0, 0, 0.89, 0, 0, 0)
-shape = SubResource("ConvexPolygonShape3D_4a3ih")
+shape = SubResource("BoxShape3D_qa2kv")

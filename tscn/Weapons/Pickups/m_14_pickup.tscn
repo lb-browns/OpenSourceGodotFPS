@@ -4,8 +4,8 @@
 [ext_resource type="ArrayMesh" uid="uid://b07vdsrgl6bya" path="res://Models/PSXMiscGuns/tactical rifle/tactical_Rifle.obj" id="1_x3lxi"]
 [ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_xtlpa"]
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_24hh7"]
-points = PackedVector3Array(0.265104, 2.30634, -0.0378948, 0.299914, 2.30215, 0.117715, 5.49007, 2.24256, 0.00167739, 0.265104, 2.30634, -0.0546568, -4.10419, 1.671, 0.041768, 0.188745, 2.29111, 0.117715, 0.764805, 1.97049, 0.598716, 1.44417, 1.97182, 0.598716, 7.3676, 2.00057, 0.0383983, 7.3676, 2.08548, -0.0462758, 5.49007, 2.24256, -0.094229, 0.299914, 2.30215, -0.210353, 0.188745, 2.29111, -0.210353, -4.10419, 1.671, -0.13432, -4.10419, 0.646889, 0.041768, -4.10419, 0.387576, 0.0416816, 0.794001, 1.17656, 0.59863, 0.96244, 0.465446, 0.59863, 1.45316, 1.33325, 0.598716, 1.6216, 0.622138, 0.59863, 7.3676, 1.91585, -0.0462758, 7.3676, 2.00057, -0.13095, 0.265104, 2.23266, -0.283968, -4.10419, 0.387576, -0.13432, 0.192113, 2.15955, -0.283968, -0.854452, 0.361302, -0.0462758, 0.96244, 0.465446, -0.147712, 1.6216, 0.622138, -0.147712, 4.34356, 1.6255, -0.212513, 4.34356, 1.8711, -0.245605, 4.34356, 2.02056, -0.215019, 0.338094, 2.15955, -0.283968, -0.952146, 0.416515, -0.189012, -3.86164, 0.387576, -0.137516, -0.857821, 1.32373, -0.245605, 0.265104, 2.08644, -0.283968, 1.71143, 1.48518, -0.245605, -0.33903, 1.35629, -0.245605)
+[sub_resource type="BoxShape3D" id="BoxShape3D_et3dc"]
+size = Vector3(12.8864, 5, 5)
 
 [node name="M14 Pickup" type="RigidBody3D"]
 collision_layer = 8
@@ -34,5 +34,5 @@ surface_material_override/8 = ExtResource("3_xtlpa")
 surface_material_override/9 = ExtResource("3_xtlpa")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
-shape = SubResource("ConvexPolygonShape3D_24hh7")
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.208649, 0, 0)
+shape = SubResource("BoxShape3D_et3dc")

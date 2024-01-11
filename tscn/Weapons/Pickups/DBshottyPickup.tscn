@@ -4,8 +4,8 @@
 [ext_resource type="ArrayMesh" uid="uid://co084nah7b4s5" path="res://Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/DoubleBarrelShotgun.obj" id="2_f4cq6"]
 [ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_1k5xt"]
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_la0n5"]
-points = PackedVector3Array(1.58208, 1.90976, 0.0371823, 1.58208, 1.87214, 0.0746252, 1.58208, 1.90976, -0.0371975, -0.70924, 1.90976, 0.0371823, -0.70924, 1.90955, 0.0374353, -0.510777, 1.47072, 0.0241321, 1.58208, 1.83459, 0.0371823, -0.70924, 1.87214, 0.0746252, -2.3023, 1.44345, 0.107704, 1.58208, 1.87214, -0.0746404, -0.70924, 1.90955, -0.0374294, -0.70924, 1.90976, -0.0371975, -0.955886, 1.87687, 0.000245407, -2.32448, 1.67725, -7.58469e-06, -0.486686, 1.47072, -7.58469e-06, -2.27974, 1.20971, -7.58469e-06, 1.58208, 1.83459, -0.0371975, -2.3023, 1.44345, -0.107677, -0.510777, 1.47072, -0.0241262, -0.70924, 1.87214, -0.0746404)
+[sub_resource type="BoxShape3D" id="BoxShape3D_mdi0y"]
+size = Vector3(5, 5, 5)
 
 [node name="DBshottyPickup" type="RigidBody3D"]
 collision_layer = 8
@@ -20,8 +20,8 @@ transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
 mesh = ExtResource("2_f4cq6")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
-shape = SubResource("ConvexPolygonShape3D_la0n5")
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, -0.0395142, 0.510242, -0.264404)
+shape = SubResource("BoxShape3D_mdi0y")
 
 [node name="TacticalRifle2" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
