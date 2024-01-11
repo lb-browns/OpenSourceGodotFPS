@@ -4,7 +4,8 @@ extends Node
 @onready var playerSpawn = get_node("Node/Player_Spawn")
 var Rooms = [
 	preload("res://tscn/World/SHRooms/Room1dev.tscn"),
-	preload("res://tscn/World/SHRooms/Room2dev.tscn") 
+	preload("res://tscn/World/SHRooms/Room2dev.tscn"),
+	preload("res://tscn/World/SHRooms/room_1_warehouse.tscn") 
 ]
 var room
 var newRoom

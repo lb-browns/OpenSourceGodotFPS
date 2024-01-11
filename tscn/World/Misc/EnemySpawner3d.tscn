@@ -1,9 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://b56ats1otgo53"]
+[gd_scene load_steps=5 format=3 uid="uid://b56ats1otgo53"]
 
 [ext_resource type="Script" path="res://Scripts/AI/Enemy/EnemySpawner.gd" id="1_desp4"]
+[ext_resource type="PackedScene" uid="uid://clcltcb15llhb" path="res://tscn/Enemy/enemyDev.tscn" id="2_j3pm8"]
+[ext_resource type="PackedScene" uid="uid://cp26qk5b7kvft" path="res://tscn/Enemy/enemyDev2.tscn" id="3_74umb"]
+[ext_resource type="PackedScene" uid="uid://iw61nxf66vmp" path="res://tscn/Enemy/enemyDev3.tscn" id="4_jmw3s"]
 
 [node name="EnemySpawner3d" type="Node3D"]
 script = ExtResource("1_desp4")
+Enemies = [ExtResource("2_j3pm8"), ExtResource("3_74umb"), ExtResource("4_jmw3s"), null]
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 5.0
