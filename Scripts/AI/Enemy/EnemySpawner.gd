@@ -6,11 +6,12 @@ extends Node3D
 	preload("res://tscn/Enemy/enemyDev2.tscn"),
 	preload("res://tscn/Enemy/enemyDev3.tscn")
 ]
-
+var canExfil
 var enemies
 var newEnemy
 var canSpawn
 
+signal ActivateExfil
 
 func spawnEnemy():
 	
@@ -28,5 +29,8 @@ func spawnEnemy():
 
 func _on_timer_timeout():
 	if spawnLimit > 0:
+		canExfil = false
 		spawnEnemy()
 		Timer
+	else:
+		emit_signal("ActivateExfil")

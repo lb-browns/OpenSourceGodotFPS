@@ -23,3 +23,5 @@ res://node_3d.tscn
 res://tscn/World/SHRooms/room_1_warehouse.tscn
 res://tscn/World/SHRooms/Room1dev.tscn
 res://tscn/World/SHRooms/room_1.tscn
+res://tscn/World/SHRooms/exfil_room.tscn
+res://Scripts/World/exfil_room.gd
