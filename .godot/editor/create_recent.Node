@@ -1,3 +1,4 @@
+Label3D
 SpotLight3D
 Camera3D
 AnimationPlayer
@@ -12,4 +13,3 @@ Label
 CSGPolygon3D
 CSGCylinder3D
 Node3D
-Label3D
