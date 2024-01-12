@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://c5f3khqp5y0os"]
+[gd_scene load_steps=5 format=3 uid="uid://c5f3khqp5y0os"]
 
 [ext_resource type="Texture2D" uid="uid://ckb1mk21awvu6" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_16-128x128.png" id="1_c7nts"]
+[ext_resource type="PackedScene" uid="uid://cb3lpvb4gm4o8" path="res://Exfil.tscn" id="1_dj5pc"]
 [ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="2_qx8g1"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i7thn"]
@@ -9,6 +10,10 @@ uv1_triplanar = true
 uv1_world_triplanar = true
 
 [node name="Node" type="Node" groups=["Room"]]
+
+[node name="Exfil" parent="." instance=ExtResource("1_dj5pc")]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
 
 [node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
 use_collision = true

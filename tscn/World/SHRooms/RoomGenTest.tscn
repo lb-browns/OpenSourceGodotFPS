@@ -9,6 +9,7 @@
 script = ExtResource("1_pafx1")
 
 [node name="Player" parent="." instance=ExtResource("3_pav7b")]
+unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
 
 [node name="WorldEnvironment" parent="." instance=ExtResource("4_icyym")]

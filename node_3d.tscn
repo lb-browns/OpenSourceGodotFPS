@@ -1,11 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://csm2mml584d8f"]
+[gd_scene load_steps=8 format=3 uid="uid://c6kk6hfly7cx8"]
 
 [ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="1_2rvhp"]
 [ext_resource type="Script" path="res://node_3d.gd" id="1_phelo"]
-[ext_resource type="PackedScene" uid="uid://cmg54havdhe3a" path="res://tscn/World/Objects/realcrate.tscn" id="2_xgrg2"]
 [ext_resource type="PackedScene" uid="uid://sceadi13k81u" path="res://tscn/World/Objects/Enemy1.tscn" id="3_sqdqa"]
 [ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://Textures/Skyboxes/world_environment.tscn" id="5_6cedi"]
-[ext_resource type="PackedScene" uid="uid://csgo0j2q8grxj" path="res://Exfil.tscn" id="7_g41kw"]
+[ext_resource type="PackedScene" uid="uid://cb3lpvb4gm4o8" path="res://Exfil.tscn" id="7_g41kw"]
 [ext_resource type="Script" path="res://Scripts/World/roomSpawner.gd" id="7_libuj"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_8v7dg"]
@@ -17,57 +16,7 @@ script = ExtResource("1_phelo")
 
 [node name="Player" parent="." instance=ExtResource("1_2rvhp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 3, 0)
-
-[node name="itemCrate" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 2, 0)
-
-[node name="itemCrate2" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 2, 0)
-
-[node name="itemCrate3" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 2, -2)
-
-[node name="itemCrate4" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 2, 1)
-
-[node name="itemCrate5" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 2, 1)
-
-[node name="itemCrate6" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 2, -2)
-
-[node name="itemCrate7" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 2, -2)
-
-[node name="itemCrate8" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 2, 0)
-
-[node name="itemCrate9" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 3, 0)
-
-[node name="itemCrate10" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 5, 0)
-
-[node name="itemCrate11" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 6, 0)
-
-[node name="itemCrate12" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 7, 0)
-
-[node name="itemCrate13" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 8, 0)
-
-[node name="itemCrate14" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4474, 10.0149, -0.26879)
-
-[node name="itemCrate15" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4474, 11.8354, -0.26879)
-
-[node name="itemCrate16" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.4474, 12.6127, -0.26879)
-
-[node name="itemCrate17" parent="." instance=ExtResource("2_xgrg2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.08068, 0, 0)
+collision_layer = 3
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3, 0)
@@ -341,4 +290,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0)
 script = ExtResource("7_libuj")
 
 [node name="Exfil" parent="." instance=ExtResource("7_g41kw")]
-transform = Transform3D(11, 0, 0, 0, 2.9, 0, 0, 0, 4.4, 2, 1, -6)
+transform = Transform3D(5, 0, 0, 0, 7.143, 0, 0, 0, 5, 2, 3, -6)

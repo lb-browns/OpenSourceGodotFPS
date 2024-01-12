@@ -6,8 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="3_ssj4t"]
 [ext_resource type="PackedScene" uid="uid://clcltcb15llhb" path="res://tscn/Enemy/enemyDev.tscn" id="5_7cy8u"]
 [ext_resource type="PackedScene" uid="uid://b56ats1otgo53" path="res://tscn/World/Misc/EnemySpawner3d.tscn" id="6_u3cc7"]
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_msvvv"]
+[ext_resource type="PackedScene" uid="uid://cb3lpvb4gm4o8" path="res://Exfil.tscn" id="7_4cnj5"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_wabmt"]
 vertices = PackedVector3Array(-9.5, 6, -9.5, -9.5, 6, 9.5, 9.5, 6, 9.5, 9.5, 6, -9.5, -8.25, 1, -8.25, -8.25, 1, 8.5, 8.5, 1, 8.5, 8.5, 1, -8.5)
@@ -39,12 +38,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 1, -4)
 
 [node name="Player_Spawn" parent="." instance=ExtResource("3_ssj4t")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 7)
-
-[node name="Exit" type="Area3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.32835, -7.52354)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Exit"]
-shape = SubResource("BoxShape3D_msvvv")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
 navigation_mesh = SubResource("NavigationMesh_wabmt")
@@ -83,3 +76,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.86535, 2.33733, 0)
 
 [node name="EnemySpawner3d" parent="." instance=ExtResource("6_u3cc7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.08896, 0)
+
+[node name="Exfil" parent="." instance=ExtResource("7_4cnj5")]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25991, 0)

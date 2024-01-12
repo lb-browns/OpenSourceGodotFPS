@@ -17,3 +17,9 @@ res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn
 res://tscn/Weapons/Pickups/m_14_pickup.tscn
 res://tscn/Weapons/Pickups/DBshottyAmmoPickup.tscn
 res://Mats/new_standard_material_3d.tres
+res://Exfil.gd
+res://Exfil.tscn
+res://node_3d.tscn
+res://tscn/World/SHRooms/room_1_warehouse.tscn
+res://tscn/World/SHRooms/Room1dev.tscn
+res://tscn/World/SHRooms/room_1.tscn
