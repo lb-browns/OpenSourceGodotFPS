@@ -1,5 +1,5 @@
-res://Scripts/World
 res://tscn/World/SHRooms
+res://Scripts/World
 res://gdShaders
 res://Scripts/AI/Enemy
 res://Scripts/UI
