@@ -9,11 +9,13 @@ var stateMachine
 
 @onready var player = get_tree().get_root().get_node("Node/Player")
 
+
 @onready var playerPath = null
 
 @onready var navAgent = $NavigationAgent3D
 @onready var animTree = $AnimationTree
 
+signal enemyKilled
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -57,4 +59,5 @@ func takeDamage(damageAmnt):
 	HEALTH -= damageAmnt
 
 func Die():
+	emit_signal("enemyKilled")
 	queue_free()

@@ -1,5 +1,7 @@
 extends Node3D
 
+
+
 @export var spawnLimit = 15
 @export var Enemies = [
 	preload("res://tscn/Enemy/enemyDev.tscn"),
@@ -11,7 +13,13 @@ var enemies
 var newEnemy
 var canSpawn
 
+
 signal ActivateExfil
+
+func _ready():
+	spawnEnemy()
+	
+	
 
 func spawnEnemy():
 	
@@ -27,10 +35,11 @@ func spawnEnemy():
 	
 
 
+
 func _on_timer_timeout():
 	if spawnLimit > 0:
 		canExfil = false
 		spawnEnemy()
 		Timer
-	else:
+	elif get_tree().get_nodes_in_group("Enemy").size() <= 0 && spawnLimit <= 0:
 		emit_signal("ActivateExfil")

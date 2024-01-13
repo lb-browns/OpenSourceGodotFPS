@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://cnaasby7wgmyj"]
 
 [ext_resource type="Texture2D" uid="uid://b2074ffbuhk06" path="res://Textures/kenney_prototype-textures/PNG/Green/texture_01.png" id="1_abvra"]
-[ext_resource type="PackedScene" path="res://tscn/World/SHRooms/spawn_room.tscn" id="2_xa6bq"]
+[ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/SHRooms/spawn_room.tscn" id="2_xa6bq"]
 [ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="5_nefq7"]
 [ext_resource type="PackedScene" uid="uid://b56ats1otgo53" path="res://tscn/World/Misc/EnemySpawner3d.tscn" id="5_nr23c"]
 [ext_resource type="PackedScene" uid="uid://nt1gb7skpfrc" path="res://tscn/World/SHRooms/exfil_room.tscn" id="6_cls7r"]
