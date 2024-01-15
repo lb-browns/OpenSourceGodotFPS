@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=3 uid="uid://bbxmwiprhws16"]
+
+[ext_resource type="Texture2D" uid="uid://6aa185nmd2io" path="res://Models/- Classic 64 Asset Pack 0.6/Art/Materials/painting_01.png" id="1_ss5h2"]
+[ext_resource type="Texture2D" uid="uid://cs0p6f6l0xewg" path="res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/shingles_wood_01.jpg" id="2_lv6m7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qwl0y"]
+albedo_texture = ExtResource("1_ss5h2")
+uv1_scale = Vector3(2.92, 2.14, 2.92)
+uv1_offset = Vector3(0, -0.04, 0)
+
+[sub_resource type="BoxMesh" id="BoxMesh_8e6n5"]
+material = SubResource("StandardMaterial3D_qwl0y")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tkhsq"]
+albedo_texture = ExtResource("2_lv6m7")
+uv1_scale = Vector3(0.85, 0.1, 0.1)
+uv1_triplanar = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_5p5qm"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(3.6465, 0, 0, 0, 2.24431, 0, 0, 0, 0.128839, 0, 0, 0)
+mesh = SubResource("BoxMesh_8e6n5")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(4.03481, 0, 0, 0, 2.48787, 0, 0, 0, 0.086406, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_tkhsq")
+mesh = SubResource("BoxMesh_5p5qm")

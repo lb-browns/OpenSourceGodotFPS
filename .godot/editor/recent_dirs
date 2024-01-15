@@ -1,6 +1,13 @@
+res://Models
+res://gdShaders
+res://Models/PSXCigarette Pack[FIXED]
+res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun
+res://Models/PSXAssaultRifle[FIXED]/AK/RPK
+res://Models/PSXMiscGuns/Makarov
+res://Models/PSX Model Pack/Filing Cabinet
+res://tscn/World/Misc
 res://tscn/World/SHRooms
 res://Scripts/World
-res://gdShaders
 res://Scripts/AI/Enemy
 res://Scripts/UI
 res://tscn

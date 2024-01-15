@@ -1,56 +1,90 @@
-[gd_scene load_steps=2 format=3 uid="uid://be4w2ahcm8env"]
+[gd_scene load_steps=5 format=3 uid="uid://be4w2ahcm8env"]
 
 [ext_resource type="Script" path="res://Scripts/mainMenu.gd" id="1_8fur8"]
+[ext_resource type="PackedScene" uid="uid://dv86xtc3fdm7b" path="res://tscn/World/Misc/main_menu_3d_scene.tscn" id="2_sjl68"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5y5w8"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_adfxc"]
+font_size = 40
+outline_size = 14
+outline_color = Color(1, 0.101961, 0, 0.32549)
 
 [node name="MainMenu" type="Node"]
 script = ExtResource("1_8fur8")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="Node3D" type="Node3D" parent="."]
 
-[node name="PanelContainer" type="PanelContainer" parent="CanvasLayer"]
+[node name="MainMenu3dScene" parent="Node3D" instance=ExtResource("2_sjl68")]
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="Node3D"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+stretch = true
 metadata/_edit_use_anchors_ = true
 
-[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/PanelContainer"]
+[node name="SubViewport" type="SubViewport" parent="Node3D/SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(1152, 648)
+render_target_update_mode = 4
+
+[node name="Camera3D" type="Camera3D" parent="Node3D/SubViewportContainer/SubViewport"]
+transform = Transform3D(1, 0, 0, 0, 0.962621, 0.270853, 0, -0.270853, 0.962621, -0.130817, 2.52338, 0.800453)
+fov = 62.2
+
+[node name="MainMenu" type="CanvasLayer" parent="."]
+follow_viewport_enabled = true
+
+[node name="PanelContainer" type="PanelContainer" parent="MainMenu"]
+anchors_preset = -1
+anchor_top = 0.430556
+anchor_right = 0.383681
+anchor_bottom = 1.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_5y5w8")
+metadata/_edit_use_anchors_ = true
+
+[node name="MarginContainer" type="MarginContainer" parent="MainMenu/PanelContainer"]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_top = 50
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/PanelContainer/MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MainMenu/PanelContainer/MarginContainer"]
 layout_mode = 2
 theme_override_constants/separation = 30
 
-[node name="Label" type="Label" parent="CanvasLayer/PanelContainer/MarginContainer/VBoxContainer"]
+[node name="Label" type="Label" parent="MainMenu/PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 0
-text = "Main Menu
+text = "Slav Slaughter House
 "
+label_settings = SubResource("LabelSettings_adfxc")
 horizontal_alignment = 1
 
-[node name="Single Player" type="Button" parent="CanvasLayer/PanelContainer/MarginContainer/VBoxContainer"]
+[node name="Single Player" type="Button" parent="MainMenu/PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Singleplayer
 "
 
-[node name="Multi Player" type="Button" parent="CanvasLayer/PanelContainer/MarginContainer/VBoxContainer"]
+[node name="Multi Player" type="Button" parent="MainMenu/PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Multiplayer"
 
-[node name="Settings" type="Button" parent="CanvasLayer/PanelContainer/MarginContainer/VBoxContainer"]
+[node name="Settings" type="Button" parent="MainMenu/PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Settings"
 
-[node name="Quit" type="Button" parent="CanvasLayer/PanelContainer/MarginContainer/VBoxContainer"]
+[node name="Quit" type="Button" parent="MainMenu/PanelContainer/MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Quit
 "
 
-[connection signal="pressed" from="CanvasLayer/PanelContainer/MarginContainer/VBoxContainer/Single Player" to="." method="_on_single_player_pressed"]
-[connection signal="pressed" from="CanvasLayer/PanelContainer/MarginContainer/VBoxContainer/Multi Player" to="." method="_on_multi_player_pressed"]
+[connection signal="pressed" from="MainMenu/PanelContainer/MarginContainer/VBoxContainer/Single Player" to="." method="_on_single_player_pressed"]
+[connection signal="pressed" from="MainMenu/PanelContainer/MarginContainer/VBoxContainer/Multi Player" to="." method="_on_multi_player_pressed"]
+
+[editable path="Node3D/MainMenu3dScene"]

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://csq1vg831d7b"
+path="res://.godot/imported/Baretta9M.obj-f5120930024c5c2ddd57e9313d1edb4a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Baretta9M.obj-f5120930024c5c2ddd57e9313d1edb4a.mesh"]
+
+source_file="res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/Baretta9M.obj"
+dest_files=["res://.godot/imported/Baretta9M.obj-f5120930024c5c2ddd57e9313d1edb4a.mesh", "res://.godot/imported/Baretta9M.obj-f5120930024c5c2ddd57e9313d1edb4a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

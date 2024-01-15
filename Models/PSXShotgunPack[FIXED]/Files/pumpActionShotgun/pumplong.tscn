@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://c8ueltvriji5r"]
+
+[ext_resource type="PackedScene" uid="uid://1ebs607yib3o" path="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Fbx/PumpActionShotgun.fbx" id="1_jdd3w"]
+[ext_resource type="Texture2D" uid="uid://cn0tuiwrd81ev" path="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/PAShotgunText.png" id="2_b1mti"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yqwu0"]
+albedo_texture = ExtResource("2_b1mti")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6hhvi"]
+albedo_texture = ExtResource("2_b1mti")
+
+[node name="pumpy" instance=ExtResource("1_jdd3w")]
+
+[node name="PABody&Barrel" parent="RootNode" index="0"]
+material_override = SubResource("StandardMaterial3D_yqwu0")
+
+[node name="Pump_001" parent="RootNode" index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_6hhvi")
+
+[node name="ShellLowPolyGreen_002" parent="RootNode" index="2"]
+visible = false
+
+[node name="ShellLowPolyRed_002" parent="RootNode" index="3"]
+visible = false

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://k7jg0hnrmbfp"]
+
+[ext_resource type="PackedScene" uid="uid://be7lodu6p1rd3" path="res://Models/PSXMiscGuns/Makarov/Makarov.fbx" id="1_pdylr"]
+
+[node name="makarov" instance=ExtResource("1_pdylr")]
+
+[node name="380" parent="RootNode" index="1"]
+visible = false
+
+[node name="Makarov_Mag_Full" parent="RootNode" index="4"]
+visible = false
+
+[node name="380_Shell" parent="RootNode" index="5"]
+visible = false

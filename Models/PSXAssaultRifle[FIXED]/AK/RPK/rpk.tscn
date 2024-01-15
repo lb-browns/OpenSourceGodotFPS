@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://dgxkwplf125sl"]
+
+[ext_resource type="PackedScene" uid="uid://decnswd6dpsf6" path="res://Models/PSXAssaultRifle[FIXED]/AK/RPK/RPK.fbx" id="1_wpihx"]
+[ext_resource type="Texture2D" uid="uid://dbgd0e6ujniho" path="res://Models/PSXAssaultRifle[FIXED]/AK/Textures/RPK_Texture_240.png" id="2_yrfdi"]
+[ext_resource type="Texture2D" uid="uid://dede2u083r6b5" path="res://Models/PSXAssaultRifle[FIXED]/AK/Textures/RPK_Texture.png" id="3_xymry"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4id48"]
+albedo_texture = ExtResource("2_yrfdi")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ekfpd"]
+albedo_texture = ExtResource("3_xymry")
+
+[node name="rpk" instance=ExtResource("1_wpihx")]
+
+[node name="762x39_Bullet" parent="RootNode" index="0"]
+visible = false
+
+[node name="762x39_BulletEmpty" parent="RootNode" index="1"]
+visible = false
+
+[node name="RPK" parent="RootNode" index="2"]
+material_override = SubResource("StandardMaterial3D_4id48")
+
+[node name="RPK_Mag_Empty" parent="RootNode" index="3"]
+material_override = SubResource("StandardMaterial3D_ekfpd")
+
+[node name="RPK_Mag_Full" parent="RootNode" index="4"]
+visible = false

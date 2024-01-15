@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bhsr40rhgdq2l"
+path="res://.godot/imported/Health_Kit.obj-96931d0c0bde2554f4336a4ef3b8ee2c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Health_Kit.obj-96931d0c0bde2554f4336a4ef3b8ee2c.mesh"]
+
+source_file="res://Models/PSXHealingItems[Fixed]/Health_Pouch/Health_Kit.obj"
+dest_files=["res://.godot/imported/Health_Kit.obj-96931d0c0bde2554f4336a4ef3b8ee2c.mesh", "res://.godot/imported/Health_Kit.obj-96931d0c0bde2554f4336a4ef3b8ee2c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

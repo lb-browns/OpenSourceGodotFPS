@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cs1b0id68bjvj"
+path="res://.godot/imported/Green_Plant.obj-c493696a58123d42cff2287b97b98cc7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Green_Plant.obj-c493696a58123d42cff2287b97b98cc7.mesh"]
+
+source_file="res://Models/PSXHealingItems[Fixed]/Green_Plant/Green_Plant.obj"
+dest_files=["res://.godot/imported/Green_Plant.obj-c493696a58123d42cff2287b97b98cc7.mesh", "res://.godot/imported/Green_Plant.obj-c493696a58123d42cff2287b97b98cc7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

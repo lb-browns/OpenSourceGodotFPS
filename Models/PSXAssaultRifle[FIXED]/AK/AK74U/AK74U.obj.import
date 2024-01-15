@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ra5hkneypj3x"
+path="res://.godot/imported/AK74U.obj-68fdd3d4cce24fbde4ddf64963ea4616.mesh"
+
+[deps]
+
+files=["res://.godot/imported/AK74U.obj-68fdd3d4cce24fbde4ddf64963ea4616.mesh"]
+
+source_file="res://Models/PSXAssaultRifle[FIXED]/AK/AK74U/AK74U.obj"
+dest_files=["res://.godot/imported/AK74U.obj-68fdd3d4cce24fbde4ddf64963ea4616.mesh", "res://.godot/imported/AK74U.obj-68fdd3d4cce24fbde4ddf64963ea4616.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

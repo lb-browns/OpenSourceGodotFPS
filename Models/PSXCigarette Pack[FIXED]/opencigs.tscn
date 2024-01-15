@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://cakuryxvsdsu7"]
+
+[ext_resource type="PackedScene" uid="uid://3857nv16bcmj" path="res://Models/PSXCigarette Pack[FIXED]/CigarettePack/CigarettePacks/PackCigarettesStandardOpened.fbx" id="1_o4r5u"]
+[ext_resource type="Texture2D" uid="uid://novtvexcigl4" path="res://Models/PSXCigarette Pack[FIXED]/Textures/packFrontTextureLowPolyOpened.png" id="2_6s1tg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1482u"]
+albedo_texture = ExtResource("2_6s1tg")
+
+[node name="Root Scene" instance=ExtResource("1_o4r5u")]
+
+[node name="packCigaretteStandardOpen" parent="RootNode" index="0"]
+material_override = SubResource("StandardMaterial3D_1482u")

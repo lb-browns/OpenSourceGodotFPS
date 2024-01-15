@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cg3lko0062xbd"
+path="res://.godot/imported/Green_Powder.obj-fccc73e76cea707a745b98641e01a2db.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Green_Powder.obj-fccc73e76cea707a745b98641e01a2db.mesh"]
+
+source_file="res://Models/PSXHealingItems[Fixed]/Green_Powder/Green_Powder.obj"
+dest_files=["res://.godot/imported/Green_Powder.obj-fccc73e76cea707a745b98641e01a2db.mesh", "res://.godot/imported/Green_Powder.obj-fccc73e76cea707a745b98641e01a2db.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

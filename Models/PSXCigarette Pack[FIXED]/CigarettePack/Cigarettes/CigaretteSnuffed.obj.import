@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bsgdlm8bnwxtr"
+path="res://.godot/imported/CigaretteSnuffed.obj-6da3fe7695f2c5b5aa3a3e6d0254beec.mesh"
+
+[deps]
+
+files=["res://.godot/imported/CigaretteSnuffed.obj-6da3fe7695f2c5b5aa3a3e6d0254beec.mesh"]
+
+source_file="res://Models/PSXCigarette Pack[FIXED]/CigarettePack/Cigarettes/CigaretteSnuffed.obj"
+dest_files=["res://.godot/imported/CigaretteSnuffed.obj-6da3fe7695f2c5b5aa3a3e6d0254beec.mesh", "res://.godot/imported/CigaretteSnuffed.obj-6da3fe7695f2c5b5aa3a3e6d0254beec.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://binpr8fiouh2l"
+path="res://.godot/imported/Revolvers.obj-1241339241ff6b6080083d8932bb39c3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Revolvers.obj-1241339241ff6b6080083d8932bb39c3.mesh"]
+
+source_file="res://Models/PSXRevolverPack[FIXED]/Files/Revolvers.obj"
+dest_files=["res://.godot/imported/Revolvers.obj-1241339241ff6b6080083d8932bb39c3.mesh", "res://.godot/imported/Revolvers.obj-1241339241ff6b6080083d8932bb39c3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
