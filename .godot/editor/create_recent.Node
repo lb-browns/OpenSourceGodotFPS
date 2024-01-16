@@ -12,4 +12,3 @@ MeshInstance3D
 Sprite2D
 Node2D
 SpotLight3D
-CSGBox3D

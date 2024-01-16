@@ -1,28 +1,17 @@
-res://tscn/World/SHRooms/WareHouse2.tscn
+res://tscn/World/Maps/mainMenu.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://Scripts/Weapon/weaponResource.gd
 res://Scripts/World/roomSpawner.gd
 res://Mats/wood.tres
 res://Mats/new_standard_material_3d.tres
+res://gdShaders/tv.gdshader
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
-res://tscn/World/Misc/main_menu_3d_scene.tscn
-res://Models/PSX Model Pack/Filing Cabinet/cabinet.tscn
-res://Models/PSXMiscGuns/Makarov/makarov.tscn
-res://Models/PSXAssaultRifle[FIXED]/AK/RPK/rpk.tscn
-res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/pumplong.tscn
-res://Models/PSXCigarette Pack[FIXED]/opencigs.tscn
-res://Models/tv.tscn
 res://tscn/Player/player.tscn
 res://tscn/World/SHRooms/RoomGenTest.tscn
 res://tscn/World/SHRooms/room_1_warehouse.tscn
-res://tscn/Weapons/Pickups/emptyPickup.tscn
-res://gdShaders/tv.gdshader
+res://tscn/World/SHRooms/WareHouse2.tscn
+res://tscn/World/Misc/main_menu_3d_scene.tscn
 res://Models/painting1.tscn
 res://Models/door1.tscn
-res://tscn/World/Maps/mainMenu.tscn
 res://tscn/World/Maps/MapSelectSP.tscn
-res://Scripts/World/MapSelectSP.gd
-res://Scripts/Weapon/WeaponsManager.gd
-res://Scripts/Player/Player.gd
-res://Scripts/AI/Enemy/EnemyAI.gd
