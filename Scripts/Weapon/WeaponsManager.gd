@@ -42,24 +42,25 @@ func Initialize(_startWeapons: Array):
 	
 
 func _input(event):
-	if not is_multiplayer_authority(): return
-	if event.is_action_pressed("weaponUP"):
-		var getref = weaponStack.find(currentWeapon.weaponName)
-		getref = min(getref+1, weaponStack.size()-1)
-		exit(weaponStack[getref])
-	
-	if event.is_action_pressed("WeaponDown"):
-		var getref = weaponStack.find(currentWeapon.weaponName)
-		getref = max(getref-1, 0)
-		exit(weaponStack[getref])
-	
-	if event.is_action_pressed("Shoot"):
-		Shoot.rpc()
-	
-	if event.is_action_pressed("Reload"):
-		Reload()
-	if event.is_action_pressed("Drop"):
-		Drop(currentWeapon.weaponName)
+	if !player.isPaused:
+		if not is_multiplayer_authority(): return
+		if event.is_action_pressed("weaponUP"):
+			var getref = weaponStack.find(currentWeapon.weaponName)
+			getref = min(getref+1, weaponStack.size()-1)
+			exit(weaponStack[getref])
+		
+		if event.is_action_pressed("WeaponDown"):
+			var getref = weaponStack.find(currentWeapon.weaponName)
+			getref = max(getref-1, 0)
+			exit(weaponStack[getref])
+		
+		if event.is_action_pressed("Shoot"):
+			Shoot.rpc()
+		
+		if event.is_action_pressed("Reload"):
+			Reload()
+		if event.is_action_pressed("Drop"):
+			Drop(currentWeapon.weaponName)
 
 
 

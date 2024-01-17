@@ -11,7 +11,7 @@ extends Node3D
 var canExfil
 var enemies
 var newEnemy
-var canSpawn
+@export var canSpawn = true
 
 
 signal ActivateExfil
@@ -37,7 +37,7 @@ func spawnEnemy():
 
 
 func _on_timer_timeout():
-	if spawnLimit > 0:
+	if spawnLimit > 0 && canSpawn:
 		canExfil = false
 		spawnEnemy()
 		Timer

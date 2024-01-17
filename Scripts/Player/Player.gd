@@ -7,6 +7,8 @@ extends CharacterBody3D
 @onready var wepResource = $"camHolder/Main Cam/WeaponsManager"
 @onready var hpBar = $CanvasLayer/BoxContainer/Health
 @onready var deathScreen = preload("res://tscn/Player/DeathScreen.tscn")
+@onready var mainMenu = preload("res://tscn/World/Maps/mainMenu.tscn")
+@onready var pauseMenu = $"CanvasLayer/Pause Menu"
 
 var jumpNum
 
@@ -19,6 +21,7 @@ const JUMP_VELOCITY = 5
 var CamRotation = Vector2(0,0)
 var mouseSensitivity = 0.001
 var mouseEvent : Vector2
+var isPaused = false
 
 @export var weaponHolder : Node3D
 @export var weapontSwayAmount = 2.0
@@ -39,78 +42,83 @@ func _ready():
 
 func _process(delta):
 	hpBar.value = playerHealth
+	
 	if playerHealth <= 0:
 		Die()
 
 func _input(event):
 	
 	if event.is_action_pressed("ui_cancel"):
-		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+		if isPaused:
+			unPause()
+		elif !isPaused:
+			pause()
 	if event is InputEventMouseMotion:
 		mouseEvent = event.relative * mouseSensitivity
 		CameraLook(mouseEvent)
 
 
 func CameraLook(Movement: Vector2):
-	CamRotation += Movement
-	CamRotation.y = clamp(CamRotation.y, -1.5,1.2)
-	
-	transform.basis = Basis()
-	MainCamera.transform.basis = Basis()
-	
-	rotate_object_local(Vector3(0,1,0), -CamRotation.x) # Rotate y First!!
-	MainCamera.rotate_object_local(Vector3(1,0,0), -CamRotation.y)
+	if !isPaused:
+		CamRotation += Movement
+		CamRotation.y = clamp(CamRotation.y, -1.5,1.2)
+		
+		transform.basis = Basis()
+		MainCamera.transform.basis = Basis()
+		
+		rotate_object_local(Vector3(0,1,0), -CamRotation.x) # Rotate y First!!
+		MainCamera.rotate_object_local(Vector3(1,0,0), -CamRotation.y)
 
 func _physics_process(delta):
-	
-	# Add the gravity.
-	if not is_on_floor():
-		velocity.y -= gravity * delta
-	
-	#handle sprint
-	if Input.is_action_just_pressed("Sprint"):
-		SPEED *= sprintSpeed
-	if Input.is_action_just_released("Sprint"):
-		SPEED = 5.0
-	
-	# Handle jump.
-	if is_on_floor():
-		jumpNum = 0
-	if Input.is_action_just_pressed("Jump") and jumpNum < 2:
-		jumpNum += 1
-		velocity.y = JUMP_VELOCITY
+	if !isPaused:
+		# Add the gravity.
+		if not is_on_floor():
+			velocity.y -= gravity * delta
+		
+		#handle sprint
+		if Input.is_action_just_pressed("Sprint"):
+			SPEED *= sprintSpeed
+		if Input.is_action_just_released("Sprint"):
+			SPEED = 5.0
+		
+		# Handle jump.
+		if is_on_floor():
+			jumpNum = 0
+		if Input.is_action_just_pressed("Jump") and jumpNum < 2:
+			jumpNum += 1
+			velocity.y = JUMP_VELOCITY
 
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var input_dir = Input.get_vector("MoveLeft", "MoveRight", "MoveForward", "MoveBack")
-	var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
-	if direction:
-		velocity.x = direction.x * SPEED
-		velocity.z = direction.z * SPEED
+		# Get the input direction and handle the movement/deceleration.
+		# As good practice, you should replace UI actions with custom gameplay actions.
+		var input_dir = Input.get_vector("MoveLeft", "MoveRight", "MoveForward", "MoveBack")
+		var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
+		if direction:
+			velocity.x = direction.x * SPEED
+			velocity.z = direction.z * SPEED
+			
+		else:
+			velocity.x = move_toward(velocity.x, 0, SPEED)
+			velocity.z = move_toward(velocity.z, 0, SPEED)
+			
+		if is_on_floor() && velocity.length() > 0:
+			playFootstepAudio()
 		
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-		velocity.z = move_toward(velocity.z, 0, SPEED)
+		if Input.is_action_just_pressed("Crouch"):
+			anim.play("Slide")
+			
+		if Input.is_action_just_pressed("Crouch") and is_on_floor():
+			SPEED += slideSpeed
+			
 		
-	if is_on_floor() && velocity.length() > 0:
-		playFootstepAudio()
-	
-	if Input.is_action_just_pressed("Crouch"):
-		anim.play("Slide")
+		if Input.is_action_just_released("Crouch"):
+			anim.play("RESET")
+			SPEED = 5.0
 		
-	if Input.is_action_just_pressed("Crouch") and is_on_floor():
-		SPEED += slideSpeed
-		
-	
-	if Input.is_action_just_released("Crouch"):
-		anim.play("RESET")
-		SPEED = 5.0
-	
-	weaponSway(delta)
-	move_and_slide()
-	camTilt(input_dir.x, delta)
-	weaponTilt(input_dir.x, delta)
-	weaponBob(velocity.length(),delta)
+		weaponSway(delta)
+		move_and_slide()
+		camTilt(input_dir.x, delta)
+		weaponTilt(input_dir.x, delta)
+		weaponBob(velocity.length(),delta)
 
 func camTilt(input_x, delta):
 	if MainCamera:
@@ -153,3 +161,22 @@ func playFootstepAudio():
 func receiveDamage():
 	var takenDamage = wepResource.currentWeapon.weaponDamage
 	playerHealth -= takenDamage
+
+func _on_resume_pressed():
+	unPause()
+
+
+func pause():
+	isPaused = true
+	pauseMenu.visible = true
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+func unPause():
+	isPaused = false
+	pauseMenu.visible = false
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
+
+
+
+func _on_quit_pressed():
+	get_tree().change_scene_to_packed(mainMenu)

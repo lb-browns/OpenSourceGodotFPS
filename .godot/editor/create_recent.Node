@@ -1,4 +1,10 @@
+Button
+Panel
 Control
+Label
+HBoxContainer
+AudioStreamPlayer3D
+AnimationPlayer
 SubViewport
 SubViewportContainer
 ColorRect
@@ -6,9 +12,3 @@ Camera3D
 Node
 Node3D
 CanvasLayer
-Button
-Sprite3D
-MeshInstance3D
-Sprite2D
-Node2D
-SpotLight3D

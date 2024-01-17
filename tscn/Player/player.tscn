@@ -1148,6 +1148,13 @@ layout_mode = 2
 text = "aa
 "
 
+[node name="HBoxContainer4" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+text = "Enemies Left: "
+
 [node name="Crosshair" type="TextureRect" parent="CanvasLayer"]
 anchors_preset = 15
 anchor_right = 1.0
@@ -1190,6 +1197,74 @@ layout_mode = 2
 theme_override_styles/background = SubResource("StyleBoxFlat_cf8xn")
 theme_override_styles/fill = SubResource("StyleBoxFlat_q67ej")
 max_value = 150.0
+
+[node name="Pause Menu" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="CanvasLayer/Pause Menu"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Resume" type="Button" parent="CanvasLayer/Pause Menu/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -81.0
+offset_top = -148.0
+offset_right = 81.0
+offset_bottom = -85.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Resume
+"
+
+[node name="Setting" type="Button" parent="CanvasLayer/Pause Menu/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4.0
+offset_top = -4.0
+offset_right = 4.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Setting
+"
+
+[node name="Quit" type="Button" parent="CanvasLayer/Pause Menu/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -45.0
+offset_top = 95.0
+offset_right = 46.0
+offset_bottom = 158.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Quit
+"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_xef1d")
@@ -1252,6 +1327,8 @@ swayRight = Vector3(0, -1, 0)
 
 [node name="metalBat" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" instance=ExtResource("17_hrqtn")]
 
+[connection signal="pressed" from="CanvasLayer/Pause Menu/Panel/Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="CanvasLayer/Pause Menu/Panel/Quit" to="." method="_on_quit_pressed"]
 [connection signal="body_entered" from="PickupDetection" to="camHolder/Main Cam/WeaponsManager" method="_on_pickup_detection_body_entered"]
 [connection signal="animation_finished" from="AnimationPlayer" to="camHolder/Main Cam/WeaponsManager" method="_on_animation_player_animation_finished"]
 [connection signal="updateAmmo" from="camHolder/Main Cam/WeaponsManager" to="CanvasLayer" method="_on_weapons_manager_update_ammo"]
