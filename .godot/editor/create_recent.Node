@@ -1,3 +1,10 @@
+CollisionShape3D
+Area3D
+Label3D
+Sprite3D
+DirectionalLight3D
+CSGBox3D
+CSGCombiner3D
 Button
 Panel
 Control
@@ -6,9 +13,3 @@ HBoxContainer
 AudioStreamPlayer3D
 AnimationPlayer
 SubViewport
-SubViewportContainer
-ColorRect
-Camera3D
-Node
-Node3D
-CanvasLayer

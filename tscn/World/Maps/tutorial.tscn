@@ -1,12 +1,16 @@
-[gd_scene load_steps=10 format=3 uid="uid://dqshf4lph4xic"]
+[gd_scene load_steps=15 format=3 uid="uid://dqshf4lph4xic"]
 
 [ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="1_501ta"]
 [ext_resource type="Texture2D" uid="uid://biwes0sbmwkxw" path="res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_wall_02.jpg" id="1_robm0"]
 [ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://Textures/Skyboxes/world_environment.tscn" id="2_k6mqt"]
 [ext_resource type="PackedScene" uid="uid://dfdxx3sv8kr6x" path="res://tscn/World/Misc/directional_light_3d.tscn" id="3_5g5xs"]
+[ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://tscn/Weapons/Pickups/1911Pickup.tscn" id="7_h5so4"]
+[ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://tscn/Weapons/Pickups/DBshottyPickup.tscn" id="8_sivix"]
 [ext_resource type="PackedScene" uid="uid://ba1tbhgr8jh64" path="res://tscn/World/Objects/Target1.tscn" id="8_wco6c"]
 [ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="9_ekj0c"]
+[ext_resource type="PackedScene" uid="uid://bri6it71khuda" path="res://tscn/Weapons/Pickups/m_14_pickup.tscn" id="9_jxejl"]
 [ext_resource type="PackedScene" uid="uid://cob0owrdwpaa7" path="res://tscn/World/Objects/radio.tscn" id="9_rlxus"]
+[ext_resource type="Script" path="res://Scripts/World/TutorialExfil.gd" id="11_fq1pr"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jrvwj"]
 albedo_texture = ExtResource("1_robm0")
@@ -16,6 +20,9 @@ uv1_world_triplanar = true
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_n65so"]
 size = Vector3(200, 1, 200)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1cmdv"]
+size = Vector3(3.42767, 2.65576, 3.73737)
 
 [node name="Node3D" type="Node3D"]
 
@@ -220,16 +227,15 @@ font_size = 50
 [node name="Label3D7" type="Label3D" parent="Sprite3D"]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 126.929, -2.66153, 0.0754859)
 billboard = 1
-text = "Walk Over An Item To Pick It Up
+text = "Walk Over An Item To Pick It Up & Use The Arrow Keys Or The Mouse Wheel To Switch Weapons 
+
 "
 font_size = 50
 
 [node name="Label3D8" type="Label3D" parent="Sprite3D"]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 153.272, -3.66605, 0.0754859)
 billboard = 1
-text = "Use LMB To Shoot The Boxes & R To Reload, 
-Also You Can Use The Arrow Keys To Switch Weapons 
-Or The Mouse Wheel
+text = "Use LMB To Shoot The Boxes & R To Reload
 "
 font_size = 50
 
@@ -296,10 +302,28 @@ shape = SubResource("BoxShape3D_n65so")
 [node name="Radio" parent="." instance=ExtResource("9_rlxus")]
 transform = Transform3D(0.53165, 0, 0.846964, 0, 1, 0, -0.846964, 0, 0.53165, 131.313, -3.28335, -4.9556)
 
-[node name="ScrewdriverPickup" parent="." instance=ExtResource("9_ekj0c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 128.087, -4.13246, -1.87235)
-
-[node name="ScrewdriverPickup2" parent="." instance=ExtResource("9_ekj0c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 126.589, -4.73099, 2.02382)
-
 [node name="Player" parent="." instance=ExtResource("1_501ta")]
+
+[node name="1911Pickup" parent="." instance=ExtResource("7_h5so4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 126.318, -3.80402, -1.73534)
+
+[node name="DBshottyPickup" parent="." instance=ExtResource("8_sivix")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.283, -3.62542, 0.284021)
+
+[node name="M14 Pickup" parent="." instance=ExtResource("9_jxejl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 128.909, -3.53934, 2.23728)
+
+[node name="ScrewdriverPickup" parent="." instance=ExtResource("9_ekj0c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 126.786, -2.26387, 2.54473)
+
+[node name="Area3D2" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 171.823, -3.95021, -0.068547)
+collision_layer = 15
+script = ExtResource("11_fq1pr")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.26651, 0.491455, -0.144501)
+shape = SubResource("BoxShape3D_1cmdv")
+
+[connection signal="area_entered" from="Area3D2" to="Player" method="_on_area_3d_2_area_entered"]
+[connection signal="body_entered" from="Area3D2" to="Area3D2" method="_on_body_entered"]

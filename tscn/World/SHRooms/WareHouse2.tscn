@@ -279,3 +279,12 @@ spawnLimit = 12
 [node name="EnemySpawner3d3" parent="." instance=ExtResource("6_c6el0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, -4, -36)
 spawnLimit = 4
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(-0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, -0.258819, -0.102222, 5, -33.7765)
+
+[node name="Label3D" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(-0.258819, 0, -0.965926, 0, 1, 0, 0.965926, 0, -0.258819, -3, 0, 0)
+pixel_size = 0.01
+text = "Press \"E\" To Generate New Map Or Kill All Enemies
+"

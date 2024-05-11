@@ -15,7 +15,7 @@ weaponName = "ThrowableScrewdriver"
 CurrAmmo = 15
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0217908, 0.206876, 0)
+transform = Transform3D(5.1276, 0, 0, 0, 5.1276, 0, 0, 0, 5.1276, -0.0217908, 0.206876, 0)
 shape = SubResource("BoxShape3D_sr2xd")
 
 [node name="TacticalRifle2" type="MeshInstance3D" parent="."]

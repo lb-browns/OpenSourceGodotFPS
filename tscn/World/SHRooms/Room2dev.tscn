@@ -80,3 +80,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.08896, 0)
 [node name="Exfil" parent="." instance=ExtResource("7_4cnj5")]
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25991, 0)
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 2, 0)
+
+[node name="Label3D" type="Label3D" parent="Sprite3D"]
+transform = Transform3D(-0.258819, 0, -0.965926, 0, 1, 0, 0.965926, 0, -0.258819, -3, 0, 0)
+pixel_size = 0.02
+text = "Press \"E\" To Generate New Map Or Kill All Enemies"

@@ -1,10 +1,10 @@
 res://tscn/Player/player.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
-res://gdShaders/tv.gdshader
 res://Scripts/Weapon/weaponResource.gd
 res://Scripts/World/roomSpawner.gd
 res://Mats/wood.tres
 res://Mats/new_standard_material_3d.tres
+res://gdShaders/tv.gdshader
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
 res://tscn/World/SHRooms/RoomGenTest.tscn
@@ -15,3 +15,13 @@ res://Models/painting1.tscn
 res://Models/door1.tscn
 res://tscn/World/Maps/mainMenu.tscn
 res://tscn/World/Maps/MapSelectSP.tscn
+res://tscn/Weapons/Pickups/m_14_pickup.tscn
+res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn
+res://tscn/World/Maps/tutorial.tscn
+res://dev_test.tscn
+res://tscn/World/SHRooms/Room1dev.tscn
+res://tscn/World/SHRooms/Room2dev.tscn
+res://tscn/World/SHRooms/room_1.tscn
+res://tscn/World/SHRooms/spawn_room.tscn
+res://Scripts/Player/Player.gd
+res://Scripts/World/TutorialExfil.gd

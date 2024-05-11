@@ -1,0 +1,35 @@
+[gd_scene load_steps=7 format=3 uid="uid://dwpiiirbros56"]
+
+[ext_resource type="Texture2D" uid="uid://bkwrdrdpoq4ib" path="res://Textures/kenney_prototype-textures/PNG/Dark/texture_13.png" id="1_3olhp"]
+[ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="1_a2sbi"]
+[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://Textures/Skyboxes/world_environment.tscn" id="2_o1d75"]
+[ext_resource type="PackedScene" uid="uid://dfdxx3sv8kr6x" path="res://tscn/World/Misc/directional_light_3d.tscn" id="3_7bfoj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a7f8e"]
+albedo_texture = ExtResource("1_3olhp")
+uv1_scale = Vector3(70, 70, 70)
+uv2_scale = Vector3(1.7, 1.7, 1.7)
+
+[sub_resource type="Environment" id="Environment_ho7uo"]
+background_mode = 1
+background_color = Color(1, 0.870588, 0.615686, 1)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+material_override = SubResource("StandardMaterial3D_a7f8e")
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, -0.439453, 0)
+size = Vector3(100, 0.1, 100)
+
+[node name="Player" parent="." instance=ExtResource("1_a2sbi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, 2)
+
+[node name="WorldEnvironment" parent="." instance=ExtResource("2_o1d75")]
+environment = SubResource("Environment_ho7uo")
+
+[node name="DirectionalLight3D" parent="." instance=ExtResource("3_7bfoj")]
+light_color = Color(1, 1, 0.905882, 1)
+light_energy = 0.788
