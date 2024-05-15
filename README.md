@@ -7,4 +7,5 @@ current features include
 - Full Movement System (walk, run, jump, slide, crouch)
 - Sfx
 - Basic Gui & Menu Ui
+- A very basic start on a multiplayer (DOES NOT WORK)
 - & more
