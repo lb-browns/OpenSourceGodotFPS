@@ -1,4 +1,4 @@
-Cool FPS I made in Godot with GDscript a python esque language. free to use and adapt how ever you want.
+Cool FPS I made in Godot with GDscript. free to use and adapt how ever you want.
 current features include
 - Enemy Ai
 - Weapon Inventory & Pickup Sytem
