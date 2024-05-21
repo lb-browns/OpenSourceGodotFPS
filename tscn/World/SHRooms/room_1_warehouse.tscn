@@ -103,6 +103,7 @@ enemySpawnerRef = NodePath("../EnemySpawner3d")
 
 [node name="EnemySpawner3d" parent="." instance=ExtResource("5_nr23c")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 2, 21)
+spawnLimit = 3
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
 transform = Transform3D(-0.29984, 0, 0.953989, 0, 1, 0, -0.953989, 0, -0.29984, -6.10092, 2.32639, 18.5758)

@@ -5,7 +5,7 @@
 [ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_xtlpa"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_et3dc"]
-size = Vector3(12.8864, 5, 5)
+size = Vector3(1.38, 0.69, 0.48)
 
 [node name="M14 Pickup" type="RigidBody3D"]
 collision_layer = 8
@@ -34,5 +34,5 @@ surface_material_override/8 = ExtResource("3_xtlpa")
 surface_material_override/9 = ExtResource("3_xtlpa")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1.25159, 0, 0, 0, 1.25159, 0, 0, 0, 1.25159, 0.208649, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.208649, 0.346738, 0)
 shape = SubResource("BoxShape3D_et3dc")

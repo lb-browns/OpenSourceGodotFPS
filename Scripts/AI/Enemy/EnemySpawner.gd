@@ -16,6 +16,8 @@ var newEnemy
 
 signal ActivateExfil
 
+
+
 func _ready():
 	spawnEnemy()
 	
@@ -43,3 +45,5 @@ func _on_timer_timeout():
 		Timer
 	elif get_tree().get_nodes_in_group("Enemy").size() <= 0 && spawnLimit <= 0:
 		emit_signal("ActivateExfil")
+		$Timer.queue_free()
+		

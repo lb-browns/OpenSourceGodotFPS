@@ -5,7 +5,7 @@
 [ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_kf20v"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_sr2xd"]
-size = Vector3(0.230837, 0.269731, 0.38)
+size = Vector3(0.41, 0.25, 0.11)
 
 [node name="ScrewdriverPickup" type="RigidBody3D"]
 collision_layer = 8
@@ -15,7 +15,7 @@ weaponName = "ThrowableScrewdriver"
 CurrAmmo = 15
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(5.1276, 0, 0, 0, 5.1276, 0, 0, 0, 5.1276, -0.0217908, 0.206876, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0217908, 0.206876, 0)
 shape = SubResource("BoxShape3D_sr2xd")
 
 [node name="TacticalRifle2" type="MeshInstance3D" parent="."]

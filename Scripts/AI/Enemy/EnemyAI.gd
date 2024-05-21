@@ -54,9 +54,9 @@ func targetInRange():
 func hitPlayer():
 	player.playerHealth -= DAMAGE
 
-func takeDamage(damageAmnt):
+func takeDamage(weaponDamage):
 	print(HEALTH)
-	HEALTH -= damageAmnt
+	HEALTH -= weaponDamage
 
 func Die():
 	emit_signal("enemyKilled")

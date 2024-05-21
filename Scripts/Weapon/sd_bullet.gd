@@ -7,7 +7,9 @@ func _on_body_entered(body):
 	if body.is_in_group("Target") && body.has_method("hitSuccessful"):
 		body.hitSuccessful(Damage)
 		queue_free()
-		
+	elif body.is_in_group("Enemy") && body.has_method("takeDamage"):
+		body.takeDamage(Damage)
+		queue_free()
 	
 
 

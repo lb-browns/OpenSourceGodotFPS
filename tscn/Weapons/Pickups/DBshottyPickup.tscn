@@ -5,7 +5,7 @@
 [ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_1k5xt"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_mdi0y"]
-size = Vector3(5, 5, 5)
+size = Vector3(0.89, 0.17, 0.09)
 
 [node name="DBshottyPickup" type="RigidBody3D"]
 collision_layer = 8
@@ -20,7 +20,7 @@ transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
 mesh = ExtResource("2_f4cq6")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, -0.0395142, 0.510242, -0.264404)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0395142, 0.706815, 0.0104982)
 shape = SubResource("BoxShape3D_mdi0y")
 
 [node name="TacticalRifle2" type="MeshInstance3D" parent="."]
