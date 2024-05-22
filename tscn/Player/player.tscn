@@ -1,4 +1,4 @@
-[gd_scene load_steps=54 format=3 uid="uid://coni7pts3q0cc"]
+[gd_scene load_steps=56 format=3 uid="uid://coni7pts3q0cc"]
 
 [ext_resource type="Script" path="res://Scripts/Player/Player.gd" id="1_sc27s"]
 [ext_resource type="Texture2D" uid="uid://dtr1htkqchj0h" path="res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png" id="3_jrayb"]
@@ -23,6 +23,17 @@
 [ext_resource type="AudioStream" uid="uid://bxgeibsk7f5d2" path="res://sfx/CustomSoundsPack1/PUNCH1.WAV" id="16_wmdbp"]
 [ext_resource type="PackedScene" uid="uid://b8wqphfr328w7" path="res://tscn/Weapons/Weps/metalBat.tscn" id="17_hrqtn"]
 [ext_resource type="AudioStream" uid="uid://bh7iwadqyhywl" path="res://sfx/CustomSoundsPack1/STEP1.WAV" id="23_m2x5a"]
+
+[sub_resource type="SystemFont" id="SystemFont_ngqe5"]
+font_names = PackedStringArray("AppleGothic")
+oversampling = 4.5
+
+[sub_resource type="LabelSettings" id="LabelSettings_0m5dj"]
+font = SubResource("SystemFont_ngqe5")
+font_size = 21
+shadow_size = 4
+shadow_color = Color(0.611765, 0, 0, 0.380392)
+shadow_offset = Vector2(3, 3)
 
 [sub_resource type="LabelSettings" id="LabelSettings_o1olk"]
 font_size = 34
@@ -1106,56 +1117,60 @@ collision_layer = 2
 script = ExtResource("1_sc27s")
 weaponHolder = NodePath("camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="." groups=["Player"]]
 script = ExtResource("9_h1o03")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" groups=["Player"]]
 offset_right = 137.0
 offset_bottom = 77.0
 scale = Vector2(2.08, 2.12)
 size_flags_horizontal = 0
 size_flags_vertical = 10
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/VBoxContainer" groups=["Player"]]
+visible = false
 layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 8
 alignment = 1
 
-[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer"]
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer" groups=["Player"]]
 layout_mode = 2
 text = "Current Weapon:"
 
-[node name="CurrentWeapon" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer"]
+[node name="CurrentWeapon" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer" groups=["Player"]]
 layout_mode = 2
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="CanvasLayer/VBoxContainer" groups=["Player"]]
+visible = false
 layout_mode = 2
 
-[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer2"]
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer2" groups=["Player"]]
 layout_mode = 2
 text = "Ammo:"
 
-[node name="HBoxContainer3" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
+[node name="HBoxContainer3" type="HBoxContainer" parent="CanvasLayer/VBoxContainer" groups=["Player"]]
+visible = false
 layout_mode = 2
 
-[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer3"]
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer3" groups=["Player"]]
 layout_mode = 2
 text = "Weapon Stack:"
 
-[node name="WeaponStack" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer3"]
+[node name="WeaponStack" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer3" groups=["Player"]]
 layout_mode = 2
 text = "aa
 "
 
-[node name="HBoxContainer4" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
+[node name="HBoxContainer5" type="HBoxContainer" parent="CanvasLayer/VBoxContainer" groups=["Player"]]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer4"]
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer5" groups=["Player"]]
 layout_mode = 2
-text = "Enemies Left: "
+text = "Rooms Cleared:"
+label_settings = SubResource("LabelSettings_0m5dj")
 
-[node name="Crosshair" type="TextureRect" parent="CanvasLayer"]
+[node name="Crosshair" type="TextureRect" parent="CanvasLayer" groups=["Player"]]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -1164,7 +1179,7 @@ grow_vertical = 2
 texture = ExtResource("3_jrayb")
 stretch_mode = 3
 
-[node name="WeaponIconHolder" type="VBoxContainer" parent="CanvasLayer"]
+[node name="WeaponIconHolder" type="VBoxContainer" parent="CanvasLayer" groups=["Player"]]
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -1174,17 +1189,17 @@ offset_right = 473.0
 offset_bottom = -1.0
 grow_vertical = 0
 
-[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/WeaponIconHolder"]
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/WeaponIconHolder" groups=["Player"]]
 position = Vector2(-144, -96)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("4_r7oxc")
 
-[node name="CurrentAmmo" type="Label" parent="CanvasLayer/WeaponIconHolder"]
+[node name="CurrentAmmo" type="Label" parent="CanvasLayer/WeaponIconHolder" groups=["Player"]]
 layout_mode = 2
 text = "10/10"
 label_settings = SubResource("LabelSettings_o1olk")
 
-[node name="BoxContainer" type="BoxContainer" parent="CanvasLayer"]
+[node name="BoxContainer" type="BoxContainer" parent="CanvasLayer" groups=["Player"]]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -1192,13 +1207,13 @@ grow_horizontal = 2
 grow_vertical = 2
 alignment = 1
 
-[node name="Health" type="ProgressBar" parent="CanvasLayer/BoxContainer"]
+[node name="Health" type="ProgressBar" parent="CanvasLayer/BoxContainer" groups=["Player"]]
 layout_mode = 2
 theme_override_styles/background = SubResource("StyleBoxFlat_cf8xn")
 theme_override_styles/fill = SubResource("StyleBoxFlat_q67ej")
 max_value = 150.0
 
-[node name="Pause Menu" type="Control" parent="CanvasLayer"]
+[node name="Pause Menu" type="Control" parent="CanvasLayer" groups=["Player"]]
 visible = false
 layout_mode = 3
 anchors_preset = 15
@@ -1207,7 +1222,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Panel" type="Panel" parent="CanvasLayer/Pause Menu"]
+[node name="Panel" type="Panel" parent="CanvasLayer/Pause Menu" groups=["Player"]]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -1215,7 +1230,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Resume" type="Button" parent="CanvasLayer/Pause Menu/Panel"]
+[node name="Resume" type="Button" parent="CanvasLayer/Pause Menu/Panel" groups=["Player"]]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -1232,7 +1247,7 @@ theme_override_font_sizes/font_size = 40
 text = "Resume
 "
 
-[node name="Setting" type="Button" parent="CanvasLayer/Pause Menu/Panel"]
+[node name="Setting" type="Button" parent="CanvasLayer/Pause Menu/Panel" groups=["Player"]]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -1249,7 +1264,7 @@ theme_override_font_sizes/font_size = 40
 text = "Setting
 "
 
-[node name="Quit" type="Button" parent="CanvasLayer/Pause Menu/Panel"]
+[node name="Quit" type="Button" parent="CanvasLayer/Pause Menu/Panel" groups=["Player"]]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -1266,66 +1281,66 @@ theme_override_font_sizes/font_size = 40
 text = "Quit
 "
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." groups=["Player"]]
 shape = SubResource("CapsuleShape3D_xef1d")
 
-[node name="PickupDetection" type="Area3D" parent="."]
+[node name="PickupDetection" type="Area3D" parent="." groups=["Player"]]
 collision_layer = 0
 collision_mask = 8
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="PickupDetection"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PickupDetection" groups=["Player"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00242665, 0.137511, 0)
 shape = SubResource("BoxShape3D_pmh3n")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." groups=["Player"]]
 root_node = NodePath("../camHolder/Main Cam/WeaponsManager/FPS_Rig")
 libraries = {
 "": SubResource("AnimationLibrary_g3pyr")
 }
 
-[node name="PlayerAnimations" type="AnimationPlayer" parent="."]
+[node name="PlayerAnimations" type="AnimationPlayer" parent="." groups=["Player"]]
 libraries = {
 "": SubResource("AnimationLibrary_6xlyu")
 }
 
-[node name="Player Audios" type="Node3D" parent="."]
+[node name="Player Audios" type="Node3D" parent="." groups=["Player"]]
 
-[node name="Footsteps" type="AudioStreamPlayer3D" parent="Player Audios"]
+[node name="Footsteps" type="AudioStreamPlayer3D" parent="Player Audios" groups=["Player"]]
 stream = ExtResource("23_m2x5a")
 volume_db = -40.0
 
-[node name="camHolder" type="Node3D" parent="."]
+[node name="camHolder" type="Node3D" parent="." groups=["Player"]]
 
-[node name="Main Cam" type="Camera3D" parent="camHolder"]
+[node name="Main Cam" type="Camera3D" parent="camHolder" groups=["Player"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.478314, 0)
 
-[node name="WeaponsManager" type="Node3D" parent="camHolder/Main Cam"]
+[node name="WeaponsManager" type="Node3D" parent="camHolder/Main Cam" groups=["Player"]]
 script = ExtResource("5_svc1s")
 _weaponResources = Array[Resource("res://Scripts/Weapon/weaponResource.gd")]([ExtResource("6_ayeoe"), ExtResource("7_gkubt"), ExtResource("8_5q4i6"), ExtResource("9_oky4x"), ExtResource("10_sab0a")])
 startWeapons = Array[String](["metalBat"])
 
-[node name="FPS_Rig" type="Node3D" parent="camHolder/Main Cam/WeaponsManager"]
+[node name="FPS_Rig" type="Node3D" parent="camHolder/Main Cam/WeaponsManager" groups=["Player"]]
 
-[node name="bulletPoint" type="Marker3D" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig"]
+[node name="bulletPoint" type="Marker3D" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig" groups=["Player"]]
 unique_name_in_owner = true
 
-[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig"]
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig" groups=["Player"]]
 stream = ExtResource("9_wgj33")
 
-[node name="WeaponHolder" type="Node3D" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig"]
+[node name="WeaponHolder" type="Node3D" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig" groups=["Player"]]
 script = ExtResource("12_s860v")
 swayLeft = Vector3(0, 1, 0)
 swayRight = Vector3(0, -1, 0)
 
-[node name="ThrowableScrewdriver" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" instance=ExtResource("13_l6gjs")]
+[node name="ThrowableScrewdriver" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" groups=["Player"] instance=ExtResource("13_l6gjs")]
 
-[node name="DBshotty" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" instance=ExtResource("14_segek")]
+[node name="DBshotty" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" groups=["Player"] instance=ExtResource("14_segek")]
 
-[node name="1911" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" instance=ExtResource("15_s0nfb")]
+[node name="1911" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" groups=["Player"] instance=ExtResource("15_s0nfb")]
 
-[node name="m14" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" instance=ExtResource("16_lu3cd")]
+[node name="m14" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" groups=["Player"] instance=ExtResource("16_lu3cd")]
 
-[node name="metalBat" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" instance=ExtResource("17_hrqtn")]
+[node name="metalBat" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" groups=["Player"] instance=ExtResource("17_hrqtn")]
 
 [connection signal="pressed" from="CanvasLayer/Pause Menu/Panel/Resume" to="." method="_on_resume_pressed"]
 [connection signal="pressed" from="CanvasLayer/Pause Menu/Panel/Quit" to="." method="_on_quit_pressed"]

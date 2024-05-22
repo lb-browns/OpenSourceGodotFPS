@@ -25,3 +25,16 @@ res://tscn/Weapons/Pickups/1911Pickup.tscn
 res://tscn/Weapons/Pickups/DBshottyPickup.tscn
 res://tscn/Weapons/Pickups/m_14_pickup.tscn
 res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn
+res://Mats/tile.tres
+res://Scripts/Player/Player.gd
+res://tscn/World/Maps/map.tscn
+res://tscn/World/SHRooms/Facility2.tscn
+res://tscn/World/SHRooms/Room1dev.tscn
+res://Exfil.gd
+res://tscn/Enemy/enemyDev3.tscn
+res://tscn/Enemy/enemyDev.tscn
+res://tscn/World/Objects/realcrate.tscn
+res://tscn/World/SHRooms/RoomGenTest.tscn
+res://Scripts/Player/HUD.gd
+res://tscn/World/SHRooms/Room2dev.tscn
+res://Exfil.tscn

@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://cp26qk5b7kvft"]
+[gd_scene load_steps=19 format=3 uid="uid://cp26qk5b7kvft"]
 
 [ext_resource type="Script" path="res://Scripts/AI/Enemy/EnemyAI.gd" id="1_pe0ci"]
 
@@ -135,7 +135,11 @@ states/Tracking/node = SubResource("AnimationNodeAnimation_vmi0v")
 states/Tracking/position = Vector2(318, 107.875)
 transitions = ["Start", "Tracking", SubResource("AnimationNodeStateMachineTransition_jgsif"), "Tracking", "Attacking", SubResource("AnimationNodeStateMachineTransition_6ylpq"), "Attacking", "Tracking", SubResource("AnimationNodeStateMachineTransition_3ab2o")]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_cey6f"]
+radius = 5.173
+
 [node name="EnemyDev" type="CharacterBody3D" groups=["Enemy"]]
+collision_mask = 3
 script = ExtResource("1_pe0ci")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
@@ -172,3 +176,16 @@ advance_expression_base_node = NodePath("../AnimationPlayer")
 anim_player = NodePath("../AnimationPlayer")
 parameters/conditions/Run = false
 parameters/conditions/isAttacking = false
+
+[node name="Area3D" type="Area3D" parent="."]
+collision_mask = 3
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+shape = SubResource("CylinderShape3D_cey6f")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]
+[connection signal="body_exited" from="Area3D" to="." method="_on_area_3d_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

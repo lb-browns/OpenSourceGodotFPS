@@ -27,6 +27,8 @@ var isPaused = false
 @export var weapontSwayAmount = 2.0
 @export var weaponRotationAmount = 0.3
 @export var camRotationAmount = 0.01
+@export var difficultyTier = 1
+var roomsCleared = 0 
 
 
 @onready var defaultWeaponHolderPos

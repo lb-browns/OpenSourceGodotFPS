@@ -1,7 +1,12 @@
-[gd_scene load_steps=8 format=3 uid="uid://cmg54havdhe3a"]
+[gd_scene load_steps=13 format=3 uid="uid://cmg54havdhe3a"]
 
 [ext_resource type="Script" path="res://Scripts/World/crate.gd" id="1_uudio"]
 [ext_resource type="Texture2D" uid="uid://cv35olfe34i81" path="res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_pallet.png" id="2_cmhm2"]
+[ext_resource type="PackedScene" uid="uid://c0k302vs4aycr" path="res://tscn/Weapons/Pickups/emptyPickup.tscn" id="2_oghcg"]
+[ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://tscn/Weapons/Pickups/1911Pickup.tscn" id="3_8xwpp"]
+[ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://tscn/Weapons/Pickups/DBshottyPickup.tscn" id="4_x0xkh"]
+[ext_resource type="PackedScene" uid="uid://bri6it71khuda" path="res://tscn/Weapons/Pickups/m_14_pickup.tscn" id="5_iwyme"]
+[ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="6_f8ypt"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_4ohdb"]
 
@@ -20,6 +25,7 @@ font_names = PackedStringArray("Javanese Text")
 [node name="itemCrate" type="RigidBody3D" groups=["Target"]]
 physics_material_override = SubResource("PhysicsMaterial_4ohdb")
 script = ExtResource("1_uudio")
+itemsToSpawn = [ExtResource("2_oghcg"), ExtResource("3_8xwpp"), ExtResource("4_x0xkh"), ExtResource("5_iwyme"), ExtResource("6_f8ypt")]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_l0mfg")
