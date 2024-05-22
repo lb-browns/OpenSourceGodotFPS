@@ -28,9 +28,9 @@ func _ready():
 	stateMachine = animTree.get("parameters/playback")
 
 func _on_timer_timeout():
-	var x = randf_range(-100, 100)
-	var y = randf_range(100, -100)
-	var z = randf_range(100, -100)
+	var x = randf_range(-999, 999)
+	var y = randf_range(999, -999)
+	var z = randf_range(999, -999)
 	wanderPath = Vector3(x, y, z)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
