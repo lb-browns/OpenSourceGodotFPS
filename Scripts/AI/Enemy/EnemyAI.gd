@@ -47,17 +47,13 @@ func _process(delta):
 				var nextNavPoint = navAgent.get_next_path_position()
 				velocity = (nextNavPoint - global_transform.origin).normalized() * SPEED
 				look_at(Vector3(player.global_position.x + velocity.x, global_position.y, player.global_position.z + velocity.z,), Vector3.UP)
-				print("Tracking")
 			"Attacking":
 				look_at(Vector3(player.global_position.x, global_position.y, player.global_position.z,), Vector3.UP)
 				hitPlayer()
-				print("Attacking")
 	else:
 		navAgent.set_target_position(wanderPath)
 		var nextNavPoint = navAgent.get_next_path_position()
 		velocity = (nextNavPoint - global_transform.origin).normalized() * SPEED
-		print("Wandering")
-		print(str(wanderPath))
 	
 	#conditions
 	animTree.set("parameters/conditions/isAttacking", targetInRange())
@@ -81,13 +77,11 @@ func Die():
 	queue_free()
 
 func _on_area_3d_body_entered(body):
-	print(str(body) + "- from enemy")
 	if body.is_in_group("Player"):
 		canSeePlayer = true
 		print("AI SPOTTED PLAYER")
 
 func _on_area_3d_body_exited(body):
-	print(str(body) + "- from enemy")
 	if body.is_in_group("Player"):
 		canSeePlayer = false
 		print("AI LOST PLAYER")
