@@ -1,5 +1,7 @@
 extends CharacterBody3D
 
+#VERSION 0.1.0
+
 @export var playerHealth = 150
 @onready var MainCamera = get_node("camHolder/Main Cam")
 @onready var anim = get_node("PlayerAnimations")
