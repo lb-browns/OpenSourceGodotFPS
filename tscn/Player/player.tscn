@@ -1309,6 +1309,13 @@ libraries = {
 stream = ExtResource("23_m2x5a")
 volume_db = -40.0
 
+[node name="Damage" type="AudioStreamPlayer3D" parent="Player Audios"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+stream = ExtResource("12_l4gd3")
+volume_db = 7.591
+pitch_scale = 2.18
+max_distance = 149.49
+
 [node name="camHolder" type="Node3D" parent="." groups=["Player"]]
 
 [node name="Main Cam" type="Camera3D" parent="camHolder" groups=["Player"]]

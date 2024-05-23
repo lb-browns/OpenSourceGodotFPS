@@ -1,11 +1,12 @@
-[gd_scene load_steps=9 format=3 uid="uid://gf3qhifevym8"]
+[gd_scene load_steps=10 format=3 uid="uid://gf3qhifevym8"]
 
-[ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/SHRooms/spawn_room.tscn" id="1_fv4tv"]
-[ext_resource type="Texture2D" uid="uid://cs6wup8e1c0ok" path="res://Textures/kenney_prototype-textures/PNG/Orange/texture_09.png" id="2_scogu"]
-[ext_resource type="PackedScene" uid="uid://nt1gb7skpfrc" path="res://tscn/World/SHRooms/exfil_room.tscn" id="4_lpxqd"]
-[ext_resource type="PackedScene" uid="uid://cb3lpvb4gm4o8" path="res://Exfil.tscn" id="5_pn5wj"]
-[ext_resource type="PackedScene" uid="uid://b56ats1otgo53" path="res://tscn/World/Misc/EnemySpawner3d.tscn" id="6_c6el0"]
-[ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="6_ed456"]
+[ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="1_xbsoj"]
+[ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/Misc/spawn_room.tscn" id="2_i51jv"]
+[ext_resource type="PackedScene" uid="uid://nt1gb7skpfrc" path="res://tscn/World/Misc/exfil_room.tscn" id="3_a7qnx"]
+[ext_resource type="PackedScene" uid="uid://cb3lpvb4gm4o8" path="res://Exfil.tscn" id="4_bq0nj"]
+[ext_resource type="Texture2D" uid="uid://cs6wup8e1c0ok" path="res://Textures/kenney_prototype-textures/PNG/Orange/texture_09.png" id="5_ik2wi"]
+[ext_resource type="PackedScene" uid="uid://b56ats1otgo53" path="res://tscn/World/Misc/EnemySpawner3d.tscn" id="6_y2e6a"]
+[ext_resource type="PackedScene" uid="uid://cob0owrdwpaa7" path="res://tscn/World/Objects/radio.tscn" id="7_dyscb"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_m480y"]
 vertices = PackedVector3Array(-1.99948, -1.67183, -1.06897, -1.99948, -1.67183, 1.93103, -1.24948, -1.67183, 1.93103, -1.24948, -1.67183, -1.06897, -0.499484, -1.17183, -0.0689654, -0.249484, -1.17183, -1.06897, -1.24948, -1.67183, -1.06897, -1.24948, -1.67183, 1.93103, 1.25052, -1.17183, -1.06897, 0.000516415, -1.17183, -1.06897, 0.250516, -1.17183, -0.0689654, 1.25052, -1.17183, 1.93103, -1.24948, -1.67183, 1.93103, 1.25052, -1.17183, 1.93103, 0.250516, -1.17183, -0.0689654, -0.499484, -1.17183, -0.0689654, 0.250516, 2.82817, 2.93103, -0.999484, 1.82817, 3.18103, 1.25052, 2.82817, 3.93103, 0.250516, 3.07817, 1.93103, 0.250516, 2.82817, 2.93103, 1.25052, 2.82817, 3.93103, 1.25052, 3.07817, -1.06897, -1.24948, 3.07817, -1.06897, -1.24948, 3.07817, 1.93103, 0.250516, 3.07817, 1.93103, 1.25052, 3.07817, -1.06897, -3.24948, -1.17183, 0.931035, -3.24948, -0.171826, 2.43103, -2.99948, -1.17183, 0.931035, -4.24948, -1.17183, -0.818965, -4.24948, -1.17183, 0.931035, -3.24948, -1.17183, 0.931035, -4.24948, -1.17183, -0.818965, -3.24948, -1.17183, 0.931035, -2.99948, -1.17183, 0.931035, -1.74948, -1.17183, -0.818965, -2.99948, -1.17183, 0.931035, -1.74948, -1.17183, 1.18103, -1.74948, -1.17183, -0.818965, -0.999484, -3.17183, -0.818965, -0.999484, -3.17183, 1.68103, 0.750516, -3.17183, 1.68103, 0.750516, -3.17183, -0.818965, -1.24948, 0.328174, -0.568965, -0.999484, 0.328174, 1.68103, 0.750516, 0.328174, 1.68103, 0.750516, 0.328174, -0.818965, -3.99948, -3.17183, -0.318965, -3.99948, -3.17183, 0.681035, -1.99948, -3.17183, 0.681035, -1.99948, -3.17183, -0.318965, -0.499484, 2.07817, 1.93103, -0.499484, 2.07817, 2.43103, 0.250516, 2.07817, 2.43103, 0.250516, 2.07817, 1.93103, -2.49948, 0.828174, 3.43103, -1.99948, 1.07817, 3.43103, -2.49948, 0.828174, 3.18103, -3.74948, 0.578174, 3.93103, -2.49948, 0.578174, 3.93103, -2.49948, 0.828174, 3.43103, -3.74948, 0.578174, 3.93103, -2.49948, 0.828174, 3.43103, -2.49948, 0.828174, 3.18103, -3.74948, 0.328174, 2.43103, -3.74948, 0.328174, 2.43103, -2.49948, 0.828174, 3.18103, -2.49948, 0.328174, 2.43103, -0.499484, 0.828174, 2.43103, -0.499484, 0.828174, 2.93103, 0.250516, 0.828174, 2.68103, -3.24948, -1.42183, 2.93103, -3.24948, -1.42183, 3.68103, -2.74948, -1.42183, 3.18103, -0.499484, 0.828174, 4.43103, 0.500516, 0.828174, 4.43103, 0.250516, 0.828174, 3.68103, -0.499484, 0.828174, 3.68103)
@@ -15,22 +16,22 @@ agent_radius = 0.0
 detail_sample_distance = 12.61
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cuh11"]
-albedo_texture = ExtResource("2_scogu")
+albedo_texture = ExtResource("5_ik2wi")
 uv1_triplanar = true
 
 [node name="Node" type="Node3D" groups=["Room"]]
 
-[node name="Player_Spawn" parent="." instance=ExtResource("6_ed456")]
+[node name="Player_Spawn" parent="." instance=ExtResource("1_xbsoj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 2)
 
-[node name="SpawnRoom" parent="." instance=ExtResource("1_fv4tv")]
+[node name="SpawnRoom" parent="." instance=ExtResource("2_i51jv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.126845, 0, 1.75444)
 
-[node name="ExfilRoom" parent="." node_paths=PackedStringArray("enemySpawnerRef") instance=ExtResource("4_lpxqd")]
+[node name="ExfilRoom" parent="." node_paths=PackedStringArray("enemySpawnerRef") instance=ExtResource("3_a7qnx")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -12, 3, -36)
 enemySpawnerRef = NodePath("../EnemySpawner3d3")
 
-[node name="Exfil" parent="." instance=ExtResource("5_pn5wj")]
+[node name="Exfil" parent="." instance=ExtResource("4_bq0nj")]
 unique_name_in_owner = true
 transform = Transform3D(6.63, 0, 0, 0, 2.58, 0, 0, 0, 7.25, -12, 5.48932, -36)
 
@@ -268,15 +269,15 @@ radius = 1.0
 height = 8.0
 sides = 9
 
-[node name="EnemySpawner3d" parent="." instance=ExtResource("6_c6el0")]
+[node name="EnemySpawner3d" parent="." instance=ExtResource("6_y2e6a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 5, -36)
 spawnLimit = 7
 
-[node name="EnemySpawner3d2" parent="." instance=ExtResource("6_c6el0")]
+[node name="EnemySpawner3d2" parent="." instance=ExtResource("6_y2e6a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -4, -32)
 spawnLimit = 12
 
-[node name="EnemySpawner3d3" parent="." instance=ExtResource("6_c6el0")]
+[node name="EnemySpawner3d3" parent="." instance=ExtResource("6_y2e6a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, -4, -36)
 spawnLimit = 4
 
@@ -288,3 +289,6 @@ transform = Transform3D(-0.258819, 0, -0.965926, 0, 1, 0, 0.965926, 0, -0.258819
 pixel_size = 0.01
 text = "Press \"E\" To Generate New Map Or Kill All Enemies
 "
+
+[node name="Radio" parent="." instance=ExtResource("7_dyscb")]
+transform = Transform3D(0.2, 0, 0, 0, 0.4, 0, 0, 0, 0.4, -3, 5, -30)

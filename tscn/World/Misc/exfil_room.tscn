@@ -1,12 +1,12 @@
 [gd_scene load_steps=10 format=3 uid="uid://nt1gb7skpfrc"]
 
-[ext_resource type="Script" path="res://Scripts/World/exfil_room.gd" id="1_g03ev"]
-[ext_resource type="Material" uid="uid://b2cmmej3e1e7q" path="res://Mats/new_standard_material_3d.tres" id="1_swbpa"]
-[ext_resource type="Texture2D" uid="uid://dcqfalaikoeys" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_05-128x128.png" id="3_73xsv"]
-[ext_resource type="AudioStream" uid="uid://deosyk18xtqtj" path="res://sfx/CustomSoundsPack1/TELEPORT0.WAV" id="4_ix6mf"]
+[ext_resource type="Script" path="res://Scripts/World/exfil_room.gd" id="1_h74eg"]
+[ext_resource type="Material" uid="uid://b2cmmej3e1e7q" path="res://Mats/new_standard_material_3d.tres" id="2_ylle4"]
+[ext_resource type="Texture2D" uid="uid://dcqfalaikoeys" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_05-128x128.png" id="3_ciuvo"]
+[ext_resource type="AudioStream" uid="uid://deosyk18xtqtj" path="res://sfx/CustomSoundsPack1/TELEPORT0.WAV" id="4_dlris"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sknaa"]
-albedo_texture = ExtResource("3_73xsv")
+albedo_texture = ExtResource("3_ciuvo")
 
 [sub_resource type="SystemFont" id="SystemFont_x5svd"]
 font_names = PackedStringArray("Brush Script MT")
@@ -74,10 +74,10 @@ _data = {
 }
 
 [node name="ExfilRoom" type="Node3D"]
-script = ExtResource("1_g03ev")
+script = ExtResource("1_h74eg")
 
 [node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
-material_override = ExtResource("1_swbpa")
+material_override = ExtResource("2_ylle4")
 use_collision = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
@@ -135,4 +135,4 @@ light_energy = 6.495
 spot_range = 5.858
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
-stream = ExtResource("4_ix6mf")
+stream = ExtResource("4_dlris")

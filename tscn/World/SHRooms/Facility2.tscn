@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://busicyesoagul"]
+[gd_scene load_steps=10 format=3 uid="uid://d33bl23ax18rv"]
 
 [ext_resource type="Material" uid="uid://bu1se5eyhe14m" path="res://Mats/wood.tres" id="1_q1txv"]
 [ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="1_uj00u"]
@@ -6,7 +6,6 @@
 [ext_resource type="Material" uid="uid://v8aokr3nwjqs" path="res://Mats/Plaster1.tres" id="3_7gk6j"]
 [ext_resource type="Texture2D" uid="uid://2glasrc71obk" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Plaster/Plaster_10-128x128.png" id="3_t2nkc"]
 [ext_resource type="Texture2D" uid="uid://clgc7cd7eck41" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Stone/Stone_05-128x128.png" id="5_fu1bu"]
-
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_84c3m"]
 albedo_texture = ExtResource("3_t2nkc")

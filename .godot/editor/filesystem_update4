@@ -21,3 +21,11 @@ res://Textures/Skyboxes/world_environment.tscn
 res://tscn/World/SHRooms/Room2dev.tscn
 res://Scripts/AI/Enemy/EnemyAI.gd
 res://Exfil.gd
+res://tscn/World/SHRooms/r_warehouse1.tscn
+res://tscn/World/SHRooms/r_warehouse3.tscn
+res://tscn/World/SHRooms/r_warehouse2.tscn
+res://tscn/World/Misc/exfil_room.tscn
+res://tscn/World/SHRooms/Room1dev.tscn
+res://tscn/World/SHRooms/Facility2.tscn
+res://music/song1.tscn
+res://tscn/playerMusic/song1.tscn

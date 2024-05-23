@@ -1,6 +1,6 @@
 extends CharacterBody3D
 
-#VERSION 0.1.0
+#VERSION 0.1.2
 
 @export var playerHealth = 150
 @onready var MainCamera = get_node("camHolder/Main Cam")
@@ -11,6 +11,8 @@ extends CharacterBody3D
 @onready var deathScreen = preload("res://tscn/Player/DeathScreen.tscn")
 @onready var mainMenu = preload("res://tscn/World/Maps/mainMenu.tscn")
 @onready var pauseMenu = $"CanvasLayer/Pause Menu"
+@onready var playerDamageAudio = $"Player Audios/Damage"
+
 
 var jumpNum
 
@@ -43,6 +45,7 @@ func _ready():
 	defaultWeaponHolderPos = weaponHolder.position
 	
 	MainCamera.current = true
+
 
 func _process(delta):
 	hpBar.value = playerHealth
@@ -161,10 +164,12 @@ func playFootstepAudio():
 	if !footstepAudio.playing:
 		footstepAudio.pitch_scale = randf_range(0.8, 1.2)
 		footstepAudio.play()
+		
 @rpc("any_peer")
 func receiveDamage():
 	var takenDamage = wepResource.currentWeapon.weaponDamage
 	playerHealth -= takenDamage
+
 
 func _on_resume_pressed():
 	unPause()

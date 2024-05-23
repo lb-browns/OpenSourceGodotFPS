@@ -1,11 +1,11 @@
 [gd_scene load_steps=9 format=3 uid="uid://cnaasby7wgmyj"]
 
-[ext_resource type="Texture2D" uid="uid://b2074ffbuhk06" path="res://Textures/kenney_prototype-textures/PNG/Green/texture_01.png" id="1_abvra"]
-[ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/SHRooms/spawn_room.tscn" id="2_xa6bq"]
-[ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="5_nefq7"]
-[ext_resource type="PackedScene" uid="uid://b56ats1otgo53" path="res://tscn/World/Misc/EnemySpawner3d.tscn" id="5_nr23c"]
-[ext_resource type="PackedScene" uid="uid://nt1gb7skpfrc" path="res://tscn/World/SHRooms/exfil_room.tscn" id="6_cls7r"]
-[ext_resource type="PackedScene" uid="uid://cb3lpvb4gm4o8" path="res://Exfil.tscn" id="9_3cmxk"]
+[ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/Misc/spawn_room.tscn" id="1_ro47c"]
+[ext_resource type="Texture2D" uid="uid://b2074ffbuhk06" path="res://Textures/kenney_prototype-textures/PNG/Green/texture_01.png" id="2_eu3pw"]
+[ext_resource type="PackedScene" uid="uid://cb3lpvb4gm4o8" path="res://Exfil.tscn" id="3_kfako"]
+[ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="4_q8kpw"]
+[ext_resource type="PackedScene" uid="uid://nt1gb7skpfrc" path="res://tscn/World/Misc/exfil_room.tscn" id="5_qof0b"]
+[ext_resource type="PackedScene" uid="uid://b56ats1otgo53" path="res://tscn/World/Misc/EnemySpawner3d.tscn" id="6_va4hh"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_jtpfs"]
 vertices = PackedVector3Array(-16.25, 7, 50.25, -8.5, 7, 50.25, -8.25, 7, 49.75, -16.25, 7, 13.75, 8.25, 7, 13.5, -15.75, 7, 13.25, -16.25, 7, 13.75, -8.25, 7, 49.75, 8.25, 7, 50.25, -15, 1, 29, -5.25, 1, 29.25, -5, 1, 29.25, -5, 1, 14.75, -15, 1, 14.75, -4, 1, 29.75, -4.25, 1, 30.5, -1.5, 1, 31.25, -1.90735e-06, 1, 29.25, 0.999998, 1, 28.75, 2, 1, 28.75, 7.25, 1, 14.75, -5, 1, 14.75, -5, 1, 29.25, -4, 1, 29.75, -1.90735e-06, 1, 29.25, 0.999998, 1, 28.75, -5, 1, 14.75, 2, 1, 28.75, 2.25, 1, 29.25, 7.25, 1, 29.25, 7.25, 1, 14.75, -15, 1, 36, -13.75, 1, 36, -13.5, 1, 35.25, -15, 1, 29, -4.5, 1, 36.25, -1.25, 1, 35.25, -2, 1, 33.75, -5.5, 1, 36.25, -2, 1, 33.75, -1.5, 1, 31.25, -4.25, 1, 30.5, -15, 1, 29, -13.5, 1, 35.25, -11.25, 1, 35.25, -5.75, 1, 30.5, -5.75, 1, 29.5, -2, 1, 33.75, -4.25, 1, 30.5, -5.75, 1, 30.5, -11.25, 1, 35.25, -11, 1, 36.5, -5.5, 1, 36.25, -11, 1, 36.5, -5.75, 1, 36.75, -5.5, 1, 36.25, -5.75, 1, 29.5, -5.25, 1, 29.25, -15, 1, 29, 3.25, 1, 36, 4.25, 1, 35.5, 4.5, 1, 34.75, 4.5, 1, 34.75, 5.25, 1, 35.25, 7.25, 1, 35.25, 7.25, 1, 29.25, 2.25, 1, 29.25, -0.750002, 1, 34.5, 0.249998, 1, 35.75, 1.5, 1, 36.25, 1.5, 1, 36.25, 3.25, 1, 36, 4.5, 1, 34.75, 2.25, 1, 29.25, -0.500002, 1, 31, -0.750002, 1, 34.5, 6.75, 1, 39.25, 7, 1, 40.25, 7.25, 1, 40.25, 7.25, 1, 35.25, -1.25, 1, 35.25, -4.5, 1, 36.25, -4, 1, 37.25, -0.500002, 1, 39.25, 0.999998, 1, 37.25, -4, 1, 43, -0.250002, 1, 41, -0.750002, 1, 40.75, -0.500002, 1, 39.25, 6.75, 1, 39.25, 3, 1, 37.25, 0.999998, 1, 37.25, 6.75, 1, 39.25, 7.25, 1, 35.25, 5.25, 1, 35.25, 3, 1, 37.25, -5, 1, 42.25, -4, 1, 43, -0.750002, 1, 40.75, -0.500002, 1, 39.25, -4, 1, 37.25, -5, 1, 38, -13.25, 4, 35.75, -13.25, 4, 36.5, -11.5, 4, 36.5, -11.5, 4, 35.75, -13.5, 1, 37, -13.75, 1, 36, -15, 1, 36, -8.25, 1, 49, -8, 1, 49.75, -5, 1, 49.75, -5, 1, 43.75, -5.75, 1, 43.5, -5.75, 1, 42.5, -5, 1, 42.25, -5, 1, 38, -5.75, 1, 37.5, -11.25, 1, 37, -13.5, 1, 37, -8.25, 1, 49, -5.75, 1, 43.5, -5.75, 1, 42.5, -13.5, 1, 37, -15, 1, 36, -15, 0.75, 49, -5.75, 1, 37.5, -5.75, 1, 36.75, -11, 1, 36.5, -11.25, 1, 37, -0.250002, 3, 39.75, -0.250002, 3, 40.5, 6.5, 3, 40.5, 6.5, 3, 39.75, 7.25, 1, 40.25, 7, 1, 40.25, 6.75, 1, 41, 7.25, 1, 49, -5, 1, 49.75, -0.750002, 1, 49.75, -1.90735e-06, 1, 49, -5, 1, 43.75, -0.250002, 1, 41, -4, 1, 43, -5, 1, 43.75, -1.90735e-06, 1, 49, 7.25, 1, 49, 6.75, 1, 41)
@@ -13,13 +13,13 @@ polygons = [PackedInt32Array(1, 0, 2), PackedInt32Array(2, 0, 3), PackedInt32Arr
 agent_radius = 0.2
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pm5fd"]
-albedo_texture = ExtResource("1_abvra")
+albedo_texture = ExtResource("2_eu3pw")
 uv1_triplanar = true
 uv1_world_triplanar = true
 
 [node name="Node" type="Node3D" groups=["Room"]]
 
-[node name="SpawnRoom" parent="." instance=ExtResource("2_xa6bq")]
+[node name="SpawnRoom" parent="." instance=ExtResource("1_ro47c")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 1, 55)
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
@@ -90,18 +90,18 @@ mode = 1
 spin_degrees = 237.5
 spin_sides = 19
 
-[node name="Exfil" parent="." instance=ExtResource("9_3cmxk")]
+[node name="Exfil" parent="." instance=ExtResource("3_kfako")]
 unique_name_in_owner = true
 transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5.52815, 2.63237, 8.88405)
 
-[node name="Player_Spawn" parent="." instance=ExtResource("5_nefq7")]
+[node name="Player_Spawn" parent="." instance=ExtResource("4_q8kpw")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 3, 56)
 
-[node name="ExfilRoom" parent="." node_paths=PackedStringArray("enemySpawnerRef") instance=ExtResource("6_cls7r")]
+[node name="ExfilRoom" parent="." node_paths=PackedStringArray("enemySpawnerRef") instance=ExtResource("5_qof0b")]
 transform = Transform3D(-1, 0, 5.96046e-08, 0, 1, 0, -5.96046e-08, 0, -1, -5, 0.45, 9)
 enemySpawnerRef = NodePath("../EnemySpawner3d")
 
-[node name="EnemySpawner3d" parent="." instance=ExtResource("5_nr23c")]
+[node name="EnemySpawner3d" parent="." instance=ExtResource("6_va4hh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 2, 21)
 spawnLimit = 1
 
