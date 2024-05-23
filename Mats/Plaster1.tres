@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://v8aokr3nwjqs"]
+
+[ext_resource type="Texture2D" uid="uid://ehio8l7u83ly" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Plaster/Plaster_02-128x128.png" id="1_u8wtm"]
+
+[resource]
+albedo_texture = ExtResource("1_u8wtm")
+uv1_triplanar = true
+uv1_world_triplanar = true

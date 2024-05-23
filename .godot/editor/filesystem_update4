@@ -1,4 +1,4 @@
-res://tscn/Enemy/enemyDev2.tscn
+res://tscn/Player/player.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://gdShaders/tv.gdshader
 res://Scripts/Weapon/weaponResource.gd
@@ -7,5 +7,17 @@ res://Mats/wood.tres
 res://Mats/new_standard_material_3d.tres
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
+res://tscn/World/SHRooms/room_1_warehouse.tscn
+res://tscn/Enemy/enemyDev.tscn
+res://tscn/Enemy/enemyDev2.tscn
+res://tscn/Enemy/enemyDev3.tscn
+res://tscn/World/SHRooms/WareHouse3.tscn
+res://Mats/tile.tres
+res://Mats/Tile1.tres
+res://tscn/World/SHRooms/WareHouse2.tscn
 res://Scripts/Player/Player.gd
+res://tscn/World/SHRooms/RoomGenTest.tscn
+res://Textures/Skyboxes/world_environment.tscn
+res://tscn/World/SHRooms/Room2dev.tscn
 res://Scripts/AI/Enemy/EnemyAI.gd
+res://Exfil.gd

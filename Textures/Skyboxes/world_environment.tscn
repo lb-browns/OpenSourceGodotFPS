@@ -10,12 +10,14 @@ sky_material = SubResource("ProceduralSkyMaterial_n2fc3")
 [sub_resource type="Environment" id="Environment_qp36a"]
 background_mode = 2
 sky = SubResource("Sky_nqbeg")
+ambient_light_color = Color(0.0941176, 0, 0, 1)
+ambient_light_sky_contribution = 0.31
 tonemap_mode = 2
 ssr_depth_tolerance = 0.01
-glow_enabled = true
+glow_intensity = 0.14
+glow_strength = 0.46
 volumetric_fog_enabled = true
-volumetric_fog_density = 0.0724
-volumetric_fog_emission = Color(0.454902, 0, 0, 1)
+volumetric_fog_density = 0.0147
 volumetric_fog_emission_energy = 3.0
 
 [node name="WorldEnvironment" type="WorldEnvironment"]

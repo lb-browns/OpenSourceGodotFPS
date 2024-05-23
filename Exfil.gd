@@ -7,7 +7,7 @@ signal CHANGESCENE
 
 func _on_area_3d_body_entered(body):
 	emit_signal("CHANGESCENE")
-	player.difficultyTier += 0.2
+	player.difficultyTier += 0.1
 	playerGUI.addRoomCleared()
 	queue_free()
 	

@@ -3,11 +3,10 @@ extends Node
 @onready var player = %Player
 @onready var playerSpawn = get_node("Node/Player_Spawn")
 @onready var exfil = get_node("Node/Exfil")
-var Rooms = [
+@export var Rooms = [
 	preload("res://tscn/World/SHRooms/Room1dev.tscn"),
 	preload("res://tscn/World/SHRooms/WareHouse2.tscn"),
-	preload("res://tscn/World/SHRooms/room_1_warehouse.tscn"),
-	preload("res://tscn/World/SHRooms/Room2dev.tscn") 
+	preload("res://tscn/World/SHRooms/room_1_warehouse.tscn") 
 ]
 var room
 var newRoom

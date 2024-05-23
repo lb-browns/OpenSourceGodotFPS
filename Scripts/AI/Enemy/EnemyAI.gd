@@ -1,11 +1,12 @@
 extends CharacterBody3D
 
 @export var SPEED = 4.0
-@export var ATTACK_RANGE = 1.3
-@export var DAMAGE = 0.25
+@export var ATTACK_RANGE = 1.4
+@export var DAMAGE = 1.5
 @export var HEALTH = 75.0
 
 @onready var canSeePlayer = false
+@onready var inAttackRange
 
 var stateMachine
 
@@ -32,6 +33,8 @@ func _on_timer_timeout():
 	var y = randf_range(999, -999)
 	var z = randf_range(999, -999)
 	wanderPath = Vector3(x, y, z)
+	if inAttackRange:
+		hitPlayer()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -47,13 +50,16 @@ func _process(delta):
 				var nextNavPoint = navAgent.get_next_path_position()
 				velocity = (nextNavPoint - global_transform.origin).normalized() * SPEED
 				look_at(Vector3(player.global_position.x + velocity.x, global_position.y, player.global_position.z + velocity.z,), Vector3.UP)
+				inAttackRange = false
 			"Attacking":
+				inAttackRange = true
 				look_at(Vector3(player.global_position.x, global_position.y, player.global_position.z,), Vector3.UP)
-				hitPlayer()
+				print(str(DAMAGE))
 	else:
 		navAgent.set_target_position(wanderPath)
 		var nextNavPoint = navAgent.get_next_path_position()
 		velocity = (nextNavPoint - global_transform.origin).normalized() * SPEED
+		inAttackRange = false
 	
 	#conditions
 	animTree.set("parameters/conditions/isAttacking", targetInRange())
