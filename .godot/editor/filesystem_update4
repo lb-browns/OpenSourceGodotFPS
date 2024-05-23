@@ -8,3 +8,4 @@ res://Mats/new_standard_material_3d.tres
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
 res://Scripts/Player/Player.gd
+res://Scripts/AI/Enemy/EnemyAI.gd

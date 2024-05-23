@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 @export var SPEED = 4.0
 @export var ATTACK_RANGE = 1.3
-@export var DAMAGE = 0.2
+@export var DAMAGE = 0.25
 @export var HEALTH = 75.0
 
 @onready var canSeePlayer = false
