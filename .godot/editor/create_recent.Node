@@ -1,6 +1,7 @@
+Node3D
+MultiMeshInstance3D
 CSGBox3D
 AudioStreamPlayer3D
-Node3D
 CanvasLayer
 SpotLight3D
 CSGSphere3D
@@ -11,4 +12,3 @@ Timer
 CollisionShape3D
 Area3D
 Label3D
-Sprite3D

@@ -1,8 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716584082
+::res://::1716590590
 dev_test.tscn::PackedScene::8734882746237484611::1716495429::0::1::::<><>::uid://bkwrdrdpoq4ib::::res://Textures/kenney_prototype-textures/PNG/Dark/texture_13.png<>uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>uid://cfbf65tvsn532::::res://Textures/Skyboxes/world_environment.tscn<>uid://dfdxx3sv8kr6x::::res://tscn/World/Misc/directional_light_3d.tscn
 Exfil.gd::GDScript::-1::1716498739::0::1::::<>Node3D<>::
 Exfil.tscn::PackedScene::4901528567828221201::1716495425::0::1::::<><>::res://Exfil.gd
+export_presets.cfg::TextFile::-1::1716584610::0::1::::<><>::
 icon.svg::CompressedTexture2D::7607507315207210007::1716495429::1716495552::1::::<><>::
 node_3d.gd::GDScript::-1::1716495429::0::1::::<>Node3D<>::
 node_3d.tscn::PackedScene::6970002203165115863::1716495429::0::1::::<><>::uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>res://node_3d.gd<>uid://sceadi13k81u::::res://tscn/World/Objects/Enemy1.tscn<>uid://cfbf65tvsn532::::res://Textures/Skyboxes/world_environment.tscn<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>res://Scripts/World/roomSpawner.gd
@@ -1236,22 +1237,24 @@ Screwdriver.png::CompressedTexture2D::5451867195693459144::1716495425::171649542
 ::res://Game Meta Data/::1716495425
 SSH ico copy.png::CompressedTexture2D::1662824288146937305::1716495425::1716495425::1::::<><>::
 SSH ico.png::CompressedTexture2D::7410134576123941648::1716495425::1716495425::1::::<><>::
-::res://gdShaders/::1716583944
-pixelation.gdshader::Shader::-1::1716584232::0::1::::<><>::
-sky.gdshader::Shader::-1::1716584233::0::1::::<><>::
+::res://gdShaders/::1716592732
+pixelation.gdshader::Shader::-1::1716592733::0::1::::<><>::
+sky.gdshader::Shader::-1::1716592733::0::1::::<><>::
 SkyShader.gdshader::Shader::-1::1716495429::0::1::::<><>::
-tv.gdshader::Shader::-1::1716584233::0::1::::<><>::
-::res://Mats/::1716583944
-new_standard_material_3d.tres::StandardMaterial3D::4286398476143356464::1716584218::0::1::::<><>::uid://cxtnssv0kr2as::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_07-128x128.png
-Plaster1.tres::StandardMaterial3D::1542115736182937622::1716496477::0::1::::<><>::uid://ehio8l7u83ly::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Plaster/Plaster_02-128x128.png
-Tile1.tres::StandardMaterial3D::1467540929417285923::1716584218::0::1::::<><>::uid://dud5wnx07ph4r::::res://Models/Models pack psx/Texture/Tiles_01.jpg
-wood.tres::StandardMaterial3D::3844973010084433630::1716584218::0::1::::<><>::uid://dgdft3rr1b04j::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_11-128x128.png
-::res://Models/::1716495428
+tv.gdshader::Shader::-1::1716592733::0::1::::<><>::
+::res://Mats/::1716591229
+new_standard_material_3d.tres::StandardMaterial3D::4286398476143356464::1716591229::0::1::::<><>::uid://bbm56jr81yk6r::::res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/shipping_container_01_front.jpg
+Plaster1.tres::StandardMaterial3D::1542115736182937622::1716591229::0::1::::<><>::uid://ehio8l7u83ly::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Plaster/Plaster_02-128x128.png
+Tile1.tres::StandardMaterial3D::1467540929417285923::1716591229::0::1::::<><>::uid://dud5wnx07ph4r::::res://Models/Models pack psx/Texture/Tiles_01.jpg
+wood.tres::StandardMaterial3D::3844973010084433630::1716591229::0::1::::<><>::uid://dgdft3rr1b04j::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_11-128x128.png
+::res://Models/::1716591452
 door1.tscn::PackedScene::1348082926323216546::1716495428::0::1::::<><>::uid://dwqddp74gsetw::::res://Models/- Classic 64 Asset Pack 0.6/Doors/Materials/door_grungy_with_glass.png
 painting1.tscn::PackedScene::2504858551195123931::1716495428::0::1::::<><>::uid://6aa185nmd2io::::res://Models/- Classic 64 Asset Pack 0.6/Art/Materials/painting_01.png<>uid://cs0p6f6l0xewg::::res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/shingles_wood_01.jpg
+panel_amp_controls.glb::PackedScene::7180539003604846689::1716589896::1716589901::1::::<><>::
 tv.tscn::PackedScene::29647994991554796::1716495428::0::1::::<><>::uid://m2v7am54e1xc::::res://Models/Models pack psx/Texture/TV_03.jpg<>res://gdShaders/tv.gdshader
-::res://Models/- Classic 64 Asset Pack 0.6/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/::1716591073
 Changelog v0.6.txt::TextFile::-1::1716495426::0::1::::<><>::
+Food Shelf Scene.blend::PackedScene::8491922272809183034::1716495426::1716591073::1::::<><>::uid://nksuo5yqhso7::::res://Models/- Classic 64 Asset Pack 0.6/Products/Materials/products_papertowels_pack.png
 Readme.txt::TextFile::-1::1716495426::0::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Art/::1716495425
 ::res://Models/- Classic 64 Asset Pack 0.6/Art/Materials/::1716495425
@@ -1264,9 +1267,24 @@ painting_03.jpg::CompressedTexture2D::8209446022371178241::1716495425::171649542
 painting_04.jpg::CompressedTexture2D::4993896944052940207::1716495425::1716495425::1::::<><>::
 painting_05.jpg::CompressedTexture2D::5054351523645537563::1716495425::1716495425::1::::<><>::
 poster_infomation.png::CompressedTexture2D::6819871451117127744::1716495425::1716495425::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Books/::1716495425
-::res://Models/- Classic 64 Asset Pack 0.6/Books/Materials/::1716495425
-book_black_01.png::CompressedTexture2D::7309666870925078738::1716495425::1716495425::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Books/::1716591078
+book_black_01.blend::PackedScene::8141489122046119421::1716495425::1716591077::1::::<><>::uid://dce4e7desfmtu::::res://Models/- Classic 64 Asset Pack 0.6/Books/Materials/book_black_01.png
+book_blue_01.blend::PackedScene::2136837779801135242::1716495425::1716591077::1::::<><>::
+book_blue_02.blend::PackedScene::6103885727978257290::1716495425::1716591077::1::::<><>::
+book_blue_03.blend::PackedScene::648421813977145639::1716495425::1716591077::1::::<><>::
+book_blue_04.blend::PackedScene::1356528457361753250::1716495425::1716591078::1::::<><>::
+book_blue_05.blend::PackedScene::7908334782330821330::1716495425::1716591078::1::::<><>::
+book_blue_06.blend::PackedScene::941453404291376396::1716495425::1716591078::1::::<><>::
+book_blue_07.blend::PackedScene::7386630322683653940::1716495425::1716591078::1::::<><>::
+book_brown_01.blend::PackedScene::7592543601989089667::1716495425::1716591078::1::::<><>::
+book_brown_02.blend::PackedScene::8742544153871330311::1716495425::1716591078::1::::<><>::
+book_brown_03.blend::PackedScene::6040273829252946025::1716495425::1716591078::1::::<><>::
+book_red_01.blend::PackedScene::377274261537347075::1716495425::1716591078::1::::<><>::
+book_yellow_01.blend::PackedScene::6028858537667480538::1716495425::1716591078::1::::<><>::
+catalog_01.blend::PackedScene::1866528500665716643::1716495425::1716591078::1::::<><>::
+catalog_02.blend::PackedScene::2769386517302713513::1716495425::1716591078::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Books/Materials/::1716591083
+book_black_01.png::CompressedTexture2D::7309666870925078738::1716495425::1716591083::1::::<><>::
 book_blue_01.png::CompressedTexture2D::6760359037591998929::1716495425::1716495425::1::::<><>::
 book_blue_02.png::CompressedTexture2D::8516600512872073346::1716495425::1716495425::1::::<><>::
 book_blue_03.png::CompressedTexture2D::6131580143239326677::1716495425::1716495425::1::::<><>::
@@ -1281,8 +1299,15 @@ book_red_01.png::CompressedTexture2D::8974772779944079906::1716495425::171649542
 book_yellow_01.png::CompressedTexture2D::3845749687556220864::1716495425::1716495425::1::::<><>::
 catalog_01.png::CompressedTexture2D::5064011517053991232::1716495425::1716495425::1::::<><>::
 catalog_02.png::CompressedTexture2D::2967845323225968955::1716495425::1716495425::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Boxes/::1716495425
-::res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/::1716495425
+::res://Models/- Classic 64 Asset Pack 0.6/Books/textures/::1716591458
+catalog_1.png::CompressedTexture2D::5650094365671927561::1716591078::1716591458::1::::<><>::
+catalog_2.png::CompressedTexture2D::1676225260316118181::1716591078::1716591458::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Boxes/::1716591078
+box_01.blend::PackedScene::1235882149907637031::1716495425::1716591078::1::::<><>::uid://bhl1w6fv7m4e5::::res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png
+box_02.blend::PackedScene::8058023302925695438::1716495425::1716591078::1::::<><>::
+box_03.blend::PackedScene::3071979110121256184::1716495425::1716591077::1::::<><>::
+box_04.blend::PackedScene::8529537819805114377::1716495425::1716591077::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/::1716584154
 box_01.png::CompressedTexture2D::2902070310677109594::1716495425::1716495425::1::::<><>::
 box_02.png::CompressedTexture2D::9092107713046866173::1716495425::1716495425::1::::<><>::
 box_03.png::CompressedTexture2D::3052175856755543136::1716495425::1716495425::1::::<><>::
@@ -1312,7 +1337,9 @@ brick_small_red_2.png::CompressedTexture2D::4384324740087454856::1716495425::171
 brick_small_rustic_brown_2.png::CompressedTexture2D::8217784435937967483::1716495425::1716495425::1::::<><>::
 brick_small_white_clean.png::CompressedTexture2D::352813402659321257::1716495425::1716495425::1::::<><>::
 brick_small_white_dirty.png::CompressedTexture2D::7752253145134441888::1716495425::1716495425::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Buildings/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Buildings/::1716591077
+building_01.blend::PackedScene::867593466906920362::1716495425::1716591077::1::::<><>::uid://bsj7i8maweo6j::::res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/shingles_old_01.jpg<>uid://j17ivpcxxdhh::::res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/roof_soffit_01.jpg<>uid://cr7igrnkkmfip::::res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/plywood.png
+shed_01.blend::PackedScene::82042283096468913::1716495426::1716591077::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Buildings/Materials/::1716495425
 building_misc.png::CompressedTexture2D::6498150382871380043::1716495425::1716495425::1::::<><>::
 building_old_tan_01.png::CompressedTexture2D::1001625444156149754::1716495425::1716495425::1::::<><>::
@@ -1328,6 +1355,22 @@ insulation_02.jpg::CompressedTexture2D::3354464798596862518::1716495425::1716495
 wall_insulation_01.jpg::CompressedTexture2D::5221185501899888655::1716495425::1716495425::1::::<><>::
 wall_insulation_02.jpg::CompressedTexture2D::478510858281532133::1716495425::1716495425::1::::<><>::
 wall_utilities.jpg::CompressedTexture2D::7013921173414915070::1716495425::1716495425::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Buildings/textures/::1716591458
+brick_red_04.jpg::CompressedTexture2D::2277773611407324933::1716591077::1716591458::1::::<><>::
+conduit_white_01.jpg::CompressedTexture2D::850458069203387017::1716591077::1716591458::1::::<><>::
+door_double_brown_left.png::CompressedTexture2D::5929468684316176301::1716591077::1716591458::1::::<><>::
+door_double_brown_right.png::CompressedTexture2D::7493413687416105009::1716591077::1716591458::1::::<><>::
+electrical_junctionbox_small.png::CompressedTexture2D::2600601959831060186::1716591077::1716591458::1::::<><>::
+gutter_brown_01.jpg::CompressedTexture2D::1073210430422258270::1716591077::1716591458::1::::<><>::
+gutter_brown_bottom.jpg::CompressedTexture2D::2160159881815649316::1716591077::1716591458::1::::<><>::
+metal_grungy_tall_01.jpg::CompressedTexture2D::9088594997389671994::1716591077::1716591458::1::::<><>::
+panel_electric.png::CompressedTexture2D::3824006826148642393::1716591077::1716591458::1::::<><>::
+propane_storage.png::CompressedTexture2D::5495580231776721457::1716591077::1716591458::1::::<><>::
+sign_no_smoking_01.png::CompressedTexture2D::4235165622640426510::1716591077::1716591458::1::::<><>::
+vent.png::CompressedTexture2D::4855244678607791819::1716591077::1716591458::1::::<><>::
+window_modern.png::CompressedTexture2D::4171182087954938475::1716591077::1716591458::1::::<><>::
+wood_pallet.png::CompressedTexture2D::3805685719896880093::1716591077::1716591458::1::::<><>::
+wood_planks_2.png::CompressedTexture2D::5564569333051418394::1716591077::1716591458::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Concrete/::1716495426
 ::res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/::1716495426
 concrete_01.png::CompressedTexture2D::7951430774491870669::1716495426::1716495426::1::::<><>::
@@ -1363,7 +1406,15 @@ concrete_wall_01.jpg::CompressedTexture2D::2747174999002023205::1716495426::1716
 concrete_wall_02.jpg::CompressedTexture2D::2993624096600610780::1716495426::1716495426::1::::<><>::
 conrete_painted_blue_dirty_01.png::CompressedTexture2D::2594849121417177002::1716495426::1716495426::1::::<><>::
 conrete_painted_blue_dirty_02.png.png::CompressedTexture2D::8016883141300220224::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Doors/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Doors/::1716591077
+door_brown_a.blend::PackedScene::1942079587232862414::1716495426::1716591077::1::::<><>::
+door_brown_b.blend::PackedScene::1833944165575507367::1716495426::1716591077::1::::<><>::
+door_double_brown.blend::PackedScene::1511548213695020887::1716495426::1716591077::1::::<><>::
+door_plain.blend::PackedScene::4412337317905250411::1716495426::1716591076::1::::<><>::
+door_pushbar.blend::PackedScene::8920084868743154156::1716495426::1716591076::1::::<><>::
+door_shed_a.blend::PackedScene::7237173599600797692::1716495426::1716591076::1::::<><>::
+door_shed_b.blend::PackedScene::1529150229259138145::1716495426::1716591076::1::::<><>::
+door_shed_double.blend::PackedScene::3891738633261764955::1716495426::1716591076::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Doors/Materials/::1716495426
 cabinet_door_01.png::CompressedTexture2D::7717642233871474641::1716495426::1716495426::1::::<><>::
 cabinet_door_02.png::CompressedTexture2D::773339716485330593::1716495426::1716495426::1::::<><>::
@@ -1392,11 +1443,17 @@ door_store_drinks_01.jpg::CompressedTexture2D::7101978430009138890::1716495426::
 door_store_drinks_02.jpg::CompressedTexture2D::6907728922305253728::1716495426::1716495426::1::::<><>::
 door_store_food_01.jpg::CompressedTexture2D::8886144631711137969::1716495426::1716495426::1::::<><>::
 door_store_food_02.jpg::CompressedTexture2D::7925742838422405209::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Electrical/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Electrical/Materials/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Doors/textures/::1716591458
+door_double_brown_left.png::CompressedTexture2D::8929062178761644472::1716591076::1716591458::1::::<><>::
+door_double_brown_right.png::CompressedTexture2D::6985366854453756927::1716591076::1716591458::1::::<><>::
+door_shed_a.png::CompressedTexture2D::7459185520935233821::1716591076::1716591458::1::::<><>::
+door_shed_b.png::CompressedTexture2D::341288626946766828::1716591076::1716591458::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Electrical/::1716591076
+electrical_junctionbox_small.blend::PackedScene::6912739407135205341::1716495426::1716591076::1::::<><>::uid://rusytrw7b2nq::::res://Models/- Classic 64 Asset Pack 0.6/Electrical/Materials/electrical_junctionbox_small.png
+::res://Models/- Classic 64 Asset Pack 0.6/Electrical/Materials/::1716591083
 conduit_gray_01.jpg::CompressedTexture2D::6699108097707529491::1716495426::1716495426::1::::<><>::
 conduit_white_01.jpg::CompressedTexture2D::8737217305415530236::1716495426::1716495426::1::::<><>::
-electrical_junctionbox_small.png::CompressedTexture2D::1235634687099000766::1716495426::1716495426::1::::<><>::
+electrical_junctionbox_small.png::CompressedTexture2D::1235634687099000766::1716495426::1716591083::1::::<><>::
 electrical_wires_group_3.png::CompressedTexture2D::7559202677702734437::1716495426::1716495426::1::::<><>::
 electrical_wires_group_3_curve.png::CompressedTexture2D::9086462816977009004::1716495426::1716495426::1::::<><>::
 electrical_wires_group_5.png::CompressedTexture2D::4813861014755674694::1716495426::1716495426::1::::<><>::
@@ -1417,7 +1474,41 @@ carpet_tan_01.jpg::CompressedTexture2D::4834477663224907702::1716495426::1716495
 carpet_tan_02.jpg::CompressedTexture2D::2835024002179847688::1716495426::1716495426::1::::<><>::
 floor_painted_dirty_01.jpg::CompressedTexture2D::3259763183814265182::1716495426::1716495426::1::::<><>::
 floor_painted_dirty_02.jpg::CompressedTexture2D::5670091032799351599::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Food/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Food/::1716591081
+drink_can_soda.blend::PackedScene::4005082544102417661::1716495426::1716591076::1::::<><>::
+drink_can_soda_2.blend::PackedScene::2711386255629242805::1716495426::1716591076::1::::<><>::
+drink_can_soda_3.blend::PackedScene::9195584472510054590::1716495426::1716591076::1::::<><>::
+drink_can_soda_4.blend::PackedScene::6537613393398326899::1716495426::1716591080::1::::<><>::
+drink_can_soda_5.blend::PackedScene::9205458137422552003::1716495426::1716591080::1::::<><>::
+drink_can_soda_6.blend::PackedScene::4454003588390748060::1716495426::1716591080::1::::<><>::
+drink_can_soda_7.blend::PackedScene::6118540752947403042::1716495426::1716591080::1::::<><>::
+drink_can_soda_8.blend::PackedScene::8176251010773083405::1716495426::1716591080::1::::<><>::
+food_baking_flour.blend::PackedScene::1052657570027133655::1716495426::1716591080::1::::<><>::
+food_baking_sugar.blend::PackedScene::6203105283561311070::1716495426::1716591080::1::::<><>::
+food_canned_soup_1.blend::PackedScene::7899708859195796348::1716495426::1716591080::1::::<><>::
+food_canned_soup_2.blend::PackedScene::1108333587159471231::1716495426::1716591080::1::::<><>::
+food_canned_soup_3.blend::PackedScene::6845788982719291541::1716495426::1716591080::1::::<><>::
+food_canned_soup_4.blend::PackedScene::6499596821211315894::1716495426::1716591080::1::::<><>::
+food_canned_soup_5.blend::PackedScene::4851264002745954244::1716495426::1716591080::1::::<><>::
+food_canned_soup_6.blend::PackedScene::5878724198276022188::1716495426::1716591080::1::::<><>::
+food_canned_soup_7.blend::PackedScene::2982931369504517962::1716495426::1716591081::1::::<><>::
+food_canned_soup_8.blend::PackedScene::3882180355206627868::1716495426::1716591081::1::::<><>::
+food_canned_soup_9.blend::PackedScene::1034214194039312094::1716495426::1716591081::1::::<><>::
+food_canned_soup_10.blend::PackedScene::246643059483248641::1716495426::1716591081::1::::<><>::
+food_cereal_1.blend::PackedScene::3585578432116488498::1716495426::1716591078::1::::<><>::
+food_cereal_2.blend::PackedScene::2609728223409360219::1716495426::1716591078::1::::<><>::
+food_cereal_3.blend::PackedScene::272155628466450015::1716495426::1716591079::1::::<><>::
+food_cereal_4.blend::PackedScene::3966401050058626800::1716495426::1716591079::1::::<><>::
+food_cereal_5.blend::PackedScene::8998381776544255119::1716495426::1716591079::1::::<><>::
+food_cereal_6.blend::PackedScene::8525364345273326075::1716495426::1716591079::1::::<><>::
+food_cereal_7.blend::PackedScene::5694004804580956964::1716495426::1716591079::1::::<><>::
+food_cereal_8.blend::PackedScene::1682535911202458178::1716495426::1716591079::1::::<><>::
+food_pet.blend::PackedScene::3681501696964603100::1716495426::1716591079::1::::<><>::
+food_pet_2.blend::PackedScene::8562124812689927464::1716495426::1716591079::1::::<><>::
+food_snack_chips_1.blend::PackedScene::9060175893225145487::1716495426::1716591079::1::::<><>::
+food_snack_chips_2.blend::PackedScene::6019885185987890222::1716495426::1716591079::1::::<><>::
+food_snack_chips_3.blend::PackedScene::4193363684763538849::1716495426::1716591079::1::::<><>::
+food_snack_chips_4.blend::PackedScene::7164501479890394039::1716495426::1716591079::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Food/Materials/::1716495426
 drink_can_soda_1.png::CompressedTexture2D::8130531440349595991::1716495426::1716495426::1::::<><>::
 drink_can_soda_2.png::CompressedTexture2D::2560804624362587295::1716495426::1716495426::1::::<><>::
@@ -1461,7 +1552,10 @@ food_snack_chips_1.png::CompressedTexture2D::5476600865999056462::1716495426::17
 food_snack_chips_2.png::CompressedTexture2D::130130308071166464::1716495426::1716495426::1::::<><>::
 food_snack_chips_3.png::CompressedTexture2D::2308260610429155712::1716495426::1716495426::1::::<><>::
 food_snack_chips_4.png::CompressedTexture2D::6324469597524941756::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Gems/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Gems/::1716591080
+blue_gemstone_pile.blend::PackedScene::1038844911204629209::1716495426::1716591079::1::::<><>::
+red_gemstone_pile.blend::PackedScene::4603602004360313452::1716495426::1716591079::1::::<><>::
+red_gemstone_pile_2.blend::PackedScene::7271119736296442169::1716495426::1716591080::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Gems/Materials/::1716495426
 blue_gemstone_tiles.png::CompressedTexture2D::6614745493294123665::1716495426::1716495426::1::::<><>::
 blue_gemstone_tiles_norm.png::CompressedTexture2D::7743543934644274739::1716495426::1716495426::1::::<><>::
@@ -1563,12 +1657,18 @@ snow_rocks_01.jpg::CompressedTexture2D::7595282027535379533::1716495426::1716495
 snow_rocks_02.jpg::CompressedTexture2D::4829082572527986293::1716495426::1716495426::1::::<><>::
 snow_rocks_03.jpg::CompressedTexture2D::5613684947403194052::1716495426::1716495426::1::::<><>::
 stone_path_grass_01.jpg::CompressedTexture2D::7068484641852156417::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Industrial/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Industrial/::1716591070
+fire_extenguisher_case.blend::PackedScene::7938646586040320525::1716495426::1716591070::1::::<><>::
+guard_rail.blend::PackedScene::6475839088013377133::1716495426::1716591070::1::::<><>::
+manhole_cover.blend::PackedScene::1094761002231543220::1716495426::1716591070::1::::<><>::
+pump_station.blend::PackedScene::839569237800551252::1716495426::1716591070::1::::<><>::
+yellow_post.blend::PackedScene::5855936184074843151::1716495426::1716591070::1::::<><>::uid://be7bnd7s1gjrm::::res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/yellow_post.png
+::res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/::1716591867
 ac_vent_01.jpg::CompressedTexture2D::2878584768794721892::1716495426::1716495426::1::::<><>::
 ac_vent_02.jpg::CompressedTexture2D::5390000376196156787::1716495426::1716495426::1::::<><>::
 culvert_pipe.png::CompressedTexture2D::6421669980104454584::1716495426::1716495426::1::::<><>::
-fire_extenguisher_case.png::CompressedTexture2D::3064030725225533885::1716495426::1716495426::1::::<><>::
+electrical_junctionbox_small.blend::PackedScene::6962018732346115418::1716590313::1716591069::1::::<><>::
+fire_extenguisher_case.png::CompressedTexture2D::3064030725225533885::1716495426::1716591867::1::::<><>::
 generator_panel_01.jpg::CompressedTexture2D::3811815536542945301::1716495426::1716495426::1::::<><>::
 generator_vent_01.jpg::CompressedTexture2D::6277844922419721768::1716495426::1716495426::1::::<><>::
 generator_vent_02.jpg::CompressedTexture2D::8210821087572846870::1716495426::1716495426::1::::<><>::
@@ -1580,17 +1680,28 @@ manhole_cover_norm.png::CompressedTexture2D::4975288867284510715::1716495426::17
 metal_cabinet.jpg::CompressedTexture2D::8663191426109793680::1716495426::1716495426::1::::<><>::
 metal_manhole.png::CompressedTexture2D::5443998324238294630::1716495426::1716495426::1::::<><>::
 misc_structure_01.jpg::CompressedTexture2D::3553368437990221807::1716495426::1716495426::1::::<><>::
-panel_army_01.jpg::CompressedTexture2D::29248251566663396::1716495426::1716495426::1::::<><>::
-panel_army_02.jpg::CompressedTexture2D::3911525511639573253::1716495426::1716495426::1::::<><>::
-panel_army_03.jpg::CompressedTexture2D::9103630936275104554::1716495426::1716495426::1::::<><>::
+panel_amp_controls.glb::PackedScene::8881390322037689819::1716589821::1716589880::1::::<><>::
+panel_army_01.jpg::CompressedTexture2D::29248251566663396::1716495426::1716590037::1::::<><>::
+panel_army_02.jpg::CompressedTexture2D::3911525511639573253::1716495426::1716590075::1::::<><>::
+panel_army_03.jpg::CompressedTexture2D::9103630936275104554::1716495426::1716590079::1::::<><>::
 shipping_container_01_front.jpg::CompressedTexture2D::2483259430280792471::1716495426::1716584539::1::::<><>::
 shipping_container_01_side.jpg::CompressedTexture2D::2657281562251984765::1716495426::1716495426::1::::<><>::
 valve_cap_green.png::CompressedTexture2D::4955780616928428208::1716495426::1716495426::1::::<><>::
 valve_wheel.png::CompressedTexture2D::4370764944913561898::1716495426::1716495426::1::::<><>::
 valve_wheel_2.png::CompressedTexture2D::6951311450130061332::1716495426::1716495426::1::::<><>::
-yellow_post.png::CompressedTexture2D::2733320286545294466::1716495426::1716495426::1::::<><>::
+yellow_post.png::CompressedTexture2D::2733320286545294466::1716495426::1716591083::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Industrial/textures/::1716591878
+concrete_5.png::CompressedTexture2D::4458662150526167288::1716591070::1716591458::1::::<><>::
+fire_extenguisher_case.png::CompressedTexture2D::15344004329788167::1716591069::1716591878::1::::<><>::
+guard_rail.png::CompressedTexture2D::2295037158042263270::1716591070::1716591458::1::::<><>::
+manhole_cover_3.png::CompressedTexture2D::3512479628017938189::1716591070::1716591458::1::::<><>::
+manhole_cover_4.png::CompressedTexture2D::1616195559038581667::1716591070::1716591458::1::::<><>::
+metal_galvanized_silver.png::CompressedTexture2D::3982609333411902789::1716591070::1716591458::1::::<><>::
+metal_manhole.png::CompressedTexture2D::986643402553240078::1716591070::1716591458::1::::<><>::
+metal_painted_gray.png::CompressedTexture2D::6377700167921898964::1716591070::1716591458::1::::<><>::
+panel_electric.png::CompressedTexture2D::6048762614838334452::1716591070::1716591458::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Metal/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Metal/Materials/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Metal/Materials/::1716584151
 metal_aluminium.png::CompressedTexture2D::6275347195911657684::1716495426::1716495426::1::::<><>::
 metal_army_tank_01.png::CompressedTexture2D::7703976226839549400::1716495426::1716495426::1::::<><>::
 metal_army_tank_02.png::CompressedTexture2D::8677393399295344800::1716495426::1716495426::1::::<><>::
@@ -1648,7 +1759,11 @@ metal_toolbox.png::CompressedTexture2D::5128237194135926963::1716495426::1716584
 misc_metal_01.jpg::CompressedTexture2D::8716803731037702519::1716495426::1716495426::1::::<><>::
 rusty_metal_4.png::CompressedTexture2D::7861897655665539659::1716495426::1716495426::1::::<><>::
 rust_chrome_01.jpg::CompressedTexture2D::6868836801545810126::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Misc/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Misc/::1716591070
+Garbage Bag.blend::PackedScene::6705459252186271335::1716495426::1716591070::1::::<><>::uid://c5c73p20y41d8::::res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/garbage_bag_full.png
+pvc_pipe.blend::PackedScene::6240501178633465946::1716495426::1716591070::1::::<><>::
+pvc_pipe_pallet.blend::PackedScene::9052420323707332884::1716495426::1716591070::1::::<><>::
+pvc_pipe_pallet_broken.blend::PackedScene::5838767510658924424::1716495426::1716591070::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Misc/Colors/::1716495426
 color_blackdirty.png::CompressedTexture2D::4969210020386097509::1716495426::1716495426::1::::<><>::
 color_blacksmooth.png::CompressedTexture2D::2523329112847570399::1716495426::1716495426::1::::<><>::
@@ -1660,7 +1775,7 @@ color_softbloodorange.png::CompressedTexture2D::4648688241738767289::1716495426:
 misc_blue_01.jpg::CompressedTexture2D::7651397801735023806::1716495426::1716495426::1::::<><>::
 misc_gray_01.jpg::CompressedTexture2D::278484588586867495::1716495426::1716495426::1::::<><>::
 white_stripes_02.jpg::CompressedTexture2D::6094073813538423277::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Misc/Materials/::1716591083
 bolt_head_01.png::CompressedTexture2D::8781519674143618093::1716495426::1716495426::1::::<><>::
 caution_tape.png::CompressedTexture2D::4830024161702872786::1716495426::1716495426::1::::<><>::
 caution_tape_2.png::CompressedTexture2D::3509336508148821493::1716495426::1716495426::1::::<><>::
@@ -1676,7 +1791,7 @@ fan_double.png::CompressedTexture2D::2144189147800242855::1716495426::1716495426
 fence_chain_rusty.png::CompressedTexture2D::8707453151210417099::1716495426::1716495426::1::::<><>::
 filingcabinet_01.jpg::CompressedTexture2D::2142974356499479390::1716495426::1716495426::1::::<><>::
 garbage_bag.png::CompressedTexture2D::4035131375568465329::1716495426::1716495426::1::::<><>::
-garbage_bag_full.png::CompressedTexture2D::6884629208762256183::1716495426::1716495426::1::::<><>::
+garbage_bag_full.png::CompressedTexture2D::6884629208762256183::1716495426::1716591083::1::::<><>::
 gas_pump_screen.png::CompressedTexture2D::7952583576849237001::1716495426::1716495426::1::::<><>::
 grunge.png::CompressedTexture2D::1722819286955581668::1716495426::1716495426::1::::<><>::
 gutter_brown_01.jpg::CompressedTexture2D::1584802638676362754::1716495426::1716495426::1::::<><>::
@@ -1725,8 +1840,18 @@ white_stripes_02.jpg::CompressedTexture2D::4854163514500114065::1716495426::1716
 yellow_grunge_01.jpg::CompressedTexture2D::8448573952026617433::1716495426::1716495426::1::::<><>::
 yellow_grunge_02.jpg::CompressedTexture2D::8054840022376084266::1716495426::1716495426::1::::<><>::
 yellow_grunge_03.jpg::CompressedTexture2D::2968015111265149420::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Nature/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Misc/textures/::1716591458
+plastic_pipe.png::CompressedTexture2D::7406490861257174371::1716591070::1716591458::1::::<><>::
+wood_planks_5.png::CompressedTexture2D::8192280912891981115::1716591070::1716591458::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Nature/::1716591071
+bush_01.blend::PackedScene::6606648115296424096::1716495426::1716591070::1::::<><>::
+bush_02.blend::PackedScene::9200810142280026468::1716495426::1716591071::1::::<><>::
+bush_03.blend::PackedScene::8764174157895000954::1716495426::1716591071::1::::<><>::
+bush_04.blend::PackedScene::2639277147571044677::1716495426::1716591071::1::::<><>::
+bush_05.blend::PackedScene::8489955142883933203::1716495426::1716591071::1::::<><>::
 Read Me.txt::TextFile::-1::1716495426::0::1::::<><>::
+sapling.blend::PackedScene::1640933196614759382::1716495426::1716591071::1::::<><>::
+tree_trunk.blend::PackedScene::3149439070238743833::1716495426::1716591071::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Nature/Materials/::1716495426
 bark.png::CompressedTexture2D::6987176954845426417::1716495426::1716495426::1::::<><>::
 bark_2.png::CompressedTexture2D::2199162443773989108::1716495426::1716495426::1::::<><>::
@@ -1756,18 +1881,34 @@ grass_bush_4.png::CompressedTexture2D::30035827050091728::1716495426::1716495426
 hay.png::CompressedTexture2D::2408680913661387105::1716495426::1716495426::1::::<><>::
 tree_trunk.png::CompressedTexture2D::3838571436974798517::1716495426::1716495426::1::::<><>::
 trunk_cut.png::CompressedTexture2D::5830221424880184584::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Panels/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Nature/textures/::1716591458
+branches_small_leaves.png::CompressedTexture2D::2252511863514414304::1716591071::1716591458::1::::<><>::
+bush_01.png::CompressedTexture2D::3173025353842849417::1716591070::1716591458::1::::<><>::
+bush_02.png::CompressedTexture2D::8056165353960519123::1716591070::1716591458::1::::<><>::
+bush_03.png::CompressedTexture2D::68440356508555626::1716591071::1716591458::1::::<><>::
+bush_04.png::CompressedTexture2D::5463455660512759820::1716591071::1716591458::1::::<><>::
+bush_05.png::CompressedTexture2D::9025173241569776582::1716591071::1716591458::1::::<><>::
+trunk_cut.png::CompressedTexture2D::2139893515064656770::1716591071::1716591458::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Panels/::1716591356
+panel_amp_controls.blend::PackedScene::2479369385856459514::1716590366::1716591069::1::::<><>::
+panel_electric.blend::PackedScene::6743840541009308818::1716495426::1716591069::1::::<><>::
+panel_electrical_closed.blend::PackedScene::838397973516148047::1716495426::1716591069::1::::<><>::
+panel_electrical_open.blend::PackedScene::2203631087701572742::1716495426::1716591356::1::::<><>::
+panel_heater.blend::PackedScene::7782950140108909065::1716495426::1716591069::1::::<><>::
+panel_misc.blend::PackedScene::6977943083565867318::1716495426::1716591069::1::::<><>::
+panel_thermostat.blend::PackedScene::1167186783095737467::1716495426::1716591069::1::::<><>::
+propane_storage.blend::PackedScene::4271932388635938158::1716495426::1716591069::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/::1716591416
 control_panel.png::CompressedTexture2D::4230814931977859644::1716495426::1716495426::1::::<><>::
 electrical_panel_inside_a.png::CompressedTexture2D::1622276850162539595::1716495426::1716584419::1::::<><>::
 electrical_panel_inside_b.png::CompressedTexture2D::474644393499860573::1716495426::1716584453::1::::<><>::
-electrical_panel_outside.png::CompressedTexture2D::358919533519597372::1716495426::1716495426::1::::<><>::
-electrical_panel_outside_misc.png::CompressedTexture2D::7170061700273440120::1716495426::1716495426::1::::<><>::
+electrical_panel_outside.png::CompressedTexture2D::358919533519597372::1716495426::1716591189::1::::<><>::
+electrical_panel_outside_misc.png::CompressedTexture2D::7170061700273440120::1716495426::1716591218::1::::<><>::
 gauge_pressure.png::CompressedTexture2D::8665351200409698217::1716495426::1716495426::1::::<><>::
 gauge_temp.png::CompressedTexture2D::7389926582579367311::1716495426::1716495426::1::::<><>::
 panel_amp_controls.png::CompressedTexture2D::6605675301237277935::1716495426::1716495426::1::::<><>::
 panel_amp_controls_2.png::CompressedTexture2D::2966322155545019460::1716495426::1716495426::1::::<><>::
-panel_electric.png::CompressedTexture2D::1417402772820828991::1716495426::1716495426::1::::<><>::
+panel_electric.png::CompressedTexture2D::1417402772820828991::1716495426::1716591416::1::::<><>::
 panel_gas_gauge.png::CompressedTexture2D::292984705650968994::1716495426::1716495426::1::::<><>::
 panel_gaugepanel.png::CompressedTexture2D::285755780584363918::1716495426::1716584471::1::::<><>::
 panel_heater.png::CompressedTexture2D::4785798226640494620::1716495426::1716495426::1::::<><>::
@@ -1777,18 +1918,27 @@ panel_thermostat.png::CompressedTexture2D::5537088478972295712::1716495426::1716
 panel_timer.png::CompressedTexture2D::2117148149612150430::1716495426::1716495426::1::::<><>::
 propane_storage.png::CompressedTexture2D::822672295617231730::1716495426::1716495426::1::::<><>::
 vent.png::CompressedTexture2D::1425378158484390697::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Papers/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Panels/textures/::1716591458
+panel_electric.png::CompressedTexture2D::2616095151813325942::1716591069::1716591458::1::::<><>::
+panel_heater.png::CompressedTexture2D::3809888897828838063::1716591069::1716591458::1::::<><>::
+panel_misc.png::CompressedTexture2D::5061954711558151251::1716591069::1716591458::1::::<><>::
+propane_storage.png::CompressedTexture2D::3333202123901729445::1716591069::1716591458::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Papers/::1716591069
+papers_envolope_redacted.blend::PackedScene::773877023720474180::1716495426::1716591069::1::::<><>::
+papers_log_1.blend::PackedScene::2806103717317272599::1716495426::1716591069::1::::<><>::
+papers_log_1_stack.blend::PackedScene::5100678400810190130::1716495426::1716591068::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Papers/Materials/::1716495426
 envolope_redacted.png::CompressedTexture2D::6095754065065246376::1716495426::1716495426::1::::<><>::
 paper_log_1.png::CompressedTexture2D::3315888665228940348::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Products/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Products/Materials/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Products/::1716591068
+products_papertowels_pack.blend::PackedScene::3651015662815027416::1716495426::1716591068::1::::<><>::uid://nksuo5yqhso7::::res://Models/- Classic 64 Asset Pack 0.6/Products/Materials/products_papertowels_pack.png
+::res://Models/- Classic 64 Asset Pack 0.6/Products/Materials/::1716591083
 products_dishsoap.png::CompressedTexture2D::5435579040794110035::1716495426::1716584501::1::::<><>::
 products_dishsoap_2.png::CompressedTexture2D::5267157029021732855::1716495426::1716495426::1::::<><>::
 products_dishsoap_3.png::CompressedTexture2D::8696438481432769231::1716495426::1716495426::1::::<><>::
 products_electronics.png::CompressedTexture2D::6076390591959968027::1716495426::1716495426::1::::<><>::
 products_electronics_2.png::CompressedTexture2D::4578353435854817818::1716495426::1716495426::1::::<><>::
-products_papertowels_pack.png::CompressedTexture2D::934228149366075516::1716495426::1716495426::1::::<><>::
+products_papertowels_pack.png::CompressedTexture2D::934228149366075516::1716495426::1716591083::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Road/::1716495426
 ::res://Models/- Classic 64 Asset Pack 0.6/Road/Materials/::1716495426
 guard_rail.png::CompressedTexture2D::2198949627185531378::1716495426::1716495426::1::::<><>::
@@ -1797,8 +1947,13 @@ road_02.png::CompressedTexture2D::5299708104878226522::1716495426::1716495426::1
 road_muddy_01.jpg::CompressedTexture2D::7846110238496578560::1716495426::1716495426::1::::<><>::
 road_muddy_02.jpg::CompressedTexture2D::6574264167412057944::1716495426::1716495426::1::::<><>::
 road_muddy_03.png::CompressedTexture2D::6105236683372102771::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Rocks/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Rocks/::1716591074
 - Read Me.txt::TextFile::-1::1716495426::0::1::::<><>::
+rock_handpainted_1.blend::PackedScene::3020391775890495280::1716495426::1716591068::1::::<><>::
+rock_handpainted_2.blend::PackedScene::4810784581970589439::1716495426::1716591068::1::::<><>::
+rock_handpainted_3.blend::PackedScene::6306180664613141780::1716495426::1716591068::1::::<><>::
+rock_handpainted_4.blend::PackedScene::2003477649245287629::1716495426::1716591068::1::::<><>::
+rock_handpainted_5.blend::PackedScene::1887015413759568213::1716495426::1716591074::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Rocks/Materials/::1716495426
 cobblestone.png::CompressedTexture2D::8779646413058686572::1716495426::1716495426::1::::<><>::
 cobblestone_2.png::CompressedTexture2D::7575439328630832613::1716495426::1716495426::1::::<><>::
@@ -1831,26 +1986,43 @@ snow_rocks_04.jpg::CompressedTexture2D::2303200987240527849::1716495426::1716495
 snow_rocks_05.jpg::CompressedTexture2D::8469942101264190563::1716495426::1716495426::1::::<><>::
 snow_rocks_06.jpg::CompressedTexture2D::7328423201850401657::1716495426::1716495426::1::::<><>::
 stone_sidewalk.png::CompressedTexture2D::6385519604676152135::1716495426::1716495426::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Rocks/textures/::1716591458
+rock1.png::CompressedTexture2D::3503747680139582927::1716591068::1716591458::1::::<><>::
+rock2.png::CompressedTexture2D::7912997785813761785::1716591068::1716591458::1::::<><>::
+rock3.png::CompressedTexture2D::5478510087389580896::1716591068::1716591458::1::::<><>::
+rock5.png::CompressedTexture2D::7649506794424269651::1716591074::1716591458::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Roof/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/::1716591083
 roof_metal_01.jpg::CompressedTexture2D::7508054193294565224::1716495426::1716495426::1::::<><>::
 roof_metal_siding.png::CompressedTexture2D::5182545968608480146::1716495426::1716495426::1::::<><>::
 roof_old.png::CompressedTexture2D::912349731021905705::1716495426::1716495426::1::::<><>::
 roof_old_2.png::CompressedTexture2D::4725028537979021806::1716495426::1716495426::1::::<><>::
-roof_soffit_01.jpg::CompressedTexture2D::687331770752545193::1716495426::1716495426::1::::<><>::
+roof_soffit_01.jpg::CompressedTexture2D::687331770752545193::1716495426::1716591083::1::::<><>::
 roof_soffit_ridge_01.jpg::CompressedTexture2D::1545485029669562049::1716495426::1716495426::1::::<><>::
 shingles_01.jpg::CompressedTexture2D::4387175584258822111::1716495426::1716495426::1::::<><>::
 shingles_02.jpg::CompressedTexture2D::8375155382411413857::1716495426::1716495426::1::::<><>::
 shingles_fancy_01.jpg::CompressedTexture2D::784117347607757679::1716495426::1716495426::1::::<><>::
-shingles_old_01.jpg::CompressedTexture2D::3670358250921769567::1716495426::1716495426::1::::<><>::
+shingles_old_01.jpg::CompressedTexture2D::3670358250921769567::1716495426::1716591083::1::::<><>::
 shingles_wood_01.jpg::CompressedTexture2D::6088816422264623210::1716495426::1716495426::1::::<><>::
 shingles_wood_02.jpg::CompressedTexture2D::8173439764737780433::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Shelves/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Shelves/Materials/::1716495426
-metal_rack_stackable.png::CompressedTexture2D::2915577248619590603::1716495426::1716495426::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Shelves/::1716591075
+commerical_shelf.blend::PackedScene::4496693259221385351::1716495426::1716591074::1::::<><>::
+commerical_shelf_end.blend::PackedScene::4998822580190734421::1716495426::1716591075::1::::<><>::
+commerical_shelf_one_side.blend::PackedScene::6621581918912133908::1716495426::1716591075::1::::<><>::
+commerical_shelf_short.blend::PackedScene::4437054606818556413::1716495426::1716591075::1::::<><>::
+commerical_shelf_short_end.blend::PackedScene::7656536033705773312::1716495426::1716591075::1::::<><>::
+metal_rack_stackable.blend::PackedScene::4976777325840865653::1716495426::1716591075::1::::<><>::
+metal_rack_stackable_small.blend::PackedScene::6444873719715199993::1716495426::1716591075::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Shelves/Materials/::1716591571
+metal_rack_stackable.png::CompressedTexture2D::2915577248619590603::1716495426::1716591571::1::::<><>::
 StoreShelfBack.png::CompressedTexture2D::8075160049529950167::1716495426::1716495426::1::::<><>::
 StoreShelfBottom.png::CompressedTexture2D::7598891845796670344::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Signs/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Signs/::1716591075
+sign_chemical_rusty.blend::PackedScene::2301155179930522588::1716495426::1716591075::1::::<><>::
+sign_confined_space.blend::PackedScene::522403812836698466::1716495426::1716591075::1::::<><>::
+sign_nosmoking.blend::PackedScene::2927700402278101110::1716495426::1716591075::1::::<><>::
+sign_no_parking.blend::PackedScene::3329276772022112256::1716495426::1716591075::1::::<><>::
+sign_reserved_parking.blend::PackedScene::3849878342596774896::1716495426::1716591075::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Signs/Materials/::1716495426
 gas_station_01.png::CompressedTexture2D::8198023054773132630::1716495426::1716495426::1::::<><>::
 signpost_green.png::CompressedTexture2D::285880735208484873::1716495426::1716495426::1::::<><>::
@@ -1884,6 +2056,9 @@ sign_warning_propane_01.png::CompressedTexture2D::838236045174742241::1716495426
 sign_warning_propane_02.png::CompressedTexture2D::6462819403554192733::1716495426::1716495426::1::::<><>::
 vintage_sign_01.png::CompressedTexture2D::1540084133520514745::1716495426::1716495426::1::::<><>::
 vintage_sign_02.png::CompressedTexture2D::8748511098111763539::1716495426::1716495426::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Signs/textures/::1716591458
+sign_chemical_rusty.png::CompressedTexture2D::7238677550427116248::1716591075::1716591458::1::::<><>::
+sign_reserved_parking.png::CompressedTexture2D::1605358794683817127::1716591075::1716591458::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Tiles/::1716495426
 ::res://Models/- Classic 64 Asset Pack 0.6/Tiles/Materials/::1716495426
 tiles_ceiling.png::CompressedTexture2D::1198030001479394215::1716495426::1716495426::1::::<><>::
@@ -1891,16 +2066,31 @@ tiles_ceiling_02.jpg::CompressedTexture2D::123895243527371416::1716495426::17164
 tiles_vintage.jpg::CompressedTexture2D::831767863666674780::1716495426::1716495426::1::::<><>::
 tile_clean_tan.png::CompressedTexture2D::4747710857988682274::1716495426::1716495426::1::::<><>::
 tile_modern_white.png::CompressedTexture2D::7531352892380933331::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Tools/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Tools/::1716591076
+rolling tool chest.blend::PackedScene::1698510931978401708::1716495426::1716591075::1::::<><>::
+shovel.blend::PackedScene::3845634895752918024::1716495426::1716591076::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Tools/Materials/::1716495426
 rolling_tool_chest_red.png::CompressedTexture2D::8793752727373827279::1716495426::1716495426::1::::<><>::
 shovel_rusty.png::CompressedTexture2D::6968723803596120837::1716495426::1716495426::1::::<><>::
 wooden_handle.png::CompressedTexture2D::5818108505942823326::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Units/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Units/Materials/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Tools/textures/::1716591458
+rolling_tool_chest_red.png::CompressedTexture2D::5742756428967850713::1716591075::1716591458::1::::<><>::
+shovel_rusty.png::CompressedTexture2D::3285323015906525197::1716591076::1716591458::1::::<><>::
+wooden_handle.png::CompressedTexture2D::2915353929507719971::1716591076::1716591458::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Units/::1716591076
+generator.blend::PackedScene::4483727222235051455::1716495426::1716591076::1::::<><>::
+generator_02 (unfinished).blend::PackedScene::8341734475422648597::1716495426::1716591076::1::::<><>::
+walkin_cooler_display (unfinished).blend::PackedScene::3087931891669586403::1716495426::1716591074::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Units/Materials/::1716592010
 fridge_drinks_01.jpg::CompressedTexture2D::4650880374817434574::1716495426::1716495426::1::::<><>::
-generator.png::CompressedTexture2D::4978104165103929911::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Vehicles/::1716495426
+generator.png::CompressedTexture2D::4978104165103929911::1716495426::1716592010::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Units/textures/::1716591458
+generator.png::CompressedTexture2D::7575612599016894355::1716591076::1716591458::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Vehicles/::1716591074
+bike_vintage (unfinished).blend::PackedScene::5668584961631658796::1716495426::1716591074::1::::<><>::
+car_parts_brakes (unfinished).blend::PackedScene::2348574755806981227::1716495426::1716591074::1::::<><>::
+car_ramp_01.blend::PackedScene::6846529367688709656::1716495426::1716591074::1::::<><>::
+volvo.blend::PackedScene::7063787671223023013::1716495426::1716591074::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Vehicles/Materials/::1716495426
 bike_vintage.png::CompressedTexture2D::2537967037645363588::1716495426::1716495426::1::::<><>::
 car_tire.png::CompressedTexture2D::6473405114890309451::1716495426::1716495426::1::::<><>::
@@ -1908,8 +2098,14 @@ light_01.png::CompressedTexture2D::2357071020282480087::1716495426::1716495426::
 truck_wheel_1.png::CompressedTexture2D::8201594800569325796::1716495426::1716495426::1::::<><>::
 truck_wheel_2.png::CompressedTexture2D::4660428502026027011::1716495426::1716495426::1::::<><>::
 volvo.jpg::CompressedTexture2D::5013466269912603738::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Walls/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Vehicles/textures/::1716591458
+caution_tape_3.png::CompressedTexture2D::672440322908292674::1716591074::1716591458::1::::<><>::
+concrete_floor_04.jpg::CompressedTexture2D::2408153806750185247::1716591074::1716591458::1::::<><>::
+road_02.png::CompressedTexture2D::8341710647939181573::1716591074::1716591458::1::::<><>::
+volvo.jpg::CompressedTexture2D::6072335420035021847::1716591074::1716591458::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Walls/::1716591074
+wall_pieces_wood_planks_2.blend::PackedScene::8870429089300304277::1716495426::1716591074::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/::1716584482
 siding_blue_01.jpg::CompressedTexture2D::3961481314337842279::1716495426::1716584482::1::::<><>::
 siding_gray_01.jpg::CompressedTexture2D::4499942513352136684::1716495426::1716495426::1::::<><>::
 siding_green_01.jpg::CompressedTexture2D::6424143324532971367::1716495426::1716495426::1::::<><>::
@@ -1946,14 +2142,24 @@ wall_stucco_03.jpg::CompressedTexture2D::7227884353006561910::1716495426::171649
 wall_stucco_04.jpg::CompressedTexture2D::5238840731830164146::1716495426::1716495426::1::::<><>::
 wall_stucco_05.jpg::CompressedTexture2D::2858207590248386864::1716495426::1716495426::1::::<><>::
 wall_stucco_06.jpg::CompressedTexture2D::6755009849797071167::1716495426::1716495426::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Walls/textures/::1716591458
+bark_4.png::CompressedTexture2D::2387827782858346076::1716591074::1716591458::1::::<><>::
+tree_trunk.png::CompressedTexture2D::6085822564897326937::1716591074::1716591458::1::::<><>::
+wood_planks_2.png::CompressedTexture2D::2581347076188775371::1716591074::1716591458::1::::<><>::
 ::res://Models/- Classic 64 Asset Pack 0.6/Water/::1716495426
 river_ice_01.jpg::CompressedTexture2D::8725421869569214828::1716495426::1716495426::1::::<><>::
 river_ice_02.jpg::CompressedTexture2D::5356452147525611006::1716495426::1716495426::1::::<><>::
 waterfall_with_stones.png::CompressedTexture2D::5109152980120444635::1716495426::1716495426::1::::<><>::
 water_foamy_01.jpg::CompressedTexture2D::2518695225238530888::1716495426::1716495426::1::::<><>::
 water_waves.png::CompressedTexture2D::8016201066973860365::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Windows/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Windows/Materials/::1716495426
+::res://Models/- Classic 64 Asset Pack 0.6/Windows/::1716591074
+window_boarded.blend::PackedScene::4812346603038423231::1716495426::1716591074::1::::<><>::
+window_frame_green.blend::PackedScene::4955877342651347753::1716495426::1716591074::1::::<><>::
+window_modern.blend::PackedScene::3586242262900970214::1716495426::1716591074::1::::<><>::
+window_shutter_black.blend::PackedScene::4540823396771098864::1716495426::1716591073::1::::<><>::
+window_shutter_green.blend::PackedScene::2205924335280216643::1716495426::1716591073::1::::<><>::
+window_shutter_red.blend::PackedScene::3401737630905612696::1716495426::1716591073::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Windows/Materials/::1716584495
 inside_store_1.png::CompressedTexture2D::5785505641696122608::1716495426::1716584489::1::::<><>::
 window_boarded.png::CompressedTexture2D::3973129646944991806::1716495426::1716584491::1::::<><>::
 window_classic_01.jpg::CompressedTexture2D::7330461861490525868::1716495426::1716495426::1::::<><>::
@@ -1984,9 +2190,13 @@ window_store_01.jpg::CompressedTexture2D::1971720452885454431::1716495426::17164
 window_wood_old_01.jpg::CompressedTexture2D::2186025493995568879::1716495426::1716495426::1::::<><>::
 window_wood_old_01.png::CompressedTexture2D::9060528416678712231::1716495426::1716495426::1::::<><>::
 window_wood_old_02.jpg::CompressedTexture2D::278726713791084003::1716495426::1716495426::1::::<><>::
-::res://Models/- Classic 64 Asset Pack 0.6/Wood/::1716495426
-::res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/::1716495426
-plywood.png::CompressedTexture2D::6032609161515831731::1716495426::1716495426::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Windows/textures/::1716591458
+window_frame_green.png::CompressedTexture2D::9206169355618665941::1716591074::1716591458::1::::<><>::
+window_modern.png::CompressedTexture2D::371747244236848547::1716591073::1716591458::1::::<><>::
+::res://Models/- Classic 64 Asset Pack 0.6/Wood/::1716591073
+Wood_Pallet.blend::PackedScene::584791325516955972::1716495426::1716591073::1::::<><>::uid://cv35olfe34i81::::res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_pallet.png<>uid://cr7igrnkkmfip::::res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/plywood.png
+::res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/::1716591083
+plywood.png::CompressedTexture2D::6032609161515831731::1716495426::1716591083::1::::<><>::
 woodchips_01.jpg::CompressedTexture2D::2206173384072024156::1716495426::1716495426::1::::<><>::
 woodchips_02.jpg::CompressedTexture2D::4106640822407986775::1716495426::1716495426::1::::<><>::
 woodchips_03.jpg::CompressedTexture2D::8243926645605371904::1716495426::1716495426::1::::<><>::
@@ -2055,7 +2265,6 @@ wood_staples_01.jpg::CompressedTexture2D::6278399767604456305::1716495426::17164
 PSXFo.png::CompressedTexture2D::3889232129539579853::1716495426::1716495426::1::::<><>::
 ::res://Models/All/Models/::1716495561
 All.dae::PackedScene::3892830548418062603::1716495426::1716495561::1::::<><>::
-All.fbx::PackedScene::1490473181095006172::1716495426::1716495426::1::::<><>::
 ::res://Models/All/Textures/::1716495426
 Broom.png::CompressedTexture2D::8874149822405661264::1716495426::1716495426::1::::<><>::
 Broom_01.png::CompressedTexture2D::8883607506991949888::1716495426::1716495426::1::::<><>::
@@ -2152,54 +2361,31 @@ Arboles low poy.dae::PackedScene::2611894658152161003::1716495426::1716495559::1
 C.jpg::CompressedTexture2D::6951477268214138939::1716495426::1716495426::1::::<><>::
 R2.png::CompressedTexture2D::815751520600878556::1716495426::1716495426::1::::<><>::
 R.png::CompressedTexture2D::7711079870284098351::1716495426::1716495426::1::::<><>::
-::res://Models/Baseball Bat/::1716495427
+::res://Models/Baseball Bat/::1716591072
+BaseballBats.blend::PackedScene::5869754693194896877::1716495426::1716591072::1::::<><>::uid://nev8wtafxvqb::::res://Models/Baseball Bat/Textures/Princess/BaseballBats_Princess_Clean.png<>uid://6wstjw8e8usj::::res://Models/Baseball Bat/Textures/Raw/BaseballBats_Raw_Clean.png<>uid://b0vimsuslnhh5::::res://Models/Baseball Bat/Textures/Killer/BaseballBats_Killer_Clean.png<>uid://blmq5g44hfjxl::::res://Models/Baseball Bat/Textures/USA/BaseballBats_USA_Clean.png<>uid://1uq0ycnnd514::::res://Models/Baseball Bat/Textures/Princess/BaseballBats_Princess_Grime.png<>uid://di8knv7skshvu::::res://Models/Baseball Bat/Textures/Raw/BaseballBats_Raw_Grime.png<>uid://c8bye751h3s5b::::res://Models/Baseball Bat/Textures/Killer/BaseballBats_Killer_Grime.png<>uid://dd04ibrnyet5p::::res://Models/Baseball Bat/Textures/USA/BaseballBats_USA_Grime.png<>uid://mwl4mwuu1beb::::res://Models/Baseball Bat/Textures/Princess/BaseballBats_Princess_BloodAndGrime.png<>uid://cght6ojqci42h::::res://Models/Baseball Bat/Textures/Raw/BaseballBats_Raw_BloodAndGrime.png<>uid://bglcctb8yrb04::::res://Models/Baseball Bat/Textures/Killer/BaseballBats_Killer_BloodAndGrime.png<>uid://cs54q432mv4oy::::res://Models/Baseball Bat/Textures/USA/BaseballBats_USA_BloodAndGrime.png
 ::res://Models/Baseball Bat/FBX/::1716495426
 ::res://Models/Baseball Bat/FBX/Killer/::1716495426
-BaseballBat_Killer_Metal(Blood).fbx::PackedScene::7233170011755499558::1716495426::1716495426::1::::<><>::
-BaseballBat_Killer_Metal(Clean).fbx::PackedScene::8814323286152741585::1716495426::1716495426::1::::<><>::
-BaseballBat_Killer_Metal(Grime).fbx::PackedScene::8125088818516825648::1716495426::1716495426::1::::<><>::
-BaseballBat_Killer_Wood(Blood).fbx::PackedScene::2713015301719858759::1716495426::1716495426::1::::<><>::
-BaseballBat_Killer_Wood(Clean).fbx::PackedScene::7329058867100385424::1716495426::1716495426::1::::<><>::
-BaseballBat_Killer_Wood(Grime).fbx::PackedScene::8260764374752926431::1716495426::1716495426::1::::<><>::
 ::res://Models/Baseball Bat/FBX/Princess/::1716495426
-BaseballBat_Princess_Metal(Blood).fbx::PackedScene::6252030699315323035::1716495426::1716495426::1::::<><>::
-BaseballBat_Princess_Metal(Clean).fbx::PackedScene::4075410954872371904::1716495426::1716495426::1::::<><>::
-BaseballBat_Princess_Metal(Grime).fbx::PackedScene::3645627304584838841::1716495426::1716495426::1::::<><>::
-BaseballBat_Princess_Wood(Blood).fbx::PackedScene::2243253101217923339::1716495426::1716495426::1::::<><>::
-BaseballBat_Princess_Wood(Clean).fbx::PackedScene::3714234139932518749::1716495426::1716495426::1::::<><>::
-BaseballBat_Princess_Wood(Grime).fbx::PackedScene::1198129464903177740::1716495426::1716495426::1::::<><>::
 ::res://Models/Baseball Bat/FBX/Raw/::1716495426
-BaseballBat_Raw_Metal(Blood).fbx::PackedScene::551341455183725096::1716495426::1716495426::1::::<><>::
-BaseballBat_Raw_Metal(Clean).fbx::PackedScene::7933705059224064351::1716495426::1716495426::1::::<><>::
-BaseballBat_Raw_Metal(Grime).fbx::PackedScene::7444056362666639880::1716495426::1716495426::1::::<><>::
-BaseballBat_Raw_Wood(Blood).fbx::PackedScene::8120787206602459550::1716495426::1716495426::1::::<><>::
-BaseballBat_Raw_Wood(Clean).fbx::PackedScene::2208490054780761122::1716495426::1716495426::1::::<><>::
-BaseballBat_Raw_Wood(Grime).fbx::PackedScene::11473359301002566::1716495426::1716495426::1::::<><>::
 ::res://Models/Baseball Bat/FBX/USA/::1716495426
-BaseballBat_USA_Metal(Blood).fbx::PackedScene::1518768692838198918::1716495426::1716495426::1::::<><>::
-BaseballBat_USA_Metal(Clean).fbx::PackedScene::7420213652212228380::1716495426::1716495426::1::::<><>::
-BaseballBat_USA_Metal(Grime).fbx::PackedScene::1532436305174519236::1716495426::1716495426::1::::<><>::
-BaseballBat_USA_Wood(Blood).fbx::PackedScene::1291644341371104980::1716495426::1716495426::1::::<><>::
-BaseballBat_USA_Wood(Clean).fbx::PackedScene::8767230611543919537::1716495426::1716495426::1::::<><>::
-BaseballBat_USA_Wood(Grime).fbx::PackedScene::6689453301251670399::1716495426::1716495426::1::::<><>::
 ::res://Models/Baseball Bat/PSD Template/::1716495426
 ::res://Models/Baseball Bat/Textures/::1716495426
-::res://Models/Baseball Bat/Textures/Killer/::1716495426
-BaseballBats_Killer_BloodAndGrime.png::CompressedTexture2D::2830387907409864027::1716495426::1716495426::1::::<><>::
-BaseballBats_Killer_Clean.png::CompressedTexture2D::4185001850097603968::1716495426::1716495426::1::::<><>::
-BaseballBats_Killer_Grime.png::CompressedTexture2D::7092603664480480085::1716495426::1716495426::1::::<><>::
-::res://Models/Baseball Bat/Textures/Princess/::1716495426
-BaseballBats_Princess_BloodAndGrime.png::CompressedTexture2D::888402774391734045::1716495426::1716495426::1::::<><>::
-BaseballBats_Princess_Clean.png::CompressedTexture2D::922047651230214973::1716495426::1716495426::1::::<><>::
-BaseballBats_Princess_Grime.png::CompressedTexture2D::1867214870660122001::1716495426::1716495426::1::::<><>::
-::res://Models/Baseball Bat/Textures/Raw/::1716495426
+::res://Models/Baseball Bat/Textures/Killer/::1716591083
+BaseballBats_Killer_BloodAndGrime.png::CompressedTexture2D::2830387907409864027::1716495426::1716591083::1::::<><>::
+BaseballBats_Killer_Clean.png::CompressedTexture2D::4185001850097603968::1716495426::1716591083::1::::<><>::
+BaseballBats_Killer_Grime.png::CompressedTexture2D::7092603664480480085::1716495426::1716591083::1::::<><>::
+::res://Models/Baseball Bat/Textures/Princess/::1716591083
+BaseballBats_Princess_BloodAndGrime.png::CompressedTexture2D::888402774391734045::1716495426::1716591083::1::::<><>::
+BaseballBats_Princess_Clean.png::CompressedTexture2D::922047651230214973::1716495426::1716591083::1::::<><>::
+BaseballBats_Princess_Grime.png::CompressedTexture2D::1867214870660122001::1716495426::1716591083::1::::<><>::
+::res://Models/Baseball Bat/Textures/Raw/::1716591083
 BaseballBats_Raw_BloodAndGrime.png::CompressedTexture2D::5209634805926559537::1716495426::1716495426::1::::<><>::
-BaseballBats_Raw_Clean.png::CompressedTexture2D::2222397807524191909::1716495426::1716495426::1::::<><>::
-BaseballBats_Raw_Grime.png::CompressedTexture2D::7789528804571974762::1716495426::1716495426::1::::<><>::
-::res://Models/Baseball Bat/Textures/USA/::1716495427
+BaseballBats_Raw_Clean.png::CompressedTexture2D::2222397807524191909::1716495426::1716591083::1::::<><>::
+BaseballBats_Raw_Grime.png::CompressedTexture2D::7789528804571974762::1716495426::1716591083::1::::<><>::
+::res://Models/Baseball Bat/Textures/USA/::1716591083
 BaseballBats_USA_BloodAndGrime.png::CompressedTexture2D::6099962818660613808::1716495427::1716495427::1::::<><>::
-BaseballBats_USA_Clean.png::CompressedTexture2D::3184295903728203189::1716495427::1716495427::1::::<><>::
-BaseballBats_USA_Grime.png::CompressedTexture2D::7423213184394299351::1716495427::1716495427::1::::<><>::
+BaseballBats_USA_Clean.png::CompressedTexture2D::3184295903728203189::1716495427::1716591083::1::::<><>::
+BaseballBats_USA_Grime.png::CompressedTexture2D::7423213184394299351::1716495427::1716591083::1::::<><>::
 ::res://Models/Baseball Bat/_Examples/::1716495427
 All Bats.png::CompressedTexture2D::4924746724353251242::1716495427::1716495427::1::::<><>::
 All Metal Bats.png::CompressedTexture2D::7887492299538317404::1716495427::1716495427::1::::<><>::
@@ -2211,9 +2397,7 @@ USA_Transparent.png::CompressedTexture2D::77263732976369558::1716495427::1716495
 ::res://Models/Minas/::1716495427
 ::res://Models/Minas/Models/::1716495559
 Mines.dae::PackedScene::4014564971934509245::1716495427::1716495559::1::::<><>::
-Mines.fbx::PackedScene::5123186163340754590::1716495427::1716495427::1::::<><>::
 Mines_Modu.dae::PackedScene::1264443983394905955::1716495427::1716495558::1::::<><>::
-Mines_Modu.fbx::PackedScene::5482944635902474316::1716495427::1716495427::1::::<><>::
 ::res://Models/Minas/Textures/::1716495427
 Barrel.png::CompressedTexture2D::5503178558645676326::1716495427::1716495427::1::::<><>::
 Barrel_01.png::CompressedTexture2D::9074849633860604834::1716495427::1716495427::1::::<><>::
@@ -2259,7 +2443,6 @@ WoodRough.jpg::CompressedTexture2D::8458700255341069958::1716495427::1716495427:
 ::res://Models/Models pack psx/::1716495427
 ::res://Models/Models pack psx/Models/::1716495558
 models.dae::PackedScene::3392832575129880605::1716495427::1716495558::1::::<><>::
-models.fbx::PackedScene::9165476791750718998::1716495427::1716495427::1::::<><>::
 ::res://Models/Models pack psx/Texture/::1716496521
 Asphalt.png::CompressedTexture2D::2625047558980169891::1716495427::1716495427::1::::<><>::
 Auto2.jpg::CompressedTexture2D::3207980039243895734::1716495427::1716495427::1::::<><>::
@@ -2410,56 +2593,44 @@ Wood_13.jpg::CompressedTexture2D::5939931268115344224::1716495427::1716495427::1
 Wood_14.jpg::CompressedTexture2D::250759625283391661::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/::1716495427
 ::res://Models/PSX Model Pack/Couch and Armchair/::1716495427
-armchair.fbx::PackedScene::7616508255488940397::1716495427::1716495427::1::::<><>::
-couch.fbx::PackedScene::6217402141067252408::1716495427::1716495427::1::::<><>::
 coucharmchair.png::CompressedTexture2D::8586623802355349224::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/Desk/::1716495427
-desk1.fbx::PackedScene::4260195048484399708::1716495427::1716495427::1::::<><>::
 desk1.png::CompressedTexture2D::8383231311523796697::1716495427::1716495427::1::::<><>::
 desk2-8991c6b8d65780556d3c842e58f6eb9a_desk2.png::CompressedTexture2D::8087063156643685490::1716495427::1716495427::1::::<><>::
-desk2.fbx::PackedScene::7733870441760638175::1716495427::1716495427::1::::<><>::
 desk2.png::CompressedTexture2D::5652480878456809517::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/Dumpster/::1716495427
-dumpster.fbx::PackedScene::221440850190618012::1716495427::1716495427::1::::<><>::
 dumpster.png::CompressedTexture2D::6226945844365707144::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/Filing Cabinet/::1716495427
 cabinet.tscn::PackedScene::3663043737108419082::1716495427::0::1::::<><>::uid://b1ion0v5n8jit::::res://Models/PSX Model Pack/Filing Cabinet/filingcabinet.fbx<>uid://d0y361fnqq8u1::::res://Models/PSX Model Pack/Filing Cabinet/filingcabinet.png
-filingcabinet.fbx::PackedScene::4228720240440304543::1716495427::1716495427::1::::<><>::
 filingcabinet.png::CompressedTexture2D::8965285017479895590::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/Fridge/::1716495427
-fridge.fbx::PackedScene::8478970521792413557::1716495427::1716495427::1::::<><>::
 fridge.jpg::CompressedTexture2D::4818429633927911720::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/Kitchen Counter/::1716495427
 counter-7ad8ebe42c4aed60646b19bb1c4cfc03_counter.png::CompressedTexture2D::6850117477808617232::1716495427::1716495427::1::::<><>::
-counter.fbx::PackedScene::557262936604360306::1716495427::1716495427::1::::<><>::
 counter.png::CompressedTexture2D::3473178025442204636::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/Oven/::1716495427
 oven-ac081f17d3ae5bc395e4636d9537931e_oven.png::CompressedTexture2D::274693467404511567::1716495427::1716495427::1::::<><>::
-oven.fbx::PackedScene::2517315058948484132::1716495427::1716495427::1::::<><>::
 oven.png::CompressedTexture2D::4024968427855344707::1716495427::1716495427::1::::<><>::
-::res://Models/PSX Model Pack/Picnic Table/::1716495427
+::res://Models/PSX Model Pack/Picnic Table/::1716591071
+picnictable.blend::PackedScene::1378510087112578685::1716495427::1716591071::1::::<><>::
 wood.jpg::CompressedTexture2D::1485006351049944751::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/PizzaBox/::1716495427
 pizzabox-56bae157af71602e2b87405f12e8b2eb_pizzabox.png::CompressedTexture2D::2089741258990986094::1716495427::1716495427::1::::<><>::
-pizzabox.fbx::PackedScene::1730491826698584218::1716495427::1716495427::1::::<><>::
 pizzabox.png::CompressedTexture2D::5125549444329022948::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/PS1 Disc/::1716495427
 cover.png::CompressedTexture2D::13653640773056891::1716495427::1716495427::1::::<><>::
-ps1disc.fbx::PackedScene::2240742131903374979::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/Soda Can/::1716495427
 can-b9077c0a56c59a9edbd340e1305a1ce2_SodaCanRed.png::CompressedTexture2D::8522919562377701596::1716495427::1716495427::1::::<><>::
-can.fbx::PackedScene::8395236578710973873::1716495427::1716495427::1::::<><>::
 SodaCanBlue.png::CompressedTexture2D::482206430259054285::1716495427::1716495427::1::::<><>::
 SodaCanGreen.png::CompressedTexture2D::7658461365177966999::1716495427::1716495427::1::::<><>::
 SodaCanRed.png::CompressedTexture2D::3233853451172309906::1716495427::1716495427::1::::<><>::
 ::res://Models/PSX Model Pack/Wardrobe/::1716495427
-wardrobe.fbx::PackedScene::4831281456028880952::1716495427::1716495427::1::::<><>::
 wardrobe.png::CompressedTexture2D::8787779322937320312::1716495427::1716495427::1::::<><>::
-::res://Models/PSXAmmoBoxes/::1716495427
+::res://Models/PSXAmmoBoxes/::1716592730
+largeAmmo.blend::PackedScene::4027834581720810841::1716592730::1716592740::1::::<><>::uid://cwf2bvjsd7o6m::::res://Models/PSXAmmoBoxes/Large Ammo Box/Texture/large_ammo-box_240.png
 ::res://Models/PSXAmmoBoxes/9mm/::1716495553
 9mm_240-b456eed8dc1d869bc6b47abebe9c9ead_9mm_240.png::CompressedTexture2D::3681830653425113069::1716495427::1716495427::1::::<><>::
 9mm_240-fbd319afae62b221bee70b30088589aa_9mm_240.png::CompressedTexture2D::7740037381943413261::1716495427::1716495427::1::::<><>::
-9mm_240.fbx::PackedScene::694261924602335567::1716495427::1716495427::1::::<><>::
 9mm_240.obj::Mesh::8555257680889127413::1716495427::1716495553::1::::<><>::uid://qude01kbjpsh::::res://Models/PSXAmmoBoxes/9mm/Texture/9mm_240.png
 ::res://Models/PSXAmmoBoxes/9mm/Texture/::1716495427
 9mm.png::CompressedTexture2D::658762244226387279::1716495427::1716495427::1::::<><>::
@@ -2469,13 +2640,11 @@ wardrobe.png::CompressedTexture2D::8787779322937320312::1716495427::1716495427::
 12g_Green_240-77355a05aa7e67e5f2dda45243fd3149_12G_240px.png::CompressedTexture2D::2795298682229094079::1716495427::1716495427::1::::<><>::
 12g_Green_240-f485188ec11739f3d43782ead4e67d00_12g.png::CompressedTexture2D::7962610580777323347::1716495427::1716495427::1::::<><>::
 12g_Green_240-f485188ec11739f3d43782ead4e67d00_12G_240px.png::CompressedTexture2D::9100753587141314601::1716495427::1716495427::1::::<><>::
-12g_Green_240.fbx::PackedScene::5268744196724527042::1716495427::1716495427::1::::<><>::
 12g_Green_240.obj::Mesh::3527151932470809425::1716495427::1716495553::1::::<><>::uid://sspvxqwlkmf4::::res://Models/PSXAmmoBoxes/12g/Textures/12G_240px.png<>uid://cy306s6flyrbo::::res://Models/PSXAmmoBoxes/12g/Textures/12g.png
 12g_red_240-6d39d581aeada10a0f377799078b49a2_12g.png::CompressedTexture2D::3907882956068639562::1716495427::1716495427::1::::<><>::
 12g_red_240-6d39d581aeada10a0f377799078b49a2_12G_240px.png::CompressedTexture2D::7805555084646588459::1716495427::1716495427::1::::<><>::
 12g_red_240-6f59948164900b0fbfbf0433d0ace2fb_12g.png::CompressedTexture2D::8105048436372514362::1716495427::1716495427::1::::<><>::
 12g_red_240-6f59948164900b0fbfbf0433d0ace2fb_12G_240px.png::CompressedTexture2D::2584158594929290089::1716495427::1716495427::1::::<><>::
-12g_red_240.fbx::PackedScene::107905230005914150::1716495427::1716495427::1::::<><>::
 12g_red_240.obj::Mesh::4397460681549924105::1716495427::1716495553::1::::<><>::uid://sspvxqwlkmf4::::res://Models/PSXAmmoBoxes/12g/Textures/12G_240px.png<>uid://cy306s6flyrbo::::res://Models/PSXAmmoBoxes/12g/Textures/12g.png
 ::res://Models/PSXAmmoBoxes/12g/Textures/::1716495427
 12g.png::CompressedTexture2D::6516750469794945732::1716495427::1716495427::1::::<><>::
@@ -2483,7 +2652,6 @@ wardrobe.png::CompressedTexture2D::8787779322937320312::1716495427::1716495427::
 ::res://Models/PSXAmmoBoxes/38 SPECIAL/::1716495554
 38S_240-44cd2ebc06f2d9f2b9b7f1d7ae0ee255_38_Special_240px.png::CompressedTexture2D::6014438861854986857::1716495427::1716495427::1::::<><>::
 38S_240-379ea4c09e8b97e64a5e71c3dc7735e2_38_Special_240px.png::CompressedTexture2D::5190449915543587330::1716495427::1716495427::1::::<><>::
-38S_240.fbx::PackedScene::4509758524174469803::1716495427::1716495427::1::::<><>::
 38S_240.obj::Mesh::7093984727658964435::1716495427::1716495554::1::::<><>::uid://dn645cjr6j4y3::::res://Models/PSXAmmoBoxes/38 SPECIAL/textures/38_Special_240px.png
 ::res://Models/PSXAmmoBoxes/38 SPECIAL/textures/::1716495427
 38_Special.png::CompressedTexture2D::6833675253720078655::1716495427::1716495427::1::::<><>::
@@ -2491,7 +2659,6 @@ wardrobe.png::CompressedTexture2D::8787779322937320312::1716495427::1716495427::
 ::res://Models/PSXAmmoBoxes/50AE/::1716495554
 50AE_240-b003a148ab5d8774fbf46c91d3bce494_50AE_240px.png::CompressedTexture2D::3306455752495160031::1716495427::1716495427::1::::<><>::
 50AE_240-ec457ef00a9624db3b74b6d290241f3e_50AE_240px.png::CompressedTexture2D::3771758878770552292::1716495427::1716495427::1::::<><>::
-50AE_240.fbx::PackedScene::1616343471439183311::1716495427::1716495427::1::::<><>::
 50AE_240.obj::Mesh::5930928355360329461::1716495427::1716495554::1::::<><>::uid://c2xlji2m3vmvt::::res://Models/PSXAmmoBoxes/50AE/Textures/50AE_240px.png
 ::res://Models/PSXAmmoBoxes/50AE/Textures/::1716495427
 50AE.png::CompressedTexture2D::3445227420217836668::1716495427::1716495427::1::::<><>::
@@ -2513,7 +2680,6 @@ Auto_Ammo_240-1843f35d787164374e05c41c106d25ca_Automatic-Ammo-Front.png::Compres
 Auto_Ammo_240-1843f35d787164374e05c41c106d25ca_Automatic-Ammo-Front_240px.png::CompressedTexture2D::8403407409694225109::1716495427::1716495427::1::::<><>::
 Auto_Ammo_240-f2d332abef7059f771c1f90625f063af_Automatic-Ammo-Front.png::CompressedTexture2D::5992581198120478985::1716495427::1716495427::1::::<><>::
 Auto_Ammo_240-f2d332abef7059f771c1f90625f063af_Automatic-Ammo-Front_240px.png::CompressedTexture2D::3876301246320690836::1716495427::1716495427::1::::<><>::
-Auto_Ammo_240.fbx::PackedScene::6941802533419671352::1716495427::1716495427::1::::<><>::
 Auto_Ammo_240.obj::Mesh::3203102893351023111::1716495427::1716495552::1::::<><>::uid://xcvy8nmyiy2k::::res://Models/PSXAmmoBoxes/Automatic Ammo/Texture/Automatic-Ammo-Front_240px.png<>uid://dvxllbi5ehks5::::res://Models/PSXAmmoBoxes/Automatic Ammo/Texture/Automatic-Ammo-Front.png
 ::res://Models/PSXAmmoBoxes/Automatic Ammo/Texture/::1716495427
 Automatic-Ammo-Front.png::CompressedTexture2D::8681396052725223906::1716495427::1716495427::1::::<><>::
@@ -2521,7 +2687,6 @@ Automatic-Ammo-Front_240px.png::CompressedTexture2D::1619791829015330048::171649
 ::res://Models/PSXAmmoBoxes/Large Ammo Box/::1716495553
 large_ammo_box_240-0941d3e10684f6f08af07695e6306818_large_ammo-box_240.png::CompressedTexture2D::6226939582995439398::1716495427::1716495427::1::::<><>::
 large_ammo_box_240-4756adfc609a878c6686f1d3a3801cd9_large_ammo-box_240.png::CompressedTexture2D::6940436006407464520::1716495427::1716495427::1::::<><>::
-large_ammo_box_240.fbx::PackedScene::2728790216440341677::1716495427::1716495427::1::::<><>::
 large_ammo_box_240.obj::Mesh::4116360793702325173::1716495427::1716495553::1::::<><>::uid://cwf2bvjsd7o6m::::res://Models/PSXAmmoBoxes/Large Ammo Box/Texture/large_ammo-box_240.png
 ::res://Models/PSXAmmoBoxes/Large Ammo Box/Texture/::1716495427
 large_ammo-box.png::CompressedTexture2D::5412954746343700095::1716495427::1716495427::1::::<><>::
@@ -2529,21 +2694,20 @@ large_ammo-box_240.png::CompressedTexture2D::6328960078508527250::1716495427::17
 ::res://Models/PSXAmmoBoxes/Rifle Ammo/::1716495553
 RifleAmmo_240-2e4f03105abdbab32b18b30cf7edc6f5_RifleAmmoText_240.png::CompressedTexture2D::782979642212370649::1716495427::1716495427::1::::<><>::
 RifleAmmo_240-98727635df8a53599a163e6cd28ee524_RifleAmmoText_240.png::CompressedTexture2D::277705078543786739::1716495427::1716495427::1::::<><>::
-RifleAmmo_240.fbx::PackedScene::8319850771129037279::1716495427::1716495427::1::::<><>::
 RifleAmmo_240.obj::Mesh::1944474651278438755::1716495427::1716495553::1::::<><>::uid://d1nkm1ssvkcbm::::res://Models/PSXAmmoBoxes/Rifle Ammo/Textures/RifleAmmoText_240.png
 ::res://Models/PSXAmmoBoxes/Rifle Ammo/Textures/::1716495427
 RifleAmmoText.png::CompressedTexture2D::6374752615827952213::1716495427::1716495427::1::::<><>::
 RifleAmmoText_240.png::CompressedTexture2D::9011638890185324950::1716495427::1716495427::1::::<><>::
-::res://Models/PSXAssaultRifle[FIXED]/::1716495554
+::res://Models/PSXAssaultRifle[FIXED]/::1716592522
+AKM.blend::PackedScene::4581563079441507703::1716592510::1716592522::1::::<><>::
 Assault_Rifles-d75f7a2f5a1d8e39aa916832aab20f71_FAL_Texture.png::CompressedTexture2D::5093790189987359431::1716495427::1716495427::1::::<><>::
 Assault_Rifles-d75f7a2f5a1d8e39aa916832aab20f71_G3-Texture.png::CompressedTexture2D::7705650142784983160::1716495427::1716495427::1::::<><>::
 Assault_Rifles-d75f7a2f5a1d8e39aa916832aab20f71_M16_Texture_240.png::CompressedTexture2D::6824113303307883292::1716495427::1716495427::1::::<><>::
-Assault_Rifles.fbx::PackedScene::5580895857857296896::1716495427::1716495427::1::::<><>::
 Assault_Rifles.obj::Mesh::1098200099895592501::1716495427::1716495554::1::::<><>::uid://61n76aseco7a::::res://Models/PSXAssaultRifle[FIXED]/M16/Texture/M16_Texture_240.png<>uid://vgb6fdadcd6h::::res://Models/PSXAssaultRifle[FIXED]/G3/Texture/G3-Texture.png<>uid://bsmbku16o1int::::res://Models/PSXAssaultRifle[FIXED]/FAL/Textures/FAL_Texture.png
-::res://Models/PSXAssaultRifle[FIXED]/$Images/::1716495427
+::res://Models/PSXAssaultRifle[FIXED]/$Images/::1716592170
 74u_front_Back.png::CompressedTexture2D::4893849504385513781::1716495427::1716495427::1::::<><>::
 74u_Hero.png::CompressedTexture2D::6932647537505300612::1716495427::1716495427::1::::<><>::
-AKM_Front_Back.png::CompressedTexture2D::7186479690593519672::1716495427::1716495427::1::::<><>::
+AKM_Front_Back.png::CompressedTexture2D::7186479690593519672::1716495427::1716592170::1::::<><>::
 AKM_Hero.png::CompressedTexture2D::7572227698534017006::1716495427::1716495427::1::::<><>::
 banner.png::CompressedTexture2D::7904327542777847558::1716495427::1716495427::1::::<><>::
 FAL_Front_Back.png::CompressedTexture2D::573255896080979692::1716495427::1716495427::1::::<><>::
@@ -2561,42 +2725,35 @@ RPK_Front_Back.png::CompressedTexture2D::3181517220152964879::1716495427::171649
 RPK_Hero.png::CompressedTexture2D::202402970130360164::1716495427::1716495427::1::::<><>::
 Sights.png::CompressedTexture2D::3864571056738600518::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXAssaultRifle[FIXED]/AK/::1716495555
-AK.fbx::PackedScene::6102424148321119037::1716495427::1716495427::1::::<><>::
 AK.obj::Mesh::8507266042036813114::1716495427::1716495555::1::::<><>::
 ::res://Models/PSXAssaultRifle[FIXED]/AK/AK74U/::1716495553
-AK74U.fbx::PackedScene::6049410500611924450::1716495427::1716495427::1::::<><>::
 AK74U.obj::Mesh::1195044897717252267::1716495427::1716495553::1::::<><>::
 ::res://Models/PSXAssaultRifle[FIXED]/AK/AKM/::1716495555
-AKM.fbx::PackedScene::577830190338912321::1716495427::1716495427::1::::<><>::
 AKM.obj::Mesh::6380686988119970892::1716495427::1716495555::1::::<><>::
 ::res://Models/PSXAssaultRifle[FIXED]/AK/RPK/::1716495555
-RPK.fbx::PackedScene::7444968807897038553::1716495427::1716495427::1::::<><>::
 RPK.obj::Mesh::5191597784100375029::1716495427::1716495555::1::::<><>::
 rpk.tscn::PackedScene::7628523063750563775::1716495427::0::1::::<><>::uid://decnswd6dpsf6::::res://Models/PSXAssaultRifle[FIXED]/AK/RPK/RPK.fbx<>uid://dbgd0e6ujniho::::res://Models/PSXAssaultRifle[FIXED]/AK/Textures/RPK_Texture_240.png<>uid://dede2u083r6b5::::res://Models/PSXAssaultRifle[FIXED]/AK/Textures/RPK_Texture.png
-::res://Models/PSXAssaultRifle[FIXED]/AK/Textures/::1716495427
-AKM_Texture.png::CompressedTexture2D::1904847312477008271::1716495427::1716495427::1::::<><>::
-AKM_Texture_240.png::CompressedTexture2D::6000967637250903900::1716495427::1716495427::1::::<><>::
+::res://Models/PSXAssaultRifle[FIXED]/AK/Textures/::1716592189
+AKM_Texture.png::CompressedTexture2D::1904847312477008271::1716495427::1716592184::1::::<><>::
+AKM_Texture_240.png::CompressedTexture2D::6000967637250903900::1716495427::1716592189::1::::<><>::
 AKU_Texture.png::CompressedTexture2D::6744113540168865009::1716495427::1716495427::1::::<><>::
 AKU_Texture_240.png::CompressedTexture2D::2099010969674809115::1716495427::1716495427::1::::<><>::
 RPK_Texture.png::CompressedTexture2D::7446502733924713828::1716495427::1716495427::1::::<><>::
 RPK_Texture_240.png::CompressedTexture2D::7242064215971209428::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXAssaultRifle[FIXED]/FAL/::1716495555
 FAL-483109b43e0e52e5c8c5540cc794c81f_FAL_Texture.png::CompressedTexture2D::2487619095896487685::1716495427::1716495427::1::::<><>::
-FAL.fbx::PackedScene::7134468383503114662::1716495427::1716495427::1::::<><>::
 FAL.obj::Mesh::6276341086299756464::1716495427::1716495555::1::::<><>::uid://bsmbku16o1int::::res://Models/PSXAssaultRifle[FIXED]/FAL/Textures/FAL_Texture.png
 ::res://Models/PSXAssaultRifle[FIXED]/FAL/Textures/::1716495427
 FAL_Texture.png::CompressedTexture2D::3674672069218372861::1716495427::1716495427::1::::<><>::
 FAL_Texture_240px.png::CompressedTexture2D::1993974460986682877::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXAssaultRifle[FIXED]/G3/::1716495555
 G3-9d38b05b4af12f5dc2343ee661ae870e_G3-Texture.png::CompressedTexture2D::8610562172364066789::1716495427::1716495427::1::::<><>::
-G3.fbx::PackedScene::5507033987066417106::1716495427::1716495427::1::::<><>::
 G3.obj::Mesh::3897250748441711539::1716495427::1716495555::1::::<><>::uid://vgb6fdadcd6h::::res://Models/PSXAssaultRifle[FIXED]/G3/Texture/G3-Texture.png
 ::res://Models/PSXAssaultRifle[FIXED]/G3/Texture/::1716495427
 G3-Texture.png::CompressedTexture2D::1486468326782113073::1716495427::1716495427::1::::<><>::
 G3-Texture_240px.png::CompressedTexture2D::5430471999810955722::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXAssaultRifle[FIXED]/M16/::1716495554
 M16A2-0f5c5c368694f9789963f89cd9cba6f4_M16_Texture_240.png::CompressedTexture2D::2674117333560499261::1716495427::1716495427::1::::<><>::
-M16A2.fbx::PackedScene::8363149832208352569::1716495427::1716495427::1::::<><>::
 M16A2.obj::Mesh::4076658310299007842::1716495427::1716495554::1::::<><>::uid://61n76aseco7a::::res://Models/PSXAssaultRifle[FIXED]/M16/Texture/M16_Texture_240.png
 ::res://Models/PSXAssaultRifle[FIXED]/M16/Texture/::1716495427
 M16_Texture.png::CompressedTexture2D::3019068704547041696::1716495427::1716495427::1::::<><>::
@@ -2605,22 +2762,14 @@ M16_Texture_240.png::CompressedTexture2D::2230376069742612104::1716495427::17164
 opencigs.tscn::PackedScene::4794731140347754792::1716495427::0::1::::<><>::uid://3857nv16bcmj::::res://Models/PSXCigarette Pack[FIXED]/CigarettePack/CigarettePacks/PackCigarettesStandardOpened.fbx<>uid://novtvexcigl4::::res://Models/PSXCigarette Pack[FIXED]/Textures/packFrontTextureLowPolyOpened.png
 ::res://Models/PSXCigarette Pack[FIXED]/CigarettePack/::1716495427
 ::res://Models/PSXCigarette Pack[FIXED]/CigarettePack/CigarettePacks/::1716495554
-PackCigaretteFoilTop.fbx::PackedScene::1328021249942207692::1716495427::1716495427::1::::<><>::
 PackCigaretteFoilTop.obj::Mesh::3019800978419454625::1716495427::1716495554::1::::<><>::
-PackCigarettesStandard.fbx::PackedScene::3994669650464468141::1716495427::1716495427::1::::<><>::
-PackCigarettesStandardOpened.fbx::PackedScene::2035291459404064033::1716495427::1716495427::1::::<><>::
-PackCigarettesStandardOpenPulled.fbx::PackedScene::8584082540686142647::1716495427::1716495427::1::::<><>::
 PackCigaretteStandard.obj::Mesh::2353345433619270549::1716495427::1716495554::1::::<><>::
 PackCigaretteStandardOpen.obj::Mesh::5210655092355668290::1716495427::1716495554::1::::<><>::
 PackCigaretteStandardOpenCigPulled.obj::Mesh::2527981497704610684::1716495427::1716495554::1::::<><>::
 ::res://Models/PSXCigarette Pack[FIXED]/CigarettePack/Cigarettes/::1716495555
-CigaretteButt.fbx::PackedScene::4062397613193825386::1716495427::1716495427::1::::<><>::
 CigaretteButt.obj::Mesh::5669310805530782283::1716495427::1716495554::1::::<><>::
-CigaretteFull.fbx::PackedScene::5086148316224663650::1716495427::1716495427::1::::<><>::
 CigaretteFull.obj::Mesh::1844105270406278872::1716495427::1716495555::1::::<><>::
-CigaretteSmoked.fbx::PackedScene::8265596958381620247::1716495427::1716495427::1::::<><>::
 CigaretteSmoked.obj::Mesh::6402778784776617485::1716495427::1716495555::1::::<><>::
-CigaretteSnuffed.fbx::PackedScene::1343317593395084771::1716495427::1716495427::1::::<><>::
 CigaretteSnuffed.obj::Mesh::3662408611735743059::1716495427::1716495555::1::::<><>::
 ::res://Models/PSXCigarette Pack[FIXED]/Images/::1716495427
 cigs&guns .png::CompressedTexture2D::6607385969748553273::1716495427::1716495427::1::::<><>::
@@ -2649,48 +2798,40 @@ Needle.png::CompressedTexture2D::7759793250302586653::1716495427::1716495427::1:
 Pills.png::CompressedTexture2D::430984552662316203::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXHealingItems[Fixed]/Bandage/::1716495555
 Bandage-ecf95e4872b2768a4369daab8884f57d_bandage_Texture.png::CompressedTexture2D::5815233583465468922::1716495427::1716495427::1::::<><>::
-Bandage.fbx::PackedScene::1632249507409404003::1716495427::1716495427::1::::<><>::
 Bandage.obj::Mesh::8584412203086133641::1716495427::1716495555::1::::<><>::uid://b3yf6abw8lfro::::res://Models/PSXHealingItems[Fixed]/Bandage/Texture/bandage_Texture.png
 ::res://Models/PSXHealingItems[Fixed]/Bandage/Texture/::1716495427
 bandage_Texture.png::CompressedTexture2D::4401612318819248076::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXHealingItems[Fixed]/Green_Plant/::1716495555
 Green_Plant-0c58f657e1364b4c5127c6a5379287ab_Green_Plant_Texture.png::CompressedTexture2D::2805814209093522733::1716495427::1716495427::1::::<><>::
-Green_Plant.fbx::PackedScene::3570339041788094841::1716495427::1716495427::1::::<><>::
 Green_Plant.obj::Mesh::6090020162590590127::1716495427::1716495555::1::::<><>::uid://deo3d44w0fbgx::::res://Models/PSXHealingItems[Fixed]/Green_Plant/Texture/Green_Plant_Texture.png
 ::res://Models/PSXHealingItems[Fixed]/Green_Plant/Texture/::1716495427
 Green_Plant_Texture.png::CompressedTexture2D::7470625716377113119::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXHealingItems[Fixed]/Green_Powder/::1716495553
 Green_Powder-e973daf582bc96653706fd6ec815f404_Green_Powder_texture.jpg::CompressedTexture2D::1264706240839146986::1716495427::1716495427::1::::<><>::
-Green_Powder.fbx::PackedScene::743768381160113244::1716495427::1716495427::1::::<><>::
 Green_Powder.obj::Mesh::5252463526312962473::1716495427::1716495553::1::::<><>::uid://qpcd04xm2877::::res://Models/PSXHealingItems[Fixed]/Green_Powder/Textures/Green_Powder_texture.jpg
 ::res://Models/PSXHealingItems[Fixed]/Green_Powder/Textures/::1716495427
 Green_Powder_texture.jpg::CompressedTexture2D::1154115314831895324::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXHealingItems[Fixed]/HealthSolution/::1716495554
 HealthSolution.obj::Mesh::7580419727257149239::1716495427::1716495554::1::::<><>::uid://dytt38w5lokm1::::res://Models/PSXHealingItems[Fixed]/HealthSolution/Textures/HealthBottleTexture.png
 Health_Solution-79f1004a07b7ce7f0cba14e5a7309a6d_HealthBottleTexture.png::CompressedTexture2D::266269202199334653::1716495427::1716495427::1::::<><>::
-Health_Solution.fbx::PackedScene::4982502148965789535::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXHealingItems[Fixed]/HealthSolution/Textures/::1716495427
 HealthBottleTexture.png::CompressedTexture2D::8884222869445692602::1716495427::1716495427::1::::<><>::
 medicalBottleLable.png::CompressedTexture2D::157439297585905401::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXHealingItems[Fixed]/Health_Pouch/::1716495555
 Health_Kit-fa9a038a98e44cd1e2bbc149196b0937_pouch_1.jpg::CompressedTexture2D::4639096977122261615::1716495427::1716495427::1::::<><>::
-Health_Kit.fbx::PackedScene::7205334930959530868::1716495427::1716495427::1::::<><>::
 Health_Kit.obj::Mesh::2915986705304307577::1716495427::1716495554::1::::<><>::uid://cv385d7bddm4w::::res://Models/PSXHealingItems[Fixed]/Health_Pouch/Textures/pouch_1.jpg
 Health_Kit_open-5a482ecd17d25a8636da805e992cd056_pouch_Texture_open.jpg::CompressedTexture2D::2913022379136878302::1716495427::1716495427::1::::<><>::
-Health_Kit_open.fbx::PackedScene::9039232018639372526::1716495427::1716495427::1::::<><>::
 Health_Kit_open.obj::Mesh::8869849685924320495::1716495427::1716495555::1::::<><>::uid://b224m4nnomfv8::::res://Models/PSXHealingItems[Fixed]/Health_Pouch/Textures/pouch_Texture_open.jpg
 ::res://Models/PSXHealingItems[Fixed]/Health_Pouch/Textures/::1716495427
 pouch_1.jpg::CompressedTexture2D::6306667102530365064::1716495427::1716495427::1::::<><>::
 pouch_Texture_open.jpg::CompressedTexture2D::4339041427466134559::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXHealingItems[Fixed]/Health_Syringe/::1716495553
 Syringe-2d23abf5a569dd6dcaf81a4bb1c5ab6e_Syringe_Texture.png::CompressedTexture2D::4227143071720091179::1716495427::1716495427::1::::<><>::
-Syringe.fbx::PackedScene::5039049657720998016::1716495427::1716495427::1::::<><>::
 Syringe.obj::Mesh::3731770636656934395::1716495427::1716495553::1::::<><>::uid://l7h0s0mjpbag::::res://Models/PSXHealingItems[Fixed]/Health_Syringe/Textures/Syringe_Texture.png
 ::res://Models/PSXHealingItems[Fixed]/Health_Syringe/Textures/::1716495427
 Syringe_Texture.png::CompressedTexture2D::838608016543512530::1716495427::1716495427::1::::<><>::
 ::res://Models/PSXHealingItems[Fixed]/Pill_Bottle/::1716495552
 Pill_Bottle-7ce44404ba2eed0d30292d5d0c648ac0_Pill_Bottle_Texture_240.png::CompressedTexture2D::1584984438364229750::1716495427::1716495427::1::::<><>::
-Pill_Bottle.fbx::PackedScene::2047935657001581044::1716495427::1716495427::1::::<><>::
 Pill_bottle.obj::Mesh::1719625998507689792::1716495427::1716495552::1::::<><>::uid://dd4jqunw4svm0::::res://Models/PSXHealingItems[Fixed]/Pill_Bottle/Textures/Pill_Bottle_Texture_240.png
 ::res://Models/PSXHealingItems[Fixed]/Pill_Bottle/Textures/::1716495427
 lable_dirty.png::CompressedTexture2D::1303971451105016921::1716495427::1716495427::1::::<><>::
@@ -2699,13 +2840,11 @@ Pill_Bottle_Texture_240.png::CompressedTexture2D::7430271634087035877::171649542
 ::res://Models/PSXMiscGuns/1911/::1716495553
 1911-5864e17187353142146c2b4947c69454_1911_Texture.png::CompressedTexture2D::6457838043877710483::1716495428::1716495428::1::::<><>::
 1911-d3787ebb0a81fc9d771f193f6217a1af_1911_Texture.png::CompressedTexture2D::2487294568179466138::1716495428::1716495428::1::::<><>::
-1911.fbx::PackedScene::2394634649603791388::1716495428::1716495428::1::::<><>::
 1911.obj::Mesh::6216906333722880117::1716495428::1716495553::1::::<><>::uid://bsxk2lr74aoqn::::res://Models/PSXMiscGuns/1911/1911_Texture.png
 1911_Texture.png::CompressedTexture2D::3697956549395386357::1716495428::1716495428::1::::<><>::
 1911_Texture_240.png::CompressedTexture2D::4450375210291305527::1716495428::1716495428::1::::<><>::
 Defender-5f32a2c5abf6e765087fc499b8f67fa7_1911_Texture.png::CompressedTexture2D::3973264083679513511::1716495428::1716495428::1::::<><>::
 Defender-da7cef39effea34c3b3c9894fcab3a83_1911_Texture.png::CompressedTexture2D::8134038383615790615::1716495428::1716495428::1::::<><>::
-Defender.fbx::PackedScene::9188863034776412165::1716495428::1716495428::1::::<><>::
 Defender.obj::Mesh::2579049449911307601::1716495428::1716495553::1::::<><>::uid://bsxk2lr74aoqn::::res://Models/PSXMiscGuns/1911/1911_Texture.png
 ::res://Models/PSXMiscGuns/#Images/::1716495428
 1911.png::CompressedTexture2D::4169782519524157822::1716495427::1716495427::1::::<><>::
@@ -2722,7 +2861,6 @@ Tactical_Shotgun.png::CompressedTexture2D::999479922785699642::1716495428::17164
 ::res://Models/PSXMiscGuns/FlareGun/::1716495553
 FlareGun-2c0b1d03e08f24bfe8dcffc5ea1cb730_Flaregun_Text_240.png::CompressedTexture2D::8369582462353247417::1716495428::1716495428::1::::<><>::
 FlareGun-90f0aaa619ef3bacba8efb286379719d_Flaregun_Text_240.png::CompressedTexture2D::4917317366336608874::1716495428::1716495428::1::::<><>::
-FlareGun.fbx::PackedScene::175928186815488759::1716495428::1716495428::1::::<><>::
 FlareGun.obj::Mesh::8866133430122754186::1716495428::1716495553::1::::<><>::uid://c7lm4nutlqeb8::::res://Models/PSXMiscGuns/FlareGun/Textures/Flaregun_Text_240.png
 ::res://Models/PSXMiscGuns/FlareGun/Textures/::1716495428
 Flaregun_Text.001.png::CompressedTexture2D::730419348847172826::1716495428::1716495428::1::::<><>::
@@ -2730,7 +2868,6 @@ Flaregun_Text_240.png::CompressedTexture2D::7042373625612581987::1716495428::171
 ::res://Models/PSXMiscGuns/Makarov/::1716495553
 Makarov-151b6394698c5fb10de8aecfd0edcaaa_Mak_Textiure_Trigger.png::CompressedTexture2D::5271599136108181528::1716495428::1716495428::1::::<><>::
 Makarov-3355654c8ffd6067ecb2711fdbb8bc8a_Mak_Textiure_Trigger.png::CompressedTexture2D::1895705085615424700::1716495428::1716495428::1::::<><>::
-Makarov.fbx::PackedScene::2733929224305966694::1716495428::1716495428::1::::<><>::
 Makarov.obj::Mesh::9142407332783830336::1716495428::1716495553::1::::<><>::uid://n038n66wvyh5::::res://Models/PSXMiscGuns/Makarov/Texture/Mak_Textiure_Trigger.png
 makarov.tscn::PackedScene::768507016719799949::1716495428::0::1::::<><>::uid://be7lodu6p1rd3::::res://Models/PSXMiscGuns/Makarov/Makarov.fbx
 ::res://Models/PSXMiscGuns/Makarov/Texture/::1716495428
@@ -2739,11 +2876,9 @@ Mak_Textiure_Trigger.png::CompressedTexture2D::965824150273477652::1716495428::1
 ::res://Models/PSXMiscGuns/tactical rifle/::1716495553
 Tactical_Rifle-1fc8419b5011c2e53473d3c7a7c3cf23_Tac_M14_Text.png::CompressedTexture2D::8062363117975576690::1716495428::1716495428::1::::<><>::
 Tactical_Rifle-025944ded1e0e70a812573621d0878d6_Tac_M14_Text.png::CompressedTexture2D::1026620548290830173::1716495428::1716495428::1::::<><>::
-Tactical_Rifle.fbx::PackedScene::602829350324983729::1716495428::1716495428::1::::<><>::
 tactical_Rifle.obj::Mesh::4208483248974144220::1716495428::1716495553::1::::<><>::uid://b16kcv061wskj::::res://Models/PSXMiscGuns/tactical rifle/Textures/Tac_M14_Text.png
 Tactical_Rifle_Stock_Folded-8ffc630611a58484c7b098cae7f18bc1_Tac_M14_Text.png::CompressedTexture2D::2261515959175273242::1716495428::1716495428::1::::<><>::
 Tactical_Rifle_Stock_Folded-925b5a0a9edc7f44ec40fcd8535bc2c2_Tac_M14_Text.png::CompressedTexture2D::148007683048832064::1716495428::1716495428::1::::<><>::
-Tactical_Rifle_Stock_Folded.fbx::PackedScene::2027748604020358217::1716495428::1716495428::1::::<><>::
 tactical_Rifle_Stock_Folded.obj::Mesh::4349663836092331748::1716495428::1716495553::1::::<><>::uid://b16kcv061wskj::::res://Models/PSXMiscGuns/tactical rifle/Textures/Tac_M14_Text.png
 ::res://Models/PSXMiscGuns/tactical rifle/Textures/::1716495428
 Tac_M14_Text.png::CompressedTexture2D::4275938213227862677::1716495428::1716495428::1::::<><>::
@@ -2752,7 +2887,6 @@ TacticalShotgun-4fb4d9f7a29c4173caf8989de49ccaf9_shotgunShellTexture.jpg::Compre
 TacticalShotgun-4fb4d9f7a29c4173caf8989de49ccaf9_Tac_Shotgun_Text_240_Alpha.png::CompressedTexture2D::7884543238483195342::1716495428::1716495428::1::::<><>::
 TacticalShotgun-161116af07868ecfd991051c3fb9ceec_shotgunShellTexture.jpg::CompressedTexture2D::4128582723818864180::1716495428::1716495428::1::::<><>::
 TacticalShotgun-161116af07868ecfd991051c3fb9ceec_Tac_Shotgun_Text_240_Alpha.png::CompressedTexture2D::8654763904446580567::1716495428::1716495428::1::::<><>::
-TacticalShotgun.fbx::PackedScene::6370402933590481165::1716495428::1716495428::1::::<><>::
 TacticalShotgun.obj::Mesh::7700454250717447299::1716495428::1716495554::1::::<><>::uid://cqrn1ruuhfru2::::res://Models/PSXMiscGuns/TaticalShotgun/Textures/Tac_Shotgun_Text_240_Alpha.png<>uid://c5gi3t6vi6jpn::::res://Models/PSXMiscGuns/TaticalShotgun/Textures/shotgunShellTexture.jpg
 ::res://Models/PSXMiscGuns/TaticalShotgun/Textures/::1716495428
 shotgunShellTexture.jpg::CompressedTexture2D::6891429728021654663::1716495428::1716495428::1::::<><>::
@@ -2761,7 +2895,6 @@ Tac_Shotgun_Text_240.jpg::CompressedTexture2D::3873483828122329346::1716495428::
 Tac_Shotgun_Text_240_Alpha.png::CompressedTexture2D::5931793963672548255::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXMP5/::1716495553
 MP5-283d67b69f859847ce1e0d6867572fc7_MP5Texture.jpg::CompressedTexture2D::7458135287435281017::1716495427::1716495427::1::::<><>::
-MP5.fbx::PackedScene::2785751385382050259::1716495427::1716495427::1::::<><>::
 MP5.obj::Mesh::4077861470509608869::1716495427::1716495553::1::::<><>::uid://ddt1wjuj5hmky::::res://Models/PSXMP5/Textures/MP5Texture.jpg
 ::res://Models/PSXMP5/Images/::1716495427
 Banner.png::CompressedTexture2D::3239309734259866532::1716495427::1716495427::1::::<><>::
@@ -2785,13 +2918,11 @@ Pistols-400f9ce2d60b47f94c7e1b204be79531_HighCaliblerMag.jpg::CompressedTexture2
 Pistols-400f9ce2d60b47f94c7e1b204be79531_HighCaliblerPistolText.jpg::CompressedTexture2D::6896175753348341961::1716495428::1716495428::1::::<><>::
 Pistols-400f9ce2d60b47f94c7e1b204be79531_USP_mag_Text.jpg::CompressedTexture2D::1049855038216453695::1716495428::1716495428::1::::<><>::
 Pistols-400f9ce2d60b47f94c7e1b204be79531_USP_Text.jpg::CompressedTexture2D::2345310840863300817::1716495428::1716495428::1::::<><>::
-Pistols.fbx::PackedScene::7474615495624607645::1716495428::1716495428::1::::<><>::
 Pistols.obj::Mesh::3904395519073343169::1716495428::1716495554::1::::<><>::uid://bmk2ygf3l5eq4::::res://Models/PSXPistolPack[FIXED]/Files/Glock 17/Textures/glockText.jpg<>uid://pukkfln6mn6b::::res://Models/PSXPistolPack[FIXED]/Files/Glock 17/Textures/GLOCK_MAG_text.jpg<>uid://jbk2tmhe26ku::::res://Models/PSXPistolPack[FIXED]/Files/Glock 17/Textures/9mm.jpg<>uid://w0avnfe077o1::::res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/Textures/9mm.jpg<>uid://dgstfekrl5xsf::::res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/Textures/BarettaText.jpg<>uid://c2167at41bfxw::::res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/Textures/BarettaMag.jpg<>uid://d1vmiyj0qcpi0::::res://Models/PSXPistolPack[FIXED]/Files/USP/Textures/USP_Text.jpg<>uid://3rwy7iih16pq::::res://Models/PSXPistolPack[FIXED]/Files/USP/Textures/USP_mag_Text.jpg<>uid://dbcpj8dlydeav::::res://Models/PSXPistolPack[FIXED]/Files/HighCalibler/Textures/HighCaliblerPistolText.jpg<>uid://ctq7jp5b3asfk::::res://Models/PSXPistolPack[FIXED]/Files/HighCalibler/Textures/HighCaliblerMag.jpg
 ::res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/::1716495553
 Baretta9M-f489f3e53e6986a025abd8780cd8ad4b_9mm.jpg::CompressedTexture2D::9015980750404950076::1716495428::1716495428::1::::<><>::
 Baretta9M-f489f3e53e6986a025abd8780cd8ad4b_BarettaMag.jpg::CompressedTexture2D::1157155013840276514::1716495428::1716495428::1::::<><>::
 Baretta9M-f489f3e53e6986a025abd8780cd8ad4b_BarettaText.jpg::CompressedTexture2D::3506517893040523008::1716495428::1716495428::1::::<><>::
-Baretta9M.fbx::PackedScene::690071154824803577::1716495428::1716495428::1::::<><>::
 Baretta9M.obj::Mesh::178555503171923837::1716495428::1716495553::1::::<><>::uid://dgstfekrl5xsf::::res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/Textures/BarettaText.jpg<>uid://c2167at41bfxw::::res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/Textures/BarettaMag.jpg<>uid://w0avnfe077o1::::res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/Textures/9mm.jpg
 ::res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/Textures/::1716495428
 9mm.jpg::CompressedTexture2D::1595802196304228934::1716495428::1716495428::1::::<><>::
@@ -2800,11 +2931,10 @@ BarettaFrontRef.png::CompressedTexture2D::602397992781234582::1716495428::171649
 BarettaMag.jpg::CompressedTexture2D::6723553370103049536::1716495428::1716495428::1::::<><>::
 BarettaRef.jpg::CompressedTexture2D::8527841191816785066::1716495428::1716495428::1::::<><>::
 BarettaText.jpg::CompressedTexture2D::7618716690642413701::1716495428::1716495428::1::::<><>::
-::res://Models/PSXPistolPack[FIXED]/Files/Glock 17/::1716495554
+::res://Models/PSXPistolPack[FIXED]/Files/Glock 17/::1716592388
 Glock17-3501259aa578cd7a720a21820075179a_9mm.jpg::CompressedTexture2D::2536617229308709425::1716495428::1716495428::1::::<><>::
 Glock17-3501259aa578cd7a720a21820075179a_glockText.jpg::CompressedTexture2D::441545176468494416::1716495428::1716495428::1::::<><>::
 Glock17-3501259aa578cd7a720a21820075179a_GLOCK_MAG_text.jpg::CompressedTexture2D::8975478163563466870::1716495428::1716495428::1::::<><>::
-Glock17.fbx::PackedScene::5727525040012057501::1716495428::1716495428::1::::<><>::
 Glock17.obj::Mesh::8350564019901858094::1716495428::1716495554::1::::<><>::uid://bmk2ygf3l5eq4::::res://Models/PSXPistolPack[FIXED]/Files/Glock 17/Textures/glockText.jpg<>uid://pukkfln6mn6b::::res://Models/PSXPistolPack[FIXED]/Files/Glock 17/Textures/GLOCK_MAG_text.jpg<>uid://jbk2tmhe26ku::::res://Models/PSXPistolPack[FIXED]/Files/Glock 17/Textures/9mm.jpg
 ::res://Models/PSXPistolPack[FIXED]/Files/Glock 17/Textures/::1716495428
 9mm.jpg::CompressedTexture2D::634420373665244508::1716495428::1716495428::1::::<><>::
@@ -2820,7 +2950,6 @@ GLOCK_MAG_text.jpg::CompressedTexture2D::1094745517760568835::1716495428::171649
 ::res://Models/PSXPistolPack[FIXED]/Files/HighCalibler/::1716495552
 HighCalibler-aca6983bc7f328bdd51ecd7d3a22b989_HighCaliblerMag.jpg::CompressedTexture2D::8601059310183628226::1716495428::1716495428::1::::<><>::
 HighCalibler-aca6983bc7f328bdd51ecd7d3a22b989_HighCaliblerPistolText.jpg::CompressedTexture2D::7678932610974327914::1716495428::1716495428::1::::<><>::
-HighCalibler.fbx::PackedScene::7750444899599112413::1716495428::1716495428::1::::<><>::
 HighCalibler.obj::Mesh::6093939007853504781::1716495428::1716495552::1::::<><>::uid://dbcpj8dlydeav::::res://Models/PSXPistolPack[FIXED]/Files/HighCalibler/Textures/HighCaliblerPistolText.jpg<>uid://ctq7jp5b3asfk::::res://Models/PSXPistolPack[FIXED]/Files/HighCalibler/Textures/HighCaliblerMag.jpg
 ::res://Models/PSXPistolPack[FIXED]/Files/HighCalibler/Textures/::1716495428
 HighCaliblerMag.jpg::CompressedTexture2D::6141419290764703196::1716495428::1716495428::1::::<><>::
@@ -2829,7 +2958,6 @@ HighCaliblerPistolText.jpg::CompressedTexture2D::7234508215699048413::1716495428
 ::res://Models/PSXPistolPack[FIXED]/Files/USP/::1716495553
 USP-fbc0af6b217d4fdd42c037b7358abfe0_USP_mag_Text.jpg::CompressedTexture2D::9054444964321778710::1716495428::1716495428::1::::<><>::
 USP-fbc0af6b217d4fdd42c037b7358abfe0_USP_Text.jpg::CompressedTexture2D::629890845741085963::1716495428::1716495428::1::::<><>::
-USP.fbx::PackedScene::2387800979005455692::1716495428::1716495428::1::::<><>::
 USP.obj::Mesh::8671146624590841576::1716495428::1716495553::1::::<><>::uid://d1vmiyj0qcpi0::::res://Models/PSXPistolPack[FIXED]/Files/USP/Textures/USP_Text.jpg<>uid://3rwy7iih16pq::::res://Models/PSXPistolPack[FIXED]/Files/USP/Textures/USP_mag_Text.jpg
 ::res://Models/PSXPistolPack[FIXED]/Files/USP/Textures/::1716495428
 9mm.jpg::CompressedTexture2D::2135469580012059906::1716495428::1716495428::1::::<><>::
@@ -2854,11 +2982,9 @@ Revolvers.obj::Mesh::2975711198365581437::1716495428::1716495555::1::::<><>::uid
 ::res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/::1716495554
 38SpecialRevolver-737f24c51a629deb68b6ac0011eb2e7c_38-specialText.png::CompressedTexture2D::7140965309163718982::1716495428::1716495428::1::::<><>::
 38SpecialRevolver-737f24c51a629deb68b6ac0011eb2e7c_cylinderRefV2.jpg::CompressedTexture2D::6309744482492043460::1716495428::1716495428::1::::<><>::
-38SpecialRevolver.fbx::PackedScene::1844861948579516712::1716495428::1716495428::1::::<><>::
 38SpecialRevolver.obj::Mesh::4742802940234453188::1716495428::1716495554::1::::<><>::uid://dxvy11xoe54gu::::res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/Textures/38-specialText.png<>uid://b1o241l6mf116::::res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/Textures/cylinderRefV2.jpg
 SnubNose38SpecialRevolver-fdbdfbe83a7f984af627470c07f6ba91_38-specialText.png::CompressedTexture2D::2392501634970584413::1716495428::1716495428::1::::<><>::
 SnubNose38SpecialRevolver-fdbdfbe83a7f984af627470c07f6ba91_cylinderRefV2.jpg::CompressedTexture2D::8383707257405769296::1716495428::1716495428::1::::<><>::
-SnubNose38SpecialRevolver.fbx::PackedScene::5826742879009555184::1716495428::1716495428::1::::<><>::
 StubNose38SpecialRevolver.obj::Mesh::7532810215338799988::1716495428::1716495554::1::::<><>::uid://dxvy11xoe54gu::::res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/Textures/38-specialText.png<>uid://b1o241l6mf116::::res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/Textures/cylinderRefV2.jpg
 ::res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/Textures/::1716495428
 38-specialText.png::CompressedTexture2D::8818462427837485188::1716495428::1716495428::1::::<><>::
@@ -2869,7 +2995,6 @@ revolverAmmo.jpg::CompressedTexture2D::5837578719384428141::1716495428::17164954
 ::res://Models/PSXRevolverPack[FIXED]/Files/Colt Python/::1716495554
 Colt Python-229844b5c7912da8952093c5894eb65e_ColtPython.png::CompressedTexture2D::6454857298201746197::1716495428::1716495428::1::::<><>::
 Colt Python-229844b5c7912da8952093c5894eb65e_cylinderRefV2.jpg::CompressedTexture2D::6710991520570817406::1716495428::1716495428::1::::<><>::
-Colt Python.fbx::PackedScene::5496807786629856571::1716495428::1716495428::1::::<><>::
 ColtPyton.obj::Mesh::6155570580495937958::1716495428::1716495554::1::::<><>::uid://dlcdmpr10unan::::res://Models/PSXRevolverPack[FIXED]/Files/Colt Python/Textures/ColtPython.Png<>uid://yu612q0hjft::::res://Models/PSXRevolverPack[FIXED]/Files/Colt Python/Textures/cylinderRefV2.jpg
 ::res://Models/PSXRevolverPack[FIXED]/Files/Colt Python/Textures/::1716495428
 ColtPython.Png::CompressedTexture2D::7935672482438394865::1716495428::1716495428::1::::<><>::
@@ -2877,7 +3002,6 @@ cylinderRefV2.jpg::CompressedTexture2D::50816173641299561::1716495428::171649542
 revolverAmmo.jpg::CompressedTexture2D::5472007680489092134::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXRevolverPack[FIXED]/Files/HammerlessRevolver/::1716495554
 HammerlessRevolver-83a68e102256a3b1f6ddc98cbb3b957c_HammerlessRevolverText.png::CompressedTexture2D::2896762925711546103::1716495428::1716495428::1::::<><>::
-HammerlessRevolver.fbx::PackedScene::4547238094321905936::1716495428::1716495428::1::::<><>::
 revolverHL.obj::Mesh::8362396148635229096::1716495428::1716495554::1::::<><>::uid://beknwk75xy3w::::res://Models/PSXRevolverPack[FIXED]/Files/HammerlessRevolver/Textures/HammerlessRevolverText.png
 ::res://Models/PSXRevolverPack[FIXED]/Files/HammerlessRevolver/Textures/::1716495428
 HammerlessRevolverText.png::CompressedTexture2D::79077912359403462::1716495428::1716495428::1::::<><>::
@@ -2899,8 +3023,6 @@ DBSawedOffShotgun.obj::Mesh::2955247462204727827::1716495428::1716495555::1::::<
 DoubleBarrelShotgun.obj::Mesh::5809150754119121246::1716495428::1716495555::1::::<><>::uid://dbwlgjab4kwad::::res://Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/Textures/DBShotgunText.png
 d_bshotty.gdshader::Shader::-1::1716495428::0::1::::<><>::
 ::res://Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/Fbx/::1716495428
-DoubleBarrelShotgun.fbx::PackedScene::3648075617343150536::1716495428::1716495428::1::::<><>::
-SawedOffDoubleBarrelShotgun.fbx::PackedScene::1535429782930803893::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXShotgunPack[FIXED]/Files/DoubleBarrelShotgun/Textures/::1716495428
 DBShotgunText.png::CompressedTexture2D::7275546279785270043::1716495428::1716495428::1::::<><>::
 shotgunShellTexture.jpg::CompressedTexture2D::6170454397029421162::1716495428::1716495428::1::::<><>::
@@ -2908,8 +3030,6 @@ shotgunShellTexture.jpg::CompressedTexture2D::6170454397029421162::1716495428::1
 OneBarrelShotGun.obj::Mesh::3909888098104948755::1716495428::1716495555::1::::<><>::
 SawedOffOneBarrelShotGun.obj::Mesh::5499089584546143599::1716495428::1716495555::1::::<><>::
 ::res://Models/PSXShotgunPack[FIXED]/Files/oneBarrelShotGun/Fbx/::1716495428
-OneBarrelShotgun.fbx::PackedScene::7493590970427073034::1716495428::1716495428::1::::<><>::
-SawedOffOneBarrelShotgun.fbx::PackedScene::2526170368459353693::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXShotgunPack[FIXED]/Files/oneBarrelShotGun/Textures/::1716495428
 OneBarrelShotGunText.jpg::CompressedTexture2D::1192396583425534277::1716495428::1716495428::1::::<><>::
 shotgunShellTexture.jpg::CompressedTexture2D::2002119679255331126::1716495428::1716495428::1::::<><>::
@@ -2917,8 +3037,6 @@ shotgunShellTexture.jpg::CompressedTexture2D::2002119679255331126::1716495428::1
 OverUnderShotgun.obj::Mesh::7373663986424307272::1716495428::1716495555::1::::<><>::
 SawedOffOverUnderShotgun.obj::Mesh::2166282132833709482::1716495428::1716495555::1::::<><>::
 ::res://Models/PSXShotgunPack[FIXED]/Files/overUnderShotGun/Fbx/::1716495428
-OverUnderlShotgun.fbx::PackedScene::8276016527695747445::1716495428::1716495428::1::::<><>::
-SawedOffOverUnderlShotgun.fbx::PackedScene::2097878367551643194::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXShotgunPack[FIXED]/Files/overUnderShotGun/Textures/::1716495428
 overUnderRef.png::CompressedTexture2D::8186850600396206273::1716495428::1716495428::1::::<><>::
 shotgunShellTexture.jpg::CompressedTexture2D::1438757945993385241::1716495428::1716495428::1::::<><>::
@@ -2927,8 +3045,6 @@ PumpActionShotgun.obj::Mesh::1318360650327197239::1716495428::1716495555::1::::<
 PumpActionShotgunShort.obj::Mesh::7668085786056935999::1716495428::1716495555::1::::<><>::
 pumplong.tscn::PackedScene::7130624305394488405::1716495428::0::1::::<><>::uid://1ebs607yib3o::::res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Fbx/PumpActionShotgun.fbx<>uid://cn0tuiwrd81ev::::res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/PAShotgunText.png
 ::res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Fbx/::1716495428
-PumpActionShotgun.fbx::PackedScene::1833261975218422730::1716495428::1716495428::1::::<><>::
-SawedOffPumpActionShotgun.fbx::PackedScene::873669749248696041::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/::1716495428
 PAShotgunText.png::CompressedTexture2D::5738095572223015005::1716495428::1716495428::1::::<><>::
 shotgunShellTexture.jpg::CompressedTexture2D::7643908984796830025::1716495428::1716495428::1::::<><>::
@@ -2971,69 +3087,59 @@ Wrench.png::CompressedTexture2D::5823067173735426576::1716495428::1716495428::1:
 AdjustableWrench.obj::Mesh::8210776672281111491::1716495428::1716495555::1::::<><>::uid://fauprbwimss::::res://Models/PSXToolSet[FIXED]/AdjustableWrench/Texture/AdjustableWrench.png
 AjustableWrench-33a234bf46f628be9876121177e58e3f_AdjustableWrench.png::CompressedTexture2D::5516903258847956101::1716495428::1716495428::1::::<><>::
 AjustableWrench-a071c2ee345b873fc7a95ee210ad0092_AdjustableWrench.png::CompressedTexture2D::2270113199128575935::1716495428::1716495428::1::::<><>::
-AjustableWrench.fbx::PackedScene::4697328650889796234::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/AdjustableWrench/Texture/::1716495428
 AdjustableWrench.png::CompressedTexture2D::10358418835487782::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/Awl/::1716495555
 Awl-3d3f58fd4c2c332de29cbc6e141f6a26_awl.jpg::CompressedTexture2D::6842124430278863466::1716495428::1716495428::1::::<><>::
 Awl-f33a4c964fec7df1e713dad8a5ee3875_awl.jpg::CompressedTexture2D::8852166113611726437::1716495428::1716495428::1::::<><>::
-Awl.fbx::PackedScene::4884079467315899545::1716495428::1716495428::1::::<><>::
 Awl.obj::Mesh::3924793973367099215::1716495428::1716495555::1::::<><>::uid://brre1e2xwk1w1::::res://Models/PSXToolSet[FIXED]/Awl/Textures/awl.jpg
 ::res://Models/PSXToolSet[FIXED]/Awl/Textures/::1716495428
 awl.jpg::CompressedTexture2D::3615014998849218750::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/BackSaw/::1716495555
 BackSaw-54950014852c6ddbc2519d391a78b249_BackSawTexture.jpg::CompressedTexture2D::9163629263159429447::1716495428::1716495428::1::::<><>::
 BackSaw-e25f5e39b0488a873a8e3505dfef6611_BackSawTexture.jpg::CompressedTexture2D::4657522595879524264::1716495428::1716495428::1::::<><>::
-BackSaw.fbx::PackedScene::4525900605769988374::1716495428::1716495428::1::::<><>::
 BackSaw.obj::Mesh::3446476939502725::1716495428::1716495555::1::::<><>::uid://c7pho784wk71d::::res://Models/PSXToolSet[FIXED]/BackSaw/Texture/BackSawTexture.jpg
 ::res://Models/PSXToolSet[FIXED]/BackSaw/Texture/::1716495428
 BackSawTexture.jpg::CompressedTexture2D::7050301783251376775::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/Chisel/::1716495553
 Chisel-574b2e0de02dca67d1b9e642093995d1_Chisel.png::CompressedTexture2D::556314107025219853::1716495428::1716495428::1::::<><>::
 Chisel-d76a76ae3dc04187c931b722eb86dd45_Chisel.png::CompressedTexture2D::390015372848930709::1716495428::1716495428::1::::<><>::
-Chisel.fbx::PackedScene::723057007620966236::1716495428::1716495428::1::::<><>::
 Chisel.obj::Mesh::1689664159405089153::1716495428::1716495553::1::::<><>::uid://72po3wng5v7c::::res://Models/PSXToolSet[FIXED]/Chisel/Textures/Chisel.png
 ::res://Models/PSXToolSet[FIXED]/Chisel/Textures/::1716495428
 Chisel.png::CompressedTexture2D::2302718457022199942::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/Hammer/::1716495553
 Hammer-9fdb93da5fe08f0b7c3c272fc5f43291_HammerTexture.jpg::CompressedTexture2D::4379650147519796840::1716495428::1716495428::1::::<><>::
 Hammer-a4963953ea8be5a19b0f82e3a335e36d_HammerTexture.jpg::CompressedTexture2D::774299409562875723::1716495428::1716495428::1::::<><>::
-Hammer.fbx::PackedScene::6056444990318565940::1716495428::1716495428::1::::<><>::
 Hammer.obj::Mesh::7196335342598387319::1716495428::1716495553::1::::<><>::uid://c8pvdtcs4s41e::::res://Models/PSXToolSet[FIXED]/Hammer/Textures/HammerTexture.jpg
 ::res://Models/PSXToolSet[FIXED]/Hammer/Textures/::1716495428
 HammerTexture.jpg::CompressedTexture2D::7121320289872572684::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/HandSaw/::1716495553
 HandSaw-38ed5f1cf47433e2e405d2e0d5f22a4d_BackSawTexture.jpg::CompressedTexture2D::4059466780808876052::1716495428::1716495428::1::::<><>::
 HandSaw-573225060ff59de428d8ca085a167dce_BackSawTexture.jpg::CompressedTexture2D::7892107093020868878::1716495428::1716495428::1::::<><>::
-HandSaw.fbx::PackedScene::7238897645340349326::1716495428::1716495428::1::::<><>::
 HandSaw.obj::Mesh::1568191908235608974::1716495428::1716495553::1::::<><>::uid://bpkdxl801ueij::::res://Models/PSXToolSet[FIXED]/HandSaw/Texture/BackSawTexture.jpg
 ::res://Models/PSXToolSet[FIXED]/HandSaw/Texture/::1716495428
 BackSawTexture.jpg::CompressedTexture2D::3460120969949115209::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/HeavyPliers/::1716495553
 HeavyPliers-1d4900df4aa2f929b78e9ff080e36678_HeavyPliresTextures.jpg::CompressedTexture2D::1377354193023527297::1716495428::1716495428::1::::<><>::
 HeavyPliers-b4536f4d4a59259557c2e15e1c9031cc_HeavyPliresTextures.jpg::CompressedTexture2D::8086560391839302739::1716495428::1716495428::1::::<><>::
-HeavyPliers.fbx::PackedScene::2503796478016601326::1716495428::1716495428::1::::<><>::
 HeavyPlires.obj::Mesh::1211839870018769598::1716495428::1716495553::1::::<><>::uid://cfik5yp6tci67::::res://Models/PSXToolSet[FIXED]/HeavyPliers/Textures/HeavyPliresTextures.jpg
 ::res://Models/PSXToolSet[FIXED]/HeavyPliers/Textures/::1716495428
 HeavyPliresTextures.jpg::CompressedTexture2D::5140962636520100926::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/NeedleNosePliers/::1716495553
 NeedleNosePliers-b19f310a58b84daf3f2103740aea2f49_NeedleNosePliresTextures.jpg::CompressedTexture2D::2930858016635652869::1716495428::1716495428::1::::<><>::
 NeedleNosePliers-c7b75cac59494bb7c3c46cbbc5bd0243_NeedleNosePliresTextures.jpg::CompressedTexture2D::5668438246621518359::1716495428::1716495428::1::::<><>::
-NeedleNosePliers.fbx::PackedScene::7503444095643771278::1716495428::1716495428::1::::<><>::
 NeedleNosePlires.obj::Mesh::8602423546632439364::1716495428::1716495553::1::::<><>::uid://dkovkv2g6dmnv::::res://Models/PSXToolSet[FIXED]/NeedleNosePliers/Textures/NeedleNosePliresTextures.jpg
 ::res://Models/PSXToolSet[FIXED]/NeedleNosePliers/Textures/::1716495428
 NeedleNosePliresTextures.jpg::CompressedTexture2D::7891345835817852039::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/PipeWrench/::1716495552
 PipeWrench-c913f77c3e16fd80b5b38e142bc5ca10_pipe-wrench.png::CompressedTexture2D::1185443064682139773::1716495428::1716495428::1::::<><>::
 PipeWrench-f328216496b7f809c6f78f3050da39a1_pipe-wrench.png::CompressedTexture2D::7790015260772075965::1716495428::1716495428::1::::<><>::
-PipeWrench.fbx::PackedScene::6105564674599914290::1716495428::1716495428::1::::<><>::
 PipeWrench.obj::Mesh::5784599488318096755::1716495428::1716495552::1::::<><>::uid://c8fyyd0xusnf7::::res://Models/PSXToolSet[FIXED]/PipeWrench/Textures/pipe-wrench.png
 ::res://Models/PSXToolSet[FIXED]/PipeWrench/Textures/::1716495428
 pipe-wrench.png::CompressedTexture2D::7100895360354307310::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/PuttyKnife/::1716495552
 PuttyKnife-5b3a0db6982d82458ca99ed3801c9558_Putty_knives.jpg::CompressedTexture2D::3058407278041435339::1716495428::1716495428::1::::<><>::
 PuttyKnife-068c7aad301e20e08b7f66cb2c800aa6_Putty_knives.jpg::CompressedTexture2D::7428421843660424435::1716495428::1716495428::1::::<><>::
-PuttyKnife.fbx::PackedScene::6808507276671382081::1716495428::1716495428::1::::<><>::
 PuttyKnife.obj::Mesh::3984626006552560569::1716495428::1716495552::1::::<><>::uid://de3ies4pugdb::::res://Models/PSXToolSet[FIXED]/PuttyKnife/Textures/Putty_knives.jpg
 ::res://Models/PSXToolSet[FIXED]/PuttyKnife/Textures/::1716495428
 Putty_knives.jpg::CompressedTexture2D::220538643317381935::1716495428::1716495428::1::::<><>::
@@ -3041,28 +3147,23 @@ Putty_knives.jpg::CompressedTexture2D::220538643317381935::1716495428::171649542
 ::res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/::1716495552
 ScrewDriverPlastic-6fced0718e470dfc28dfc900b5edd5e8_ScrewDriverPlasticTexture.jpg::CompressedTexture2D::6165602858174514268::1716495428::1716495428::1::::<><>::
 ScrewDriverPlastic-e081d0970caec7a2d08462862b14ddec_ScrewDriverPlasticTexture.jpg::CompressedTexture2D::2623366911376286980::1716495428::1716495428::1::::<><>::
-ScrewDriverPlastic.fbx::PackedScene::2345459317830975025::1716495428::1716495428::1::::<><>::
 ScrewDriverPlastic.obj::Mesh::7263484330883995718::1716495428::1716495552::1::::<><>::uid://c7p8nw1lnc5np::::res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/Textures/ScrewDriverPlasticTexture.jpg
 ::res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverPlastic/Textures/::1716495428
 ScrewDriverPlasticTexture.jpg::CompressedTexture2D::7051878102392085761::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverWood/::1716495552
 ScrewDriverWood-7d25e34e6f724422c14ca532d6edbe5f_ScrewDriverWoodTexture.jpg::CompressedTexture2D::9091521155564618892::1716495428::1716495428::1::::<><>::
 ScrewDriverWood-e0d790b81919911e2850e8e20302355c_ScrewDriverWoodTexture.jpg::CompressedTexture2D::6105316208912918181::1716495428::1716495428::1::::<><>::
-ScrewDriverWood.fbx::PackedScene::374500047764038963::1716495428::1716495428::1::::<><>::
 ScrewDriverWood.obj::Mesh::290904046447544618::1716495428::1716495552::1::::<><>::uid://ceftnimxfmmkc::::res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverWood/Textures/ScrewDriverWoodTexture.jpg
 ::res://Models/PSXToolSet[FIXED]/ScrewDriver/ScrewDriverWood/Textures/::1716495428
 ScrewDriverWoodTexture.jpg::CompressedTexture2D::5065095908668593430::1716495428::1716495428::1::::<><>::
 ::res://Models/PSXToolSet[FIXED]/ToolBox/::1716495554
 ToolBoxClosed-04e421e2cb83608f7e4c154a860e10d6_Tool_Box.png::CompressedTexture2D::3223262572641176077::1716495428::1716495428::1::::<><>::
 ToolBoxClosed-3994257a7db7adf6e26aec5e3e6a7553_Tool_Box.png::CompressedTexture2D::2112747230181828911::1716495428::1716495428::1::::<><>::
-ToolBoxClosed.fbx::PackedScene::7299987551850827826::1716495428::1716495428::1::::<><>::
 ToolBoxClosed.obj::Mesh::2968728308083370151::1716495428::1716495554::1::::<><>::uid://er87muwhi6he::::res://Models/PSXToolSet[FIXED]/ToolBox/Textures/Tool_Box.png
 ToolBoxEmpty-43db663e64542623d50a82516145cde2_Tool_Box.png::CompressedTexture2D::3652084142502214412::1716495428::1716495428::1::::<><>::
 ToolBoxEmpty-442023bda57dab60cac9bcb78d4864c2_Tool_Box.png::CompressedTexture2D::6416588992669436997::1716495428::1716495428::1::::<><>::
-ToolBoxEmpty.fbx::PackedScene::6975213588133360185::1716495428::1716495428::1::::<><>::
 ToolBoxFull-064a662e930a7e554a575536907e9241_Tool_Box.png::CompressedTexture2D::9208973300403417285::1716495428::1716495428::1::::<><>::
 ToolBoxFull-344359b241715fd47d0f811925beaa9b_Tool_Box.png::CompressedTexture2D::7886648658492337959::1716495428::1716495428::1::::<><>::
-ToolBoxFull.fbx::PackedScene::1405616885308937963::1716495428::1716495428::1::::<><>::
 ToolBoxOpenEmpty.obj::Mesh::1190429850157024281::1716495428::1716495554::1::::<><>::uid://er87muwhi6he::::res://Models/PSXToolSet[FIXED]/ToolBox/Textures/Tool_Box.png
 ToolBoxOpenFull.obj::Mesh::3854555672136617887::1716495428::1716495553::1::::<><>::uid://er87muwhi6he::::res://Models/PSXToolSet[FIXED]/ToolBox/Textures/Tool_Box.png
 ::res://Models/PSXToolSet[FIXED]/ToolBox/Textures/::1716495428
@@ -3070,21 +3171,26 @@ Tool_Box.png::CompressedTexture2D::317911264722969950::1716495428::1716495428::1
 ::res://Models/PSXToolSet[FIXED]/Wrench/::1716495553
 Wrench-14b56b4c75c47e8c1ab08bd40ecf25db_WrenchTextures.jpg::CompressedTexture2D::5397278629007331909::1716495428::1716495428::1::::<><>::
 Wrench-db45fa66968a65f336890fe477b6a785_WrenchTextures.jpg::CompressedTexture2D::4158863821209889274::1716495428::1716495428::1::::<><>::
-Wrench.fbx::PackedScene::7090155708714071782::1716495428::1716495428::1::::<><>::
 Wrench.obj::Mesh::5091315061432187129::1716495428::1716495553::1::::<><>::uid://yocjx0q0rxsc::::res://Models/PSXToolSet[FIXED]/Wrench/Textures/WrenchTextures.jpg
 ::res://Models/PSXToolSet[FIXED]/Wrench/Textures/::1716495428
 WrenchTextures.jpg::CompressedTexture2D::1713572289418525338::1716495428::1716495428::1::::<><>::
 ::res://Models/Rocas/::1716495556
 R.jpg::CompressedTexture2D::1827511085527677352::1716495428::1716495428::1::::<><>::
 Rock low poly.dae::PackedScene::5089876972742467368::1716495428::1716495556::1::::<><>::uid://1bi3tx841g13::::res://Models/Rocas/R.jpg
+::res://Models/TEXTURED/::1716592608
+panel_electric_2.tscn::PackedScene::5711647666659568422::1716591455::0::1::::<><>::uid://c3c1cldkdsgby::::res://Models/- Classic 64 Asset Pack 0.6/Panels/panel_electric.blend<>uid://uguoftnflns6::::res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/panel_electric.png
+metal_rack_stackable_small_2.tscn::PackedScene::5677235466124973994::1716591590::0::1::::<><>::uid://cx27emu03w5hd::::res://Models/- Classic 64 Asset Pack 0.6/Shelves/metal_rack_stackable_small.blend<>uid://bhslep2fc8ptb::::res://Models/- Classic 64 Asset Pack 0.6/Shelves/Materials/metal_rack_stackable.png
+fire_extenguisher_case_2.tscn::PackedScene::5556414337185962851::1716591895::0::1::::<><>::uid://dldsl46wja4td::::res://Models/- Classic 64 Asset Pack 0.6/Industrial/fire_extenguisher_case.blend<>uid://hoyi21p1ltv::::res://Models/- Classic 64 Asset Pack 0.6/Industrial/textures/fire_extenguisher_case.png
+generator_2.tscn::PackedScene::7771382267749327713::1716592518::0::1::::<><>::uid://b447lkdrwcb4r::::res://Models/- Classic 64 Asset Pack 0.6/Units/generator.blend<>uid://cc6owbomd8y2j::::res://Models/- Classic 64 Asset Pack 0.6/Units/Materials/generator.png
+akm_2.tscn::PackedScene::2079416298695484077::1716592608::0::1::::<><>::uid://b6jlw61i8eoxb::::res://Models/PSXAssaultRifle[FIXED]/AKM.blend<>uid://2eys621by7fv::::res://Models/PSXAssaultRifle[FIXED]/AK/Textures/AKM_Texture.png
 ::res://music/::1716502018
 Jump (JumpStyle TikTok).mp3::AudioStreamMP3::4373658707869388185::1716495429::1716495429::1::::<><>::
 ::res://Scripts/::1716495428
 mainMenu.gd::GDScript::-1::1716495428::0::1::::<>Node<>::
 ::res://Scripts/AI/::1716495428
-::res://Scripts/AI/Enemy/::1716583943
+::res://Scripts/AI/Enemy/::1716591229
 EnemyAI.gd::GDScript::-1::1716501392::0::1::::<>CharacterBody3D<>::
-EnemySpawner.gd::GDScript::-1::1716584218::0::1::::<>Node3D<>::
+EnemySpawner.gd::GDScript::-1::1716591229::0::1::::<>Node3D<>::
 ::res://Scripts/Player/::1716502544
 hand.gd::GDScript::-1::1716495428::0::1::::<>Node3D<>::
 HUD.gd::GDScript::-1::1716495428::0::1::::<>CanvasLayer<>::
@@ -3093,13 +3199,13 @@ Player.gd::GDScript::-1::1716502544::0::1::::<>CharacterBody3D<>::
 ::res://Scripts/UI/::1716495428
 DeathScreen.gd::GDScript::-1::1716495428::0::1::::<>Control<>::
 FPScounter.gd::GDScript::-1::1716495428::0::1::::<>Label<>::
-::res://Scripts/Weapon/::1716583944
+::res://Scripts/Weapon/::1716591229
 raycastDebug.gd::GDScript::-1::1716495428::0::1::::<>Sprite3D<>::
 sd_bullet.gd::GDScript::-1::1716495428::0::1::::<>RigidBody3D<>::
 WeaponPickup.gd::GDScript::-1::1716495428::0::1::::<>RigidBody3D<>::
-weaponResource.gd::GDScript::-1::1716584218::0::1::::weaponResource<>Resource<>::
+weaponResource.gd::GDScript::-1::1716591229::0::1::::weaponResource<>Resource<>::
 WeaponsManager.gd::GDScript::-1::1716495428::0::1::::<>Node3D<>::
-::res://Scripts/World/::1716583944
+::res://Scripts/World/::1716591229
 crate.gd::GDScript::-1::1716495428::0::1::::<>RigidBody3D<>::
 Death Barrier.gd::GDScript::-1::1716495428::0::1::::<>Node3D<>::
 exfil_room.gd::GDScript::-1::1716495428::0::1::::<>Node3D<>::
@@ -3108,7 +3214,7 @@ MapSelectSP.gd::GDScript::-1::1716495428::0::1::::<>Node<>::
 mpworld.gd::GDScript::-1::1716495428::0::1::::<>Node<>::
 physicsTarget.gd::GDScript::-1::1716495428::0::1::::<>RigidBody3D<>::
 physucsTarget.tres.gd::GDScript::-1::1716495428::0::1::::<>RigidBody3D<>::
-roomSpawner.gd::GDScript::-1::1716584218::0::1::::<>Node<>::
+roomSpawner.gd::GDScript::-1::1716591229::0::1::::<>Node<>::
 StaticTarget.gd::GDScript::-1::1716495428::0::1::::<>StaticBody3D<>::
 TutorialExfil.gd::GDScript::-1::1716495428::0::1::::<>Node<>::
 ::res://sfx/::1716495429
@@ -3696,25 +3802,25 @@ Wood_22-128x128.png::CompressedTexture2D::5532795333234989158::1716495428::17164
 Wood_23-128x128.png::CompressedTexture2D::3744801285259375999::1716495428::1716495428::1::::<><>::
 Wood_24-128x128.png::CompressedTexture2D::5857060334303108174::1716495428::1716495428::1::::<><>::
 Wood_25-128x128.png::CompressedTexture2D::4993811811294311566::1716495428::1716495428::1::::<><>::
-::res://Textures/Skyboxes/::1716502591
+::res://Textures/Skyboxes/::1716590543
 BlueSkySkybox.png::CompressedTexture2D::103871108113057267::1716495428::1716495428::1::::<><>::
 GreenSky.png::CompressedTexture2D::8849583893651220217::1716495428::1716495428::1::::<><>::
 Permissions.txt::TextFile::-1::1716495428::0::1::::<><>::
 PurplyBlueSky.png::CompressedTexture2D::3947347864276163059::1716495428::1716495428::1::::<><>::
 SkySkybox.png::CompressedTexture2D::6364075272450833404::1716495428::1716495428::1::::<><>::
 SunsetSky.png::CompressedTexture2D::867764009910265354::1716495428::1716495428::1::::<><>::
-world_environment.tscn::PackedScene::5126210513935840691::1716502591::0::1::::<><>::
+world_environment.tscn::PackedScene::5126210513935840691::1716590543::0::1::::<><>::
 ::res://tscn/::1716502084
-::res://tscn/Enemy/::1716502591
+::res://tscn/Enemy/::1716590543
 enemyDev2.tscn::PackedScene::5883323592460790145::1716495698::0::1::::<><>::res://Scripts/AI/Enemy/EnemyAI.gd
 enemyDev3.tscn::PackedScene::608856435714761923::1716495586::0::1::::<><>::res://Scripts/AI/Enemy/EnemyAI.gd
-enemyDev.tscn::PackedScene::5549749327730663123::1716502591::0::1::::<><>::res://Scripts/AI/Enemy/EnemyAI.gd
-::res://tscn/Player/::1716502590
+enemyDev.tscn::PackedScene::5549749327730663123::1716590543::0::1::::<><>::res://Scripts/AI/Enemy/EnemyAI.gd
+::res://tscn/Player/::1716590542
 DeathScreen.tscn::PackedScene::7804222100334533892::1716495429::0::1::::<><>::res://Scripts/UI/DeathScreen.gd
 MPplayer.tscn::PackedScene::5055807946231179568::1716495429::0::1::::<><>::res://Scripts/Player/MpPlayer.gd<>res://Scripts/Player/HUD.gd<>uid://dtr1htkqchj0h::::res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png<>uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>res://Scripts/Weapon/WeaponsManager.gd<>uid://bmwncx3w7fygj::::res://Weapon Resources/1911.tres<>uid://cgjj4k1k353rn::::res://Weapon Resources/DBshotty.tres<>uid://23kq6vyhhc4n::::res://Weapon Resources/m14.tres<>uid://b3m4wv2brbbng::::res://Weapon Resources/metalBat.tres<>uid://g1pm5x2m2qxu::::res://Weapon Resources/ThrowableScrewdriver.tres<>uid://cfiqi0b3dklso::::res://sfx/CustomSoundsPack1/PISTOL5.WAV<>res://Scripts/Player/hand.gd<>uid://cponikef7qyuc::::res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn<>uid://c2xf6jyrklxup::::res://tscn/Weapons/Weps/d_bshotty.tscn<>uid://j1klkgyhsfsh::::res://tscn/Weapons/Weps/1911.tscn<>uid://drqee68f0x5m0::::res://tscn/Weapons/Weps/m_14.tscn<>uid://b8wqphfr328w7::::res://tscn/Weapons/Weps/metalBat.tscn<>uid://co0l5vu6rvo12::::res://sfx/CustomSoundsPack1/PISTOL15.WAV<>uid://dsq6xyuplakep::::res://sfx/CustomSoundsPack1/SHOTGUN13.WAV<>uid://bxgeibsk7f5d2::::res://sfx/CustomSoundsPack1/PUNCH1.WAV<>uid://bgncbims5jfr6::::res://sfx/CustomSoundsPack1/STAB.WAV<>uid://0ag8kiaph7vj::::res://sfx/CustomSoundsPack1/PISTOL0.WAV<>uid://bh7iwadqyhywl::::res://sfx/CustomSoundsPack1/STEP1.WAV
 pauseMenu.tscn::PackedScene::6181448006561395674::1716495429::0::1::::<><>::
 player.gdshader::Shader::-1::1716495429::0::1::::<><>::
-player.tscn::PackedScene::5782865788525969898::1716502590::0::1::::<><>::res://Scripts/Player/Player.gd<>uid://dtr1htkqchj0h::::res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png<>uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>res://Scripts/Weapon/WeaponsManager.gd<>uid://bmwncx3w7fygj::::res://Weapon Resources/1911.tres<>uid://cgjj4k1k353rn::::res://Weapon Resources/DBshotty.tres<>uid://23kq6vyhhc4n::::res://Weapon Resources/m14.tres<>uid://co0l5vu6rvo12::::res://sfx/CustomSoundsPack1/PISTOL15.WAV<>res://Scripts/Player/HUD.gd<>uid://b3m4wv2brbbng::::res://Weapon Resources/metalBat.tres<>uid://cfiqi0b3dklso::::res://sfx/CustomSoundsPack1/PISTOL5.WAV<>uid://dsq6xyuplakep::::res://sfx/CustomSoundsPack1/SHOTGUN13.WAV<>uid://g1pm5x2m2qxu::::res://Weapon Resources/ThrowableScrewdriver.tres<>uid://0ag8kiaph7vj::::res://sfx/CustomSoundsPack1/PISTOL0.WAV<>uid://bgncbims5jfr6::::res://sfx/CustomSoundsPack1/STAB.WAV<>res://Scripts/Player/hand.gd<>uid://cponikef7qyuc::::res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn<>uid://c2xf6jyrklxup::::res://tscn/Weapons/Weps/d_bshotty.tscn<>uid://j1klkgyhsfsh::::res://tscn/Weapons/Weps/1911.tscn<>uid://drqee68f0x5m0::::res://tscn/Weapons/Weps/m_14.tscn<>uid://bxgeibsk7f5d2::::res://sfx/CustomSoundsPack1/PUNCH1.WAV<>uid://b8wqphfr328w7::::res://tscn/Weapons/Weps/metalBat.tscn<>uid://bh7iwadqyhywl::::res://sfx/CustomSoundsPack1/STEP1.WAV
+player.tscn::PackedScene::5782865788525969898::1716590542::0::1::::<><>::res://Scripts/Player/Player.gd<>uid://dtr1htkqchj0h::::res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png<>uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>res://Scripts/Weapon/WeaponsManager.gd<>uid://bmwncx3w7fygj::::res://Weapon Resources/1911.tres<>uid://cgjj4k1k353rn::::res://Weapon Resources/DBshotty.tres<>uid://23kq6vyhhc4n::::res://Weapon Resources/m14.tres<>uid://co0l5vu6rvo12::::res://sfx/CustomSoundsPack1/PISTOL15.WAV<>res://Scripts/Player/HUD.gd<>uid://b3m4wv2brbbng::::res://Weapon Resources/metalBat.tres<>uid://cfiqi0b3dklso::::res://sfx/CustomSoundsPack1/PISTOL5.WAV<>uid://dsq6xyuplakep::::res://sfx/CustomSoundsPack1/SHOTGUN13.WAV<>uid://g1pm5x2m2qxu::::res://Weapon Resources/ThrowableScrewdriver.tres<>uid://0ag8kiaph7vj::::res://sfx/CustomSoundsPack1/PISTOL0.WAV<>uid://bgncbims5jfr6::::res://sfx/CustomSoundsPack1/STAB.WAV<>res://Scripts/Player/hand.gd<>uid://cponikef7qyuc::::res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn<>uid://c2xf6jyrklxup::::res://tscn/Weapons/Weps/d_bshotty.tscn<>uid://j1klkgyhsfsh::::res://tscn/Weapons/Weps/1911.tscn<>uid://drqee68f0x5m0::::res://tscn/Weapons/Weps/m_14.tscn<>uid://bxgeibsk7f5d2::::res://sfx/CustomSoundsPack1/PUNCH1.WAV<>uid://b8wqphfr328w7::::res://tscn/Weapons/Weps/metalBat.tscn<>uid://bh7iwadqyhywl::::res://sfx/CustomSoundsPack1/STEP1.WAV
 player_spawn.tscn::PackedScene::8189533773997451520::1716495429::0::1::::<><>::
 ::res://tscn/Weapons/::1716495429
 ::res://tscn/Weapons/Misc/::1716495429
@@ -3741,32 +3847,32 @@ map.tscn::PackedScene::7901330612188701802::1716495429::0::1::::<><>::uid://dq4v
 MapSelectSP.tscn::PackedScene::2198142012941010813::1716495429::0::1::::<><>::res://Scripts/World/MapSelectSP.gd<>uid://dv86xtc3fdm7b::::res://tscn/World/Misc/main_menu_3d_scene.tscn
 mp_world.tscn::PackedScene::8805710961050061686::1716495429::0::1::::<><>::res://Scripts/World/mpworld.gd<>uid://dfdxx3sv8kr6x::::res://tscn/World/Misc/directional_light_3d.tscn<>uid://cfbf65tvsn532::::res://Textures/Skyboxes/world_environment.tscn<>uid://cgkxhjohsrs7g::::res://Textures/kenney_prototype-textures/PNG/Dark/texture_04.png
 tutorial.tscn::PackedScene::8319877837641842150::1716495429::0::1::::<><>::uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>uid://biwes0sbmwkxw::::res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_wall_02.jpg<>uid://cfbf65tvsn532::::res://Textures/Skyboxes/world_environment.tscn<>uid://dfdxx3sv8kr6x::::res://tscn/World/Misc/directional_light_3d.tscn<>uid://dhv6wrr2a7gs2::::res://tscn/Weapons/Pickups/1911Pickup.tscn<>uid://yad7cmkucksr::::res://tscn/Weapons/Pickups/DBshottyPickup.tscn<>uid://ba1tbhgr8jh64::::res://tscn/World/Objects/Target1.tscn<>uid://dd8s3wyaxi5kv::::res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn<>uid://bri6it71khuda::::res://tscn/Weapons/Pickups/m_14_pickup.tscn<>uid://cob0owrdwpaa7::::res://tscn/World/Objects/radio.tscn<>res://Scripts/World/TutorialExfil.gd
-::res://tscn/World/Misc/::1716501856
+::res://tscn/World/Misc/::1716590543
 Death Barrier.tscn::PackedScene::4175679680951004434::1716495429::0::1::::<><>::res://SlavSlaughterMouseMain/Scripts/World/Death Barrier.gd
 directional_light_3d.tscn::PackedScene::7517838466084025977::1716495429::0::1::::<><>::
 EnemySpawner3d.tscn::PackedScene::4556116619541075440::1716495429::0::1::::<><>::res://Scripts/AI/Enemy/EnemySpawner.gd
 EnemySpawner.tscn::PackedScene::7651567907581459617::1716495429::0::1::::<><>::res://Scripts/AI/Enemy/EnemySpawner.gd
 exfil_room.tscn::PackedScene::953267603985802544::1716501856::0::1::::<><>::res://Scripts/World/exfil_room.gd<>uid://b2cmmej3e1e7q::::res://Mats/new_standard_material_3d.tres<>uid://dcqfalaikoeys::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_05-128x128.png<>uid://deosyk18xtqtj::::res://sfx/CustomSoundsPack1/TELEPORT0.WAV
 main_menu_3d_scene.tscn::PackedScene::8703276535709796825::1716495429::0::1::::<><>::uid://drrsjv0xeb3gj::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Tile/Tile_25-128x128.png<>uid://cr3ul8xw5p2j0::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Stone/Stone_18-128x128.png<>uid://dmtxhb1v2enou::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_01-128x128.png<>uid://diglyl8hs2hbj::::res://Models/PSX Model Pack/Desk/desk2.fbx<>uid://bsgn2bhqa1jcs::::res://Models/PSX Model Pack/Filing Cabinet/cabinet.tscn<>uid://ywi7hm2qed5s::::res://Models/PSX Model Pack/PizzaBox/pizzabox.fbx<>uid://druyk42beva4p::::res://Models/PSX Model Pack/Soda Can/can.fbx<>uid://k7jg0hnrmbfp::::res://Models/PSXMiscGuns/Makarov/makarov.tscn<>uid://j5knlxppwyqp::::res://Models/PSXAmmoBoxes/9mm/9mm_240.fbx<>uid://dgxkwplf125sl::::res://Models/PSXAssaultRifle[FIXED]/AK/RPK/rpk.tscn<>uid://c55wqdnbwasmy::::res://Models/PSXAmmoBoxes/Automatic Ammo/Auto_Ammo_240.fbx<>uid://chchpg5wqvr2a::::res://Models/PSXAmmoBoxes/12g/12g_Green_240.fbx<>uid://c8ueltvriji5r::::res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/pumplong.tscn<>uid://cakuryxvsdsu7::::res://Models/PSXCigarette Pack[FIXED]/opencigs.tscn<>uid://yq88vh5ccc5m::::res://Models/PSXHealingItems[Fixed]/Pill_Bottle/Pill_bottle.obj<>uid://be431njd85lof::::res://Models/PSXAmmoBoxes/Large Ammo Box/large_ammo_box_240.fbx<>uid://omkewlcxgme::::res://Models/tv.tscn<>uid://bbxmwiprhws16::::res://Models/painting1.tscn<>uid://thay1skanou1::::res://Models/door1.tscn
-spawn_room.tscn::PackedScene::7121868793271242208::1716495429::0::1::::<><>::uid://bu1se5eyhe14m::::res://Mats/wood.tres<>uid://cmg54havdhe3a::::res://tscn/World/Objects/realcrate.tscn
-::res://tscn/World/Objects/::1716495429
+spawn_room.tscn::PackedScene::7121868793271242208::1716590543::0::1::::<><>::uid://bu1se5eyhe14m::::res://Mats/wood.tres<>uid://cmg54havdhe3a::::res://tscn/World/Objects/realcrate.tscn
+::res://tscn/World/Objects/::1716590543
 box1.tscn::PackedScene::1419976864877547900::1716495429::0::1::::<><>::res://Scripts/World/physucsTarget.tres.gd
 Box.tscn::PackedScene::4397247215449725328::1716495429::0::1::::<><>::
 Enemy1.tscn::PackedScene::1267770980111424604::1716495429::0::1::::<><>::
 ground.tscn::PackedScene::8343442372312446028::1716495429::0::1::::<><>::uid://ccete6fcmttn2::::res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Dirt/Dirt_09-128x128.png
 obstacle.tscn::PackedScene::5492417008230864722::1716495429::0::1::::<><>::
 radio.tscn::PackedScene::5759093663948218904::1716495429::0::1::::<><>::uid://b3kvrxa5tujv2::::res://SlavSlaughterMouseMain/music/Jump (JumpStyle TikTok).mp3
-realcrate.tscn::PackedScene::5629367423995069904::1716584224::0::1::::<><>::res://Scripts/World/crate.gd<>uid://c0k302vs4aycr::::res://tscn/Weapons/Pickups/emptyPickup.tscn<>uid://dhv6wrr2a7gs2::::res://tscn/Weapons/Pickups/1911Pickup.tscn<>uid://yad7cmkucksr::::res://tscn/Weapons/Pickups/DBshottyPickup.tscn<>uid://bri6it71khuda::::res://tscn/Weapons/Pickups/m_14_pickup.tscn<>uid://dd8s3wyaxi5kv::::res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn<>uid://bhl1w6fv7m4e5::::res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png
+realcrate.tscn::PackedScene::5629367423995069904::1716590543::0::1::::<><>::res://Scripts/World/crate.gd<>uid://c0k302vs4aycr::::res://tscn/Weapons/Pickups/emptyPickup.tscn<>uid://dhv6wrr2a7gs2::::res://tscn/Weapons/Pickups/1911Pickup.tscn<>uid://yad7cmkucksr::::res://tscn/Weapons/Pickups/DBshottyPickup.tscn<>uid://bri6it71khuda::::res://tscn/Weapons/Pickups/m_14_pickup.tscn<>uid://dd8s3wyaxi5kv::::res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn<>uid://bhl1w6fv7m4e5::::res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png
 STaticTarget.tscn::PackedScene::36965995110788054::1716495429::0::1::::<><>::res://Scripts/World/StaticTarget.gd
 Target1.tscn::PackedScene::2441250291704264655::1716495429::0::1::::<><>::res://Scripts/World/physucsTarget.tres.gd<>uid://bhl1w6fv7m4e5::::res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png
-::res://tscn/World/SHRooms/::1716502834
+::res://tscn/World/SHRooms/::1716592733
 Facility2.tscn::PackedScene::9182434072200377883::1716501856::0::1::::<><>::uid://bu1se5eyhe14m::::res://Mats/wood.tres<>uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>uid://b2cmmej3e1e7q::::res://Mats/new_standard_material_3d.tres<>uid://v8aokr3nwjqs::::res://Mats/Plaster1.tres<>uid://2glasrc71obk::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Plaster/Plaster_10-128x128.png<>uid://clgc7cd7eck41::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Stone/Stone_05-128x128.png
 Room1dev.tscn::PackedScene::6890546892136898258::1716501856::0::1::::<><>::uid://ckb1mk21awvu6::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_16-128x128.png<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn
 Room2dev.tscn::PackedScene::4630760213632661754::1716501396::0::1::::<><>::uid://dejecvdp84xqa::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_04-128x128.png<>uid://djqma5s2u2woa::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_19-128x128.png<>uid://dhv6wrr2a7gs2::::res://tscn/Weapons/Pickups/1911Pickup.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://clcltcb15llhb::::res://tscn/Enemy/enemyDev.tscn<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn
-RoomGenTest.tscn::PackedScene::9196315308798970921::1716502591::0::1::::<><>::uid://c5f3khqp5y0os::::res://tscn/World/SHRooms/Room1dev.tscn<>res://Scripts/World/roomSpawner.gd<>uid://gf3qhifevym8::::res://tscn/World/SHRooms/r_warehouse2.tscn<>uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>uid://cnaasby7wgmyj::::res://tscn/World/SHRooms/r_warehouse1.tscn<>uid://cfbf65tvsn532::::res://Textures/Skyboxes/world_environment.tscn<>uid://coxx1w6t8srt1::::res://tscn/World/SHRooms/r_warehouse3.tscn
-r_warehouse1.tscn::PackedScene::5685328570053150841::1716502590::0::1::::<><>::uid://c8p5eyd5b6xo7::::res://tscn/World/Misc/spawn_room.tscn<>uid://b2074ffbuhk06::::res://Textures/kenney_prototype-textures/PNG/Green/texture_01.png<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://nt1gb7skpfrc::::res://tscn/World/Misc/exfil_room.tscn<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn
-r_warehouse2.tscn::PackedScene::433183979353694881::1716502590::0::1::::<><>::uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://c8p5eyd5b6xo7::::res://tscn/World/Misc/spawn_room.tscn<>uid://nt1gb7skpfrc::::res://tscn/World/Misc/exfil_room.tscn<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://cs6wup8e1c0ok::::res://Textures/kenney_prototype-textures/PNG/Orange/texture_09.png<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn<>uid://cob0owrdwpaa7::::res://tscn/World/Objects/radio.tscn
-r_warehouse3.tscn::PackedScene::5804409992447926308::1716584232::0::1::::<><>::uid://v8aokr3nwjqs::::res://Mats/Plaster1.tres<>uid://c8p5eyd5b6xo7::::res://tscn/World/Misc/spawn_room.tscn<>uid://u55gjrlmtt0n::::res://Mats/Tile1.tres<>uid://b2cmmej3e1e7q::::res://Mats/new_standard_material_3d.tres<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://nt1gb7skpfrc::::res://tscn/World/Misc/exfil_room.tscn<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn<>uid://cob0owrdwpaa7::::res://tscn/World/Objects/radio.tscn
+RoomGenTest.tscn::PackedScene::9196315308798970921::1716590543::0::1::::<><>::uid://c5f3khqp5y0os::::res://tscn/World/SHRooms/Room1dev.tscn<>res://Scripts/World/roomSpawner.gd<>uid://gf3qhifevym8::::res://tscn/World/SHRooms/r_warehouse2.tscn<>uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>uid://cnaasby7wgmyj::::res://tscn/World/SHRooms/r_warehouse1.tscn<>uid://cfbf65tvsn532::::res://Textures/Skyboxes/world_environment.tscn<>uid://coxx1w6t8srt1::::res://tscn/World/SHRooms/r_warehouse3.tscn
+r_warehouse1.tscn::PackedScene::5685328570053150841::1716590542::0::1::::<><>::uid://c8p5eyd5b6xo7::::res://tscn/World/Misc/spawn_room.tscn<>uid://b2074ffbuhk06::::res://Textures/kenney_prototype-textures/PNG/Green/texture_01.png<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://nt1gb7skpfrc::::res://tscn/World/Misc/exfil_room.tscn<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn
+r_warehouse2.tscn::PackedScene::433183979353694881::1716590543::0::1::::<><>::uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://c8p5eyd5b6xo7::::res://tscn/World/Misc/spawn_room.tscn<>uid://nt1gb7skpfrc::::res://tscn/World/Misc/exfil_room.tscn<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://cs6wup8e1c0ok::::res://Textures/kenney_prototype-textures/PNG/Orange/texture_09.png<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn<>uid://cob0owrdwpaa7::::res://tscn/World/Objects/radio.tscn
+r_warehouse3.tscn::PackedScene::5804409992447926308::1716592733::0::1::::<><>::uid://v8aokr3nwjqs::::res://Mats/Plaster1.tres<>uid://c8p5eyd5b6xo7::::res://tscn/World/Misc/spawn_room.tscn<>uid://u55gjrlmtt0n::::res://Mats/Tile1.tres<>uid://b2cmmej3e1e7q::::res://Mats/new_standard_material_3d.tres<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://nt1gb7skpfrc::::res://tscn/World/Misc/exfil_room.tscn<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn<>uid://cob0owrdwpaa7::::res://tscn/World/Objects/radio.tscn<>uid://cnm1ac8yb7im5::::res://Models/TEXTURED/panel_electric_2.tscn<>uid://cm5did511uoow::::res://Models/TEXTURED/metal_rack_stackable_small_2.tscn<>uid://clftlkf7ddej0::::res://Models/TEXTURED/fire_extenguisher_case_2.tscn<>uid://diyrsbkhiwnev::::res://Models/TEXTURED/generator_2.tscn<>uid://bu6f765ifb57p::::res://Models/PSXToolSet[FIXED]/ToolBox/ToolBoxOpenFull.obj<>uid://4vjxhehbnm6h::::res://Models/TEXTURED/akm_2.tscn
 ::res://Weapon Resources/::1716495429
 1911.tres::Resource/Resource::3274897262766722077::1716495429::0::1::::<><>::uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>res://Scripts/Weapon/weaponResource.gd<>uid://dhv6wrr2a7gs2::::res://tscn/Weapons/Pickups/1911Pickup.tscn
 DBshotty.tres::Resource/Resource::5213152635850474543::1716495429::0::1::::<><>::uid://cteuqrjfwskhe::::res://2dAssets/weapon icons/DBshottyIco.png<>res://Scripts/Weapon/weaponResource.gd<>uid://yad7cmkucksr::::res://tscn/Weapons/Pickups/DBshottyPickup.tscn

@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://4vjxhehbnm6h"]
+
+[ext_resource type="PackedScene" uid="uid://b6jlw61i8eoxb" path="res://Models/PSXAssaultRifle[FIXED]/AKM.blend" id="1_vkq6s"]
+[ext_resource type="Texture2D" uid="uid://2eys621by7fv" path="res://Models/PSXAssaultRifle[FIXED]/AK/Textures/AKM_Texture.png" id="2_pj0ak"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4chw2"]
+albedo_texture = ExtResource("2_pj0ak")
+
+[node name="AKM2" instance=ExtResource("1_vkq6s")]
+
+[node name="AKM" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, -1.68245, 0)
+surface_material_override/0 = SubResource("StandardMaterial3D_4chw2")
+
+[node name="AKM_Mag_Empty" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 0, -1, 0, 1, 0, 0, -1.6303, 0)
+surface_material_override/0 = SubResource("StandardMaterial3D_4chw2")

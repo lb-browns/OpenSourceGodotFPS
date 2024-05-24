@@ -22,6 +22,10 @@ config/windows_native_icon="res://SSH ico.ico"
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 
+[filesystem]
+
+import/fbx/enabled=false
+
 [input]
 
 MoveForward={

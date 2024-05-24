@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://coxx1w6t8srt1"]
+[gd_scene load_steps=19 format=3 uid="uid://coxx1w6t8srt1"]
 
 [ext_resource type="Material" uid="uid://v8aokr3nwjqs" path="res://Mats/Plaster1.tres" id="1_11jgp"]
 [ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/Misc/spawn_room.tscn" id="1_lulw0"]
@@ -9,6 +9,14 @@
 [ext_resource type="PackedScene" uid="uid://nt1gb7skpfrc" path="res://tscn/World/Misc/exfil_room.tscn" id="6_co408"]
 [ext_resource type="PackedScene" uid="uid://b56ats1otgo53" path="res://tscn/World/Misc/EnemySpawner3d.tscn" id="7_6qj1d"]
 [ext_resource type="PackedScene" uid="uid://cob0owrdwpaa7" path="res://tscn/World/Objects/radio.tscn" id="9_kuo14"]
+[ext_resource type="PackedScene" uid="uid://cnm1ac8yb7im5" path="res://Models/TEXTURED/panel_electric_2.tscn" id="10_rcv56"]
+[ext_resource type="PackedScene" uid="uid://cm5did511uoow" path="res://Models/TEXTURED/metal_rack_stackable_small_2.tscn" id="11_an13c"]
+[ext_resource type="PackedScene" uid="uid://clftlkf7ddej0" path="res://Models/TEXTURED/fire_extenguisher_case_2.tscn" id="12_6desw"]
+[ext_resource type="PackedScene" uid="uid://diyrsbkhiwnev" path="res://Models/TEXTURED/generator_2.tscn" id="13_mhox6"]
+[ext_resource type="ArrayMesh" uid="uid://bu6f765ifb57p" path="res://Models/PSXToolSet[FIXED]/ToolBox/ToolBoxOpenFull.obj" id="14_x3suq"]
+[ext_resource type="PackedScene" uid="uid://4vjxhehbnm6h" path="res://Models/TEXTURED/akm_2.tscn" id="15_rca22"]
+[ext_resource type="PackedScene" uid="uid://bxnd32h51q1gf" path="res://Models/PSXAmmoBoxes/largeAmmo.blend" id="16_ankrd"]
+[ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="17_fyfna"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_lajcd"]
 vertices = PackedVector3Array(-15, 8, -18, -15, 8, -1, 0.999999, 8, -1, 0.999999, 8, -18, -0.500001, 1, -12.25, -0.250001, 1, -1, 0.249999, 1, -1, 0.249999, 1, -15.75, -15, 1, -2.25, -1.75, 1, -2, -1.75, 1, -12, -15, 1, -16, -1.75, 1, -12, -0.500001, 1, -12.25, 0.249999, 1, -15.75, -15, 1, -16)
@@ -131,3 +139,67 @@ spot_angle = 73.5403
 
 [node name="Radio" parent="." instance=ExtResource("9_kuo14")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.0276, 1.70035, -6.27386)
+
+[node name="Decorations" type="Node3D" parent="."]
+
+[node name="panel_electric2" parent="Decorations" instance=ExtResource("10_rcv56")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.0617, 1.71183, -16.4193)
+
+[node name="metal_rack_stackable_small2" parent="Decorations" instance=ExtResource("11_an13c")]
+transform = Transform3D(2.98023e-08, 0, 1, 0, 1, 0, -1, 0, 2.98023e-08, -1.54243, 0.878908, -10)
+
+[node name="metal_rack_stackable_small3" parent="Decorations" instance=ExtResource("11_an13c")]
+transform = Transform3D(2.98023e-08, 0, 1, 0, 1, 0, -1, 0, 2.98023e-08, -1.54243, 1.7583, -10)
+
+[node name="metal_rack_stackable_small4" parent="Decorations" instance=ExtResource("11_an13c")]
+transform = Transform3D(-0.0637485, 0, 0.997966, 0, 1, 0, -0.997966, 0, -0.0637485, -1.54243, 0.878908, -8.5577)
+
+[node name="metal_rack_stackable_small5" parent="Decorations" instance=ExtResource("11_an13c")]
+transform = Transform3D(-0.0637485, 0, 0.997966, 0, 1, 0, -0.997966, 0, -0.0637485, -1.54243, 1.7583, -8.5577)
+
+[node name="metal_rack_stackable_small6" parent="Decorations" instance=ExtResource("11_an13c")]
+transform = Transform3D(0.0561352, 0, 0.998423, 0, 1, 0, -0.998423, 0, 0.0561352, -1.44137, 0.878908, -6.97563)
+
+[node name="metal_rack_stackable_small7" parent="Decorations" instance=ExtResource("11_an13c")]
+transform = Transform3D(0.0561352, 0, 0.998423, 0, 1, 0, -0.998423, 0, 0.0561352, -1.44137, 1.7583, -6.97563)
+
+[node name="metal_rack_stackable_small8" parent="Decorations" instance=ExtResource("11_an13c")]
+transform = Transform3D(0.0561352, -0.998423, -4.35393e-08, 0, -4.37114e-08, 1, -0.998423, -0.0561352, 0, -1.95391, 0.823163, -4.88783)
+
+[node name="metal_rack_stackable_small9" parent="Decorations" instance=ExtResource("11_an13c")]
+transform = Transform3D(0.0561352, -0.998423, -4.35393e-08, 0, -4.37114e-08, 1, -0.998423, -0.0561352, 0, -2.82301, 0.823163, -4.93669)
+
+[node name="fire_extenguisher_case2" parent="Decorations" instance=ExtResource("12_6desw")]
+transform = Transform3D(-0.99999, 0, -0.00441576, 0, 1, 0, 0.00441576, 0, -0.99999, -8.40521, 1.67894, -1.58209)
+
+[node name="generator2" parent="Decorations" instance=ExtResource("13_mhox6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.59092, 1.09105, -15.9163)
+
+[node name="ToolBoxOpenFull" type="MeshInstance3D" parent="Decorations"]
+transform = Transform3D(0.188425, 0, 0.119269, 0, 0.223, 0, -0.119269, 0, 0.188425, -3.82411, 0.5, -15.1456)
+mesh = ExtResource("14_x3suq")
+skeleton = NodePath("../..")
+
+[node name="AKM2" parent="Decorations" instance=ExtResource("15_rca22")]
+transform = Transform3D(0.0451026, -0.230324, 0.0119015, 0.222701, 0.0466465, 0.0587653, -0.0599584, 0, 0.227222, -2.01026, 1.01633, -15.2486)
+
+[node name="AKM3" parent="Decorations" instance=ExtResource("15_rca22")]
+transform = Transform3D(0.16617, -0.16617, 0, 7.90253e-09, 4.17724e-09, -0.235, 0.16617, 0.16617, 1.11759e-08, -5.52355, 0.523611, -2.55015)
+
+[node name="largeAmmo" parent="Decorations" instance=ExtResource("16_ankrd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.97068, 0.5, -1.71765)
+
+[node name="largeAmmo2" parent="Decorations" instance=ExtResource("16_ankrd")]
+transform = Transform3D(0.962066, 0, 0.272818, 0, 1, 0, -0.272818, 0, 0.962066, -6.92515, 0.5, -1.71765)
+
+[node name="largeAmmo3" parent="Decorations" instance=ExtResource("16_ankrd")]
+transform = Transform3D(0.962066, 0, 0.272818, 0, 1, 0, -0.272818, 0, 0.962066, -6.22997, 0.5, -2.36287)
+
+[node name="largeAmmo4" parent="Decorations" instance=ExtResource("16_ankrd")]
+transform = Transform3D(0.851333, 0, -0.524625, 0, 1, 0, 0.524625, 0, 0.851333, -6.3494, 1.0267, -1.91302)
+
+[node name="largeAmmo5" parent="Decorations" instance=ExtResource("16_ankrd")]
+transform = Transform3D(0.306911, -0.822064, 0.479601, 0.700076, -0.14638, -0.698904, 0.644748, 0.550258, 0.530581, -7.16951, 0.929397, -2.21874)
+
+[node name="Player" parent="." instance=ExtResource("17_fyfna")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 2)
