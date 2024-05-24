@@ -1,26 +1,25 @@
-[gd_scene load_steps=13 format=3 uid="uid://cmg54havdhe3a"]
+[gd_scene load_steps=12 format=3 uid="uid://cmg54havdhe3a"]
 
 [ext_resource type="Script" path="res://Scripts/World/crate.gd" id="1_uudio"]
-[ext_resource type="Texture2D" uid="uid://cv35olfe34i81" path="res://Models/- Classic 64 Asset Pack 0.6/Wood/Materials/wood_pallet.png" id="2_cmhm2"]
 [ext_resource type="PackedScene" uid="uid://c0k302vs4aycr" path="res://tscn/Weapons/Pickups/emptyPickup.tscn" id="2_oghcg"]
 [ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://tscn/Weapons/Pickups/1911Pickup.tscn" id="3_8xwpp"]
 [ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://tscn/Weapons/Pickups/DBshottyPickup.tscn" id="4_x0xkh"]
 [ext_resource type="PackedScene" uid="uid://bri6it71khuda" path="res://tscn/Weapons/Pickups/m_14_pickup.tscn" id="5_iwyme"]
 [ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="6_f8ypt"]
+[ext_resource type="Texture2D" uid="uid://bhl1w6fv7m4e5" path="res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png" id="7_fs1ra"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_4ohdb"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_l0mfg"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nj0sv"]
-albedo_texture = ExtResource("2_cmhm2")
+albedo_texture = ExtResource("7_fs1ra")
+uv1_scale = Vector3(0.345, 0.345, 0.345)
+uv1_offset = Vector3(-1.49, 0.515, -0.135)
 uv1_triplanar = true
 
 [sub_resource type="BoxMesh" id="BoxMesh_5deee"]
 material = SubResource("StandardMaterial3D_nj0sv")
-
-[sub_resource type="SystemFont" id="SystemFont_5akey"]
-font_names = PackedStringArray("Javanese Text")
 
 [node name="itemCrate" type="RigidBody3D" groups=["Target"]]
 physics_material_override = SubResource("PhysicsMaterial_4ohdb")
@@ -32,46 +31,6 @@ shape = SubResource("BoxShape3D_l0mfg")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
 mesh = SubResource("BoxMesh_5deee")
-
-[node name="openme" type="Label3D" parent="CollisionShape3D"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.51, 0, 0)
-modulate = Color(1, 0.298039, 0.176471, 1)
-outline_modulate = Color(0, 0, 0, 0.337255)
-text = "OPENME
-"
-font = SubResource("SystemFont_5akey")
-
-[node name="openme5" type="Label3D" parent="CollisionShape3D"]
-transform = Transform3D(-1.09355, 0.690554, 0, 4.56379e-08, 3.16156e-08, 1, 1.04407, 0.723281, -4.37114e-08, -0.02142, 0.51, -0.0518166)
-modulate = Color(1, 0.298039, 0.176471, 1)
-outline_modulate = Color(0, 0, 0, 0.337255)
-text = "OPENME
-"
-font = SubResource("SystemFont_5akey")
-
-[node name="openme3" type="Label3D" parent="CollisionShape3D"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -0.51, 0, 0)
-modulate = Color(1, 0.298039, 0.176471, 1)
-outline_modulate = Color(0, 0, 0, 0.337255)
-text = "OPENME
-"
-font = SubResource("SystemFont_5akey")
-
-[node name="openme4" type="Label3D" parent="CollisionShape3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.51)
-modulate = Color(1, 0.298039, 0.176471, 1)
-outline_modulate = Color(0, 0, 0, 0.337255)
-text = "OPENME
-"
-font = SubResource("SystemFont_5akey")
-
-[node name="openme2" type="Label3D" parent="CollisionShape3D"]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.009, -0.020463, -0.51)
-modulate = Color(1, 0.298039, 0.176471, 1)
-outline_modulate = Color(0, 0, 0, 0.337255)
-text = "OPENME
-"
-font = SubResource("SystemFont_5akey")
 
 [node name="ItemSpawn" type="Node3D" parent="."]
 unique_name_in_owner = true

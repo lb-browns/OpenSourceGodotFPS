@@ -1,10 +1,10 @@
+CSGBox3D
 AudioStreamPlayer3D
 Node3D
 CanvasLayer
 SpotLight3D
 CSGSphere3D
 CSGCylinder3D
-CSGBox3D
 NavigationRegion3D
 CSGCombiner3D
 Timer
