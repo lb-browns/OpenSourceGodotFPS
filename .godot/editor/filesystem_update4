@@ -1,17 +1,20 @@
+res://tscn/World/Misc/Death Barrier.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://Scripts/Weapon/weaponResource.gd
 res://Scripts/World/roomSpawner.gd
 res://gdShaders/tv.gdshader
-res://Mats/wood.tres
-res://Mats/new_standard_material_3d.tres
 res://Mats/Plaster1.tres
+res://Mats/wood.tres
 res://Mats/Tile1.tres
+res://Mats/new_standard_material_3d.tres
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
-res://tscn/World/SHRooms/r_warehouse3.tscn
-res://Models/TEXTURED/panel_electric_2.tscn
-res://Models/TEXTURED/fire_extenguisher_case_2.tscn
-res://Models/TEXTURED/generator_2.tscn
-res://Models/TEXTURED/akm_2.tscn
-res://tscn/Player/player.tscn
-res://tscn/World/SHRooms/RoomGenTest.tscn
+res://Models/door1.tscn
+res://tscn/Player/player.gdshader
+res://Scripts/World/crate.gd
+res://Scripts/World/Death Barrier.gd
+res://Scripts/UI/DeathScreen.gd
+res://Scripts/AI/Enemy/EnemyAI.gd
+res://Exfil.gd
+res://Scripts/World/exfil_room.gd
+res://export_presets.cfg
