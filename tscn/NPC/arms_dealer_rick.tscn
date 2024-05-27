@@ -1,0 +1,35 @@
+[gd_scene load_steps=7 format=3 uid="uid://460hfpk8b2gp"]
+
+[ext_resource type="Script" path="res://Scripts/AI/NPC/arms_dealer_rick.gd" id="1_0x5yl"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_s2rty"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b8n80"]
+albedo_color = Color(1, 1, 0.254902, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_g4coa"]
+material = SubResource("StandardMaterial3D_b8n80")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ode1p"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_63rt5"]
+material = SubResource("StandardMaterial3D_ode1p")
+
+[node name="Arms Dealer Rick" type="Node3D" groups=["Trader"]]
+script = ExtResource("1_0x5yl")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("CapsuleShape3D_s2rty")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = SubResource("CapsuleMesh_g4coa")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D/MeshInstance3D"]
+transform = Transform3D(0.650074, 0, 0, 0, 0.650074, 0, 0, 0, 0.650074, 0, 0.460867, 0.251764)
+mesh = SubResource("SphereMesh_63rt5")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="StaticBody3D/MeshInstance3D"]
+transform = Transform3D(0.186, 0, 0, 0, 0.186, 0, 0, 0, 0.186, 0, 0.460867, 0.540571)
+mesh = SubResource("SphereMesh_63rt5")

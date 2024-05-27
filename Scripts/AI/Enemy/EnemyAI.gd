@@ -77,6 +77,7 @@ func hitPlayer():
 	player.playerHealth -= DAMAGE
 	player.playerDamageAudio.pitch_scale = randf_range(1.9, 2.6)
 	player.playerDamageAudio.play()
+	player.anim.play("Take Damage")
 
 func takeDamage(weaponDamage):
 	print(HEALTH)

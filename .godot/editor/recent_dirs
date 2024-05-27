@@ -1,8 +1,11 @@
-res://2dAssets
+res://Scripts/AI/NPC
+res://tscn/NPC
+res://Mats
 res://Models/TEXTURED
+res://tscn/Player
+res://2dAssets
 /Applications
 res://Scripts/World
-res://Mats
 res://Game Meta Data
 res://Textures/kenney_prototype-textures/PNG/Dark
 res://Textures/kenney_prototype-textures/PNG/Light
@@ -17,5 +20,3 @@ res://Models/PSX Model Pack/Filing Cabinet
 res://tscn/World/Misc
 res://tscn/World/SHRooms
 res://Scripts/AI/Enemy
-res://Scripts/UI
-res://tscn

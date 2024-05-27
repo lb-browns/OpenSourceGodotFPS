@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://doamxpwvhhhti"]
+
+[ext_resource type="PackedScene" uid="uid://diglyl8hs2hbj" path="res://Models/PSX Model Pack/Desk/desk2.fbx" id="1_0qnbb"]
+
+[node name="Root Scene" instance=ExtResource("1_0qnbb")]

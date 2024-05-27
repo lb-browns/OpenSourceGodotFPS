@@ -1,9 +1,11 @@
-[gd_scene load_steps=74 format=3 uid="uid://coni7pts3q0cc"]
+[gd_scene load_steps=77 format=3 uid="uid://coni7pts3q0cc"]
 
 [ext_resource type="Script" path="res://Scripts/Player/Player.gd" id="1_sc27s"]
 [ext_resource type="Texture2D" uid="uid://dtr1htkqchj0h" path="res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png" id="3_jrayb"]
 [ext_resource type="Texture2D" uid="uid://bn8a5joll8w63" path="res://2dAssets/weapon icons/1911.png" id="4_r7oxc"]
+[ext_resource type="StyleBox" uid="uid://ctxn6l00yjogt" path="res://tscn/Player/playerDamage.tres" id="5_lbxij"]
 [ext_resource type="Script" path="res://Scripts/Weapon/WeaponsManager.gd" id="5_svc1s"]
+[ext_resource type="Texture2D" uid="uid://wfotmbiqnq6v" path="res://2dAssets/GAP_EasyExplosions_Textures/Flare01.png" id="6_1c7ui"]
 [ext_resource type="Resource" uid="uid://bmwncx3w7fygj" path="res://Weapon Resources/1911.tres" id="6_ayeoe"]
 [ext_resource type="Resource" uid="uid://cgjj4k1k353rn" path="res://Weapon Resources/DBshotty.tres" id="7_gkubt"]
 [ext_resource type="Resource" uid="uid://23kq6vyhhc4n" path="res://Weapon Resources/m14.tres" id="8_5q4i6"]
@@ -159,6 +161,42 @@ tracks/3/path = NodePath("AudioStreamPlayer3D:playing")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../../Gunshots:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.604825, -0.056, -0.711643), Vector3(0.529378, -0.056, -0.453825), Vector3(0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../../Gunshots/flash2:emitting")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../../Gunshots/sparks2:emitting")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
@@ -933,6 +971,42 @@ tracks/3/keys = {
 "update": 1,
 "values": [true]
 }
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../../Gunshots:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.419275, -0.0380018, -1.47878), Vector3(0.419275, 0.313142, -1.01188), Vector3(0, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../../Gunshots/flash2:emitting")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../../Gunshots/sparks2:emitting")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
 
 [sub_resource type="Animation" id="Animation_ogu41"]
 resource_name = "m14Reload"
@@ -1085,6 +1159,18 @@ tracks/7/keys = {
 "update": 0,
 "values": [2.0]
 }
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("CanvasLayer/HurtHUD/Panel:theme_override_styles/panel:bg_color")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.898039, 0.117647, 0, 0.796078)]
+}
 
 [sub_resource type="Animation" id="Animation_o1eoi"]
 resource_name = "Slide"
@@ -1186,10 +1272,28 @@ tracks/7/keys = {
 "values": [2.0]
 }
 
+[sub_resource type="Animation" id="Animation_mlx84"]
+resource_name = "Take Damage"
+length = 0.14
+step = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer/HurtHUD/Panel:theme_override_styles/panel:bg_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.07, 0.14),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(0.898039, 0.117647, 0, 0), Color(0.898039, 0.117647, 0, 0.796078), Color(0.898039, 0.117647, 0, 0)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_6xlyu"]
 _data = {
 "RESET": SubResource("Animation_ohpeb"),
-"Slide": SubResource("Animation_o1eoi")
+"Slide": SubResource("Animation_o1eoi"),
+"Take Damage": SubResource("Animation_mlx84")
 }
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3nwwy"]
@@ -1402,6 +1506,19 @@ layout_mode = 2
 theme_override_styles/background = SubResource("StyleBoxFlat_g7mfm")
 theme_override_styles/fill = SubResource("StyleBoxFlat_s53b5")
 
+[node name="HurtHUD" type="BoxContainer" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 8
+
+[node name="Panel" type="Panel" parent="CanvasLayer/HurtHUD"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = ExtResource("5_lbxij")
+
 [node name="Pause Menu" type="Control" parent="CanvasLayer"]
 visible = false
 layout_mode = 3
@@ -1469,6 +1586,36 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 40
 text = "Quit
 "
+
+[node name="Shop" type="CanvasLayer" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Shop"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="Shop/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Item 1" type="HBoxContainer" parent="Shop/VBoxContainer/Panel"]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Image" type="HBoxContainer" parent="Shop/VBoxContainer/Panel/Item 1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+
+[node name="TextureRect" type="TextureRect" parent="Shop/VBoxContainer/Panel/Item 1/Image"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("6_1c7ui")
+expand_mode = 1
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_xef1d")

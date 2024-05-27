@@ -15,6 +15,7 @@ extends CharacterBody3D
 @onready var eyeline = $"camHolder/Main Cam/Eyeline"
 @onready var enemyNameTag = $CanvasLayer/EnemyData/EnemyName
 @onready var enemyHealthBar = $CanvasLayer/EnemyData/EnemyHealth
+@onready var HurtHUDStyleBox = $CanvasLayer/HurtHUD/Panel
 
 
 var jumpNum
@@ -50,11 +51,11 @@ func _ready():
 	MainCamera.current = true
 
 
+
 func _process(delta):
 	hpBar.value = playerHealth
 	if playerHealth <= 0:
 		Die()
-	
 	if eyeline.is_colliding() && eyeline.get_collider() != null:
 		if eyeline.is_colliding() && eyeline.get_collider().is_in_group("Enemy"):
 			print(eyeline.get_collider())
@@ -204,8 +205,6 @@ func unPause():
 
 func _on_quit_pressed():
 	get_tree().change_scene_to_packed(mainMenu)
-
-
 
 
 

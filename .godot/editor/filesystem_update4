@@ -23,3 +23,6 @@ res://Scripts/AI/Enemy/EnemyAI.gd
 res://Weapon Resources/DBshotty.tres
 res://2dAssets/gunshotsEffect.tscn
 res://tscn/Weapons/Weps/d_bshotty.tscn
+res://tscn/Player/playerDamage.tres
+res://tscn/NPC/arms_dealer_rick.tscn
+res://Scripts/AI/NPC/arms_dealer_rick.gd

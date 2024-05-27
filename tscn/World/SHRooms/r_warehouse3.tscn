@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://coxx1w6t8srt1"]
+[gd_scene load_steps=28 format=3 uid="uid://coxx1w6t8srt1"]
 
 [ext_resource type="Material" uid="uid://v8aokr3nwjqs" path="res://Mats/Plaster1.tres" id="1_11jgp"]
 [ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/Misc/spawn_room.tscn" id="1_lulw0"]
@@ -16,7 +16,6 @@
 [ext_resource type="ArrayMesh" uid="uid://bu6f765ifb57p" path="res://Models/PSXToolSet[FIXED]/ToolBox/ToolBoxOpenFull.obj" id="14_x3suq"]
 [ext_resource type="PackedScene" uid="uid://4vjxhehbnm6h" path="res://Models/TEXTURED/akm_2.tscn" id="15_rca22"]
 [ext_resource type="PackedScene" uid="uid://bxnd32h51q1gf" path="res://Models/PSXAmmoBoxes/largeAmmo.blend" id="16_ankrd"]
-[ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="17_fyfna"]
 [ext_resource type="PackedScene" uid="uid://o3jkf2dnuxs3" path="res://Models/TEXTURED/pvc_pipe_2.tscn" id="18_eqd05"]
 [ext_resource type="PackedScene" uid="uid://d3ljplrqewjjv" path="res://Models/TEXTURED/picnictable.tscn" id="19_7dooc"]
 [ext_resource type="ArrayMesh" uid="uid://dkuqcynqhypvf" path="res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/snubnise.obj" id="20_6ow3y"]
@@ -337,9 +336,6 @@ skeleton = NodePath("../..")
 transform = Transform3D(0.0551207, 0, -0.0711457, 0, 0.09, 0, 0.0711457, 0, 0.0551207, -7.45113, 1.39763, -9.2138)
 mesh = ExtResource("26_x6qpo")
 skeleton = NodePath("../..")
-
-[node name="Player" parent="." instance=ExtResource("17_fyfna")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 2)
 
 [node name="DBshottyPickup" parent="." instance=ExtResource("27_2cp2q")]
 transform = Transform3D(-0.0357018, 0, -0.999362, 0, 1, 0, 0.999362, 0, -0.0357018, -0.0626356, 0.5, -7.57055)
