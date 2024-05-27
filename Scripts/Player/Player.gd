@@ -12,6 +12,9 @@ extends CharacterBody3D
 @onready var mainMenu = preload("res://tscn/World/Maps/mainMenu.tscn")
 @onready var pauseMenu = $"CanvasLayer/Pause Menu"
 @onready var playerDamageAudio = $"Player Audios/Damage"
+@onready var eyeline = $"camHolder/Main Cam/Eyeline"
+@onready var enemyNameTag = $CanvasLayer/EnemyData/EnemyName
+@onready var enemyHealthBar = $CanvasLayer/EnemyData/EnemyHealth
 
 
 var jumpNum
@@ -49,9 +52,21 @@ func _ready():
 
 func _process(delta):
 	hpBar.value = playerHealth
-	
 	if playerHealth <= 0:
 		Die()
+	
+	if eyeline.is_colliding() && eyeline.get_collider() != null:
+		if eyeline.is_colliding() && eyeline.get_collider().is_in_group("Enemy"):
+			print(eyeline.get_collider())
+			enemyNameTag.visible = true
+			enemyHealthBar.visible = true
+			enemyNameTag.text = eyeline.get_collider().NAME
+			enemyHealthBar.value = eyeline.get_collider().HEALTH
+		else:
+			enemyHealthBar.visible = false
+			enemyNameTag.visible = false
+
+	
 
 func _input(event):
 	

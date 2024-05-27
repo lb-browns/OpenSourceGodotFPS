@@ -1,4 +1,9 @@
+GPUParticles3D
 MeshInstance3D
+RayCast3D
+ProgressBar
+Label
+VBoxContainer
 StaticBody3D
 Node3D
 MultiMeshInstance3D
@@ -7,8 +12,3 @@ AudioStreamPlayer3D
 CanvasLayer
 SpotLight3D
 CSGSphere3D
-CSGCylinder3D
-NavigationRegion3D
-CSGCombiner3D
-Timer
-CollisionShape3D

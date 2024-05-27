@@ -7,7 +7,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_et3dc"]
 size = Vector3(1.38, 0.69, 0.48)
 
-[node name="M14 Pickup" type="RigidBody3D"]
+[node name="M14 Pickup" type="RigidBody3D" groups=["Pickup"]]
 collision_layer = 8
 collision_mask = 13
 script = ExtResource("1_7x64t")

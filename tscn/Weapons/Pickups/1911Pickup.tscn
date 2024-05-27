@@ -7,7 +7,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_lkj63"]
 size = Vector3(0.54, 0.29, 0.25)
 
-[node name="1911Pickup" type="RigidBody3D"]
+[node name="1911Pickup" type="RigidBody3D" groups=["Pickup"]]
 collision_layer = 8
 collision_mask = 13
 script = ExtResource("1_61t4n")

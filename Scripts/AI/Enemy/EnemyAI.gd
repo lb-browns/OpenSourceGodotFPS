@@ -4,6 +4,7 @@ extends CharacterBody3D
 @export var ATTACK_RANGE = 1.4
 @export var DAMAGE = 1.5
 @export var HEALTH = 75.0
+@export var NAME = "RICKY"
 
 @onready var canSeePlayer = false
 @onready var inAttackRange
@@ -27,6 +28,7 @@ func _ready():
 	DAMAGE *= player.difficultyTier
 	HEALTH *= player.difficultyTier
 	stateMachine = animTree.get("parameters/playback")
+	chooseRandName()
 
 func _on_timer_timeout():
 	var x = randf_range(-999, 999)
@@ -93,3 +95,9 @@ func _on_area_3d_body_exited(body):
 	if body.is_in_group("Player"):
 		canSeePlayer = false
 		print("AI LOST PLAYER")
+
+func chooseRandName():
+	var nameArray = ["Joe", "Bob", "Rick", "Dave", "Aleksandr", "Dmitri", "Dominik", "Ivan", "Fyodor", "Igor"]
+	var titleArray = [", From California", ", The Crack Head", ", Daves Friend", ", Ivans Cousin", ", The Gay One", "","","","","","",""]
+	var title1Array = ["Stinky ", "Fat ", "Skinny ", "Big ", "Little ", "", "", "", "", "", ""]
+	NAME = str(title1Array[randi() % title1Array.size()]) + str(nameArray[randi() % nameArray.size()]) + str(titleArray[randi() % titleArray.size()])

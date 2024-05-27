@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://coxx1w6t8srt1"]
+[gd_scene load_steps=29 format=3 uid="uid://coxx1w6t8srt1"]
 
 [ext_resource type="Material" uid="uid://v8aokr3nwjqs" path="res://Mats/Plaster1.tres" id="1_11jgp"]
 [ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/Misc/spawn_room.tscn" id="1_lulw0"]
@@ -26,6 +26,7 @@
 [ext_resource type="PackedScene" uid="uid://cdkube36jpolr" path="res://Models/TEXTURED/food_baking_flour_2.tscn" id="24_n77ye"]
 [ext_resource type="PackedScene" uid="uid://erh7ueqy7uht" path="res://Models/TEXTURED/window_boarded.tscn" id="25_w5pnb"]
 [ext_resource type="ArrayMesh" uid="uid://yq88vh5ccc5m" path="res://Models/PSXHealingItems[Fixed]/Pill_Bottle/Pill_bottle.obj" id="26_x6qpo"]
+[ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://tscn/Weapons/Pickups/DBshottyPickup.tscn" id="27_2cp2q"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_lajcd"]
 vertices = PackedVector3Array(-15, 8, -18, -15, 8, -1, 0.999999, 8, -1, 0.999999, 8, -18, -0.500001, 1, -12.25, -0.250001, 1, -1, 0.249999, 1, -1, 0.249999, 1, -15.75, -15, 1, -2.25, -1.75, 1, -2, -1.75, 1, -12, -15, 1, -16, -1.75, 1, -12, -0.500001, 1, -12.25, 0.249999, 1, -15.75, -15, 1, -16)
@@ -122,11 +123,11 @@ enemySpawnerRef = NodePath("../EnemySpawner3d")
 
 [node name="EnemySpawner3d" parent="." instance=ExtResource("7_6qj1d")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.103, 2.147, -6)
-spawnLimit = 1
+spawnLimit = 5
 
 [node name="EnemySpawner3d2" parent="." instance=ExtResource("7_6qj1d")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.103, 2.147, -12.8108)
-spawnLimit = 1
+spawnLimit = 3
 
 [node name="SpotLight3D" type="SpotLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 3.773, -9)
@@ -339,3 +340,6 @@ skeleton = NodePath("../..")
 
 [node name="Player" parent="." instance=ExtResource("17_fyfna")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 2)
+
+[node name="DBshottyPickup" parent="." instance=ExtResource("27_2cp2q")]
+transform = Transform3D(-0.0357018, 0, -0.999362, 0, 1, 0, 0.999362, 0, -0.0357018, -0.0626356, 0.5, -7.57055)

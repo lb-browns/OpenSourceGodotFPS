@@ -7,7 +7,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_mdi0y"]
 size = Vector3(0.89, 0.17, 0.09)
 
-[node name="DBshottyPickup" type="RigidBody3D"]
+[node name="DBshottyPickup" type="RigidBody3D" groups=["Pickup"]]
 collision_layer = 8
 collision_mask = 13
 script = ExtResource("1_pkspq")
@@ -17,6 +17,7 @@ ReserveAmmo = 10
 
 [node name="TacticalRifle" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+layers = 2
 mesh = ExtResource("2_f4cq6")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
@@ -25,6 +26,7 @@ shape = SubResource("BoxShape3D_mdi0y")
 
 [node name="TacticalRifle2" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+layers = 2
 mesh = ExtResource("2_f4cq6")
 surface_material_override/0 = ExtResource("3_1k5xt")
 surface_material_override/1 = ExtResource("3_1k5xt")
