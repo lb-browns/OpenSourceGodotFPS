@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://xdmt4n1set1s"]
+
+[ext_resource type="ArrayMesh" uid="uid://dfk7jv7eg53um" path="res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/StubNose38SpecialRevolver.obj" id="1_8svjp"]
+
+[node name="StubNose38SpecialRevolver" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.56889, 1.14039, -7.80185)
+mesh = ExtResource("1_8svjp")

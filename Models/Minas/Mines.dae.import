@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bxgxkfekopfl2"
-path="res://.godot/imported/Mines.dae-ec1f36ced48cc72de52309ac71e41f57.scn"
+path="res://.godot/imported/Mines.dae-64c712eb4354b517b36fec00cbd0782d.scn"
 
 [deps]
 
-source_file="res://Models/Minas/Models/Mines.dae"
-dest_files=["res://.godot/imported/Mines.dae-ec1f36ced48cc72de52309ac71e41f57.scn"]
+source_file="res://Models/Minas/Mines.dae"
+dest_files=["res://.godot/imported/Mines.dae-64c712eb4354b517b36fec00cbd0782d.scn"]
 
 [params]
 

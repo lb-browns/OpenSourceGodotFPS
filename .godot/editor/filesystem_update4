@@ -1,4 +1,3 @@
-res://tscn/World/Misc/Death Barrier.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://Scripts/Weapon/weaponResource.gd
 res://Scripts/World/roomSpawner.gd
@@ -9,12 +8,18 @@ res://Mats/Tile1.tres
 res://Mats/new_standard_material_3d.tres
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
-res://Models/door1.tscn
 res://tscn/Player/player.gdshader
-res://Scripts/World/crate.gd
-res://Scripts/World/Death Barrier.gd
-res://Scripts/UI/DeathScreen.gd
-res://Scripts/AI/Enemy/EnemyAI.gd
-res://Exfil.gd
-res://Scripts/World/exfil_room.gd
-res://export_presets.cfg
+res://Models/TEXTURED/pvc_pipe_2.tscn
+res://tscn/World/SHRooms/r_warehouse3.tscn
+res://tscn/World/Objects/radio.tscn
+res://Models/TEXTURED/picnictable.tscn
+res://tscn/Player/player.tscn
+res://tscn/World/Maps/mainMenu.tscn
+res://Models/TEXTURED/metal_rack_stackable_small_2.tscn
+res://Models/TEXTURED/generator_2.tscn
+res://Models/PSXCigarette Pack[FIXED]/opencigs.tscn
+res://Models/TEXTURED/rouble.tscn
+res://Models/TEXTURED/roubl_stack.tscn
+res://Models/TEXTURED/food_baking_flour_2.tscn
+res://Models/TEXTURED/window_boarded.tscn
+res://Models/TEXTURED/akm_2.tscn

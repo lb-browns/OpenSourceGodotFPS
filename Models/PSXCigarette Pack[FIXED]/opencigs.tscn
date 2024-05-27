@@ -9,4 +9,5 @@ albedo_texture = ExtResource("2_6s1tg")
 [node name="Root Scene" instance=ExtResource("1_o4r5u")]
 
 [node name="packCigaretteStandardOpen" parent="RootNode" index="0"]
+transform = Transform3D(100, 0, 0, 0, 100, -1.62921e-05, 0, 1.62921e-05, 100, 0, 0, 0)
 material_override = SubResource("StandardMaterial3D_1482u")

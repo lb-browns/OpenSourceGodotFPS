@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://d3ljplrqewjjv"]
+
+[ext_resource type="PackedScene" uid="uid://tv04h35xnrxt" path="res://Models/PSX Model Pack/Picnic Table/picnictable.blend" id="1_ojv8e"]
+[ext_resource type="Texture2D" uid="uid://vfl3qkuavo7p" path="res://Models/PSX Model Pack/Picnic Table/wood.jpg" id="2_iufa4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ewq4a"]
+albedo_texture = ExtResource("2_iufa4")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_h3r4d"]
+points = PackedVector3Array(6.03774, 3.57953, 4.31822, -6.03774, 3.57953, 4.31822, 5.53893, 0.855159, 8.61283, 6.03774, 2.99504, 4.31822, 6.03774, 3.57953, -4.31991, -6.03774, 2.99504, 4.31822, -5.54011, 0.855159, 8.61283, -6.03774, 3.57953, -4.31991, 5.53893, 0.320001, 8.61283, 5.03184, -4.05618, 7.30776, 6.03774, 2.99504, -4.31991, 5.53893, 0.855159, -8.61283, -5.03303, -4.05618, 7.30776, -5.54011, 0.320001, 8.61283, -6.03774, 2.99504, -4.31991, -5.54011, 0.855159, -8.61283, 5.03184, -4.05618, -7.30944, 5.53893, 0.320001, -8.61283, -5.03303, -4.05618, -7.30944, -5.54011, 0.320001, -8.61283)
+
+[node name="picnictable" instance=ExtResource("1_ojv8e")]
+
+[node name="Cube" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_ewq4a")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="2"]
+transform = Transform3D(0.313317, 0, 0, 0, 0.243068, 0, 0, 0, 0.229298, 0, 1, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+shape = SubResource("ConvexPolygonShape3D_h3r4d")

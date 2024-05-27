@@ -18,6 +18,18 @@ script = ExtResource("1_8fur8")
 
 [node name="MainMenu3dScene" parent="Node3D" instance=ExtResource("2_sjl68")]
 
+[node name="Root Scene4" parent="Node3D/MainMenu3dScene/table" index="11"]
+transform = Transform3D(-0.225699, 0, -0.974197, 0, 1, 0, 0.974197, 0, -0.225699, -0.846682, 2.42818, 0.218227)
+
+[node name="Root Scene5" parent="Node3D/MainMenu3dScene/table" index="12"]
+transform = Transform3D(-0.336254, 0, -0.0503314, 0, 0.34, 0, 0.0503314, 0, -0.336254, -0.0229244, 2.96174, 1.41871)
+
+[node name="Root Scene6" parent="Node3D/MainMenu3dScene/table" index="13"]
+transform = Transform3D(-0.328724, -0.070881, -0.0501626, -0.050327, -0.00454541, 0.336224, -0.0707644, 0.332499, -0.00609717, 0.633861, 2.56006, 1.23142)
+
+[node name="Root Scene7" parent="Node3D/MainMenu3dScene/table" index="14"]
+transform = Transform3D(-0.228807, 0, -0.251491, 0, 0.34, 0, 0.251491, 0, -0.228807, 0.797971, 3.05014, -1.68113)
+
 [node name="SubViewportContainer" type="SubViewportContainer" parent="Node3D"]
 anchors_preset = 15
 anchor_right = 1.0

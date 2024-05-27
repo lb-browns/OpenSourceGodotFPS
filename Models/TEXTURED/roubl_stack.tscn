@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://4q4bc56f6pnk"]
+
+[ext_resource type="Texture2D" uid="uid://bniig4l4l1xwu" path="res://Models/- Classic 64 Asset Pack 0.6/Papers/Materials/paper_log_1.png" id="1_tva5h"]
+[ext_resource type="PackedScene" uid="uid://b4kschedrqcbu" path="res://Models/TEXTURED/rouble.tscn" id="2_rwgji"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6dxk4"]
+albedo_texture = ExtResource("1_tva5h")
+uv1_scale = Vector3(2.87, 2.87, 2.87)
+
+[sub_resource type="BoxMesh" id="BoxMesh_g3yfo"]
+material = SubResource("StandardMaterial3D_6dxk4")
+
+[node name="roubl stack" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(4.9786, 0, 0, 0, 1, 0, 0, 0, 1.99281, 0, 0, 0)
+mesh = SubResource("BoxMesh_g3yfo")
+
+[node name="rouble" parent="." instance=ExtResource("2_rwgji")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.505086, 0)
+
+[node name="rouble2" parent="." instance=ExtResource("2_rwgji")]
+transform = Transform3D(0.977802, 0, -0.209533, 0, 1, 0, 0.209533, 0, 0.977802, 0, 0.506, 0)
+
+[node name="rouble3" parent="." instance=ExtResource("2_rwgji")]
+transform = Transform3D(0.995231, 0, 0.0975482, 0, 1, 0, -0.0975482, 0, 0.995231, 0, 0.507, 0)

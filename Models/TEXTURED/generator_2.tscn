@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://diyrsbkhiwnev"]
+[gd_scene load_steps=5 format=3 uid="uid://diyrsbkhiwnev"]
 
 [ext_resource type="PackedScene" uid="uid://b447lkdrwcb4r" path="res://Models/- Classic 64 Asset Pack 0.6/Units/generator.blend" id="1_f824t"]
 [ext_resource type="Texture2D" uid="uid://cc6owbomd8y2j" path="res://Models/- Classic 64 Asset Pack 0.6/Units/Materials/generator.png" id="2_8fwib"]
@@ -6,7 +6,15 @@
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mpodc"]
 albedo_texture = ExtResource("2_8fwib")
 
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_luyox"]
+points = PackedVector3Array(1.14298, 0.609591, 0.5334, 1.14298, -0.481433, 0.533296, 1.14298, 0.609591, -0.5334, -1.143, 0.609591, 0.533296, -1.143, -0.481433, 0.533296, 1.14298, -0.481433, -0.5334, 1.11679, -0.608141, 0.509591, -1.143, 0.609591, -0.5334, -1.11704, -0.608141, 0.509591, -1.143, -0.481433, -0.5334, 1.11679, -0.608141, -0.509696, -1.11704, -0.608141, -0.509696)
+
 [node name="generator2" instance=ExtResource("1_f824t")]
 
 [node name="generator" parent="." index="0"]
 surface_material_override/0 = SubResource("StandardMaterial3D_mpodc")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+shape = SubResource("ConvexPolygonShape3D_luyox")
