@@ -18,6 +18,7 @@ extends CharacterBody3D
 @onready var enemyHealthBar = $CanvasLayer/EnemyData/EnemyHealth
 @onready var HurtHUDStyleBox = $CanvasLayer/HurtHUD/Panel
 @onready var interactDialog = $"CanvasLayer/Interact Dialog"
+@onready var roubleCount = $CanvasLayer/VBoxContainer/HBoxContainer6/Label
 
 var jumpNum
 var canPurchase = false
@@ -50,6 +51,8 @@ func _ready():
 	defaultWeaponHolderPos = weaponHolder.position
 	
 	MainCamera.current = true
+	
+	updateRoubleCount()
 
 
 
@@ -213,10 +216,19 @@ func getEyelineData():
 			if Input.is_action_just_pressed("Interact") && playerRoubles >= eyeline.get_collider().itemPrice:
 				eyeline.get_collider().buyItem()
 				playerRoubles -= eyeline.get_collider().itemPrice
+				updateRoubleCount()
 		else:
 			enemyHealthBar.visible = false
 			enemyNameTag.visible = false
 			canPurchase = false
 			interactDialog.visible = false
 
+func updateRoubleCount():
+	snapped(playerRoubles, 1.0)
+	roubleCount.text = "₽" + str(playerRoubles)
 
+func payRoubles():
+	var amount
+	amount = randi() % 9000 * difficultyTier
+	snapped(amount, 1.0)
+	playerRoubles += amount

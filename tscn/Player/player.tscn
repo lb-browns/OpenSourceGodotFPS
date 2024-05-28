@@ -1440,6 +1440,14 @@ layout_mode = 2
 text = "Rooms Cleared:"
 label_settings = SubResource("LabelSettings_0m5dj")
 
+[node name="HBoxContainer6" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer6"]
+layout_mode = 2
+text = "₽"
+label_settings = SubResource("LabelSettings_0m5dj")
+
 [node name="Crosshair" type="TextureRect" parent="CanvasLayer"]
 anchors_preset = 15
 anchor_right = 1.0
