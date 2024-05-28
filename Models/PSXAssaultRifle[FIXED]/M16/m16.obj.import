@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d1uk6ci51rqma"
+path="res://.godot/imported/m16.obj-1e056c9c85a87bde7063a92202bf5a6a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/m16.obj-1e056c9c85a87bde7063a92202bf5a6a.mesh"]
+
+source_file="res://Models/PSXAssaultRifle[FIXED]/M16/m16.obj"
+dest_files=["res://.godot/imported/m16.obj-1e056c9c85a87bde7063a92202bf5a6a.mesh", "res://.godot/imported/m16.obj-1e056c9c85a87bde7063a92202bf5a6a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

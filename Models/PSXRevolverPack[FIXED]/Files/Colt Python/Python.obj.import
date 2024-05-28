@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://50etityixmlj"
+path="res://.godot/imported/Python.obj-de93239282f56e090a3c9b0d2b301fc1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Python.obj-de93239282f56e090a3c9b0d2b301fc1.mesh"]
+
+source_file="res://Models/PSXRevolverPack[FIXED]/Files/Colt Python/Python.obj"
+dest_files=["res://.godot/imported/Python.obj-de93239282f56e090a3c9b0d2b301fc1.mesh", "res://.godot/imported/Python.obj-de93239282f56e090a3c9b0d2b301fc1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

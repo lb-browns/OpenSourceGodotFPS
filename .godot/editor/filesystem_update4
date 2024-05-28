@@ -20,3 +20,4 @@ res://tscn/World/Maps/mainMenu.tscn
 res://Models/tv.tscn
 res://Scripts/AI/NPC/arms_dealer_rick.gd
 res://Exfil.gd
+res://sign_nosmoking.tscn

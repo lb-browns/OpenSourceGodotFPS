@@ -1,8 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://460hfpk8b2gp"]
+[gd_scene load_steps=12 format=3 uid="uid://460hfpk8b2gp"]
 
 [ext_resource type="Script" path="res://Scripts/AI/NPC/arms_dealer_rick.gd" id="1_0x5yl"]
 [ext_resource type="PackedScene" uid="uid://bri6it71khuda" path="res://tscn/Weapons/Pickups/m_14_pickup.tscn" id="2_u07b6"]
 [ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://tscn/Weapons/Pickups/1911Pickup.tscn" id="3_cfo1j"]
+[ext_resource type="AudioStream" uid="uid://c0wgeokn7bnjq" path="res://sfx/caching.mp3" id="4_k4cgq"]
+[ext_resource type="AudioStream" uid="uid://drypw06u6ythe" path="res://sfx/rusianYap.mp3" id="5_2aeni"]
+[ext_resource type="AudioStream" uid="uid://cgmf1kjsksbhf" path="res://sfx/paymentDeclined.mp3" id="6_7nxex"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_s2rty"]
 
@@ -39,3 +42,16 @@ mesh = SubResource("SphereMesh_63rt5")
 
 [node name="item" type="Node3D" parent="StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.4911)
+
+[node name="Register" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("4_k4cgq")
+
+[node name="Speech" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("5_2aeni")
+volume_db = -15.0
+pitch_scale = 0.9
+
+[node name="payment declined" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("6_7nxex")
+volume_db = -0.788
+pitch_scale = 0.9

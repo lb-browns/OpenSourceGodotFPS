@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://dq4q53w6xx5s7"]
+
+[ext_resource type="PackedScene" uid="uid://bhyg2el87xt15" path="res://Models/- Classic 64 Asset Pack 0.6/Signs/sign_nosmoking.blend" id="1_xmphu"]
+[ext_resource type="Texture2D" uid="uid://duanbd18vfssi" path="res://Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_no_smoking_01.png" id="2_8c4vc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4dos3"]
+albedo_texture = ExtResource("2_8c4vc")
+
+[node name="sign_nosmoking" instance=ExtResource("1_xmphu")]
+
+[node name="Sign_NoSmoking" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_4dos3")

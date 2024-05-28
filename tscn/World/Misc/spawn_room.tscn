@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://c8p5eyd5b6xo7"]
+[gd_scene load_steps=27 format=3 uid="uid://c8p5eyd5b6xo7"]
 
 [ext_resource type="Material" uid="uid://bu1se5eyhe14m" path="res://Mats/wood.tres" id="1_3g2ig"]
 [ext_resource type="Texture2D" uid="uid://ckt3tg0vytnsc" path="res://Models/- Classic 64 Asset Pack 0.6/Floor/Materials/carpet_brown_01.png" id="1_cwykc"]
@@ -13,6 +13,14 @@
 [ext_resource type="PackedScene" uid="uid://4q4bc56f6pnk" path="res://Models/TEXTURED/roubl_stack.tscn" id="11_5bih7"]
 [ext_resource type="PackedScene" uid="uid://cakuryxvsdsu7" path="res://Models/PSXCigarette Pack[FIXED]/opencigs.tscn" id="12_p0mns"]
 [ext_resource type="PackedScene" uid="uid://b4kschedrqcbu" path="res://Models/TEXTURED/rouble.tscn" id="13_7g647"]
+[ext_resource type="ArrayMesh" uid="uid://50etityixmlj" path="res://Models/PSXRevolverPack[FIXED]/Files/Colt Python/Python.obj" id="14_ogk3u"]
+[ext_resource type="PackedScene" uid="uid://dq4q53w6xx5s7" path="res://sign_nosmoking.tscn" id="15_p4fr3"]
+[ext_resource type="PackedScene" uid="uid://bxnd32h51q1gf" path="res://Models/PSXAmmoBoxes/largeAmmo.blend" id="16_mt5h1"]
+[ext_resource type="ArrayMesh" uid="uid://d1uk6ci51rqma" path="res://Models/PSXAssaultRifle[FIXED]/M16/m16.obj" id="17_xt7f0"]
+[ext_resource type="ArrayMesh" uid="uid://b6s4iqv2g4bhr" path="res://Models/PSXMP5/mp5s.obj" id="18_af2s3"]
+[ext_resource type="ArrayMesh" uid="uid://c0rv663y3ofxw" path="res://Models/PSXShotgunPack[FIXED]/pumpy.obj" id="19_qti1u"]
+[ext_resource type="Texture2D" uid="uid://cn0tuiwrd81ev" path="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/PAShotgunText.png" id="20_hxrok"]
+[ext_resource type="PackedScene" uid="uid://4vjxhehbnm6h" path="res://Models/TEXTURED/akm_2.tscn" id="21_v16kp"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8dvts"]
 albedo_texture = ExtResource("1_cwykc")
@@ -21,6 +29,15 @@ uv1_scale = Vector3(26.04, 26.04, 26.04)
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rcmx4"]
 albedo_texture = ExtResource("3_h05gk")
 uv1_scale = Vector3(3.54, 3.54, 3.54)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tsrfx"]
+albedo_texture = ExtResource("20_hxrok")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_phwqk"]
+albedo_texture = ExtResource("20_hxrok")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f2ltk"]
+albedo_texture = ExtResource("20_hxrok")
 
 [node name="SpawnRoom" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0)
@@ -39,7 +56,7 @@ size = Vector3(10, 1, 10)
 material = ExtResource("1_3g2ig")
 
 [node name="floor3" type="CSGBox3D" parent="CSGCombiner3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0553589, 5, 7.74488)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0553589, 3.29533, 7.74488)
 size = Vector3(4.97717, 1, 5.5835)
 material = SubResource("StandardMaterial3D_rcmx4")
 
@@ -59,10 +76,10 @@ size = Vector3(1, 4, 6)
 material = ExtResource("4_6831l")
 
 [node name="window_boarded" parent="CSGCombiner3D/CSGBox3D10" instance=ExtResource("5_3gb70")]
-transform = Transform3D(4.37114e-08, 0, 1, 0, 1, 0, -1, 0, 4.37114e-08, 0.536407, 0, 1.06038)
+transform = Transform3D(-1, 0, 4.37114e-08, 0, 1, 0, -4.37114e-08, 0, -1, 2.40316, -0.699574, -1.53424)
 
 [node name="window_boarded2" parent="CSGCombiner3D/CSGBox3D10" instance=ExtResource("5_3gb70")]
-transform = Transform3D(4.37114e-08, 0, 1, 0, 1, 0, -1, 0, 4.37114e-08, 0.536407, 0, -0.704528)
+transform = Transform3D(-1.42109e-14, 0, -1, 0, 1, 0, 1, 0, -1.42109e-14, 0.468863, -0.699574, 0.21036)
 
 [node name="CSGBox3D9" type="CSGBox3D" parent="CSGCombiner3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.06901, 2.5, 7)
@@ -192,10 +209,88 @@ transform = Transform3D(0.117262, 0, 0.0254879, 0, 0.12, 0, -0.0254879, 0, 0.117
 transform = Transform3D(0.0022001, 0, -0.0399394, 0, 0.04, 0, 0.0399394, 0, 0.0022001, 0.23325, 1.47, 4.79606)
 
 [node name="rouble2" parent="." instance=ExtResource("13_7g647")]
-transform = Transform3D(0.0022001, 0, -0.0399394, 0, 0.04, 0, 0.0399394, 0, 0.0022001, 0.193684, 1.47, 4.79606)
+transform = Transform3D(0.0022001, 0, -0.0399394, 0, 0.04, 0, 0.0399394, 0, 0.0022001, 0.194, 1.473, 4.796)
 
 [node name="rouble3" parent="." instance=ExtResource("13_7g647")]
-transform = Transform3D(0.0022001, 0, -0.0399394, 0, 0.04, 0, 0.0399394, 0, 0.0022001, 0.12824, 1.47, 4.79606)
+transform = Transform3D(0.0022001, 0, -0.0399394, 0, 0.04, 0, 0.0399394, 0, 0.0022001, 0.128, 1.472, 4.796)
 
 [node name="rouble4" parent="." instance=ExtResource("13_7g647")]
-transform = Transform3D(-0.00983869, 0, -0.0387711, 0, 0.04, 0, 0.0387711, 0, -0.00983869, 0.0622131, 1.47, 4.79606)
+transform = Transform3D(-0.00983869, 0, -0.0387711, 0, 0.04, 0, 0.0387711, 0, -0.00983869, 0.0622131, 1.47068, 4.79606)
+
+[node name="Python" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.096621, -0.0869735, -3.80173e-09, 0, -5.68248e-09, 0.13, -0.0869735, -0.096621, -4.22344e-09, 0.656901, 1.48874, 4.85549)
+mesh = ExtResource("14_ogk3u")
+
+[node name="sign_nosmoking2" parent="." instance=ExtResource("15_p4fr3")]
+transform = Transform3D(-1, 0, 8.74228e-08, 2.26267e-08, 0.965926, 0.258819, -8.44439e-08, 0.258819, -0.965926, -0.993083, 1.69206, 4.38835)
+
+[node name="largeAmmo" parent="." instance=ExtResource("16_mt5h1")]
+transform = Transform3D(0.66, 0, 0, 0, 0.66, 0, 0, 0, 0.66, -0.987989, 1.46945, 4.56487)
+
+[node name="largeAmmo2" parent="." instance=ExtResource("16_mt5h1")]
+transform = Transform3D(0.65845, 0, -0.0452004, 0, 0.66, 0, 0.0452004, 0, 0.65845, -1.02053, 1.81071, 4.61713)
+
+[node name="M16" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.103528, 1.68888e-08, 0.38637, 0.38637, -4.52534e-09, -0.103528, 0, 0.4, -1.74846e-08, 1.312, 1.266, 6.195)
+mesh = ExtResource("17_xt7f0")
+
+[node name="M17" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.0967276, 0.142578, 0.360992, 0.38637, -4.52534e-09, -0.103528, -0.0369019, 0.373727, -0.13772, 1.19203, 1.266, 5.73123)
+mesh = ExtResource("17_xt7f0")
+
+[node name="M18" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.129963, 1.65359e-08, 0.378298, 0.378298, -5.68087e-09, -0.129963, -2.46382e-17, 0.4, -1.74846e-08, 1.25991, 1.266, 5.28019)
+mesh = ExtResource("17_xt7f0")
+
+[node name="M19" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.103528, 1.68888e-08, 0.38637, 0.386019, -0.0170641, -0.103433, 0.0164827, 0.399636, -0.00441654, 1.312, 1.266, 6.66959)
+mesh = ExtResource("17_xt7f0")
+
+[node name="Mp5s" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0331429, 6.49006e-09, -0.115332, 0.115332, -3.59261e-09, -0.0331429, -5.24537e-09, -0.12, -5.24537e-09, -0.631244, 1.87734, 4.61519)
+mesh = ExtResource("18_af2s3")
+
+[node name="Pumpy" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0852986, 0.079438, 0.298016, 0.308422, 0.0223344, 0.0823235, -0.000363753, 0.309178, -0.0825172, -1.40394, 1.17809, 5.38254)
+mesh = ExtResource("19_qti1u")
+surface_material_override/0 = SubResource("StandardMaterial3D_tsrfx")
+surface_material_override/1 = SubResource("StandardMaterial3D_phwqk")
+surface_material_override/2 = SubResource("StandardMaterial3D_f2ltk")
+
+[node name="Pumpy2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.0848468, 0.112098, 0.287463, 0.305861, 0.0698085, 0.0630547, -0.040622, 0.29148, -0.125655, -1.42955, 1.17809, 5.63388)
+mesh = ExtResource("19_qti1u")
+surface_material_override/0 = SubResource("StandardMaterial3D_tsrfx")
+surface_material_override/1 = SubResource("StandardMaterial3D_phwqk")
+surface_material_override/2 = SubResource("StandardMaterial3D_f2ltk")
+
+[node name="Pumpy3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.209659, 0.0704713, 0.231251, 0.238313, 0.111683, 0.182028, -0.040622, 0.29148, -0.125655, -1.11351, 1.01503, 6.03721)
+mesh = ExtResource("19_qti1u")
+surface_material_override/0 = SubResource("StandardMaterial3D_tsrfx")
+surface_material_override/1 = SubResource("StandardMaterial3D_phwqk")
+surface_material_override/2 = SubResource("StandardMaterial3D_f2ltk")
+
+[node name="AKM2" parent="." instance=ExtResource("21_v16kp")]
+transform = Transform3D(-1.44248e-08, -0.33, 0, 0.318756, -1.39332e-08, -0.0854103, 0.0854103, -3.7334e-09, 0.318756, 0.127061, 1.21923, 8.49287)
+
+[node name="AKM3" parent="." instance=ExtResource("21_v16kp")]
+transform = Transform3D(0.0240711, 0.328379, -0.0220875, 0.227353, -0.000577393, 0.239187, 0.237973, -0.0326642, -0.226278, 0.782387, 1.00515, 8.15035)
+
+[node name="largeAmmo3" parent="." instance=ExtResource("16_mt5h1")]
+transform = Transform3D(0.24749, 0, 0.513467, 0, 0.57, 0, -0.513467, 0, 0.24749, -1.20896, 0.5, 8.07723)
+
+[node name="largeAmmo8" parent="." instance=ExtResource("16_mt5h1")]
+transform = Transform3D(0.226143, 0.503113, 0.143654, -0.47292, 0.2635, -0.178365, -0.223843, -0.0484225, 0.521967, -0.412108, 0.703924, 7.92031)
+
+[node name="largeAmmo4" parent="." instance=ExtResource("16_mt5h1")]
+transform = Transform3D(0.169076, 0, 0.544347, 0, 0.57, 0, -0.544347, 0, 0.169076, -0.929596, 0.5, 8.07723)
+
+[node name="largeAmmo5" parent="." instance=ExtResource("16_mt5h1")]
+transform = Transform3D(0.0342416, 0, 0.568971, 0, 0.57, 0, -0.568971, 0, 0.0342416, -0.600711, 0.5, 8.07723)
+
+[node name="largeAmmo6" parent="." instance=ExtResource("16_mt5h1")]
+transform = Transform3D(0.430882, 0, 0.37315, 0, 0.57, 0, -0.37315, 0, 0.430882, -0.781611, 0.80727, 8.18097)
+
+[node name="largeAmmo7" parent="." instance=ExtResource("16_mt5h1")]
+transform = Transform3D(0.18159, 0, 0.540301, 0, 0.57, 0, -0.540301, 0, 0.18159, -1.12868, 0.80727, 8.0775)

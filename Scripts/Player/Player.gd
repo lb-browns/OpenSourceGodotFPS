@@ -217,6 +217,8 @@ func getEyelineData():
 				eyeline.get_collider().buyItem()
 				playerRoubles -= eyeline.get_collider().itemPrice
 				updateRoubleCount()
+			elif Input.is_action_just_pressed("Interact") && playerRoubles < eyeline.get_collider().itemPrice:
+				eyeline.get_collider().paymentDeclined()
 		else:
 			enemyHealthBar.visible = false
 			enemyNameTag.visible = false
@@ -229,6 +231,6 @@ func updateRoubleCount():
 
 func payRoubles():
 	var amount
-	amount = randi() % 9000 * difficultyTier
+	amount = randi() % 9000 * round(difficultyTier)
 	snapped(amount, 1.0)
 	playerRoubles += amount

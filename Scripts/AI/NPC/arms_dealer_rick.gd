@@ -1,11 +1,14 @@
 extends Node3D
 
-@export var NAME = "Arms Dealer Rick"
+@export var NAME = "Arms Dealer Ricky"
 @export var HEALTH = 100.0
 @export var DIALOG = "text_not_set"
 @export var Inventory = [preload("res://tscn/Weapons/Pickups/DBshottyPickup.tscn")]
 @export var itemPrice = 5000
 @onready var wherePutItem = $item
+@onready var buySound = $"../Register"
+@onready var buySound2 = $"../Speech"
+@onready var paymentDeclinedSFX = $"../payment declined"
 var force = Vector3(0, 5, -500)
 var interactKey
 
@@ -32,6 +35,8 @@ func buyItem():
 	add_child(item)
 	item.apply_central_force(force)
 	
+	buySound.play()
+	buySound2.play()
 
 func getInteractKey():
 	var actionEvents = InputMap.action_get_events("Interact")[0]
@@ -42,3 +47,6 @@ func setDialog():
 	getInteractKey()
 	DIALOG = "[" + interactKey + "]" + " Purchase Firearm For ₽" + str(itemPrice)
 	
+
+func paymentDeclined():
+	paymentDeclinedSFX.play()
