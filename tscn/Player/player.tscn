@@ -1,4 +1,4 @@
-[gd_scene load_steps=77 format=3 uid="uid://coni7pts3q0cc"]
+[gd_scene load_steps=78 format=3 uid="uid://coni7pts3q0cc"]
 
 [ext_resource type="Script" path="res://Scripts/Player/Player.gd" id="1_sc27s"]
 [ext_resource type="Texture2D" uid="uid://dtr1htkqchj0h" path="res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png" id="3_jrayb"]
@@ -54,6 +54,9 @@ bg_color = Color(0.901961, 0.0470588, 0.278431, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s53b5"]
 bg_color = Color(0.137255, 0.686275, 0.388235, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_7x646"]
+font_size = 20
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xef1d"]
 
@@ -1588,6 +1591,7 @@ text = "Quit
 "
 
 [node name="Shop" type="CanvasLayer" parent="."]
+visible = false
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Shop"]
 anchors_preset = 15
@@ -1616,6 +1620,17 @@ layout_mode = 2
 size_flags_horizontal = 3
 texture = ExtResource("6_1c7ui")
 expand_mode = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Shop/VBoxContainer/Panel/Item 1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="Shop/VBoxContainer/Panel/Item 1/HBoxContainer"]
+layout_mode = 2
+text = "ITEM NAME"
+label_settings = SubResource("LabelSettings_7x646")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_xef1d")
