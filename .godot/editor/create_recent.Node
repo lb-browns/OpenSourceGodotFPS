@@ -1,4 +1,5 @@
 Label
+Node3D
 HBoxContainer
 TextureRect
 Sprite2D
@@ -11,5 +12,3 @@ CollisionShape3D
 CSGBox3D
 BoxContainer
 GPUParticles3D
-RayCast3D
-ProgressBar

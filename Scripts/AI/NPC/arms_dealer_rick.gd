@@ -2,13 +2,43 @@ extends Node3D
 
 @export var NAME = "Arms Dealer Rick"
 @export var HEALTH = 100.0
+@export var DIALOG = "text_not_set"
+@export var Inventory = [preload("res://tscn/Weapons/Pickups/DBshottyPickup.tscn")]
+@export var itemPrice = 5000
+@onready var wherePutItem = $item
+var force = Vector3(0, 5, -500)
+var interactKey
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	pass
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	setDialog()
+
+func _input(event):
 	pass
+
+func buyItem():
+	var itemToGive
+	var item
+	itemToGive = Inventory[randi() % Inventory.size()]
+	
+	item = itemToGive.instantiate()
+	wherePutItem.add_child(item)
+	add_child(item)
+	item.apply_central_force(force)
+	
+
+func getInteractKey():
+	var actionEvents = InputMap.action_get_events("Interact")[0]
+	var keyCode = actionEvents.physical_keycode
+	interactKey = OS.get_keycode_string(keyCode)
+
+func setDialog():
+	getInteractKey()
+	DIALOG = "[" + interactKey + "]" + " Purchase Firearm For ₽" + str(itemPrice)
+	

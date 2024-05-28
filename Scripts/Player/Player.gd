@@ -3,6 +3,7 @@ extends CharacterBody3D
 #VERSION 0.1.2
 
 @export var playerHealth = 150
+@export var playerRoubles = 10000
 @onready var MainCamera = get_node("camHolder/Main Cam")
 @onready var anim = get_node("PlayerAnimations")
 @onready var footstepAudio = $"Player Audios/Footsteps"
@@ -16,10 +17,10 @@ extends CharacterBody3D
 @onready var enemyNameTag = $CanvasLayer/EnemyData/EnemyName
 @onready var enemyHealthBar = $CanvasLayer/EnemyData/EnemyHealth
 @onready var HurtHUDStyleBox = $CanvasLayer/HurtHUD/Panel
-
+@onready var interactDialog = $"CanvasLayer/Interact Dialog"
 
 var jumpNum
-
+var canPurchase = false
 
 @export var SPEED = 5.0
 @export var slideSpeed = 10.0
@@ -56,18 +57,8 @@ func _process(delta):
 	hpBar.value = playerHealth
 	if playerHealth <= 0:
 		Die()
-	if eyeline.is_colliding() && eyeline.get_collider() != null:
-		if eyeline.is_colliding() && eyeline.get_collider().is_in_group("Enemy"):
-			print(eyeline.get_collider())
-			enemyNameTag.visible = true
-			enemyHealthBar.visible = true
-			enemyNameTag.text = eyeline.get_collider().NAME
-			enemyHealthBar.value = eyeline.get_collider().HEALTH
-		else:
-			enemyHealthBar.visible = false
-			enemyNameTag.visible = false
-
 	
+	getEyelineData()
 
 func _input(event):
 	
@@ -200,11 +191,32 @@ func unPause():
 	pauseMenu.visible = false
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
-
-
-
 func _on_quit_pressed():
 	get_tree().change_scene_to_packed(mainMenu)
 
+func getEyelineData():
+	if eyeline.is_colliding() && eyeline.get_collider() != null:
+		if eyeline.is_colliding() && eyeline.get_collider().is_in_group("Enemy"):
+			print(eyeline.get_collider())
+			enemyNameTag.visible = true
+			enemyHealthBar.visible = true
+			enemyNameTag.text = eyeline.get_collider().NAME
+			enemyHealthBar.value = eyeline.get_collider().HEALTH
+		elif eyeline.is_colliding() && eyeline.get_collider().is_in_group("Trader"):
+			enemyNameTag.visible = true
+			enemyHealthBar.visible = true
+			enemyNameTag.text = eyeline.get_collider().NAME
+			enemyHealthBar.value = eyeline.get_collider().HEALTH
+			canPurchase = true
+			interactDialog.visible = true
+			interactDialog.text = eyeline.get_collider().DIALOG
+			if Input.is_action_just_pressed("Interact") && playerRoubles >= eyeline.get_collider().itemPrice:
+				eyeline.get_collider().buyItem()
+				playerRoubles -= eyeline.get_collider().itemPrice
+		else:
+			enemyHealthBar.visible = false
+			enemyNameTag.visible = false
+			canPurchase = false
+			interactDialog.visible = false
 
 
