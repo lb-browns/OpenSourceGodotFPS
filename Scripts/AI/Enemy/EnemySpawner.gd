@@ -4,9 +4,8 @@ extends Node3D
 
 @export var spawnLimit = 15
 @export var Enemies = [
-	preload("res://tscn/Enemy/enemyDev.tscn"),
-	preload("res://tscn/Enemy/enemyDev2.tscn"),
-	preload("res://tscn/Enemy/enemyDev3.tscn")
+	preload("res://tscn/Enemy/enemyUnarmed2.tscn"),
+	preload("res://tscn/Enemy/enemyUnarmed1.tscn")
 ]
 var canExfil
 var enemies

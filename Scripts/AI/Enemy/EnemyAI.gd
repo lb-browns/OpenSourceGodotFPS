@@ -19,6 +19,7 @@ var stateMachine
 
 @onready var navAgent = $NavigationAgent3D
 @onready var animTree = $AnimationTree
+@onready var animPlayer = $CollisionShape3D/aaaa/AnimationPlayer
 
 signal enemyKilled
 
@@ -62,7 +63,6 @@ func _process(delta):
 		var nextNavPoint = navAgent.get_next_path_position()
 		velocity = (nextNavPoint - global_transform.origin).normalized() * SPEED
 		inAttackRange = false
-	
 	#conditions
 	animTree.set("parameters/conditions/isAttacking", targetInRange())
 	animTree.set("parameters/conditions/Run", !targetInRange())

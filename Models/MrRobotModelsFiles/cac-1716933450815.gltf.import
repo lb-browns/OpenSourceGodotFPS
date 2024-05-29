@@ -1,0 +1,41 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://c6p8skgp34ins"
+path="res://.godot/imported/cac-1716933450815.gltf-063b604f344b1d0a9ea1d148f6dcd041.scn"
+
+[deps]
+
+source_file="res://Models/MrRobotModelsFiles/cac-1716933450815.gltf"
+dest_files=["res://.godot/imported/cac-1716933450815.gltf-063b604f344b1d0a9ea1d148f6dcd041.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"nodes": {
+"PATH:Node/metarig/Skeleton3D": {
+"retarget/bone_map": Object(BoneMap,"resource_local_to_scene":false,"resource_name":"","profile":Resource("res://Models/MrRobotModelsFiles/elliotskelly.tres"),"bonemap":null,"bone_map/spine":&"","bone_map/spine.001":&"","bone_map/spine.002":&"","bone_map/spine.003":&"","bone_map/spine.004":&"","bone_map/spine.005":&"","bone_map/shoulder.L":&"","bone_map/upper_arm.L":&"","bone_map/forearm.L":&"","bone_map/hand.L":&"","bone_map/palm.01.L":&"","bone_map/f_index.01.L":&"","bone_map/thumb.01.L":&"","bone_map/thumb.02.L":&"","bone_map/palm.02.L":&"","bone_map/f_middle.01.L":&"","bone_map/palm.03.L":&"","bone_map/f_ring.01.L":&"","bone_map/palm.04.L":&"","bone_map/f_pinky.01.L":&"","bone_map/shoulder.R":&"","bone_map/upper_arm.R":&"","bone_map/forearm.R":&"","bone_map/hand.R":&"","bone_map/palm.01.R":&"","bone_map/f_index.01.R":&"","bone_map/thumb.01.R":&"","bone_map/thumb.02.R":&"","bone_map/palm.02.R":&"","bone_map/f_middle.01.R":&"","bone_map/palm.03.R":&"","bone_map/f_ring.01.R":&"","bone_map/palm.04.R":&"","bone_map/f_pinky.01.R":&"","bone_map/thigh.L":&"","bone_map/shin.L":&"","bone_map/foot.L":&"","bone_map/toe.L":&"","bone_map/thigh.R":&"","bone_map/shin.R":&"","bone_map/foot.R":&"","bone_map/toe.R":&"","script":null)
+
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1

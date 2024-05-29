@@ -1,11 +1,15 @@
-res://
+res://Models/MrRobotModelsFiles
+/Applications/Blender.app/Contents/MacOS
+/Applications
+/Applications/Blender.app/Contents
+/Applications/Blender.app
 res://Scripts/AI/NPC
 res://tscn/NPC
+res://
 res://Mats
 res://Models/TEXTURED
 res://tscn/Player
 res://2dAssets
-/Applications
 res://Scripts/World
 res://Game Meta Data
 res://Textures/kenney_prototype-textures/PNG/Dark
@@ -16,7 +20,3 @@ res://Models/PSXCigarette Pack[FIXED]
 res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun
 res://Models/PSXAssaultRifle[FIXED]/AK/RPK
 res://Models/PSXMiscGuns/Makarov
-res://Models/PSX Model Pack/Filing Cabinet
-res://tscn/World/Misc
-res://tscn/World/SHRooms
-res://Scripts/AI/Enemy

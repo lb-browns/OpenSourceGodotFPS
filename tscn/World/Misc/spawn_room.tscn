@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://c8p5eyd5b6xo7"]
+[gd_scene load_steps=28 format=3 uid="uid://c8p5eyd5b6xo7"]
 
 [ext_resource type="Material" uid="uid://bu1se5eyhe14m" path="res://Mats/wood.tres" id="1_3g2ig"]
 [ext_resource type="Texture2D" uid="uid://ckt3tg0vytnsc" path="res://Models/- Classic 64 Asset Pack 0.6/Floor/Materials/carpet_brown_01.png" id="1_cwykc"]
@@ -21,6 +21,7 @@
 [ext_resource type="ArrayMesh" uid="uid://c0rv663y3ofxw" path="res://Models/PSXShotgunPack[FIXED]/pumpy.obj" id="19_qti1u"]
 [ext_resource type="Texture2D" uid="uid://cn0tuiwrd81ev" path="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/PAShotgunText.png" id="20_hxrok"]
 [ext_resource type="PackedScene" uid="uid://4vjxhehbnm6h" path="res://Models/TEXTURED/akm_2.tscn" id="21_v16kp"]
+[ext_resource type="PackedScene" uid="uid://b56nqtfjlnu2p" path="res://tscn/NPC/flea_door.tscn" id="22_wetsq"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8dvts"]
 albedo_texture = ExtResource("1_cwykc")
@@ -46,8 +47,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0)
 use_collision = true
 
 [node name="floor" type="CSGBox3D" parent="CSGCombiner3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.5)
-size = Vector3(10, 1, 15)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.54828, 0, 2.5)
+size = Vector3(29.0966, 1, 15)
 material = SubResource("StandardMaterial3D_8dvts")
 
 [node name="floor2" type="CSGBox3D" parent="CSGCombiner3D"]
@@ -294,3 +295,10 @@ transform = Transform3D(0.430882, 0, 0.37315, 0, 0.57, 0, -0.37315, 0, 0.430882,
 
 [node name="largeAmmo7" parent="." instance=ExtResource("16_mt5h1")]
 transform = Transform3D(0.18159, 0, 0.540301, 0, 0.57, 0, -0.540301, 0, 0.18159, -1.12868, 0.80727, 8.0775)
+
+[node name="FleaDoor" parent="." node_paths=PackedStringArray("nodeHolder") instance=ExtResource("22_wetsq")]
+transform = Transform3D(-3.3267e-08, 0, 1, 0, 0.677269, 0, -0.76106, 0, -4.37114e-08, -3.98777, 1.79101, 1.40336)
+nodeHolder = NodePath("../Node3D")
+
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5908, 2.31909, -0.35728)

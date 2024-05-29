@@ -219,6 +219,13 @@ func getEyelineData():
 				updateRoubleCount()
 			elif Input.is_action_just_pressed("Interact") && playerRoubles < eyeline.get_collider().itemPrice:
 				eyeline.get_collider().paymentDeclined()
+		elif eyeline.is_colliding() && eyeline.get_collider().is_in_group("Door"):
+			interactDialog.visible = true
+			interactDialog.text = eyeline.get_collider().DIALOG
+			if Input.is_action_just_pressed("Interact") && playerRoubles >= eyeline.get_collider().travelPrice:
+				playerRoubles -= eyeline.get_collider().travelPrice
+				self.transform = eyeline.get_collider().nodeHolder.transform
+				updateRoubleCount()
 		else:
 			enemyHealthBar.visible = false
 			enemyNameTag.visible = false

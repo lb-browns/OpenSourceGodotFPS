@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://b56nqtfjlnu2p"]
+
+[ext_resource type="Script" path="res://Scripts/AI/NPC/Door.gd" id="1_yyyao"]
+[ext_resource type="Texture2D" uid="uid://oio0jifjtnv5" path="res://Models/Models pack psx/Texture/Door_01.jpg" id="2_w4geh"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i486m"]
+size = Vector3(2, 4, 0.3)
+
+[sub_resource type="BoxMesh" id="BoxMesh_uwg0f"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c0vgw"]
+albedo_texture = ExtResource("2_w4geh")
+uv1_scale = Vector3(3, 2.05, 0.56)
+uv1_offset = Vector3(0.01, 0, 0)
+
+[node name="FleaDoor" type="StaticBody3D" groups=["Door"]]
+script = ExtResource("1_yyyao")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_i486m")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+transform = Transform3D(2, 0, 0, 0, 4, 0, 0, 0, 0.02, 0, 0, 0)
+mesh = SubResource("BoxMesh_uwg0f")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_c0vgw")
