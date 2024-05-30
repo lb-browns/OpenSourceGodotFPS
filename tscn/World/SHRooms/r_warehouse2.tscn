@@ -273,17 +273,17 @@ height = 8.0
 sides = 9
 
 [node name="EnemySpawner3d" parent="." instance=ExtResource("6_y2e6a")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 5, -36)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 3.6239, -36)
 spawnLimit = 7
 Enemies = [ExtResource("7_vxdhd"), ExtResource("8_7md60"), ExtResource("9_0rd27")]
 
 [node name="EnemySpawner3d2" parent="." instance=ExtResource("6_y2e6a")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -4, -32)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -5.32008, -32)
 spawnLimit = 12
 Enemies = [ExtResource("7_vxdhd"), ExtResource("8_7md60"), ExtResource("9_0rd27")]
 
 [node name="EnemySpawner3d3" parent="." instance=ExtResource("6_y2e6a")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, -4, -36)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, -5.59088, -36)
 spawnLimit = 4
 Enemies = [ExtResource("7_vxdhd"), ExtResource("8_7md60"), ExtResource("9_0rd27")]
 

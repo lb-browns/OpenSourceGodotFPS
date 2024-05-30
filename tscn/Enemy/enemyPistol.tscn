@@ -869,7 +869,7 @@ ATTACK_RANGE = 9.0
 shape = SubResource("CapsuleShape3D_m4362")
 
 [node name="ScavPistol" type="Node3D" parent="CollisionShape3D"]
-transform = Transform3D(0.56, 0, 0, 0, 0.56, 0, 0, 0, 0.56, 0, -0.736039, 0)
+transform = Transform3D(0.56, 0, 0, 0, 0.56, 0, 0, 0, 0.56, 0, -0.993454, 0)
 
 [node name="metarig" type="Node3D" parent="CollisionShape3D/ScavPistol"]
 transform = Transform3D(-1.40197, -0.0060591, 0.00854101, -0.00571758, 1.40091, 0.0553054, -0.00877331, 0.055269, -1.40089, 0.00396319, -0.00491821, -0.0644352)

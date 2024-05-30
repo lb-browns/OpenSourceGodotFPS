@@ -17,6 +17,8 @@ var stateMachine
 
 @onready var playerPath = null
 
+@onready var SELF = $"."
+
 @onready var navAgent = $NavigationAgent3D
 @onready var animTree = $AnimationTree
 @onready var animPlayer = $CollisionShape3D/aaaa/AnimationPlayer
@@ -30,6 +32,7 @@ func _ready():
 	HEALTH *= player.difficultyTier
 	stateMachine = animTree.get("parameters/playback")
 	chooseRandName()
+	SELF.apply_floor_snap()
 
 func _on_timer_timeout():
 	var x = randf_range(-999, 999)
@@ -74,6 +77,7 @@ func targetInRange():
 
 
 func hitPlayer():
+	SELF.apply_floor_snap()
 	player.playerHealth -= DAMAGE
 	player.playerDamageAudio.pitch_scale = randf_range(1.9, 2.6)
 	player.playerDamageAudio.play()

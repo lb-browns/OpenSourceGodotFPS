@@ -23,3 +23,4 @@ res://Models/TEXTURED/vodka.tscn
 res://scav_pistolX.tscn
 res://tscn/World/SHRooms/r_warehouse1.tscn
 res://tscn/World/SHRooms/r_warehouse2.tscn
+res://Scripts/AI/Enemy/EnemyAI.gd
