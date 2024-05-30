@@ -24,3 +24,4 @@ weaponDrop = ExtResource("3_j3efv")
 projectileVelocity = 0
 Droppable = true
 Melee = false
+weaponRecoil = 0.04

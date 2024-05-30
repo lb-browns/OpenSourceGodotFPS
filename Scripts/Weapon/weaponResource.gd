@@ -24,5 +24,6 @@ class_name weaponResource
 @export var projectileVelocity: int
 @export var Droppable: bool
 @export var Melee: bool
+@export var weaponRecoil: float
 
 

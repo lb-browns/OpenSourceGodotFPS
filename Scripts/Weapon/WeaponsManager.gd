@@ -112,6 +112,7 @@ func Shoot():
 				currentWeapon.currAmmo -= 1
 				emit_signal("updateAmmo",[currentWeapon.currAmmo, currentWeapon.reserveAmmo])
 				var cameraCollision = getCameraCollision()
+				addRecoil()
 				match currentWeapon.Type:
 					NULL:
 						print("no type selected")
@@ -260,6 +261,10 @@ func addAmmo(_Weapon: String, ammo: int)->int:
 	return remaining
 	
 	
+
+func addRecoil():
+	player.MainCamera.rotation.x += lerpf(player.MainCamera.rotation.x, currentWeapon.weaponRecoil, 1)
+	player.MainCamera.rotation.y += lerpf(player.MainCamera.rotation.y, randf_range(-currentWeapon.weaponRecoil, currentWeapon.weaponRecoil), 1)
 
 
 

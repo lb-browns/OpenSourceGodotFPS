@@ -1,9 +1,9 @@
 res://tscn/Player/player.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://Scripts/AI/NPC/Door.gd
+res://gdShaders/tv.gdshader
 res://Scripts/Weapon/weaponResource.gd
 res://Scripts/World/roomSpawner.gd
-res://gdShaders/tv.gdshader
 res://tscn/Player/playerDamage.tres
 res://Mats/Plaster1.tres
 res://Mats/wood.tres
@@ -13,13 +13,18 @@ res://Mats/new_standard_material_3d.tres
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
 res://tscn/Player/player.gdshader
-res://tscn/Weapons/Weps/mp5sd.tscn
-res://Weapon Resources/mp5sd.tres
-res://tscn/Weapons/Pickups/mp5sdPickup.tscn
-res://tscn/NPC/arms_dealer_rick.tscn
 res://tscn/World/SHRooms/r_warehouse3.tscn
 res://tscn/World/Misc/spawn_room.tscn
 res://tscn/Weapons/Weps/metalBat.tscn
+res://tscn/Weapons/Weps/mp5sd.tscn
+res://tscn/Weapons/Pickups/mp5sdPickup.tscn
+res://tscn/NPC/arms_dealer_rick.tscn
 res://tscn/Enemy/enemyUnarmed1.tscn
 res://tscn/Enemy/enemyUnarmed2.tscn
 res://tscn/Enemy/enemyPistol.tscn
+res://Scripts/Weapon/WeaponsManager.gd
+res://Weapon Resources/mp5sd.tres
+res://Weapon Resources/m14.tres
+res://Weapon Resources/DBshotty.tres
+res://Weapon Resources/1911.tres
+res://Scripts/Player/Player.gd
