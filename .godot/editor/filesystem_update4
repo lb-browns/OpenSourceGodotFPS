@@ -1,4 +1,4 @@
-res://tscn/Enemy/enemyDev3.tscn
+res://tscn/Enemy/enemyPistol.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://Scripts/AI/NPC/Door.gd
 res://Scripts/Weapon/weaponResource.gd
@@ -12,12 +12,14 @@ res://Mats/new_standard_material_3d.tres
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
 res://tscn/Player/player.gdshader
-res://tscn/Enemy/enemyUnarmed1.tscn
 res://tscn/World/SHRooms/r_warehouse3.tscn
-res://tscn/Enemy/enemyUnarmed2.tscn
-res://tscn/World/SHRooms/r_warehouse1.tscn
-res://tscn/World/SHRooms/r_warehouse2.tscn
 res://tscn/Player/player.tscn
 res://tscn/Player/playerDamage.tres
 res://tscn/NPC/arms_dealer_rick.tscn
-res://tscn/NPC/flea_door.tscn
+res://tscn/World/Misc/spawn_room.tscn
+res://tscn/NPC/HealthTable.tscn
+res://tscn/NPC/UpgradeTable.tscn
+res://Models/TEXTURED/vodka.tscn
+res://scav_pistolX.tscn
+res://tscn/World/SHRooms/r_warehouse1.tscn
+res://tscn/World/SHRooms/r_warehouse2.tscn

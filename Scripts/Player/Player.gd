@@ -3,7 +3,9 @@ extends CharacterBody3D
 #VERSION 0.1.2
 
 @export var playerHealth = 150
+@export var playerMaxHealth = 150
 @export var playerRoubles = 10000
+@export var playerDamageIncrease = 0
 @onready var MainCamera = get_node("camHolder/Main Cam")
 @onready var anim = get_node("PlayerAnimations")
 @onready var footstepAudio = $"Player Audios/Footsteps"
@@ -57,6 +59,7 @@ func _ready():
 
 
 func _process(delta):
+	hpBar.max_value = playerMaxHealth
 	hpBar.value = playerHealth
 	if playerHealth <= 0:
 		Die()
@@ -106,7 +109,6 @@ func _physics_process(delta):
 			velocity.y = JUMP_VELOCITY
 
 		# Get the input direction and handle the movement/deceleration.
-		# As good practice, you should replace UI actions with custom gameplay actions.
 		var input_dir = Input.get_vector("MoveLeft", "MoveRight", "MoveForward", "MoveBack")
 		var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 		if direction:
@@ -226,6 +228,27 @@ func getEyelineData():
 				playerRoubles -= eyeline.get_collider().travelPrice
 				self.transform = eyeline.get_collider().nodeHolder.transform
 				updateRoubleCount()
+		elif eyeline.is_colliding() && eyeline.get_collider().is_in_group("Table"):
+			interactDialog.visible = true
+			interactDialog.text = eyeline.get_collider().DIALOG
+			if Input.is_action_just_pressed("Interact") && playerRoubles >= eyeline.get_collider().tablePrice:
+				if eyeline.get_collider().DamageAmount > 0:
+					playerRoubles -= eyeline.get_collider().tablePrice
+					playerMaxHealth += eyeline.get_collider().MaxHealthAmount
+					SPEED += eyeline.get_collider().SpeedAmount
+					playerDamageIncrease += eyeline.get_collider().DamageAmount
+					eyeline.get_collider().paymentSuccess()
+					updateRoubleCount()
+				elif playerHealth + eyeline.get_collider().HealAmount < playerMaxHealth:
+					playerRoubles -= eyeline.get_collider().tablePrice
+					playerHealth += eyeline.get_collider().HealAmount
+					eyeline.get_collider().paymentSuccess()
+					updateRoubleCount()
+				elif playerHealth < playerMaxHealth:
+					playerHealth = playerMaxHealth
+					playerRoubles -= eyeline.get_collider().tablePrice
+					eyeline.get_collider().paymentSuccess()
+					updateRoubleCount()
 		else:
 			enemyHealthBar.visible = false
 			enemyNameTag.visible = false

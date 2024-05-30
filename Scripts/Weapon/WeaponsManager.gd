@@ -192,7 +192,7 @@ func hitscanDamage(Collider, Direction, Position):
 		#Collider.hitSuccessful(currentWeapon.weaponDamage, Direction, Position)
 	elif Collider.is_in_group("Enemy"):
 		print("hit enemyX")
-		Collider.takeDamage(currentWeapon.weaponDamage)
+		Collider.takeDamage((currentWeapon.weaponDamage + player.playerDamageIncrease))
 		print("hit enemy")
 
 func launchProjectile(Point):

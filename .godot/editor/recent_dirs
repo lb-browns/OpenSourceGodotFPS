@@ -1,13 +1,13 @@
+res://
 res://Models/MrRobotModelsFiles
+res://Models/TEXTURED
+res://tscn/NPC
 /Applications/Blender.app/Contents/MacOS
 /Applications
 /Applications/Blender.app/Contents
 /Applications/Blender.app
 res://Scripts/AI/NPC
-res://tscn/NPC
-res://
 res://Mats
-res://Models/TEXTURED
 res://tscn/Player
 res://2dAssets
 res://Scripts/World

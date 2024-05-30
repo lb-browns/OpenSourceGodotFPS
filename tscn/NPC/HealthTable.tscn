@@ -1,0 +1,99 @@
+[gd_scene load_steps=12 format=3 uid="uid://0jywjouyej6u"]
+
+[ext_resource type="Script" path="res://tscn/NPC/playerStation.gd" id="1_jegq6"]
+[ext_resource type="PackedScene" uid="uid://doamxpwvhhhti" path="res://Models/TEXTURED/table.tscn" id="1_uersr"]
+[ext_resource type="PackedScene" uid="uid://dawk2wr0mneki" path="res://Models/PSXHealingItems[Fixed]/Health_Pouch/Health_Kit.fbx" id="2_xv4b5"]
+[ext_resource type="ArrayMesh" uid="uid://dymvempwf7r72" path="res://Models/PSXHealingItems[Fixed]/Health_Pouch/Health_Kit_open.obj" id="3_mt1yn"]
+[ext_resource type="ArrayMesh" uid="uid://dgaan1vvuasgd" path="res://Models/PSXHealingItems[Fixed]/HealthSolution/HealthSolution.obj" id="4_cvipg"]
+[ext_resource type="PackedScene" uid="uid://xiw58ara5572" path="res://Models/PSXHealingItems[Fixed]/Bandage/Bandage.fbx" id="5_0nu2r"]
+[ext_resource type="ArrayMesh" uid="uid://yq88vh5ccc5m" path="res://Models/PSXHealingItems[Fixed]/Pill_Bottle/Pill_bottle.obj" id="6_76ybn"]
+[ext_resource type="PackedScene" uid="uid://cd17n84oo4xgq" path="res://Models/PSXHealingItems[Fixed]/Health_Syringe/Syringe.fbx" id="7_5leos"]
+[ext_resource type="ArrayMesh" uid="uid://cg3lko0062xbd" path="res://Models/PSXHealingItems[Fixed]/Green_Powder/Green_Powder.obj" id="8_o0k74"]
+[ext_resource type="AudioStream" uid="uid://c7hdn7rqhkn5" path="res://sfx/HealSFX.mp3" id="10_rjwu7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_30rs2"]
+size = Vector3(0.739624, 0.747192, 1.32605)
+
+[node name="Node3D" type="StaticBody3D" groups=["Table"]]
+script = ExtResource("1_jegq6")
+tableText = "Heal"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00616455, 0.571308, -0.0088501)
+shape = SubResource("BoxShape3D_30rs2")
+
+[node name="Root Scene" parent="." instance=ExtResource("1_uersr")]
+transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, 0, 0, 0)
+
+[node name="Root Scene" parent="Root Scene" instance=ExtResource("2_xv4b5")]
+transform = Transform3D(0.259049, 0, 0.10627, 0, 0.28, 0, -0.10627, 0, 0.259049, 0.344933, 2.34251, -1.47084)
+
+[node name="Root Scene10" parent="Root Scene" instance=ExtResource("2_xv4b5")]
+transform = Transform3D(0.279975, 0, -0.00370906, 0, 0.28, 0, 0.00370906, 0, 0.279975, 0.731183, 2.34251, -0.344153)
+
+[node name="HealthKitOpen" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(-0.189406, 0, 0.0642284, 0, 0.2, 0, -0.0642284, 0, -0.189406, 0.00177205, 2.44007, 0.735526)
+mesh = ExtResource("3_mt1yn")
+skeleton = NodePath("../..")
+
+[node name="HealthSolution" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(0.224003, 0, -0.131995, 0, 0.26, 0, 0.131995, 0, 0.224003, -0.439863, 2.3776, -1.39967)
+mesh = ExtResource("4_cvipg")
+skeleton = NodePath("../..")
+
+[node name="HealthSolution2" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(-0.0618424, 0, -0.252538, 0, 0.26, 0, 0.252538, 0, -0.0618424, -0.267337, 2.3776, -0.948228)
+mesh = ExtResource("4_cvipg")
+skeleton = NodePath("../..")
+
+[node name="Root Scene2" parent="Root Scene" instance=ExtResource("5_0nu2r")]
+transform = Transform3D(0.14229, 0, -0.0474715, 0, 0.15, 0, 0.0474715, 0, 0.14229, -0.766235, 2.40894, -0.690068)
+
+[node name="Root Scene3" parent="Root Scene" instance=ExtResource("5_0nu2r")]
+transform = Transform3D(0.144713, 0, 0.0394724, 0, 0.15, 0, -0.0394724, 0, 0.144713, -0.483362, 2.40894, -0.400733)
+
+[node name="Root Scene4" parent="Root Scene" instance=ExtResource("5_0nu2r")]
+transform = Transform3D(0.144713, 0, 0.0394723, -0.0394684, -0.00211788, 0.144699, 0.000557318, -0.149985, -0.00204324, -0.708281, 2.72085, -0.306378)
+
+[node name="Root Scene5" parent="Root Scene" instance=ExtResource("5_0nu2r")]
+transform = Transform3D(0.0619803, 0.135284, 0.018886, -0.0394684, -0.00211788, 0.144699, 0.13077, -0.0647592, 0.0347212, -0.661408, 2.72085, 0.507318)
+
+[node name="PillBottle" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(-0.162942, 0, 0.189605, 0, 0.25, 0, -0.189605, 0, -0.162942, -0.250493, 2.41238, 1.20762)
+mesh = ExtResource("6_76ybn")
+skeleton = NodePath("../..")
+
+[node name="PillBottle2" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(-0.249052, 0, -0.0217498, 0, 0.25, 0, 0.0217498, 0, -0.249052, -0.561681, 2.41238, 1.49346)
+mesh = ExtResource("6_76ybn")
+skeleton = NodePath("../..")
+
+[node name="PillBottle3" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(0.0534239, 0, 0.244225, 0, 0.25, 0, -0.244225, 0, 0.0534239, -0.435335, 2.41238, 1.22474)
+mesh = ExtResource("6_76ybn")
+skeleton = NodePath("../..")
+
+[node name="PillBottle4" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(0.0534239, 0, 0.244225, -0.244196, -0.00385267, 0.0534175, 0.00376368, -0.24997, -0.000823299, -0.662214, 2.49218, 1.24323)
+mesh = ExtResource("6_76ybn")
+skeleton = NodePath("../..")
+
+[node name="Root Scene6" parent="Root Scene" instance=ExtResource("7_5leos")]
+transform = Transform3D(-7.49338e-09, -0.171429, 0, 0.171429, -7.49338e-09, 0, 0, 0, 0.171429, -0.0972431, 2.43034, -1.43425)
+
+[node name="Root Scene7" parent="Root Scene" instance=ExtResource("7_5leos")]
+transform = Transform3D(-7.49224e-09, -0.171402, -0.00299184, 0.171429, -7.49338e-09, 0, -1.30778e-10, -0.00299184, 0.171402, 0.0823393, 2.43034, -1.43425)
+
+[node name="Root Scene8" parent="Root Scene" instance=ExtResource("7_5leos")]
+transform = Transform3D(-7.49338e-09, -0.171429, 0, 0.171429, -7.49338e-09, 0, 0, 0, 0.171429, 0.26422, 2.43034, -1.43425)
+
+[node name="Root Scene9" parent="Root Scene" instance=ExtResource("7_5leos")]
+transform = Transform3D(-7.49224e-09, -0.171402, 0.00299184, 0.171429, -7.49338e-09, 0, 1.30778e-10, 0.00299184, 0.171402, 0.49602, 2.43034, -1.43425)
+
+[node name="GreenPowder" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(0.244712, 0, -0.147474, 0, 0.285714, 0, 0.147474, 0, 0.244712, 0.437206, 2.33821, 1.45211)
+mesh = ExtResource("8_o0k74")
+skeleton = NodePath("../..")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("10_rjwu7")

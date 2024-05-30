@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://coxx1w6t8srt1"]
+[gd_scene load_steps=30 format=3 uid="uid://coxx1w6t8srt1"]
 
 [ext_resource type="Material" uid="uid://v8aokr3nwjqs" path="res://Mats/Plaster1.tres" id="1_11jgp"]
 [ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/Misc/spawn_room.tscn" id="1_lulw0"]
@@ -8,7 +8,9 @@
 [ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="5_ttba2"]
 [ext_resource type="PackedScene" uid="uid://nt1gb7skpfrc" path="res://tscn/World/Misc/exfil_room.tscn" id="6_co408"]
 [ext_resource type="PackedScene" uid="uid://b56ats1otgo53" path="res://tscn/World/Misc/EnemySpawner3d.tscn" id="7_6qj1d"]
+[ext_resource type="PackedScene" uid="uid://b8p2wkjpqdx6j" path="res://tscn/Enemy/enemyUnarmed2.tscn" id="9_gqo0f"]
 [ext_resource type="PackedScene" uid="uid://cob0owrdwpaa7" path="res://tscn/World/Objects/radio.tscn" id="9_kuo14"]
+[ext_resource type="PackedScene" uid="uid://cf2own0vnv1f0" path="res://tscn/Enemy/enemyPistol.tscn" id="10_qa3yg"]
 [ext_resource type="PackedScene" uid="uid://cnm1ac8yb7im5" path="res://Models/TEXTURED/panel_electric_2.tscn" id="10_rcv56"]
 [ext_resource type="PackedScene" uid="uid://cm5did511uoow" path="res://Models/TEXTURED/metal_rack_stackable_small_2.tscn" id="11_an13c"]
 [ext_resource type="PackedScene" uid="uid://clftlkf7ddej0" path="res://Models/TEXTURED/fire_extenguisher_case_2.tscn" id="12_6desw"]
@@ -123,6 +125,7 @@ enemySpawnerRef = NodePath("../EnemySpawner3d")
 [node name="EnemySpawner3d" parent="." instance=ExtResource("7_6qj1d")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.103, 2.147, -6)
 spawnLimit = 5
+Enemies = [ExtResource("9_gqo0f"), ExtResource("10_qa3yg")]
 
 [node name="EnemySpawner3d2" parent="." instance=ExtResource("7_6qj1d")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.103, 2.147, -12.8108)

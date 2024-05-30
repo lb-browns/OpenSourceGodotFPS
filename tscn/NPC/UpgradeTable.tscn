@@ -1,0 +1,89 @@
+[gd_scene load_steps=12 format=3 uid="uid://imn7rdvdrb6k"]
+
+[ext_resource type="PackedScene" uid="uid://doamxpwvhhhti" path="res://Models/TEXTURED/table.tscn" id="1_msxia"]
+[ext_resource type="Script" path="res://tscn/NPC/playerStation.gd" id="1_wid6p"]
+[ext_resource type="AudioStream" uid="uid://cwvyuwrw6vw7c" path="res://sfx/Upgrade.wav" id="2_nliur"]
+[ext_resource type="PackedScene" uid="uid://cvvegkxvje4ud" path="res://Models/TEXTURED/vodka.tscn" id="2_ppwo4"]
+[ext_resource type="ArrayMesh" uid="uid://dt5h3x0fb1mlp" path="res://Models/PSXAmmoBoxes/9mm/9mm_240.obj" id="4_p8otf"]
+[ext_resource type="ArrayMesh" uid="uid://b3wfsgnum48a4" path="res://Models/PSXAmmoBoxes/12g/12g_red_240.obj" id="5_jycg7"]
+[ext_resource type="ArrayMesh" uid="uid://bikcry3648rmt" path="res://Models/PSXToolSet[FIXED]/ToolBox/ToolBoxClosed.obj" id="6_e2y1g"]
+[ext_resource type="ArrayMesh" uid="uid://bw0683q0b8x" path="res://Models/PSXToolSet[FIXED]/BackSaw/BackSaw.obj" id="7_akc6g"]
+[ext_resource type="Texture2D" uid="uid://8y7jveclta5d" path="res://2dAssets/blood-png-126.png" id="8_54wpf"]
+[ext_resource type="PackedScene" uid="uid://j3jmu8xmmjav" path="res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/Baretta9M.fbx" id="9_mkutt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ydevb"]
+size = Vector3(0.82312, 0.967285, 1.37726)
+
+[node name="Node3D" type="StaticBody3D" groups=["Table"]]
+script = ExtResource("1_wid6p")
+tableText = "Upgrade Player"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0131226, 0.542725, 0.0162659)
+shape = SubResource("BoxShape3D_ydevb")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." groups=["Table"]]
+stream = ExtResource("2_nliur")
+
+[node name="Root Scene" parent="." instance=ExtResource("1_msxia")]
+transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, 0, 0, 0)
+
+[node name="Root Scene2" parent="Root Scene" instance=ExtResource("2_ppwo4")]
+transform = Transform3D(2.07116, 0, -4.55086, 0, 5, 0, 4.55086, 0, 2.07116, -0.359706, 2.41578, 1.46396)
+
+[node name="Root Scene3" parent="Root Scene" instance=ExtResource("2_ppwo4")]
+transform = Transform3D(0.656265, 0, -4.95674, 0, 5, 0, 4.95674, 0, 0.656265, -0.467455, 2.41578, 0.984852)
+
+[node name="Root Scene4" parent="Root Scene" instance=ExtResource("2_ppwo4")]
+transform = Transform3D(-1.37869, 0, -4.80616, 0, 5, 0, 4.80616, 0, -1.37869, -0.604561, 2.41578, 0.429621)
+
+[node name="Root Scene5" parent="Root Scene" instance=ExtResource("2_ppwo4")]
+transform = Transform3D(0.254795, 0, -4.9935, 0, 5, 0, 4.9935, 0, 0.254795, 0.160528, 2.41578, 1.07764)
+
+[node name="Root Scene6" parent="Root Scene" instance=ExtResource("2_ppwo4")]
+transform = Transform3D(2.34674, 0, -4.41507, 0, 5, 0, 4.41507, 0, 2.34674, -0.0346131, 2.41578, 0.492966)
+
+[node name="9Mm240" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(0.12515, 0, -0.256846, 0, 0.285714, 0, 0.256846, 0, 0.12515, 0.676696, 2.41681, 1.26575)
+mesh = ExtResource("4_p8otf")
+skeleton = NodePath("../..")
+
+[node name="9Mm241" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(0.284987, 0, 0.0203781, 0, 0.285714, 0, -0.0203781, 0, 0.284987, 0.542632, 2.41681, -1.52006)
+mesh = ExtResource("4_p8otf")
+skeleton = NodePath("../..")
+
+[node name="12gRed240" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(0.267403, 0, 0.662344, 0, 0.714286, 0, -0.662344, 0, 0.267403, -0.200126, 2.42353, -0.311881)
+mesh = ExtResource("5_jycg7")
+skeleton = NodePath("../..")
+
+[node name="12gRed241" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(-0.326299, 0, 0.6354, 0, 0.714286, 0, -0.6354, 0, -0.326299, -0.116038, 2.42353, -0.706358)
+mesh = ExtResource("5_jycg7")
+skeleton = NodePath("../..")
+
+[node name="ToolBoxClosed" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(0.258323, 0, 0.377159, 0, 0.457143, 0, -0.377159, 0, 0.258323, -0.412217, 1.70048, -1.51631)
+mesh = ExtResource("6_e2y1g")
+skeleton = NodePath("../..")
+
+[node name="BackSaw" type="MeshInstance3D" parent="Root Scene"]
+transform = Transform3D(0.269041, -0.256079, -1.11936e-08, 0, -1.62357e-08, 0.371429, -0.256079, -0.269041, -1.17601e-08, 0.612479, 2.42193, -0.397129)
+mesh = ExtResource("7_akc6g")
+skeleton = NodePath("../..")
+
+[node name="Sprite3D" type="Sprite3D" parent="Root Scene"]
+transform = Transform3D(-0.207418, 0.288347, -1.2604e-08, 0, -1.4993e-08, -0.343, -0.321973, -0.185756, 8.11963e-09, 0.236321, 2.42145, -0.0491137)
+texture = ExtResource("8_54wpf")
+
+[node name="Root Scene2" parent="." instance=ExtResource("9_mkutt")]
+transform = Transform3D(0.086895, -0.0234363, 1.02443e-09, 0, -3.93402e-09, -0.09, 0.0234363, 0.086895, -3.7983e-09, 0.0958649, 0.856632, -0.582295)
+
+[node name="9MM" parent="Root Scene2/RootNode" index="0"]
+visible = false
+
+[node name="Magazine" parent="Root Scene2/RootNode" index="3"]
+visible = false
+
+[editable path="Root Scene2"]
