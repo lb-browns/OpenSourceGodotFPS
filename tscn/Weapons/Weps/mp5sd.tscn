@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://djd68t8k8351l"]
+
+[ext_resource type="PackedScene" uid="uid://bfxo6htn5dxex" path="res://Models/PSXMP5/MP5.fbx" id="1_4dpxo"]
+
+[node name="Root Scene" instance=ExtResource("1_4dpxo")]
+
+[node name="9MM_001" parent="RootNode" index="0"]
+visible = false
+
+[node name="9MM_003" parent="RootNode" index="1"]
+visible = false
+
+[node name="MP5BodyFull" parent="RootNode" index="2"]
+visible = false
+
+[node name="MP5FullStock" parent="RootNode" index="4"]
+visible = false
+
+[node name="MP5KBody" parent="RootNode" index="5"]
+visible = false
+
+[node name="MP5Magazene" parent="RootNode" index="6"]
+visible = false
+
+[node name="MP5Magazene_002" parent="RootNode" index="7"]
+visible = false
+
+[node name="MP5MagazeneFull" parent="RootNode" index="9"]
+visible = false
+
+[node name="Trigger_002" parent="RootNode" index="11"]
+visible = false
+
+[node name="Trigger_003" parent="RootNode" index="12"]
+visible = false

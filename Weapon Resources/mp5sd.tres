@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="weaponResource" load_steps=4 format=3 uid="uid://dmutmdkxeeb20"]
+
+[ext_resource type="Script" path="res://Scripts/Weapon/weaponResource.gd" id="1_jc38u"]
+[ext_resource type="Texture2D" uid="uid://wfotmbiqnq6v" path="res://2dAssets/GAP_EasyExplosions_Textures/Flare01.png" id="1_stiu5"]
+[ext_resource type="PackedScene" uid="uid://01eg6olgc4k2" path="res://tscn/Weapons/Pickups/mp5sdPickup.tscn" id="3_jkv4e"]
+
+[resource]
+script = ExtResource("1_jc38u")
+weaponName = "mp5sd"
+activateAnim = "mp5sdActivate"
+deactivateAnim = "mp5sdDeactivate"
+fireAnim = "mp5sdFire"
+reloadAnim = "mp5sdReload"
+icon = ExtResource("1_stiu5")
+currAmmo = 30
+reserveAmmo = 60
+Mag = 30
+maxAmmo = 999
+Automatic = true
+weaponRange = 50
+weaponDamage = 9
+Type = 1
+weaponDrop = ExtResource("3_jkv4e")
+projectileVelocity = 0
+Droppable = true
+Melee = false

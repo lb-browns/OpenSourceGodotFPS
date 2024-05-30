@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=3 uid="uid://01eg6olgc4k2"]
+
+[ext_resource type="Script" path="res://Scripts/Weapon/WeaponPickup.gd" id="1_cnafb"]
+[ext_resource type="PackedScene" uid="uid://djd68t8k8351l" path="res://tscn/Weapons/Weps/mp5sd.tscn" id="2_bolap"]
+[ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_kkf8k"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mdi0y"]
+size = Vector3(0.792168, 0.28959, 0.09)
+
+[node name="DBshottyPickup" type="RigidBody3D" groups=["Pickup"]]
+collision_layer = 8
+collision_mask = 13
+script = ExtResource("1_cnafb")
+weaponName = "mp5sd"
+CurrAmmo = 30
+ReserveAmmo = 60
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00940181, 0.232502, 0.0104982)
+shape = SubResource("BoxShape3D_mdi0y")
+
+[node name="Root Scene" parent="." instance=ExtResource("2_bolap")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="MP5BodyFull" parent="Root Scene/RootNode" index="2"]
+surface_material_override/0 = ExtResource("3_kkf8k")
+
+[node name="MP5BodySilenced_004" parent="Root Scene/RootNode" index="3"]
+surface_material_override/0 = ExtResource("3_kkf8k")
+surface_material_override/1 = ExtResource("3_kkf8k")
+
+[node name="MP5Magazene_003" parent="Root Scene/RootNode" index="8"]
+surface_material_override/0 = ExtResource("3_kkf8k")
+
+[node name="MP5SlidingStock" parent="Root Scene/RootNode" index="10"]
+surface_material_override/0 = ExtResource("3_kkf8k")
+
+[node name="Trigger_004" parent="Root Scene/RootNode" index="13"]
+surface_material_override/0 = ExtResource("3_kkf8k")
+
+[editable path="Root Scene"]

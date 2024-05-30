@@ -1,10 +1,12 @@
-[gd_scene load_steps=12 format=3 uid="uid://460hfpk8b2gp"]
+[gd_scene load_steps=14 format=3 uid="uid://460hfpk8b2gp"]
 
 [ext_resource type="Script" path="res://Scripts/AI/NPC/arms_dealer_rick.gd" id="1_0x5yl"]
 [ext_resource type="PackedScene" uid="uid://bri6it71khuda" path="res://tscn/Weapons/Pickups/m_14_pickup.tscn" id="2_u07b6"]
 [ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://tscn/Weapons/Pickups/1911Pickup.tscn" id="3_cfo1j"]
+[ext_resource type="PackedScene" uid="uid://01eg6olgc4k2" path="res://tscn/Weapons/Pickups/mp5sdPickup.tscn" id="4_2jn3b"]
 [ext_resource type="AudioStream" uid="uid://c0wgeokn7bnjq" path="res://sfx/caching.mp3" id="4_k4cgq"]
 [ext_resource type="AudioStream" uid="uid://drypw06u6ythe" path="res://sfx/rusianYap.mp3" id="5_2aeni"]
+[ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://tscn/Weapons/Pickups/DBshottyPickup.tscn" id="5_odtjn"]
 [ext_resource type="AudioStream" uid="uid://cgmf1kjsksbhf" path="res://sfx/paymentDeclined.mp3" id="6_7nxex"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_s2rty"]
@@ -24,7 +26,7 @@ material = SubResource("StandardMaterial3D_ode1p")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." groups=["Trader"]]
 script = ExtResource("1_0x5yl")
-Inventory = [ExtResource("2_u07b6"), ExtResource("3_cfo1j")]
+Inventory = [ExtResource("2_u07b6"), ExtResource("3_cfo1j"), ExtResource("4_2jn3b"), ExtResource("5_odtjn"), ExtResource("4_2jn3b")]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" groups=["Trader"]]
 shape = SubResource("CapsuleShape3D_s2rty")

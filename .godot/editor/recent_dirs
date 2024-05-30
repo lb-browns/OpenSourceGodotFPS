@@ -1,3 +1,5 @@
+res://Weapon Resources/
+res://tscn/Weapons/Weps
 res://
 res://Models/MrRobotModelsFiles
 res://Models/TEXTURED
@@ -18,5 +20,3 @@ res://Models
 res://gdShaders
 res://Models/PSXCigarette Pack[FIXED]
 res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun
-res://Models/PSXAssaultRifle[FIXED]/AK/RPK
-res://Models/PSXMiscGuns/Makarov
