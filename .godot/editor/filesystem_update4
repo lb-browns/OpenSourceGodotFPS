@@ -28,3 +28,6 @@ res://Weapon Resources/m14.tres
 res://Weapon Resources/DBshotty.tres
 res://Weapon Resources/1911.tres
 res://Scripts/Player/Player.gd
+res://2dAssets/BloodEffect.tscn
+res://2dAssets/BloodEffect.tres
+res://Scripts/World/BloodEffect.gd

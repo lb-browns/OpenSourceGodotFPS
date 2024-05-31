@@ -1,0 +1,52 @@
+[gd_scene load_steps=10 format=3 uid="uid://c8ic71x2ld1nw"]
+
+[ext_resource type="Shader" uid="uid://q3vhgjkkidfo" path="res://2dAssets/BloodEffect.tres" id="1_k2t6q"]
+[ext_resource type="Script" path="res://Scripts/World/BloodEffect.gd" id="2_24yg5"]
+
+[sub_resource type="Curve" id="Curve_hvbro"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_7ioe3"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_6wexs"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveXYZTexture" id="CurveXYZTexture_cjtky"]
+curve_x = SubResource("Curve_hvbro")
+curve_y = SubResource("Curve_7ioe3")
+curve_z = SubResource("Curve_6wexs")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_nwnyu"]
+direction = Vector3(0, 0, 0)
+spread = 2.53
+initial_velocity_min = 4.0
+initial_velocity_max = 10.0
+linear_accel_min = 4.0
+linear_accel_max = 4.0
+scale_min = 0.3
+scale_max = 0.6
+scale_curve = SubResource("CurveXYZTexture_cjtky")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mtkg4"]
+render_priority = 0
+shader = ExtResource("1_k2t6q")
+
+[sub_resource type="QuadMesh" id="QuadMesh_grkhl"]
+material = SubResource("ShaderMaterial_mtkg4")
+
+[node name="bloodeffect" type="GPUParticles3D"]
+transform = Transform3D(0.12, 0, 0, 0, 0.12, 0, 0, 0, 0.12, 0, 0, 0)
+emitting = false
+amount = 999
+lifetime = 0.1
+interp_to_end = 1.0
+one_shot = true
+speed_scale = 2.89
+fixed_fps = 60
+process_material = SubResource("ParticleProcessMaterial_nwnyu")
+draw_pass_1 = SubResource("QuadMesh_grkhl")
+script = ExtResource("2_24yg5")

@@ -1,3 +1,5 @@
+res://Scripts/World
+res://2dAssets
 res://Weapon Resources/
 res://tscn/Weapons/Weps
 res://
@@ -11,8 +13,6 @@ res://tscn/NPC
 res://Scripts/AI/NPC
 res://Mats
 res://tscn/Player
-res://2dAssets
-res://Scripts/World
 res://Game Meta Data
 res://Textures/kenney_prototype-textures/PNG/Dark
 res://Textures/kenney_prototype-textures/PNG/Light

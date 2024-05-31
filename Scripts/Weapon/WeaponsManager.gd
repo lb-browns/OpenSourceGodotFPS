@@ -7,6 +7,7 @@ signal updateWeaponStack
 @onready var player = $"../../.."
 @onready var animPlayer = get_node("../../../AnimationPlayer") 
 @onready var bulletPoint = get_node("%bulletPoint")
+@onready var bloodEffect = preload("res://2dAssets/BloodEffect.tscn")
 
 var raycastDebug = preload("res://tscn/Weapons/Misc/raycastDebug.tscn")
 
@@ -168,7 +169,6 @@ func hitscanCol(collisionPoint):
 	print("BOOM")
 	var bulletDirection = (collisionPoint - bulletPoint.get_global_transform().origin).normalized()
 	var newIntersection = PhysicsRayQueryParameters3D.create(bulletPoint.get_global_transform().origin, collisionPoint + bulletDirection * 2)
-	
 	var bulletCollision = get_world_3d().direct_space_state.intersect_ray(newIntersection)
 	print("BOOM 2")
 	if bulletCollision:
@@ -180,6 +180,13 @@ func hitscanCol(collisionPoint):
 		
 		hitscanDamage(bulletCollision.collider, bulletDirection, bulletCollision.position)
 		print("BOOM 3")
+		
+		if bulletCollision.collider.is_in_group("Enemy"):
+			var _bloodEffect = bloodEffect.instantiate()
+			world.add_child(_bloodEffect)
+			_bloodEffect.global_translate(bulletCollision.position)
+			
+			print("Group was enemy")
 
 
 func hitscanDamage(Collider, Direction, Position):
@@ -194,6 +201,7 @@ func hitscanDamage(Collider, Direction, Position):
 	elif Collider.is_in_group("Enemy"):
 		print("hit enemyX")
 		Collider.takeDamage((currentWeapon.weaponDamage + player.playerDamageIncrease))
+		
 		print("hit enemy")
 
 func launchProjectile(Point):
