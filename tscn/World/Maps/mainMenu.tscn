@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://be4w2ahcm8env"]
+[gd_scene load_steps=9 format=3 uid="uid://be4w2ahcm8env"]
 
 [ext_resource type="Script" path="res://Scripts/mainMenu.gd" id="1_8fur8"]
 [ext_resource type="PackedScene" uid="uid://dv86xtc3fdm7b" path="res://tscn/World/Misc/main_menu_3d_scene.tscn" id="2_sjl68"]
+[ext_resource type="Shader" path="res://gdShaders/RealPixelate.gdshader" id="3_to65q"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0m5lh"]
 bg_color = Color(0.6, 0.6, 0.6, 0)
@@ -10,6 +11,31 @@ bg_color = Color(0.6, 0.6, 0.6, 0)
 font_size = 40
 outline_size = 14
 outline_color = Color(1, 0.101961, 0, 0.32549)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_pntea"]
+noise_type = 3
+seed = 3
+frequency = 0.377
+offset = Vector3(214.29, 0, 0)
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_m4w7y"]
+noise = SubResource("FastNoiseLite_pntea")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fyhnl"]
+shader = ExtResource("3_to65q")
+shader_parameter/curvature = 2.0
+shader_parameter/skip = 1.0
+shader_parameter/image_flicker = 1.0
+shader_parameter/vignette_flicker_speed = 1.0
+shader_parameter/vignette_strength = 1.0
+shader_parameter/small_scanlines_speed = 1.0
+shader_parameter/small_scanlines_proximity = 1.0
+shader_parameter/small_scanlines_opacity = 1.0
+shader_parameter/scanlines_opacity = 1.0
+shader_parameter/scanlines_speed = 1.0
+shader_parameter/scanline_thickness = 0.5
+shader_parameter/scanlines_spacing = 1.0
+shader_parameter/noise_texture = SubResource("NoiseTexture2D_m4w7y")
 
 [node name="MainMenu" type="Node"]
 script = ExtResource("1_8fur8")
@@ -106,6 +132,15 @@ text = "Settings"
 layout_mode = 2
 text = "Quit
 "
+
+[node name="ColorRect" type="ColorRect" parent="MainMenu"]
+material = SubResource("ShaderMaterial_fyhnl")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
 
 [connection signal="pressed" from="MainMenu/Control/PanelContainer/MarginContainer/VBoxContainer/Single Player" to="." method="_on_single_player_pressed"]
 [connection signal="pressed" from="MainMenu/Control/PanelContainer/MarginContainer/VBoxContainer/Multi Player" to="." method="_on_multi_player_pressed"]

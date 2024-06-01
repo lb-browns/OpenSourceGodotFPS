@@ -9,6 +9,7 @@ extends Node3D
 @onready var buySound = $"../Register"
 @onready var buySound2 = $"../Speech"
 @onready var paymentDeclinedSFX = $"../payment declined"
+@onready var animPlayer = $CollisionShape3D/ArmsDealerRick/AnimationPlayer
 var force = Vector3(0, 5, -500)
 var interactKey
 
@@ -29,7 +30,7 @@ func buyItem():
 	var itemToGive
 	var item
 	itemToGive = Inventory[randi() % Inventory.size()]
-	
+	animPlayer.play("paymentAccepted")
 	item = itemToGive.instantiate()
 	wherePutItem.add_child(item)
 	add_child(item)
@@ -37,6 +38,7 @@ func buyItem():
 	
 	buySound.play()
 	buySound2.play()
+	
 
 func getInteractKey():
 	var actionEvents = InputMap.action_get_events("Interact")[0]
@@ -49,4 +51,6 @@ func setDialog():
 	
 
 func paymentDeclined():
+	animPlayer.play("paymentDeclined")
 	paymentDeclinedSFX.play()
+	

@@ -19,6 +19,7 @@ var stateMachine
 
 @onready var SELF = $"."
 
+
 @onready var navAgent = $NavigationAgent3D
 @onready var animTree = $AnimationTree
 @onready var animPlayer = $CollisionShape3D/aaaa/AnimationPlayer
@@ -33,6 +34,7 @@ func _ready():
 	stateMachine = animTree.get("parameters/playback")
 	chooseRandName()
 	SELF.apply_floor_snap()
+	
 
 func _on_timer_timeout():
 	var x = randf_range(-999, 999)

@@ -41,7 +41,7 @@ material = SubResource("ShaderMaterial_mtkg4")
 [node name="bloodeffect" type="GPUParticles3D"]
 transform = Transform3D(0.12, 0, 0, 0, 0.12, 0, 0, 0, 0.12, 0, 0, 0)
 emitting = false
-amount = 999
+amount = 500
 lifetime = 0.1
 interp_to_end = 1.0
 one_shot = true

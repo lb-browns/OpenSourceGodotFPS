@@ -1,9 +1,28 @@
-[gd_scene load_steps=2 format=3 uid="uid://j1klkgyhsfsh"]
+[gd_scene load_steps=4 format=3 uid="uid://j1klkgyhsfsh"]
 
 [ext_resource type="PackedScene" uid="uid://bad8ju65ri8yy" path="res://Models/PSXMiscGuns/1911/1911.fbx" id="1_pg1lf"]
+[ext_resource type="Texture2D" uid="uid://bwuxcxjlfhw6j" path="res://Models/PSXMiscGuns/1911/Defender-5f32a2c5abf6e765087fc499b8f67fa7_1911_Texture.png" id="2_hgcex"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nsb2e"]
+albedo_texture = ExtResource("2_hgcex")
 
 [node name="1911" instance=ExtResource("1_pg1lf")]
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
+
+[node name="1911_Body" parent="RootNode" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_nsb2e")
+
+[node name="1911_Slide" parent="RootNode" index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_nsb2e")
+
+[node name="1911_Hammer" parent="RootNode" index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_nsb2e")
+
+[node name="1911_Trigger" parent="RootNode" index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_nsb2e")
+
+[node name="1911_Mag" parent="RootNode" index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_nsb2e")
 
 [node name="45ACP" parent="RootNode" index="5"]
 mesh = null

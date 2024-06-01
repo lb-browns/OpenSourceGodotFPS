@@ -175,8 +175,8 @@ func hitscanCol(collisionPoint):
 		var hitIndicator = raycastDebug.instantiate()
 		var world = get_tree().get_root().get_child(0)
 		
-		world.add_child(hitIndicator)
-		hitIndicator.global_translate(bulletCollision.position)
+		#world.add_child(hitIndicator)
+		#hitIndicator.global_translate(bulletCollision.position)
 		
 		hitscanDamage(bulletCollision.collider, bulletDirection, bulletCollision.position)
 		print("BOOM 3")

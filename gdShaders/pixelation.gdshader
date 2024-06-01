@@ -1,72 +1,55 @@
-shader_type canvas_item;
-
+shader_type spatial;
 render_mode unshaded;
 
-#define MAXCOLORS 16
+uniform sampler2D SCREEN_TEXTURE: repeat_disable, hint_screen_texture;
+uniform sampler2D DEPTH_TEXTURE: hint_depth_texture, filter_linear_mipmap;
 
-uniform bool enabled = true;
-uniform bool dithering = true;
-uniform int colors : hint_range(1, MAXCOLORS) = 12;
-uniform int dither_size: hint_range(1, 8) = 2;
+uniform float StrokeSize: hint_range(0.0, 32.0, 0.001) = 3.5;
+uniform float DepthMaskBase: hint_range(0.0, 2.0, 0.001) = 0.05;
+uniform float DepthMaskIntensity: hint_range(-128.0, 128.0, 0.001) = 0.3;
 
-float dithering_pattern(ivec2 fragcoord) {
-	const float pattern[] = {
-		0.00, 0.50, 0.10, 0.65, 
-		0.75, 0.25, 0.90, 0.35, 
-		0.20, 0.70, 0.05, 0.50, 
-		0.95, 0.40, 0.80, 0.30
-	};
-	
-	int x = fragcoord.x % 4;
-	int y = fragcoord.y % 4;
-	
-	return pattern[y * 4 + x];
+const float _offsetA = 0.0002;
+const float _offsetB = 0.0003;
+const float _offsetC = 0.0004;
+
+
+void vertex() {
+  POSITION = vec4(VERTEX, 1.0);
 }
 
-float reduce_color(float raw, float dither, int depth) {
-	float div = 1.0 / float(depth);
-	float val = 0.0;
-	int i = 0;
+vec3 find_brightest(vec2 _uv) {
+	float brightest_value = 0.0; 
+	vec3 brightest_color = vec3(0.0);
 
-	while (i <= MAXCOLORS)
-	{
-		if (raw > div * (float(i + 1))) {
-			i = i + 1;
-			continue;
-		}
+    vec3 sample_colors[7] = vec3[](
+    	texture(SCREEN_TEXTURE, _uv).rgb,
+    	texture(SCREEN_TEXTURE, vec2(_uv.x, _uv.y + _offsetC * StrokeSize)).rgb,
+    	texture(SCREEN_TEXTURE, vec2(_uv.x - _offsetB * StrokeSize, _uv.y + _offsetA * StrokeSize)).rgb,
+    	texture(SCREEN_TEXTURE, vec2(_uv.x - _offsetB * StrokeSize, _uv.y - _offsetA * StrokeSize)).rgb,
+    	texture(SCREEN_TEXTURE, vec2(_uv.x, _uv.y - _offsetC * StrokeSize)).rgb,
+    	texture(SCREEN_TEXTURE, vec2(_uv.x + _offsetB * StrokeSize, _uv.y - _offsetA * StrokeSize)).rgb,
+    	texture(SCREEN_TEXTURE, vec2(_uv.x + _offsetB * StrokeSize, _uv.y + _offsetA * StrokeSize)).rgb
+    );
 
-		if (raw * float(depth) - float(i) <= dither * 0.999)
-		{
-			val = div * float(i);
-		} 
-		else
-		{
-			val = div * float(i + 1);
-		}
-		return val;
-
-		i = i+1;
-	}
-
-	return val;
+    for (int i = 0; i < 7; i++) {
+        float brightness = max(max(sample_colors[i].r, sample_colors[i].g), sample_colors[i].b);
+        if (brightness > brightest_value) {
+            brightest_value = brightness;
+            brightest_color = sample_colors[i];
+        }
+    }
+    return brightest_color;
 }
-
+ 
 void fragment() {
-	vec4 raw = texture(TEXTURE, SCREEN_UV);
-	ivec2 uv = ivec2(FRAGCOORD.xy / float(dither_size));
-
-	if (enabled == true){
-		float dithering_value = 1.0;
-		if (dithering)
-		{
-			dithering_value = dithering_pattern(uv);
-		}
-		
-		COLOR.r = reduce_color(raw.r, (dithering_value - 0.5) * dithering_value + 0.5, colors - 1);
-		COLOR.g = reduce_color(raw.g, (dithering_value - 0.5) * dithering_value + 0.5, colors - 1);
-		COLOR.b = reduce_color(raw.b, (dithering_value - 0.5) * dithering_value + 0.5, colors - 1);
-
-	} else {
-		COLOR.rgb = raw.rgb;
-	}
+	float depth        = texture(DEPTH_TEXTURE, SCREEN_UV).r;
+	depth              = PROJECTION_MATRIX[3][2] / (depth + PROJECTION_MATRIX[2][2]);
+	float mask         = (depth*DepthMaskBase);
+	vec4 modified_mask = vec4(pow(mask, DepthMaskIntensity));
+	modified_mask      = clamp(modified_mask, 0.0, 1.0);
+	vec3 base_color    = texture(SCREEN_TEXTURE, SCREEN_UV).rgb;
+    ALBEDO = mix(base_color, find_brightest(SCREEN_UV), modified_mask.rgb).rgb;
+	// uncomment to see depth mask
+	//ALBEDO = modified_mask.rgb;
 }
+ 

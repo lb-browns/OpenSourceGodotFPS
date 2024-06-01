@@ -1,3 +1,5 @@
+res://Models/armsdealerrick
+res://gdShaders
 res://Scripts/World
 res://2dAssets
 res://Weapon Resources/
@@ -17,6 +19,4 @@ res://Game Meta Data
 res://Textures/kenney_prototype-textures/PNG/Dark
 res://Textures/kenney_prototype-textures/PNG/Light
 res://Models
-res://gdShaders
 res://Models/PSXCigarette Pack[FIXED]
-res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun
