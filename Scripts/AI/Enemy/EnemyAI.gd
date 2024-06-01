@@ -4,6 +4,7 @@ extends CharacterBody3D
 @export var ATTACK_RANGE = 1.4
 @export var DAMAGE = 1.5
 @export var HEALTH = 75.0
+@export var MAX_HEALTH = 75.0
 @export var NAME = "RICKY"
 
 @onready var canSeePlayer = false
@@ -28,9 +29,10 @@ signal enemyKilled
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	SPEED *= player.difficultyTier
+	
 	DAMAGE *= player.difficultyTier
-	HEALTH *= player.difficultyTier
+	MAX_HEALTH *= player.difficultyTier
+	HEALTH = MAX_HEALTH
 	stateMachine = animTree.get("parameters/playback")
 	chooseRandName()
 	SELF.apply_floor_snap()

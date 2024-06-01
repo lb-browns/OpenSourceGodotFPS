@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://b2hjnqvuve380"]
+
+[ext_resource type="Script" path="res://Scripts/Weapon/WeaponPickup.gd" id="1_kq6uf"]
+[ext_resource type="ArrayMesh" uid="uid://dkuqcynqhypvf" path="res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/snubnise.obj" id="2_ibb8o"]
+[ext_resource type="Material" uid="uid://djs83xqvderqe" path="res://Weapon Resources/WeaponPickupGlow.tres" id="3_f1b0r"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lkj63"]
+size = Vector3(0.54, 0.29, 0.25)
+
+[node name="38snubPickup" type="RigidBody3D" groups=["Pickup"]]
+collision_layer = 8
+collision_mask = 13
+script = ExtResource("1_kq6uf")
+weaponName = "38snub"
+CurrAmmo = 6
+ReserveAmmo = 34
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.252828, 0)
+shape = SubResource("BoxShape3D_lkj63")
+
+[node name="Snubnise" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.26, 0, 0, 0, 0.26, 0, 0, 0, 0.26, 0, 0, 0)
+mesh = ExtResource("2_ibb8o")
+surface_material_override/0 = ExtResource("3_f1b0r")
+surface_material_override/1 = ExtResource("3_f1b0r")
+surface_material_override/2 = ExtResource("3_f1b0r")

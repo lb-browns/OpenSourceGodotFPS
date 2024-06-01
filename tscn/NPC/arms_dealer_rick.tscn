@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://460hfpk8b2gp"]
+[gd_scene load_steps=20 format=3 uid="uid://460hfpk8b2gp"]
 
 [ext_resource type="Script" path="res://Scripts/AI/NPC/arms_dealer_rick.gd" id="1_0x5yl"]
 [ext_resource type="PackedScene" uid="uid://bri6it71khuda" path="res://tscn/Weapons/Pickups/m_14_pickup.tscn" id="2_u07b6"]
@@ -8,7 +8,9 @@
 [ext_resource type="AudioStream" uid="uid://drypw06u6ythe" path="res://sfx/rusianYap.mp3" id="5_2aeni"]
 [ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://tscn/Weapons/Pickups/DBshottyPickup.tscn" id="5_odtjn"]
 [ext_resource type="AudioStream" uid="uid://cgmf1kjsksbhf" path="res://sfx/paymentDeclined.mp3" id="6_7nxex"]
+[ext_resource type="PackedScene" uid="uid://dd8s3wyaxi5kv" path="res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn" id="6_ar587"]
 [ext_resource type="Texture2D" uid="uid://4rip16rd6p8k" path="res://Models/armsdealerrick/Brian Winne Low Poly Nightmare Fuel Phase 4.png" id="6_ibr2w"]
+[ext_resource type="PackedScene" uid="uid://b2hjnqvuve380" path="res://tscn/Weapons/Pickups/38snubPickup.tscn" id="7_o17pj"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_s2rty"]
 
@@ -1247,7 +1249,7 @@ _data = {
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." groups=["Trader"]]
 script = ExtResource("1_0x5yl")
-Inventory = [ExtResource("2_u07b6"), ExtResource("3_cfo1j"), ExtResource("4_2jn3b"), ExtResource("5_odtjn"), ExtResource("4_2jn3b")]
+Inventory = [ExtResource("2_u07b6"), ExtResource("3_cfo1j"), ExtResource("4_2jn3b"), ExtResource("5_odtjn"), ExtResource("4_2jn3b"), ExtResource("6_ar587"), ExtResource("7_o17pj")]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" groups=["Trader"]]
 shape = SubResource("CapsuleShape3D_s2rty")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=89 format=3 uid="uid://coni7pts3q0cc"]
+[gd_scene load_steps=96 format=3 uid="uid://coni7pts3q0cc"]
 
 [ext_resource type="Script" path="res://Scripts/Player/Player.gd" id="1_sc27s"]
 [ext_resource type="Texture2D" uid="uid://dtr1htkqchj0h" path="res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png" id="3_jrayb"]
@@ -23,6 +23,7 @@
 [ext_resource type="PackedScene" uid="uid://cponikef7qyuc" path="res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn" id="13_l6gjs"]
 [ext_resource type="PackedScene" uid="uid://c2xf6jyrklxup" path="res://tscn/Weapons/Weps/d_bshotty.tscn" id="14_segek"]
 [ext_resource type="PackedScene" uid="uid://j1klkgyhsfsh" path="res://tscn/Weapons/Weps/1911.tscn" id="15_s0nfb"]
+[ext_resource type="AudioStream" uid="uid://btkgtrwwovypf" path="res://sfx/CustomSoundsPack1/PISTOL16.WAV" id="16_jx3bq"]
 [ext_resource type="PackedScene" uid="uid://drqee68f0x5m0" path="res://tscn/Weapons/Weps/m_14.tscn" id="16_lu3cd"]
 [ext_resource type="AudioStream" uid="uid://bxgeibsk7f5d2" path="res://sfx/CustomSoundsPack1/PUNCH1.WAV" id="16_wmdbp"]
 [ext_resource type="PackedScene" uid="uid://b8wqphfr328w7" path="res://tscn/Weapons/Weps/metalBat.tscn" id="17_hrqtn"]
@@ -30,8 +31,10 @@
 [ext_resource type="PackedScene" uid="uid://djd68t8k8351l" path="res://tscn/Weapons/Weps/mp5sd.tscn" id="21_5j4og"]
 [ext_resource type="AudioStream" uid="uid://bh7iwadqyhywl" path="res://sfx/CustomSoundsPack1/STEP1.WAV" id="23_m2x5a"]
 [ext_resource type="PackedScene" uid="uid://xtfwapg4y4mn" path="res://2dAssets/gunshotsEffect.tscn" id="24_p8c47"]
+[ext_resource type="Resource" uid="uid://ba7yib80124g3" path="res://Weapon Resources/38snub.tres" id="24_vi1fi"]
 [ext_resource type="Texture2D" uid="uid://bn5uswl0c60tn" path="res://2dAssets/GAP_EasyExplosions_Textures/Flare00.PNG" id="25_4518q"]
 [ext_resource type="Shader" path="res://gdShaders/>?.gdshader" id="32_3lgfm"]
+[ext_resource type="PackedScene" uid="uid://dprniiu41v6o0" path="res://Models/PSXRevolverPack[FIXED]/38snub.tscn" id="32_gvo4s"]
 
 [sub_resource type="SystemFont" id="SystemFont_ngqe5"]
 font_names = PackedStringArray("AppleGothic")
@@ -796,6 +799,30 @@ tracks/17/keys = {
 "update": 0,
 "values": [Vector3(0, 0, 0)]
 }
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("WeaponHolder/38snub:position")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.17, 0.106585, 0.22428)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("WeaponHolder/38snub:rotation")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
 
 [sub_resource type="Animation" id="Animation_3b7fu"]
 resource_name = "SdActivate"
@@ -1261,12 +1288,192 @@ tracks/1/keys = {
 "values": [Vector3(0, 1.5708, 0), Vector3(4.06562e-15, 1.5708, -3.11883), Vector3(1.46099e-15, 1.5708, 1.47437), Vector3(0, 1.5708, 0)]
 }
 
+[sub_resource type="Animation" id="Animation_txltl"]
+resource_name = "38snubActivate"
+length = 0.2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("WeaponHolder/38snub:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.17, 0.125775, 0.0833895), Vector3(0.17, -1.12851, -1.06713), Vector3(0.545, -0.398, -0.541)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("WeaponHolder/38snub:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 3.14159, 0), Vector3(0, 1.5708, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_183bs"]
+resource_name = "38snubDeactivate"
+length = 0.2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("WeaponHolder/38snub:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.14, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.545, -0.398, -0.541), Vector3(0.545, -1.018, -0.461), Vector3(0.17, 0.125775, 0.0833895)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("WeaponHolder/38snub:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.14, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 1.5708, 0), Vector3(0, 2.65988, -1.38056), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_cgfh3"]
+resource_name = "38snubFire"
+length = 0.2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("WeaponHolder/38snub:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.545, -0.398, -0.541), Vector3(0.545, -0.398, -0.291), Vector3(0.545, -0.398, -0.461)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("WeaponHolder/38snub:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 1.5708, 0), Vector3(0, 1.5708, 0.507891), Vector3(0, 1.5708, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../../Gunshots:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0.547497, -0.111879, -0.787643), Vector3(0.547497, 0.0081934, -0.4362), Vector3(0.547497, -0.119276, -0.773206)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../../Gunshots/flash2:emitting")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../../Gunshots/sparks2:emitting")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("AudioStreamPlayer3D:stream")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("16_jx3bq")]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("AudioStreamPlayer3D:playing")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_7but1"]
+resource_name = "38snubReload"
+length = 0.2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("WeaponHolder/38snub:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 1.5708, 0), Vector3(0, 1.5708, -5.01259), Vector3(0, 1.5708, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("WeaponHolder/38snub:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.545, -0.398, -0.541), Vector3(0.545, -0.398, -0.541)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_g3pyr"]
 _data = {
 "1911Activate": SubResource("Animation_8ct6w"),
 "1911Deactivate": SubResource("Animation_bu7yx"),
 "1911fire": SubResource("Animation_jgbjw"),
 "1911reload": SubResource("Animation_882jr"),
+"38snubActivate": SubResource("Animation_txltl"),
+"38snubDeactivate": SubResource("Animation_183bs"),
+"38snubFire": SubResource("Animation_cgfh3"),
+"38snubReload": SubResource("Animation_7but1"),
 "DBshottyActivate": SubResource("Animation_l655e"),
 "DBshottyDeactivate": SubResource("Animation_ulh3m"),
 "DBshottyFire": SubResource("Animation_sf4n3"),
@@ -1946,7 +2153,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.478314, 0)
 
 [node name="WeaponsManager" type="Node3D" parent="camHolder/Main Cam"]
 script = ExtResource("5_svc1s")
-_weaponResources = Array[Resource("res://Scripts/Weapon/weaponResource.gd")]([ExtResource("6_ayeoe"), ExtResource("7_gkubt"), ExtResource("8_5q4i6"), ExtResource("9_oky4x"), ExtResource("10_sab0a"), ExtResource("20_nhr55")])
+_weaponResources = Array[Resource("res://Scripts/Weapon/weaponResource.gd")]([ExtResource("6_ayeoe"), ExtResource("7_gkubt"), ExtResource("8_5q4i6"), ExtResource("9_oky4x"), ExtResource("10_sab0a"), ExtResource("20_nhr55"), ExtResource("24_vi1fi")])
 startWeapons = Array[String](["metalBat"])
 
 [node name="FPS_Rig" type="Node3D" parent="camHolder/Main Cam/WeaponsManager"]
@@ -1975,6 +2182,9 @@ transform = Transform3D(0.14, 0, 0, 0, 0.14, 0, 0, 0, 0.14, 0, 0.256307, 0)
 [node name="m14" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" instance=ExtResource("16_lu3cd")]
 
 [node name="metalBat" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" instance=ExtResource("17_hrqtn")]
+
+[node name="38snub" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig/WeaponHolder" instance=ExtResource("32_gvo4s")]
+transform = Transform3D(0.21, 0, 0, 0, 0.21, 0, 0, 0, 0.21, 0.17, 0.106585, 0.22428)
 
 [node name="Eyeline" type="RayCast3D" parent="camHolder/Main Cam"]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)

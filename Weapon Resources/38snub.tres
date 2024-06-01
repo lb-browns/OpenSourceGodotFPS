@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="weaponResource" load_steps=4 format=3 uid="uid://ba7yib80124g3"]
+
+[ext_resource type="Script" path="res://Scripts/Weapon/weaponResource.gd" id="1_he4mt"]
+[ext_resource type="Texture2D" uid="uid://ch1efydc3hhig" path="res://2dAssets/GAP_EasyExplosions_Textures/Circle03.png" id="1_ln8ld"]
+[ext_resource type="PackedScene" uid="uid://b2hjnqvuve380" path="res://tscn/Weapons/Pickups/38snubPickup.tscn" id="3_26dai"]
+
+[resource]
+script = ExtResource("1_he4mt")
+weaponName = "38snub"
+activateAnim = "38snubActivate"
+deactivateAnim = "38snubDeactivate"
+fireAnim = "38snubFire"
+reloadAnim = "38snubReload"
+icon = ExtResource("1_ln8ld")
+currAmmo = 6
+reserveAmmo = 34
+Mag = 6
+maxAmmo = 999
+Automatic = false
+weaponRange = 99
+weaponDamage = 23
+Type = 1
+weaponDrop = ExtResource("3_26dai")
+projectileVelocity = 0
+Droppable = true
+Melee = false
+weaponRecoil = 0.04

@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dprniiu41v6o0"]
+
+[ext_resource type="PackedScene" uid="uid://1jwuvn6c5ob5" path="res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/38SpecialRevolver.fbx" id="1_lpj7w"]
+
+[node name="Root Scene" instance=ExtResource("1_lpj7w")]
+
+[node name="38SpecialShell" parent="RootNode" index="0"]
+visible = false
+
+[node name="38SpecialCylinder" parent="RootNode" index="2"]
+visible = false
+
+[node name="38SpecialCylinder_001" parent="RootNode" index="3"]
+transform = Transform3D(100, 0, 0, 0, 100, -1.62921e-05, 0, 1.62921e-05, 100, 0.135655, 1.18136, -0.00115376)
+
+[node name="Bullet_001" parent="RootNode" index="5"]
+visible = false
