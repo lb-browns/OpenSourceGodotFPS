@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://gf3qhifevym8" path="res://tscn/World/SHRooms/r_warehouse2.tscn" id="3_38ong"]
 [ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="3_pav7b"]
 [ext_resource type="PackedScene" uid="uid://cnaasby7wgmyj" path="res://tscn/World/SHRooms/r_warehouse1.tscn" id="4_b2wxp"]
-[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://Textures/Skyboxes/world_environment.tscn" id="4_icyym"]
+[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://tscn/World/world_environment.tscn" id="4_icyym"]
 [ext_resource type="PackedScene" uid="uid://coxx1w6t8srt1" path="res://tscn/World/SHRooms/r_warehouse3.tscn" id="6_jy16t"]
 
 [node name="Node" type="Node"]

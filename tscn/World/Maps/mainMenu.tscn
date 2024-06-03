@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://be4w2ahcm8env"]
 
-[ext_resource type="Script" path="res://Scripts/mainMenu.gd" id="1_8fur8"]
+[ext_resource type="Script" path="res://Scripts/UI/mainMenu.gd" id="1_7on4v"]
 [ext_resource type="PackedScene" uid="uid://dv86xtc3fdm7b" path="res://tscn/World/Misc/main_menu_3d_scene.tscn" id="2_sjl68"]
 [ext_resource type="Shader" path="res://gdShaders/RealPixelate.gdshader" id="3_to65q"]
 
@@ -38,7 +38,7 @@ shader_parameter/scanlines_spacing = 1.0
 shader_parameter/noise_texture = SubResource("NoiseTexture2D_m4w7y")
 
 [node name="MainMenu" type="Node"]
-script = ExtResource("1_8fur8")
+script = ExtResource("1_7on4v")
 
 [node name="Node3D" type="Node3D" parent="."]
 

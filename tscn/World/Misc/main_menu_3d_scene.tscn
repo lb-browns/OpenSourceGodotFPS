@@ -15,10 +15,10 @@
 [ext_resource type="PackedScene" uid="uid://c8ueltvriji5r" path="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/pumplong.tscn" id="12_2iigs"]
 [ext_resource type="PackedScene" uid="uid://cakuryxvsdsu7" path="res://Models/PSXCigarette Pack[FIXED]/opencigs.tscn" id="13_ck6md"]
 [ext_resource type="ArrayMesh" uid="uid://yq88vh5ccc5m" path="res://Models/PSXHealingItems[Fixed]/Pill_Bottle/Pill_bottle.obj" id="14_8s42c"]
+[ext_resource type="PackedScene" uid="uid://omkewlcxgme" path="res://Models/TEXTURED/tv.tscn" id="15_o7k40"]
 [ext_resource type="PackedScene" uid="uid://be431njd85lof" path="res://Models/PSXAmmoBoxes/Large Ammo Box/large_ammo_box_240.fbx" id="15_u7c5s"]
-[ext_resource type="PackedScene" uid="uid://omkewlcxgme" path="res://Models/tv.tscn" id="16_y01a0"]
-[ext_resource type="PackedScene" uid="uid://bbxmwiprhws16" path="res://Models/painting1.tscn" id="18_vxtcu"]
-[ext_resource type="PackedScene" uid="uid://thay1skanou1" path="res://Models/door1.tscn" id="19_ae0oy"]
+[ext_resource type="PackedScene" uid="uid://bbxmwiprhws16" path="res://Models/TEXTURED/painting1.tscn" id="18_puok3"]
+[ext_resource type="PackedScene" uid="uid://thay1skanou1" path="res://Models/TEXTURED/door1.tscn" id="19_pgj5h"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ftpwb"]
 albedo_texture = ExtResource("1_fpm2e")
@@ -136,7 +136,7 @@ transform = Transform3D(-0.223704, 0, 0.186112, 0, 0.291, 0, -0.186112, 0, -0.22
 mesh = ExtResource("14_8s42c")
 skeleton = NodePath("../..")
 
-[node name="tv" parent="table" instance=ExtResource("16_y01a0")]
+[node name="tv" parent="table" instance=ExtResource("15_o7k40")]
 transform = Transform3D(0.237759, 0, -0.868027, 0, 0.9, 0, 0.868027, 0, 0.237759, 0.981113, 3.4416, -1.42707)
 
 [node name="Cabinet" parent="." instance=ExtResource("5_atlnf")]
@@ -154,10 +154,10 @@ transform = Transform3D(-0.902495, 0, -0.4307, 0, 1, 0, 0.4307, 0, -0.902495, -0
 [node name="Ammobox3" parent="." instance=ExtResource("15_u7c5s")]
 transform = Transform3D(0.000917999, -0.217477, -0.976065, -0.994661, 0.100521, -0.0233325, 0.103189, 0.970876, -0.216224, 0.951464, 0.818791, -2.24152)
 
-[node name="Node3D" parent="." instance=ExtResource("18_vxtcu")]
+[node name="Node3D" parent="." instance=ExtResource("18_puok3")]
 transform = Transform3D(-1.79217e-08, 0, -1, 0, 0.59, 0, 0.41, 0, -4.37114e-08, 2.21917, 3, -2.32067)
 
-[node name="Node3D2" parent="." instance=ExtResource("19_ae0oy")]
+[node name="Node3D2" parent="." instance=ExtResource("19_pgj5h")]
 transform = Transform3D(-1.28511e-08, 0, 0.33, 0, 0.433, 0, -0.294, 0, -1.44248e-08, -2.654, 2, -1.94)
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]

@@ -1,0 +1,26 @@
+extends Node
+var MP = load("res://tscn/World/Maps/mp_world.tscn")
+var SPSelect = load("res://tscn/World/Maps/MapSelectSP.tscn")
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+
+
+func _on_single_player_pressed():
+	
+	get_tree().change_scene_to_packed(SPSelect)
+
+
+func _on_multi_player_pressed():
+	
+	
+	get_tree().change_scene_to_packed(MP)
+
+
+func _on_quit_pressed():
+	get_tree().quit()

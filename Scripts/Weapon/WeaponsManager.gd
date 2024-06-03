@@ -7,7 +7,7 @@ signal updateWeaponStack
 @onready var player = $"../../.."
 @onready var animPlayer = get_node("../../../AnimationPlayer") 
 @onready var bulletPoint = get_node("%bulletPoint")
-@onready var bloodEffect = preload("res://2dAssets/BloodEffect.tscn")
+@onready var bloodEffect = preload("res://tscn/Effects/BloodEffect.tscn")
 
 var raycastDebug = preload("res://tscn/Weapons/Misc/raycastDebug.tscn")
 

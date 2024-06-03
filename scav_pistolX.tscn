@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://cwiyh0et7v3g0"]
+[gd_scene load_steps=2 format=3 uid="uid://db5iu6rjl5lk3"]
 
 [ext_resource type="PackedScene" uid="uid://t7bf0nmba4gi" path="res://Models/MrRobotModelsFiles/ScavPistol.glb" id="1_x3pjk"]
 
@@ -13,7 +13,6 @@ bones/1/rotation = Quaternion(-0.0489565, -0.0106001, 0.00372475, 0.998738)
 bones/2/rotation = Quaternion(-0.0464038, -0.0220167, 0.00619658, 0.998661)
 bones/3/rotation = Quaternion(0.032722, -0.0224233, 0.00450896, 0.999203)
 bones/4/rotation = Quaternion(0.0431038, 0.011765, -0.00222252, 0.998999)
-bones/4/scale = Vector3(1, 1, 1)
 bones/5/rotation = Quaternion(-0.000712917, -0.000347762, 0.00180529, 0.999998)
 bones/6/rotation = Quaternion(-0.571176, -0.397593, -0.390962, 0.60235)
 bones/7/rotation = Quaternion(-0.355912, 0.533978, -0.531604, 0.552804)
@@ -38,7 +37,6 @@ bones/17/rotation = Quaternion(0.276881, 0.0304886, -0.048077, 0.959216)
 bones/18/rotation = Quaternion(0.380227, 0.497348, -0.215335, 0.749468)
 bones/18/scale = Vector3(1, 1, 1)
 bones/19/rotation = Quaternion(0.203785, 0.027144, 0.0138162, 0.978542)
-bones/19/scale = Vector3(1, 1, 1)
 bones/20/rotation = Quaternion(-0.607895, 0.329496, 0.398753, 0.602405)
 bones/21/rotation = Quaternion(0.333571, 0.587803, -0.552411, -0.487914)
 bones/22/rotation = Quaternion(0.107498, -0.288103, -0.0181234, 0.951374)

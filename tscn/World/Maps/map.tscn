@@ -1,7 +1,7 @@
 [gd_scene load_steps=20 format=3 uid="uid://dktp04p358rs1"]
 
 [ext_resource type="PackedScene" uid="uid://dq4vjocqpdjmi" path="res://tscn/World/Objects/ground.tscn" id="1_7dkkw"]
-[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://Textures/Skyboxes/world_environment.tscn" id="1_vo181"]
+[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://tscn/World/world_environment.tscn" id="1_vo181"]
 [ext_resource type="PackedScene" uid="uid://ckitknmgmkb83" path="res://tscn/World/Objects/obstacle.tscn" id="2_7xqag"]
 [ext_resource type="Texture2D" uid="uid://cn0tuiwrd81ev" path="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/PAShotgunText.png" id="2_ddmwy"]
 [ext_resource type="ArrayMesh" uid="uid://s1vhbvtdcw84" path="res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/PumpActionShotgun.obj" id="3_w2piu"]

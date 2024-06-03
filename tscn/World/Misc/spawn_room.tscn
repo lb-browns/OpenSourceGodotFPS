@@ -7,8 +7,8 @@
 [ext_resource type="PackedScene" uid="uid://erh7ueqy7uht" path="res://Models/TEXTURED/window_boarded.tscn" id="5_3gb70"]
 [ext_resource type="Texture2D" uid="uid://ceamownx3tait" path="res://Models/- Classic 64 Asset Pack 0.6/Art/Materials/painting_05.jpg" id="6_7cn6r"]
 [ext_resource type="PackedScene" uid="uid://460hfpk8b2gp" path="res://tscn/NPC/arms_dealer_rick.tscn" id="7_5brwc"]
-[ext_resource type="PackedScene" uid="uid://omkewlcxgme" path="res://Models/tv.tscn" id="8_xso1g"]
 [ext_resource type="PackedScene" uid="uid://doamxpwvhhhti" path="res://Models/TEXTURED/table.tscn" id="9_hie16"]
+[ext_resource type="PackedScene" uid="uid://omkewlcxgme" path="res://Models/TEXTURED/tv.tscn" id="9_vu3q1"]
 [ext_resource type="PackedScene" uid="uid://bsgn2bhqa1jcs" path="res://Models/PSX Model Pack/Filing Cabinet/cabinet.tscn" id="10_64hi7"]
 [ext_resource type="PackedScene" uid="uid://4q4bc56f6pnk" path="res://Models/TEXTURED/roubl_stack.tscn" id="11_5bih7"]
 [ext_resource type="PackedScene" uid="uid://cakuryxvsdsu7" path="res://Models/PSXCigarette Pack[FIXED]/opencigs.tscn" id="12_p0mns"]
@@ -166,7 +166,7 @@ DamageAmount = 0
 
 [node name="Decorations" type="Node3D" parent="."]
 
-[node name="tv" parent="Decorations" instance=ExtResource("8_xso1g")]
+[node name="tv" parent="Decorations" instance=ExtResource("9_vu3q1")]
 transform = Transform3D(-0.33, 0, 4.98286e-08, 0, 0.33, 0, -4.98286e-08, 0, -0.33, 0.71975, 1.74199, 8.85453)
 
 [node name="Root Scene" parent="Decorations" instance=ExtResource("9_hie16")]

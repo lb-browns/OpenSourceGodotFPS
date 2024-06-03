@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://d33bl23ax18rv"]
+[gd_scene load_steps=10 format=3 uid="uid://beangrfqorc4j"]
 
 [ext_resource type="Material" uid="uid://bu1se5eyhe14m" path="res://Mats/wood.tres" id="1_q1txv"]
 [ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="1_uj00u"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://0jywjouyej6u"]
 
-[ext_resource type="Script" path="res://tscn/NPC/playerStation.gd" id="1_jegq6"]
+[ext_resource type="Script" path="res://Scripts/AI/NPC/playerStation.gd" id="1_jegq6"]
 [ext_resource type="PackedScene" uid="uid://doamxpwvhhhti" path="res://Models/TEXTURED/table.tscn" id="1_uersr"]
 [ext_resource type="PackedScene" uid="uid://dawk2wr0mneki" path="res://Models/PSXHealingItems[Fixed]/Health_Pouch/Health_Kit.fbx" id="2_xv4b5"]
 [ext_resource type="ArrayMesh" uid="uid://dymvempwf7r72" path="res://Models/PSXHealingItems[Fixed]/Health_Pouch/Health_Kit_open.obj" id="3_mt1yn"]

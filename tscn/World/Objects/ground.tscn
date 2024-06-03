@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://dq4vjocqpdjmi"]
 
-[ext_resource type="Texture2D" uid="uid://ccete6fcmttn2" path="res://SlavSlaughterMouseMain/Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Dirt/Dirt_09-128x128.png" id="1_i7fs1"]
+[ext_resource type="Texture2D" uid="uid://ccete6fcmttn2" path="res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Dirt/Dirt_09-128x128.png" id="1_i7fs1"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ts76f"]
 albedo_color = Color(0.4, 0.917647, 0.54902, 1)

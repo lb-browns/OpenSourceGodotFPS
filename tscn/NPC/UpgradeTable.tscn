@@ -1,7 +1,7 @@
 [gd_scene load_steps=12 format=3 uid="uid://imn7rdvdrb6k"]
 
 [ext_resource type="PackedScene" uid="uid://doamxpwvhhhti" path="res://Models/TEXTURED/table.tscn" id="1_msxia"]
-[ext_resource type="Script" path="res://tscn/NPC/playerStation.gd" id="1_wid6p"]
+[ext_resource type="Script" path="res://Scripts/AI/NPC/playerStation.gd" id="1_wid6p"]
 [ext_resource type="AudioStream" uid="uid://cwvyuwrw6vw7c" path="res://sfx/Upgrade.wav" id="2_nliur"]
 [ext_resource type="PackedScene" uid="uid://cvvegkxvje4ud" path="res://Models/TEXTURED/vodka.tscn" id="2_ppwo4"]
 [ext_resource type="ArrayMesh" uid="uid://dt5h3x0fb1mlp" path="res://Models/PSXAmmoBoxes/9mm/9mm_240.obj" id="4_p8otf"]

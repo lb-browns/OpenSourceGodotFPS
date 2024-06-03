@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="1_501ta"]
 [ext_resource type="Texture2D" uid="uid://biwes0sbmwkxw" path="res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_wall_02.jpg" id="1_robm0"]
-[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://Textures/Skyboxes/world_environment.tscn" id="2_k6mqt"]
+[ext_resource type="PackedScene" uid="uid://cfbf65tvsn532" path="res://tscn/World/world_environment.tscn" id="2_urgcr"]
 [ext_resource type="PackedScene" uid="uid://dfdxx3sv8kr6x" path="res://tscn/World/Misc/directional_light_3d.tscn" id="3_5g5xs"]
 [ext_resource type="PackedScene" uid="uid://dhv6wrr2a7gs2" path="res://tscn/Weapons/Pickups/1911Pickup.tscn" id="7_h5so4"]
 [ext_resource type="PackedScene" uid="uid://yad7cmkucksr" path="res://tscn/Weapons/Pickups/DBshottyPickup.tscn" id="8_sivix"]
@@ -172,7 +172,7 @@ operation = 2
 snap = 1.0
 size = Vector3(7.9007, 3.04077, 8.85185)
 
-[node name="WorldEnvironment" parent="." instance=ExtResource("2_k6mqt")]
+[node name="WorldEnvironment" parent="." instance=ExtResource("2_urgcr")]
 
 [node name="DirectionalLight3D" parent="." instance=ExtResource("3_5g5xs")]
 light_color = Color(1, 0.352941, 0.270588, 1)
