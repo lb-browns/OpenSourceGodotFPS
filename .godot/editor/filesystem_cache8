@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717567927
+::res://::1717612338
 Exfil.gd::GDScript::-1::1717548224::0::1::::<>Node3D<>::
 Exfil.tscn::PackedScene::4901528567828221201::1717548224::0::1::::<><>::res://Exfil.gd
 icon.svg::CompressedTexture2D::7607507315207210007::1717548228::1717548328::1::::<><>::
 README.md::TextFile::-1::1717548228::0::1::::<><>::
-scav_pistol.tscn::PackedScene::967761764427369777::1717563663::0::1::::<><>::uid://t7bf0nmba4gi::::res://Models/MrRobotModelsFiles/ScavPistol.glb<>uid://dubxc6y6p41rr::::res://Models/MrRobotModelsFiles/EliotTexture256fin.png
+scav_pistol.tscn::PackedScene::967761764427369777::1717568011::0::1::::<><>::uid://t7bf0nmba4gi::::res://Models/MrRobotModelsFiles/ScavPistol.glb<>uid://dubxc6y6p41rr::::res://Models/MrRobotModelsFiles/EliotTexture256fin.png
 scav_pistolX.tscn::PackedScene::7291905334069698716::1717548354::0::1::::<><>::uid://t7bf0nmba4gi::::res://Models/MrRobotModelsFiles/ScavPistol.glb
 sign_nosmoking.tscn::PackedScene::8343177055936639492::1717548354::0::1::::<><>::uid://bhyg2el87xt15::::res://Models/- Classic 64 Asset Pack 0.6/Signs/sign_nosmoking.blend<>uid://duanbd18vfssi::::res://Models/- Classic 64 Asset Pack 0.6/Signs/Materials/sign_no_smoking_01.png
 ::res://2dAssets/::1717554145
@@ -1244,22 +1244,22 @@ Screwdriver.png::CompressedTexture2D::5451867195693459144::1717548224::171754822
 ::res://Game Meta Data/::1717548224
 SSH ico copy.png::CompressedTexture2D::1662824288146937305::1717548224::1717548224::1::::<><>::
 SSH ico.png::CompressedTexture2D::7410134576123941648::1717548224::1717548224::1::::<><>::
-::res://gdShaders/::1717563749
-pixelation.gdshader::Shader::-1::1717563749::0::1::::<><>::
+::res://gdShaders/::1717568575
+pixelation.gdshader::Shader::-1::1717568575::0::1::::<><>::
 psx.tres::VisualShader::8565817017870094119::1717548228::0::1::::<><>::
-RealPixelate.gdshader::Shader::-1::1717563749::0::1::::<><>::
-sky.gdshader::Shader::-1::1717563749::0::1::::<><>::
+RealPixelate.gdshader::Shader::-1::1717568575::0::1::::<><>::
+sky.gdshader::Shader::-1::1717568575::0::1::::<><>::
 SkyShader.gdshader::Shader::-1::1717548228::0::1::::<><>::
-tv.gdshader::Shader::-1::1717563749::0::1::::<><>::
-::res://Mats/::1717554256
-concrete1.tres::StandardMaterial3D::2900806352089497557::1717548883::0::1::::<><>::uid://fndvnayud8kf::::res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_04.png
-Metal1.tres::StandardMaterial3D::551847448035070391::1717549033::0::1::::<><>::uid://by1c30sn7r6k8::::res://Models/- Classic 64 Asset Pack 0.6/Metal/Materials/metal_grunge_01.jpg
-new_standard_material_3d.tres::StandardMaterial3D::4286398476143356464::1717548705::0::1::::<><>::uid://bbm56jr81yk6r::::res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/shipping_container_01_front.jpg
+tv.gdshader::Shader::-1::1717568575::0::1::::<><>::
+::res://Mats/::1717568008
+concrete1.tres::StandardMaterial3D::2900806352089497557::1717568008::0::1::::<><>::uid://fndvnayud8kf::::res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_04.png
+Metal1.tres::StandardMaterial3D::551847448035070391::1717568008::0::1::::<><>::uid://by1c30sn7r6k8::::res://Models/- Classic 64 Asset Pack 0.6/Metal/Materials/metal_grunge_01.jpg
+new_standard_material_3d.tres::StandardMaterial3D::4286398476143356464::1717568008::0::1::::<><>::uid://bbm56jr81yk6r::::res://Models/- Classic 64 Asset Pack 0.6/Industrial/Materials/shipping_container_01_front.jpg
 PaperStack.tres::StandardMaterial3D::8368967745596231634::1717554256::0::1::::<><>::uid://bniig4l4l1xwu::::res://Models/- Classic 64 Asset Pack 0.6/Papers/Materials/paper_log_1.png
-Plaster1.tres::StandardMaterial3D::1542115736182937622::1717548354::0::1::::<><>::uid://ehio8l7u83ly::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Plaster/Plaster_02-128x128.png
-plaster2.tres::StandardMaterial3D::3770516873492247910::1717548705::0::1::::<><>::uid://q61n74vbrjud::::res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_plaster_pealing.png
-Tile1.tres::StandardMaterial3D::1467540929417285923::1717548354::0::1::::<><>::uid://dud5wnx07ph4r::::res://Models/Models pack psx/Texture/Tiles_01.jpg
-wood.tres::StandardMaterial3D::3844973010084433630::1717548705::0::1::::<><>::uid://dgdft3rr1b04j::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_11-128x128.png
+Plaster1.tres::StandardMaterial3D::1542115736182937622::1717568008::0::1::::<><>::uid://ehio8l7u83ly::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Plaster/Plaster_02-128x128.png
+plaster2.tres::StandardMaterial3D::3770516873492247910::1717568008::0::1::::<><>::uid://q61n74vbrjud::::res://Models/- Classic 64 Asset Pack 0.6/Walls/Materials/wall_plaster_pealing.png
+Tile1.tres::StandardMaterial3D::1467540929417285923::1717568008::0::1::::<><>::uid://dud5wnx07ph4r::::res://Models/Models pack psx/Texture/Tiles_01.jpg
+wood.tres::StandardMaterial3D::3844973010084433630::1717568008::0::1::::<><>::uid://dgdft3rr1b04j::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Wood/Wood_11-128x128.png
 WoodBox1.tres::StandardMaterial3D::7831861058737676502::1717549232::0::1::::<><>::uid://b24s1ru1vtf34::::res://Models/Minas/Textures/Box_Wood_03.png
 ::res://Models/::1717548228
 ::res://Models/- Classic 64 Asset Pack 0.6/::1717548225
@@ -3481,7 +3481,7 @@ WrenchTextures.jpg::CompressedTexture2D::1713572289418525338::1717548228::171754
 ::res://Models/Rocas/::1717548337
 R.jpg::CompressedTexture2D::1827511085527677352::1717548228::1717548228::1::::<><>::
 Rock low poly.dae::PackedScene::5089876972742467368::1717548228::1717548337::1::::<><>::uid://1bi3tx841g13::::res://Models/Rocas/R.jpg
-::res://Models/TEXTURED/::1717563663
+::res://Models/TEXTURED/::1717568011
 akm_2.tscn::PackedScene::2079416298695484077::1717548228::0::1::::<><>::uid://b6jlw61i8eoxb::::res://Models/PSXAssaultRifle[FIXED]/AKM.blend<>uid://2eys621by7fv::::res://Models/PSXAssaultRifle[FIXED]/AK/Textures/AKM_Texture.png
 BagPile.tscn::PackedScene::4128888212845108501::1717553086::0::1::::<><>::uid://bnpas4qenp8db::::res://Models/Models pack psx/Texture/Boxs_13.jpg
 Barrel1.tscn::PackedScene::6728285630182378808::1717549446::0::1::::<><>::
@@ -3495,7 +3495,7 @@ painting1.tscn::PackedScene::2504858551195123931::1717548228::0::1::::<><>::uid:
 panel_amp_controls.glb::PackedScene::7180539003604846689::1717548228::1717548228::1::::<><>::
 panel_electric_2.tscn::PackedScene::5711647666659568422::1717548228::0::1::::<><>::uid://c3c1cldkdsgby::::res://Models/- Classic 64 Asset Pack 0.6/Panels/panel_electric.blend<>uid://uguoftnflns6::::res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/panel_electric.png
 picnictable.tscn::PackedScene::9147831672834053275::1717548228::0::1::::<><>::uid://tv04h35xnrxt::::res://Models/PSX Model Pack/Picnic Table/picnictable.blend<>uid://vfl3qkuavo7p::::res://Models/PSX Model Pack/Picnic Table/wood.jpg
-playing_card.tscn::PackedScene::7829842733745919138::1717563663::0::1::::<><>::uid://udkdw4f2mlku::::res://2dAssets/playingcard.jpg
+playing_card.tscn::PackedScene::7829842733745919138::1717568011::0::1::::<><>::uid://udkdw4f2mlku::::res://2dAssets/playingcard.jpg
 playing_card_stack.tscn::PackedScene::7053446097636618215::1717556059::0::1::::<><>::uid://drh8w8rn6liec::::res://Mats/PaperStack.tres<>uid://djs3mo7f4ja0y::::res://Models/TEXTURED/playing_card.tscn
 propane_storage.tscn::PackedScene::4098361266644298393::1717556059::0::1::::<><>::uid://b14mdqi7ea3ne::::res://Models/- Classic 64 Asset Pack 0.6/Panels/propane_storage.blend<>uid://lyrj7fagathy::::res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/propane_storage.png
 pvc_pipe_2.tscn::PackedScene::1041011003401036140::1717548228::0::1::::<><>::uid://cu57e36ik2x3o::::res://Models/- Classic 64 Asset Pack 0.6/Misc/pvc_pipe.blend<>uid://ddr027w7cqxsd::::res://Models/- Classic 64 Asset Pack 0.6/Misc/textures/plastic_pipe.png
@@ -3511,12 +3511,12 @@ window_boarded.tscn::PackedScene::316333018132008145::1717548228::0::1::::<><>::
 Jump (JumpStyle TikTok).mp3::AudioStreamMP3::4373658707869388185::1717548228::1717548228::1::::<><>::
 ::res://Scripts/::1717548228
 ::res://Scripts/AI/::1717548228
-::res://Scripts/AI/Enemy/::1717548353
+::res://Scripts/AI/Enemy/::1717568008
 EnemyAI.gd::GDScript::-1::1717548228::0::1::::<>CharacterBody3D<>::
-EnemySpawner.gd::GDScript::-1::1717548353::0::1::::<>Node3D<>::
-::res://Scripts/AI/NPC/::1717548353
+EnemySpawner.gd::GDScript::-1::1717568008::0::1::::<>Node3D<>::
+::res://Scripts/AI/NPC/::1717568008
 arms_dealer_rick.gd::GDScript::-1::1717548228::0::1::::<>Node3D<>::
-Door.gd::GDScript::-1::1717548353::0::1::::<>StaticBody3D<>::
+Door.gd::GDScript::-1::1717568008::0::1::::<>StaticBody3D<>::
 flea_door_Node_Holder.gd::GDScript::-1::1717548228::0::1::::<>Node3D<>::
 playerStation.gd::GDScript::-1::1717548228::0::1::::<>StaticBody3D<>::
 ::res://Scripts/Player/::1717548228
@@ -3528,13 +3528,13 @@ Player.gd::GDScript::-1::1717548228::0::1::::<>CharacterBody3D<>::
 DeathScreen.gd::GDScript::-1::1717548228::0::1::::<>Control<>::
 FPScounter.gd::GDScript::-1::1717548228::0::1::::<>Label<>::
 mainMenu.gd::GDScript::-1::1717548228::0::1::::<>Node<>::
-::res://Scripts/Weapon/::1717556709
+::res://Scripts/Weapon/::1717568008
 raycastDebug.gd::GDScript::-1::1717548228::0::1::::<>Sprite3D<>::
 sd_bullet.gd::GDScript::-1::1717548228::0::1::::<>RigidBody3D<>::
 WeaponPickup.gd::GDScript::-1::1717548228::0::1::::<>RigidBody3D<>::
-weaponResource.gd::GDScript::-1::1717548353::0::1::::weaponResource<>Resource<>::
+weaponResource.gd::GDScript::-1::1717568008::0::1::::weaponResource<>Resource<>::
 WeaponsManager.gd::GDScript::-1::1717556709::0::1::::<>Node3D<>::
-::res://Scripts/World/::1717548353
+::res://Scripts/World/::1717568008
 BloodEffect.gd::GDScript::-1::1717548228::0::1::::<>GPUParticles3D<>::
 crate.gd::GDScript::-1::1717548228::0::1::::<>RigidBody3D<>::
 Death Barrier.gd::GDScript::-1::1717548228::0::1::::<>Node3D<>::
@@ -3544,7 +3544,7 @@ MapSelectSP.gd::GDScript::-1::1717548228::0::1::::<>Node<>::
 mpworld.gd::GDScript::-1::1717548228::0::1::::<>Node<>::
 physicsTarget.gd::GDScript::-1::1717548228::0::1::::<>RigidBody3D<>::
 physucsTarget.tres.gd::GDScript::-1::1717548228::0::1::::<>RigidBody3D<>::
-roomSpawner.gd::GDScript::-1::1717548353::0::1::::<>Node<>::
+roomSpawner.gd::GDScript::-1::1717568008::0::1::::<>Node<>::
 StaticTarget.gd::GDScript::-1::1717548228::0::1::::<>StaticBody3D<>::
 TutorialExfil.gd::GDScript::-1::1717548228::0::1::::<>Node<>::
 ::res://sfx/::1717548228
@@ -4139,8 +4139,8 @@ Wood_23-128x128.png::CompressedTexture2D::3744801285259375999::1717548228::17175
 Wood_24-128x128.png::CompressedTexture2D::5857060334303108174::1717548228::1717548228::1::::<><>::
 Wood_25-128x128.png::CompressedTexture2D::4993811811294311566::1717548228::1717548228::1::::<><>::
 ::res://tscn/::1717548228
-::res://tscn/Effects/::1717548354
-BloodEffect.tres::VisualShader::1182111962238998180::1717548353::0::1::::<><>::
+::res://tscn/Effects/::1717568008
+BloodEffect.tres::VisualShader::1182111962238998180::1717568008::0::1::::<><>::
 BloodEffect.tscn::PackedScene::7105768211243448480::1717548354::0::1::::<><>::uid://q3vhgjkkidfo::::res://tscn/Effects/BloodEffect.tres<>res://Scripts/World/BloodEffect.gd
 gunshotsEffect.tscn::PackedScene::1653909476916030377::1717548354::0::1::::<><>::uid://bn5uswl0c60tn::::res://2dAssets/GAP_EasyExplosions_Textures/Flare00.PNG
 ::res://tscn/Enemy/::1717548357
@@ -4154,13 +4154,13 @@ arms_dealer_rick.tscn::PackedScene::2101002887542629087::1717548354::0::1::::<><
 flea_door.tscn::PackedScene::4556900602910196333::1717548228::0::1::::<><>::res://Scripts/AI/NPC/Door.gd<>uid://oio0jifjtnv5::::res://Models/Models pack psx/Texture/Door_01.jpg
 HealthTable.tscn::PackedScene::1774797481308012790::1717548228::0::1::::<><>::res://Scripts/AI/NPC/playerStation.gd<>uid://doamxpwvhhhti::::res://Models/TEXTURED/table.tscn<>uid://dawk2wr0mneki::::res://Models/PSXHealingItems[Fixed]/Health_Pouch/Health_Kit.fbx<>uid://dymvempwf7r72::::res://Models/PSXHealingItems[Fixed]/Health_Pouch/Health_Kit_open.obj<>uid://dgaan1vvuasgd::::res://Models/PSXHealingItems[Fixed]/HealthSolution/HealthSolution.obj<>uid://xiw58ara5572::::res://Models/PSXHealingItems[Fixed]/Bandage/Bandage.fbx<>uid://yq88vh5ccc5m::::res://Models/PSXHealingItems[Fixed]/Pill_Bottle/Pill_bottle.obj<>uid://cd17n84oo4xgq::::res://Models/PSXHealingItems[Fixed]/Health_Syringe/Syringe.fbx<>uid://cg3lko0062xbd::::res://Models/PSXHealingItems[Fixed]/Green_Powder/Green_Powder.obj<>uid://c7hdn7rqhkn5::::res://sfx/HealSFX.mp3
 UpgradeTable.tscn::PackedScene::587130646954086084::1717548228::0::1::::<><>::uid://doamxpwvhhhti::::res://Models/TEXTURED/table.tscn<>res://Scripts/AI/NPC/playerStation.gd<>uid://cwvyuwrw6vw7c::::res://sfx/Upgrade.wav<>uid://cvvegkxvje4ud::::res://Models/TEXTURED/vodka.tscn<>uid://dt5h3x0fb1mlp::::res://Models/PSXAmmoBoxes/9mm/9mm_240.obj<>uid://b3wfsgnum48a4::::res://Models/PSXAmmoBoxes/12g/12g_red_240.obj<>uid://bikcry3648rmt::::res://Models/PSXToolSet[FIXED]/ToolBox/ToolBoxClosed.obj<>uid://bw0683q0b8x::::res://Models/PSXToolSet[FIXED]/BackSaw/BackSaw.obj<>uid://8y7jveclta5d::::res://2dAssets/blood-png-126.png<>uid://j3jmu8xmmjav::::res://Models/PSXPistolPack[FIXED]/Files/Baretta9M/Baretta9M.fbx
-::res://tscn/Player/::1717563664
+::res://tscn/Player/::1717568563
 DeathScreen.tscn::PackedScene::7804222100334533892::1717548228::0::1::::<><>::res://Scripts/UI/DeathScreen.gd
 MPplayer.tscn::PackedScene::5055807946231179568::1717548228::0::1::::<><>::res://Scripts/Player/MpPlayer.gd<>res://Scripts/Player/HUD.gd<>uid://dtr1htkqchj0h::::res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png<>uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>res://Scripts/Weapon/WeaponsManager.gd<>uid://bmwncx3w7fygj::::res://Weapon Resources/1911.tres<>uid://cgjj4k1k353rn::::res://Weapon Resources/DBshotty.tres<>uid://23kq6vyhhc4n::::res://Weapon Resources/m14.tres<>uid://b3m4wv2brbbng::::res://Weapon Resources/metalBat.tres<>uid://g1pm5x2m2qxu::::res://Weapon Resources/ThrowableScrewdriver.tres<>uid://cfiqi0b3dklso::::res://sfx/CustomSoundsPack1/PISTOL5.WAV<>res://Scripts/Player/hand.gd<>uid://cponikef7qyuc::::res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn<>uid://c2xf6jyrklxup::::res://tscn/Weapons/Weps/d_bshotty.tscn<>uid://j1klkgyhsfsh::::res://tscn/Weapons/Weps/1911.tscn<>uid://drqee68f0x5m0::::res://tscn/Weapons/Weps/m_14.tscn<>uid://b8wqphfr328w7::::res://tscn/Weapons/Weps/metalBat.tscn<>uid://co0l5vu6rvo12::::res://sfx/CustomSoundsPack1/PISTOL15.WAV<>uid://dsq6xyuplakep::::res://sfx/CustomSoundsPack1/SHOTGUN13.WAV<>uid://bxgeibsk7f5d2::::res://sfx/CustomSoundsPack1/PUNCH1.WAV<>uid://bgncbims5jfr6::::res://sfx/CustomSoundsPack1/STAB.WAV<>uid://0ag8kiaph7vj::::res://sfx/CustomSoundsPack1/PISTOL0.WAV<>uid://bh7iwadqyhywl::::res://sfx/CustomSoundsPack1/STEP1.WAV
 pauseMenu.tscn::PackedScene::6181448006561395674::1717548228::0::1::::<><>::
-player.tscn::PackedScene::5782865788525969898::1717563664::0::1::::<><>::res://Scripts/Player/Player.gd<>uid://dtr1htkqchj0h::::res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png<>uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>uid://ctxn6l00yjogt::::res://tscn/Player/playerDamage.tres<>res://Scripts/Weapon/WeaponsManager.gd<>uid://wfotmbiqnq6v::::res://2dAssets/GAP_EasyExplosions_Textures/Flare01.png<>uid://bmwncx3w7fygj::::res://Weapon Resources/1911.tres<>res://gdShaders/RealPixelate.gdshader<>uid://cgjj4k1k353rn::::res://Weapon Resources/DBshotty.tres<>uid://23kq6vyhhc4n::::res://Weapon Resources/m14.tres<>uid://co0l5vu6rvo12::::res://sfx/CustomSoundsPack1/PISTOL15.WAV<>res://Scripts/Player/HUD.gd<>uid://b3m4wv2brbbng::::res://Weapon Resources/metalBat.tres<>uid://cfiqi0b3dklso::::res://sfx/CustomSoundsPack1/PISTOL5.WAV<>uid://dsq6xyuplakep::::res://sfx/CustomSoundsPack1/SHOTGUN13.WAV<>uid://g1pm5x2m2qxu::::res://Weapon Resources/ThrowableScrewdriver.tres<>uid://0ag8kiaph7vj::::res://sfx/CustomSoundsPack1/PISTOL0.WAV<>uid://bgncbims5jfr6::::res://sfx/CustomSoundsPack1/STAB.WAV<>res://Scripts/Player/hand.gd<>uid://cwioqftvl2o7w::::res://sfx/CustomSoundsPack1/PISTOL8.WAV<>uid://cponikef7qyuc::::res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn<>uid://c2xf6jyrklxup::::res://tscn/Weapons/Weps/d_bshotty.tscn<>uid://j1klkgyhsfsh::::res://tscn/Weapons/Weps/1911.tscn<>uid://btkgtrwwovypf::::res://sfx/CustomSoundsPack1/PISTOL16.WAV<>uid://drqee68f0x5m0::::res://tscn/Weapons/Weps/m_14.tscn<>uid://bxgeibsk7f5d2::::res://sfx/CustomSoundsPack1/PUNCH1.WAV<>uid://b8wqphfr328w7::::res://tscn/Weapons/Weps/metalBat.tscn<>uid://dmutmdkxeeb20::::res://Weapon Resources/mp5sd.tres<>uid://djd68t8k8351l::::res://tscn/Weapons/Weps/mp5sd.tscn<>uid://bh7iwadqyhywl::::res://sfx/CustomSoundsPack1/STEP1.WAV<>uid://xtfwapg4y4mn::::res://tscn/Effects/gunshotsEffect.tscn<>uid://ba7yib80124g3::::res://Weapon Resources/38snub.tres<>uid://bn5uswl0c60tn::::res://2dAssets/GAP_EasyExplosions_Textures/Flare00.PNG<>uid://dprniiu41v6o0::::res://Models/PSXRevolverPack[FIXED]/38snub.tscn
-playerDamage.tres::StyleBoxFlat::6154755382914497855::1717563664::0::1::::<><>::
-player_spawn.tscn::PackedScene::8189533773997451520::1717563664::0::1::::<><>::
+player.tscn::PackedScene::5782865788525969898::1717568011::0::1::::<><>::res://Scripts/Player/Player.gd<>uid://dtr1htkqchj0h::::res://2dAssets/kenney_crosshairPack/PNG/White/crosshair020.png<>uid://bn8a5joll8w63::::res://2dAssets/weapon icons/1911.png<>uid://ctxn6l00yjogt::::res://tscn/Player/playerDamage.tres<>res://Scripts/Weapon/WeaponsManager.gd<>uid://wfotmbiqnq6v::::res://2dAssets/GAP_EasyExplosions_Textures/Flare01.png<>uid://bmwncx3w7fygj::::res://Weapon Resources/1911.tres<>res://gdShaders/RealPixelate.gdshader<>uid://cgjj4k1k353rn::::res://Weapon Resources/DBshotty.tres<>uid://23kq6vyhhc4n::::res://Weapon Resources/m14.tres<>uid://co0l5vu6rvo12::::res://sfx/CustomSoundsPack1/PISTOL15.WAV<>res://Scripts/Player/HUD.gd<>uid://b3m4wv2brbbng::::res://Weapon Resources/metalBat.tres<>uid://cfiqi0b3dklso::::res://sfx/CustomSoundsPack1/PISTOL5.WAV<>uid://dsq6xyuplakep::::res://sfx/CustomSoundsPack1/SHOTGUN13.WAV<>uid://g1pm5x2m2qxu::::res://Weapon Resources/ThrowableScrewdriver.tres<>uid://0ag8kiaph7vj::::res://sfx/CustomSoundsPack1/PISTOL0.WAV<>uid://bgncbims5jfr6::::res://sfx/CustomSoundsPack1/STAB.WAV<>res://Scripts/Player/hand.gd<>uid://cwioqftvl2o7w::::res://sfx/CustomSoundsPack1/PISTOL8.WAV<>uid://cponikef7qyuc::::res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn<>uid://c2xf6jyrklxup::::res://tscn/Weapons/Weps/d_bshotty.tscn<>uid://j1klkgyhsfsh::::res://tscn/Weapons/Weps/1911.tscn<>uid://btkgtrwwovypf::::res://sfx/CustomSoundsPack1/PISTOL16.WAV<>uid://drqee68f0x5m0::::res://tscn/Weapons/Weps/m_14.tscn<>uid://bxgeibsk7f5d2::::res://sfx/CustomSoundsPack1/PUNCH1.WAV<>uid://b8wqphfr328w7::::res://tscn/Weapons/Weps/metalBat.tscn<>uid://dmutmdkxeeb20::::res://Weapon Resources/mp5sd.tres<>uid://djd68t8k8351l::::res://tscn/Weapons/Weps/mp5sd.tscn<>uid://bh7iwadqyhywl::::res://sfx/CustomSoundsPack1/STEP1.WAV<>uid://xtfwapg4y4mn::::res://tscn/Effects/gunshotsEffect.tscn<>uid://ba7yib80124g3::::res://Weapon Resources/38snub.tres<>uid://bn5uswl0c60tn::::res://2dAssets/GAP_EasyExplosions_Textures/Flare00.PNG<>uid://dprniiu41v6o0::::res://Models/PSXRevolverPack[FIXED]/38snub.tscn
+playerDamage.tres::StyleBoxFlat::6154755382914497855::1717568563::0::1::::<><>::
+player_spawn.tscn::PackedScene::8189533773997451520::1717568012::0::1::::<><>::
 ::res://tscn/Weapons/::1717548228
 ::res://tscn/Weapons/Misc/::1717548228
 raycastDebug.tscn::PackedScene::5088171564454712396::1717548228::0::1::::<><>::uid://oxi6q3ty246v::::res://2dAssets/kenney_crosshairPack/PNG/White/crosshair007.png<>res://Scripts/Weapon/raycastDebug.gd
@@ -4208,12 +4208,12 @@ radio.tscn::PackedScene::5759093663948218904::1717548355::0::1::::<><>::uid://b3
 realcrate.tscn::PackedScene::5629367423995069904::1717548356::0::1::::<><>::res://Scripts/World/crate.gd<>uid://c0k302vs4aycr::::res://tscn/Weapons/Pickups/emptyPickup.tscn<>uid://dhv6wrr2a7gs2::::res://tscn/Weapons/Pickups/1911Pickup.tscn<>uid://yad7cmkucksr::::res://tscn/Weapons/Pickups/DBshottyPickup.tscn<>uid://bri6it71khuda::::res://tscn/Weapons/Pickups/m_14_pickup.tscn<>uid://dd8s3wyaxi5kv::::res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn<>uid://bhl1w6fv7m4e5::::res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png
 STaticTarget.tscn::PackedScene::36965995110788054::1717548355::0::1::::<><>::res://Scripts/World/StaticTarget.gd
 Target1.tscn::PackedScene::2441250291704264655::1717548355::0::1::::<><>::res://Scripts/World/physucsTarget.tres.gd<>uid://bhl1w6fv7m4e5::::res://Models/- Classic 64 Asset Pack 0.6/Boxes/Materials/box_01.png
-::res://tscn/World/SHRooms/::1717563663
+::res://tscn/World/SHRooms/::1717568563
 Facility2.tscn::PackedScene::2667976995281945491::1717548355::0::1::::<><>::uid://bu1se5eyhe14m::::res://Mats/wood.tres<>uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>uid://b2cmmej3e1e7q::::res://Mats/new_standard_material_3d.tres<>uid://v8aokr3nwjqs::::res://Mats/Plaster1.tres<>uid://2glasrc71obk::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Plaster/Plaster_10-128x128.png<>uid://clgc7cd7eck41::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Stone/Stone_05-128x128.png
 Room1dev.tscn::PackedScene::6890546892136898258::1717548355::0::1::::<><>::uid://ckb1mk21awvu6::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_16-128x128.png<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn
 Room2dev.tscn::PackedScene::7988420475330580883::1717548355::0::1::::<><>::uid://dejecvdp84xqa::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Brick/Brick_04-128x128.png<>uid://djqma5s2u2woa::::res://Textures/SBS - Tiny Texture Pack 2 - 128x128/128x128/Metal/Metal_19-128x128.png<>uid://dhv6wrr2a7gs2::::res://tscn/Weapons/Pickups/1911Pickup.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://clcltcb15llhb::::res://tscn/Enemy/enemyDev.tscn<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn
-RoomGenTest.tscn::PackedScene::9196315308798970921::1717548355::0::1::::<><>::uid://c5f3khqp5y0os::::res://tscn/World/SHRooms/Room1dev.tscn<>res://Scripts/World/roomSpawner.gd<>uid://gf3qhifevym8::::res://tscn/World/SHRooms/r_warehouse2.tscn<>uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>uid://cnaasby7wgmyj::::res://tscn/World/SHRooms/r_warehouse1.tscn<>uid://cfbf65tvsn532::::res://tscn/World/world_environment.tscn<>uid://coxx1w6t8srt1::::res://tscn/World/SHRooms/r_warehouse3.tscn
-r_warehouse1.tscn::PackedScene::5685328570053150841::1717563663::0::1::::<><>::uid://c8p5eyd5b6xo7::::res://tscn/World/Misc/spawn_room.tscn<>uid://de77s5khf3ws3::::res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/roof_metal_01.jpg<>uid://bhlf4ep5o5r3j::::res://Mats/concrete1.tres<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://djt2uwe1x46ni::::res://Mats/WoodBox1.tres<>uid://h4k317lcum8f::::res://Mats/Metal1.tres<>uid://i8nyorf3ak5l::::res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_floor_04.jpg<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://nt1gb7skpfrc::::res://tscn/World/Misc/exfil_room.tscn<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn<>uid://cf2own0vnv1f0::::res://tscn/Enemy/enemyPistol.tscn<>uid://iw61nxf66vmp::::res://tscn/Enemy/enemyUnarmed1.tscn<>uid://b8p2wkjpqdx6j::::res://tscn/Enemy/enemyUnarmed2.tscn<>uid://by3cgkt5vrm5r::::res://Models/TEXTURED/BagPile.tscn<>uid://4vjxhehbnm6h::::res://Models/TEXTURED/akm_2.tscn<>uid://bynjn8pda12yn::::res://Models/TEXTURED/propane_storage.tscn<>uid://doamxpwvhhhti::::res://Models/TEXTURED/table.tscn<>uid://cieq35t3fkhga::::res://Models/TEXTURED/chair.tscn<>uid://4q4bc56f6pnk::::res://Models/TEXTURED/roubl_stack.tscn<>uid://b4kschedrqcbu::::res://Models/TEXTURED/rouble.tscn<>uid://djs3mo7f4ja0y::::res://Models/TEXTURED/playing_card.tscn<>uid://c7q0hycqlglgp::::res://Models/TEXTURED/playing_card_stack.tscn<>uid://c0rv663y3ofxw::::res://Models/PSXShotgunPack[FIXED]/pumpy.obj<>uid://cn0tuiwrd81ev::::res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/PAShotgunText.png<>uid://cvvegkxvje4ud::::res://Models/TEXTURED/vodka.tscn<>uid://dkuqcynqhypvf::::res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/snubnise.obj<>uid://diyrsbkhiwnev::::res://Models/TEXTURED/generator_2.tscn
+RoomGenTest.tscn::PackedScene::9196315308798970921::1717568563::0::1::::<><>::uid://c5f3khqp5y0os::::res://tscn/World/SHRooms/Room1dev.tscn<>res://Scripts/World/roomSpawner.gd<>uid://gf3qhifevym8::::res://tscn/World/SHRooms/r_warehouse2.tscn<>uid://coni7pts3q0cc::::res://tscn/Player/player.tscn<>uid://cnaasby7wgmyj::::res://tscn/World/SHRooms/r_warehouse1.tscn<>uid://cfbf65tvsn532::::res://tscn/World/world_environment.tscn<>uid://coxx1w6t8srt1::::res://tscn/World/SHRooms/r_warehouse3.tscn
+r_warehouse1.tscn::PackedScene::5685328570053150841::1717568011::0::1::::<><>::uid://c8p5eyd5b6xo7::::res://tscn/World/Misc/spawn_room.tscn<>uid://de77s5khf3ws3::::res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/roof_metal_01.jpg<>uid://bhlf4ep5o5r3j::::res://Mats/concrete1.tres<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://djt2uwe1x46ni::::res://Mats/WoodBox1.tres<>uid://h4k317lcum8f::::res://Mats/Metal1.tres<>uid://i8nyorf3ak5l::::res://Models/- Classic 64 Asset Pack 0.6/Concrete/Materials/concrete_floor_04.jpg<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://nt1gb7skpfrc::::res://tscn/World/Misc/exfil_room.tscn<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn<>uid://cf2own0vnv1f0::::res://tscn/Enemy/enemyPistol.tscn<>uid://iw61nxf66vmp::::res://tscn/Enemy/enemyUnarmed1.tscn<>uid://b8p2wkjpqdx6j::::res://tscn/Enemy/enemyUnarmed2.tscn<>uid://by3cgkt5vrm5r::::res://Models/TEXTURED/BagPile.tscn<>uid://4vjxhehbnm6h::::res://Models/TEXTURED/akm_2.tscn<>uid://bynjn8pda12yn::::res://Models/TEXTURED/propane_storage.tscn<>uid://doamxpwvhhhti::::res://Models/TEXTURED/table.tscn<>uid://cieq35t3fkhga::::res://Models/TEXTURED/chair.tscn<>uid://4q4bc56f6pnk::::res://Models/TEXTURED/roubl_stack.tscn<>uid://b4kschedrqcbu::::res://Models/TEXTURED/rouble.tscn<>uid://djs3mo7f4ja0y::::res://Models/TEXTURED/playing_card.tscn<>uid://c7q0hycqlglgp::::res://Models/TEXTURED/playing_card_stack.tscn<>uid://c0rv663y3ofxw::::res://Models/PSXShotgunPack[FIXED]/pumpy.obj<>uid://cn0tuiwrd81ev::::res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/Textures/PAShotgunText.png<>uid://cvvegkxvje4ud::::res://Models/TEXTURED/vodka.tscn<>uid://dkuqcynqhypvf::::res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/snubnise.obj<>uid://diyrsbkhiwnev::::res://Models/TEXTURED/generator_2.tscn
 r_warehouse2.tscn::PackedScene::433183979353694881::1717548228::0::1::::<><>::uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://c8p5eyd5b6xo7::::res://tscn/World/Misc/spawn_room.tscn<>uid://nt1gb7skpfrc::::res://tscn/World/Misc/exfil_room.tscn<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://cs6wup8e1c0ok::::res://Textures/kenney_prototype-textures/PNG/Orange/texture_09.png<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn<>uid://cob0owrdwpaa7::::res://tscn/World/Objects/radio.tscn<>uid://b8p2wkjpqdx6j::::res://tscn/Enemy/enemyUnarmed2.tscn<>uid://iw61nxf66vmp::::res://tscn/Enemy/enemyUnarmed1.tscn<>uid://cf2own0vnv1f0::::res://tscn/Enemy/enemyPistol.tscn
 r_warehouse3.tscn::PackedScene::5804409992447926308::1717548228::0::1::::<><>::uid://v8aokr3nwjqs::::res://Mats/Plaster1.tres<>uid://c8p5eyd5b6xo7::::res://tscn/World/Misc/spawn_room.tscn<>uid://u55gjrlmtt0n::::res://Mats/Tile1.tres<>uid://b2cmmej3e1e7q::::res://Mats/new_standard_material_3d.tres<>uid://cb3lpvb4gm4o8::::res://Exfil.tscn<>uid://doxcopaphy7ou::::res://tscn/Player/player_spawn.tscn<>uid://nt1gb7skpfrc::::res://tscn/World/Misc/exfil_room.tscn<>uid://b56ats1otgo53::::res://tscn/World/Misc/EnemySpawner3d.tscn<>uid://b8p2wkjpqdx6j::::res://tscn/Enemy/enemyUnarmed2.tscn<>uid://cob0owrdwpaa7::::res://tscn/World/Objects/radio.tscn<>uid://cf2own0vnv1f0::::res://tscn/Enemy/enemyPistol.tscn<>uid://cnm1ac8yb7im5::::res://Models/TEXTURED/panel_electric_2.tscn<>uid://cm5did511uoow::::res://Models/TEXTURED/metal_rack_stackable_small_2.tscn<>uid://clftlkf7ddej0::::res://Models/TEXTURED/fire_extenguisher_case_2.tscn<>uid://diyrsbkhiwnev::::res://Models/TEXTURED/generator_2.tscn<>uid://bu6f765ifb57p::::res://Models/PSXToolSet[FIXED]/ToolBox/ToolBoxOpenFull.obj<>uid://4vjxhehbnm6h::::res://Models/TEXTURED/akm_2.tscn<>uid://bxnd32h51q1gf::::res://Models/PSXAmmoBoxes/largeAmmo.blend<>uid://o3jkf2dnuxs3::::res://Models/TEXTURED/pvc_pipe_2.tscn<>uid://d3ljplrqewjjv::::res://Models/TEXTURED/picnictable.tscn<>uid://dkuqcynqhypvf::::res://Models/PSXRevolverPack[FIXED]/Files/38SpecialRevolver/snubnise.obj<>uid://cakuryxvsdsu7::::res://Models/PSXCigarette Pack[FIXED]/opencigs.tscn<>uid://b4kschedrqcbu::::res://Models/TEXTURED/rouble.tscn<>uid://4q4bc56f6pnk::::res://Models/TEXTURED/roubl_stack.tscn<>uid://cdkube36jpolr::::res://Models/TEXTURED/food_baking_flour_2.tscn<>uid://erh7ueqy7uht::::res://Models/TEXTURED/window_boarded.tscn<>uid://yq88vh5ccc5m::::res://Models/PSXHealingItems[Fixed]/Pill_Bottle/Pill_bottle.obj<>uid://yad7cmkucksr::::res://tscn/Weapons/Pickups/DBshottyPickup.tscn
 ::res://Weapon Resources/::1717548228
