@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://bynjn8pda12yn"]
+
+[ext_resource type="PackedScene" uid="uid://b14mdqi7ea3ne" path="res://Models/- Classic 64 Asset Pack 0.6/Panels/propane_storage.blend" id="1_4c1pf"]
+[ext_resource type="Texture2D" uid="uid://lyrj7fagathy" path="res://Models/- Classic 64 Asset Pack 0.6/Panels/Materials/propane_storage.png" id="2_qff7h"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0vpr0"]
+albedo_texture = ExtResource("2_qff7h")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_lw87r"]
+points = PackedVector3Array(0.380998, 1.01105, 0.6096, 0.380998, 1.01105, -0.6096, -0.381, 0.914361, 0.609481, -0.381, -0.9144, 0.609481, 0.380998, -0.9144, 0.609481, 0.380998, -0.9144, -0.6096, -0.381, 0.914361, -0.6096, -0.381, -0.9144, -0.6096)
+
+[node name="propane_storage" instance=ExtResource("1_4c1pf")]
+
+[node name="Propane_Storage" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_0vpr0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+shape = SubResource("ConvexPolygonShape3D_lw87r")

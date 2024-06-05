@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://c7q0hycqlglgp"]
+
+[ext_resource type="Material" uid="uid://drh8w8rn6liec" path="res://Mats/PaperStack.tres" id="1_1y4cu"]
+[ext_resource type="PackedScene" uid="uid://djs3mo7f4ja0y" path="res://Models/TEXTURED/playing_card.tscn" id="1_vhub7"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_twwdg"]
+material = ExtResource("1_1y4cu")
+
+[node name="PlayingCArdStack" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.86753, 0, 0, 0, 1, 0, 0, 0, 3.93309, 0, 0, 0.0951654)
+mesh = SubResource("BoxMesh_twwdg")
+
+[node name="PlayingCard" parent="." instance=ExtResource("1_vhub7")]
+transform = Transform3D(0.930015, 0, 0, 0, 1, 0, 0, 0, 0.981165, -0.00407934, 0.500547, 0.0987873)

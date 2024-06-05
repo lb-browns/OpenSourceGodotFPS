@@ -1,3 +1,5 @@
+res://Models/TEXTURED
+res://Mats
 res://Models/PSXRevolverPack[FIXED]
 res://Weapon Resources/
 res://Models/armsdealerrick
@@ -7,14 +9,12 @@ res://2dAssets
 res://tscn/Weapons/Weps
 res://
 res://Models/MrRobotModelsFiles
-res://Models/TEXTURED
 res://tscn/NPC
 /Applications/Blender.app/Contents/MacOS
 /Applications
 /Applications/Blender.app/Contents
 /Applications/Blender.app
 res://Scripts/AI/NPC
-res://Mats
 res://tscn/Player
 res://Game Meta Data
 res://Textures/kenney_prototype-textures/PNG/Dark

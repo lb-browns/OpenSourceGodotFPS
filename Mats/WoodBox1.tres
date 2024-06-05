@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://djt2uwe1x46ni"]
+
+[ext_resource type="Texture2D" uid="uid://b24s1ru1vtf34" path="res://Models/Minas/Textures/Box_Wood_03.png" id="1_1qj3j"]
+
+[resource]
+albedo_texture = ExtResource("1_1qj3j")

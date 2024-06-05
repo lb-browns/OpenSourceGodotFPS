@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://cieq35t3fkhga"]
+
+[ext_resource type="PackedScene" uid="uid://dgrq1ptw1t0gf" path="res://Models/PSX Model Pack/Couch and Armchair/armchair.fbx" id="1_ebflu"]
+[ext_resource type="Texture2D" uid="uid://duloo7cifjii7" path="res://Models/PSX Model Pack/Couch and Armchair/coucharmchair.png" id="2_ydhnf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p0ra3"]
+albedo_texture = ExtResource("2_ydhnf")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_sgpii"]
+points = PackedVector3Array(-0.0207, -0.023991, 0.000134799, -0.0131572, 0.00158606, 0.0424603, -0.0207, 0.023991, 0.000134799, 0.01, -0.0235997, 0.000479601, 0.0106461, -0.0246013, 0.0305504, 0.01, 0.0235997, 0.000479601, -0.0205913, -0.0184445, 0.0387067, -0.0205645, 0.0245499, 0.0287002, -0.0196379, 0.0166885, 0.0399975, 0.0106461, 0.0253968, 0.0289647, -0.0205645, -0.0245499, 0.0287002, -0.003639, -0.0246013, -0.000396825, -0.0131572, -0.0182521, 0.0408704, -0.0131572, 0.0182521, 0.0408704, -0.003639, 0.0246013, -0.000396825, 0.0106461, -0.0253968, 0.0202389, -0.0196343, -0.00151589, 0.0415123, 0.0106461, 0.0253968, 0.0202389, -0.0205913, 0.0184445, 0.0387067, -0.0205958, 0.0246, 0.0202637, 0.0106461, 0.0246013, 0.0305504, -0.0205958, -0.0246, 0.0202637, 0.0106461, -0.0253968, 0.0289647, -0.0131572, -0.0190476, 0.0400775, -0.0131572, 0.0190476, 0.0400775, -0.0131572, -0.00158606, 0.0424603, -0.0196379, -0.0166885, 0.0399975, -0.0203936, 0.00151608, 0.040753, -0.0196343, 0.00151589, 0.0415123, -0.0131572, -0.0103168, 0.0416632, -0.0131572, 0.0103168, 0.0416632, -0.0204307, -0.0174895, 0.0392817)
+
+[node name="Chair" instance=ExtResource("1_ebflu")]
+
+[node name="Cube" parent="RootNode" index="0"]
+material_override = SubResource("StandardMaterial3D_p0ra3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RootNode" index="1"]
+transform = Transform3D(100, 0, 0, 0, -1.19209e-05, 100, 0, -100, -1.19209e-05, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RootNode/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, -1.42109e-14, 0, 1.42109e-14, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_sgpii")

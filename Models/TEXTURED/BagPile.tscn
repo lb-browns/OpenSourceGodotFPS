@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://by3cgkt5vrm5r"]
+
+[ext_resource type="Texture2D" uid="uid://bnpas4qenp8db" path="res://Models/Models pack psx/Texture/Boxs_13.jpg" id="1_30wsn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gxivv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hrp7k"]
+albedo_texture = ExtResource("1_30wsn")
+uv1_scale = Vector3(1.525, 1, 1)
+uv1_offset = Vector3(1.435, 1, 0)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ky8sl"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_gxivv")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+material_override = SubResource("StandardMaterial3D_hrp7k")
+mesh = SubResource("BoxMesh_ky8sl")

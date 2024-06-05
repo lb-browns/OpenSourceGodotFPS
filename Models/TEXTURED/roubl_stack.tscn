@@ -1,14 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://4q4bc56f6pnk"]
+[gd_scene load_steps=4 format=3 uid="uid://4q4bc56f6pnk"]
 
-[ext_resource type="Texture2D" uid="uid://bniig4l4l1xwu" path="res://Models/- Classic 64 Asset Pack 0.6/Papers/Materials/paper_log_1.png" id="1_tva5h"]
+[ext_resource type="Material" uid="uid://drh8w8rn6liec" path="res://Mats/PaperStack.tres" id="1_0cljj"]
 [ext_resource type="PackedScene" uid="uid://b4kschedrqcbu" path="res://Models/TEXTURED/rouble.tscn" id="2_rwgji"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6dxk4"]
-albedo_texture = ExtResource("1_tva5h")
-uv1_scale = Vector3(2.87, 2.87, 2.87)
-
 [sub_resource type="BoxMesh" id="BoxMesh_g3yfo"]
-material = SubResource("StandardMaterial3D_6dxk4")
+material = ExtResource("1_0cljj")
 
 [node name="roubl stack" type="Node3D"]
 

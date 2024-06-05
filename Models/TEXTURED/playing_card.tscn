@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://djs3mo7f4ja0y"]
+
+[ext_resource type="Texture2D" uid="uid://udkdw4f2mlku" path="res://2dAssets/playingcard.jpg" id="1_mgwcu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nmagr"]
+albedo_texture = ExtResource("1_mgwcu")
+uv1_scale = Vector3(0.89, 0.89, 0.89)
+uv1_offset = Vector3(0.06, 0.01, 0)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_l2yg7"]
+
+[node name="PlayingCard" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.99459, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_nmagr")
+mesh = SubResource("PlaneMesh_l2yg7")
