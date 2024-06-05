@@ -64,3 +64,4 @@ res://Models/TEXTURED/stub_nose_38_special_revolver.tscn
 res://Models/TEXTURED/chair.tscn
 res://Models/TEXTURED/table.tscn
 res://Models/TEXTURED/propane_storage.tscn
+res://Scripts/Weapon/WeaponsManager.gd

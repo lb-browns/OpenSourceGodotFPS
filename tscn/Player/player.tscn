@@ -2260,7 +2260,6 @@ startWeapons = Array[String](["metalBat"])
 
 [node name="bulletPoint" type="Marker3D" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig"]
 unique_name_in_owner = true
-visible = false
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="camHolder/Main Cam/WeaponsManager/FPS_Rig"]
 stream = ExtResource("9_wgj33")
