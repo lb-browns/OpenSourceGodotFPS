@@ -1,77 +1,121 @@
-res://Textures/Skyboxes/world_environment.tscn::9d7decec8e22a4d3f510918e741739ae::1716590543::res://.godot/exported/133200997/export-4d7c12f2b615dd5474e69f59d31e57e5-world_environment.scn
-res://tscn/Player/MPplayer.tscn::6397a5275cf62e684014c356181d9028::1716495429::res://.godot/exported/133200997/export-7f9741d6585ba979c2837ab7d68dbc78-MPplayer.scn
-res://tscn/Player/pauseMenu.tscn::983cd434133776b7566df2f1618ee131::1716495429::res://.godot/exported/133200997/export-a8578badf4373dba7089aa6001612873-pauseMenu.scn
-res://tscn/Player/player.tscn::c5063684069bc30a764772063125f39d::1716593119::res://.godot/exported/133200997/export-f33fe4ca49a2fd96120ade11441d31fd-player.scn
-res://tscn/Weapons/Misc/raycastDebug.tscn::36de2f640aa6bbce9d22f894ef13cf44::1716495429::res://.godot/exported/133200997/export-1f6070747edaeb2191c854d0745b4cec-raycastDebug.scn
-res://tscn/Weapons/Misc/sd_bullet.tscn::315186b6fd9f2ff7ff0ca4204b0c890d::1716495429::res://.godot/exported/133200997/export-c10ab06ddca201dfb2f30832b2d64400-sd_bullet.scn
-res://tscn/Weapons/Pickups/1911Pickup.tscn::525622c813df98546825c60d39d09f9a::1716495429::res://.godot/exported/133200997/export-150c7af8bce76c13e26de7662314985d-1911Pickup.scn
-res://tscn/Weapons/Pickups/DBshottyAmmoPickup.tscn::74ae820ad6960be22b805a15850f7dc2::1716495429::res://.godot/exported/133200997/export-175d8eba5279ebaa2796065a2d72946f-DBshottyAmmoPickup.scn
-res://tscn/Weapons/Pickups/DBshottyPickup.tscn::dcaa24e5e2e9b7cdbc8867b82b964a4d::1716495429::res://.godot/exported/133200997/export-8c5af15f5fb44a8252499b59c3eddb44-DBshottyPickup.scn
-res://tscn/Weapons/Pickups/m_14_pickup.tscn::5f2cd0aadabd90f26a6d8535b37c4e56::1716495429::res://.godot/exported/133200997/export-2a5f31a18b1fcc1edeb3fed999f137c5-m_14_pickup.scn
-res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn::464567f2106779bb138db3cc31d1d1cc::1716495429::res://.godot/exported/133200997/export-f54ec9b71de10b4f28852555ffc08283-ScrewdriverPickup.scn
-res://tscn/Weapons/Weps/1911.tscn::24ff908d94f2f75ad040b5aba5ae048a::1716495429::res://.godot/exported/133200997/export-efdcc37673948748aa645a5f8bb927fb-1911.scn
-res://tscn/Weapons/Weps/d_bshotty.tscn::8fbfc269287d0df943cd4858d06e37ee::1716495429::res://.godot/exported/133200997/export-57bc6399a405db1465faaa37d4d579ef-d_bshotty.scn
-res://tscn/Weapons/Weps/metalBat.tscn::5d430b1e97d33da9fcd047adc46db61d::1716495429::res://.godot/exported/133200997/export-e239548f525c24e03ddb7c056c870366-metalBat.scn
-res://tscn/Weapons/Weps/m_14.tscn::e73867c4ec5a1620361a5dfdc690bcfa::1716495429::res://.godot/exported/133200997/export-2f205a9ce0c270c2716302325f645234-m_14.scn
-res://tscn/Weapons/Weps/screw_driver_plastic.tscn::ad292f830dab9f4773ffb23d2bb4facc::1716495429::res://.godot/exported/133200997/export-3d4acbd0704a21122bfb3448f79ff932-screw_driver_plastic.scn
-res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn::53055b969772cd5086f2d0b9ba296fcd::1716495429::res://.godot/exported/133200997/export-67fe05f5cd7b48f0ca9cbf488c80bcdd-ThrowableScrewdriver.scn
-res://tscn/World/Maps/mainMenu.tscn::d306fb0743afb7dfb42a9e4f13f95ef9::1716495429::res://.godot/exported/133200997/export-320c1243bdd2d492f9bdc8b1578f6c63-mainMenu.scn
-res://tscn/World/Maps/map.tscn::cdd646c1718bb31d098aaca24ce78f0f::1716495429::res://.godot/exported/133200997/export-48fc148ca91e0b05ac8cf5ed69984d7d-map.scn
-res://tscn/World/Maps/MapSelectSP.tscn::acb141325c3b2650e6ccf5fd5568cc63::1716495429::res://.godot/exported/133200997/export-e3a9fd58c88fc43f438bfbab44ae96f7-MapSelectSP.scn
-res://tscn/World/Maps/mp_world.tscn::3b6c48a37919a3474ea8f404bc6fd9a9::1716495429::res://.godot/exported/133200997/export-ff9bfee3926a26f2236ea4a3df59a728-mp_world.scn
-res://tscn/World/Maps/tutorial.tscn::e266def180dbc579f0c213ef452a1a71::1716495429::res://.godot/exported/133200997/export-2d4a40859c83639eaa9f7d2a336590e9-tutorial.scn
-res://tscn/World/Misc/directional_light_3d.tscn::eb02d6593b5af98cb530ebd21654eb61::1716495429::res://.godot/exported/133200997/export-d6360c76e0f6347f5cbc7d549fc2a532-directional_light_3d.scn
-res://tscn/World/Objects/box1.tscn::ba54b6fdbcf26bb5f9db20ab0d816d53::1716495429::res://.godot/exported/133200997/export-14254aeda941d9133e34a8d1fb7ec29f-box1.scn
-res://tscn/World/Objects/Box.tscn::720c9b2f00143d6aa32399567b243dd4::1716495429::res://.godot/exported/133200997/export-7a3dcb9b883334ee31abcd6e321091f0-Box.scn
-res://tscn/World/Objects/Enemy1.tscn::4cf188fefab0c637ab547772c616df1c::1716495429::res://.godot/exported/133200997/export-0cc88700dfda5323b39916c8e65ac444-Enemy1.scn
-res://tscn/World/Objects/ground.tscn::83395fb821d929fe6a5d3e2f07574653::1716495429::res://.godot/exported/133200997/export-11c337685d0f0b31dee0b3c781ac8947-ground.scn
-res://tscn/World/Objects/obstacle.tscn::db69b88212939c2b210c09dc3a8c9a47::1716495429::res://.godot/exported/133200997/export-9e75da5fccde5e39396bb7dddfec0309-obstacle.scn
-res://tscn/World/Objects/radio.tscn::56cfe166714a207517a3a1e5eb35f2c8::1716495429::res://.godot/exported/133200997/export-f3a33b752fd1f76c105921422ec5c291-radio.scn
-res://tscn/World/Objects/STaticTarget.tscn::829df367548915bf7667ba983a7d7680::1716495429::res://.godot/exported/133200997/export-b979c61da45a3c71aa851543f2a5f47a-STaticTarget.scn
-res://tscn/World/Objects/Target1.tscn::d7e53f8a54410c1e95dcc26cf2bc26d0::1716495429::res://.godot/exported/133200997/export-96356607dd7ab6f6cca2038f66ac4963-Target1.scn
-res://Weapon Resources/1911.tres::a4f5e7c9c7f1d14987cbc3690b8df169::1716495429::res://.godot/exported/133200997/export-0060ac6c5c439ebb877f81268124d9a5-1911.res
-res://Weapon Resources/DBshotty.tres::7479d65562691acc45c594ef61703f61::1716495429::res://.godot/exported/133200997/export-039489165f1372ee10ee63712027429a-DBshotty.res
-res://Weapon Resources/m14.tres::a886608c598cedf0668a56b942d33c99::1716495429::res://.godot/exported/133200997/export-bdd6dc0f7361e5f4e508e2c908613aa2-m14.res
-res://Weapon Resources/metalBat.tres::31a3aa541c6ffdedb0779b6d0dbd7df0::1716495429::res://.godot/exported/133200997/export-342602a78795354e16529045683f47ff-metalBat.res
-res://Weapon Resources/ThrowableScrewdriver.tres::fed6644b7d034b0f881fb8c045e91768::1716495429::res://.godot/exported/133200997/export-1b54dcdbb29fdcd3496610acf50daca3-ThrowableScrewdriver.res
-res://Weapon Resources/WeaponPickupGlow.tres::a1de4383c4bb9cb79f65023446b64bb0::1716495429::res://.godot/exported/133200997/export-374cfbb9f5983f10947835baefb7aec7-WeaponPickupGlow.res
-res://Mats/new_standard_material_3d.tres::ca80788f55b35e03e0ecc259e17eb737::1716595745::res://.godot/exported/133200997/export-757184c2ab394883d16ade7977222012-new_standard_material_3d.res
-res://Mats/wood.tres::4d6a8482bcba0b8cf0e33f18f6158932::1716595745::res://.godot/exported/133200997/export-b510be7693b80c9094a94e715ac1b370-wood.res
-res://tscn/Enemy/enemyDev2.tscn::dea8448ef45b825663fe90b9b5208eb5::1716495698::res://.godot/exported/133200997/export-b32de5cca194a0baa9ce5f0d8ac13e93-enemyDev2.scn
-res://tscn/Enemy/enemyDev3.tscn::80f6ae5b3f2b9b34aaa8a62e3d61198c::1716495586::res://.godot/exported/133200997/export-afbcf8434d9e27d0d5f4aa07376b026c-enemyDev3.scn
-res://tscn/Enemy/enemyDev.tscn::4c50100db5394e674aafedcc406858fd::1716590543::res://.godot/exported/133200997/export-a7a83e06575c8cc1c0792c62801abb8c-enemyDev.scn
-res://tscn/Player/DeathScreen.tscn::e162dea778d8c18c3a39b243db7f6261::1716495429::res://.godot/exported/133200997/export-2ac9ac715dcd3b376a097bf388961e70-DeathScreen.scn
-res://tscn/Player/player_spawn.tscn::07f8fba31db44cd939778d55b8201b0c::1716495429::res://.godot/exported/133200997/export-d45cd911aaffa3cae822c3912a7f57ab-player_spawn.scn
-res://tscn/Weapons/Pickups/emptyPickup.tscn::dc3426caa874313632eaddcda98fb043::1716495429::res://.godot/exported/133200997/export-6ac2d25c0d3995fd4e4e509638872f83-emptyPickup.scn
-res://tscn/World/Misc/EnemySpawner3d.tscn::f5b0ceb40c7ce76784157a3a6b41b328::1716495429::res://.godot/exported/133200997/export-3bc4510b5e61a527735453f9019d24ee-EnemySpawner3d.scn
-res://tscn/World/Misc/EnemySpawner.tscn::83caac5897d4a6af732369c89d649424::1716495429::res://.godot/exported/133200997/export-d1533b6bfa311ac3a62e34eef472fdee-EnemySpawner.scn
-res://tscn/World/Objects/realcrate.tscn::b5884ddec60a10c01aff5c174f43d040::1716590543::res://.godot/exported/133200997/export-5dbc0ed5651e15106f52dfe75e5e6854-realcrate.scn
-res://tscn/World/SHRooms/Facility2.tscn::308f63d2be28be33b0663c5d62fe5ed0::1716501856::res://.godot/exported/133200997/export-bc4bb9af8da77f26c64e3b6e7ce8b7b6-Facility2.scn
-res://tscn/World/SHRooms/Room1dev.tscn::e9c3c0011cffddf69d50a76b26191d3c::1716501856::res://.godot/exported/133200997/export-1de0fef923b98d2d9c33ceb3ec32d4cf-Room1dev.scn
-res://tscn/World/SHRooms/Room2dev.tscn::6751de49dce960ae58c3b0a714516a3c::1716501396::res://.godot/exported/133200997/export-c3f566c3a68c0d67711981e849bb30aa-Room2dev.scn
-res://tscn/World/SHRooms/RoomGenTest.tscn::328aab0f71746dfc0dcc40e5d5974cec::1716593120::res://.godot/exported/133200997/export-b735202e4b2080ec4a27e5da17f6cbde-RoomGenTest.scn
-res://Models/PSX Model Pack/Filing Cabinet/cabinet.tscn::5327f162ca1c02d147f28f1cc9866f0b::1716495427::res://.godot/exported/133200997/export-39e03fc5bca2c70bac1ab85433144ef5-cabinet.scn
-res://Models/PSXAssaultRifle[FIXED]/AK/RPK/rpk.tscn::16bd9cd884f02c21cc29ac4cf9e0a009::1716495427::res://.godot/exported/133200997/export-deecd16d463aa53c9317a93ab61bfb43-rpk.scn
-res://Models/PSXCigarette Pack[FIXED]/opencigs.tscn::ce9567a5d75a57fa7fe4e54f8b6bde56::1716495427::res://.godot/exported/133200997/export-88cf4999acca2df5c6ea6a507d2734dd-opencigs.scn
-res://Models/PSXMiscGuns/Makarov/makarov.tscn::87ce9821c10aa7c7704b5fb511ec0078::1716495428::res://.godot/exported/133200997/export-2cb15cdb372bcc61aaba1f258a0c34cc-makarov.scn
-res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/pumplong.tscn::b70b66c5b93cff442f101430f52b0930::1716495428::res://.godot/exported/133200997/export-3356ab77f97269d07c302e741c576424-pumplong.scn
-res://Models/door1.tscn::ea980abf7b98accaff2f5ab694c519d4::1716596573::res://.godot/exported/133200997/export-7c098a1cc08f6c892bd8e5ff49e50aa2-door1.scn
-res://Models/painting1.tscn::525746b9ddbedf6cbca67221bc5e05a0::1716495428::res://.godot/exported/133200997/export-80c3d691713b8a27c76a3f6c992d2512-painting1.scn
-res://Models/tv.tscn::dc8976e848c2daaeeded66942fb589af::1716495428::res://.godot/exported/133200997/export-d8f5bfbdf533cb05cde6589c8cbe070d-tv.scn
-res://tscn/World/Misc/main_menu_3d_scene.tscn::c53fbe00621d3259d321bc738aaf83f1::1716495429::res://.godot/exported/133200997/export-f0e8161050947d91219540313dca41ec-main_menu_3d_scene.scn
-res://Exfil.tscn::17c165e8e32b8329b0325226903a1665::1716495425::res://.godot/exported/133200997/export-7d4e7f3e3a36bb23ac81078c89fa2ea9-Exfil.scn
-res://node_3d.tscn::dab6a8713266db3bdfcb842d1ded460d::1716495429::res://.godot/exported/133200997/export-14584830dbc22d3f76a596eed5f4948e-node_3d.scn
-res://dev_test.tscn::80af85eea5fa4bbe34f3ff406481907d::1716495429::res://.godot/exported/133200997/export-96e5b852731e7f9c67f025284a2b6de6-dev_test.scn
-res://Mats/Plaster1.tres::3df7041c7b11ce35a9ad5ee30a38c47c::1716595745::res://.godot/exported/133200997/export-3d010894948ba8d21abd61bbd8ad35b1-Plaster1.res
-res://Mats/Tile1.tres::d65764143c8db80a7c871198515a3959::1716595745::res://.godot/exported/133200997/export-c5fd6da554b7ae0685f4fd72db2a695a-Tile1.res
-res://Models/TEXTURED/panel_electric_2.tscn::93bfa7fcfb34bc3eda98a849029b9933::1716591455::res://.godot/exported/133200997/export-1ffde93d1703f2ebbbc3220f5eb291ea-panel_electric_2.scn
-res://Models/TEXTURED/metal_rack_stackable_small_2.tscn::b5b1485f80f9dec0d4c06b5cb79434e3::1716591590::res://.godot/exported/133200997/export-db3851cb5a979cdc03dc11bf0919647f-metal_rack_stackable_small_2.scn
-res://Models/TEXTURED/fire_extenguisher_case_2.tscn::8b5d6be32193108f9016bc8b72e0df5b::1716593120::res://.godot/exported/133200997/export-dbd86e02ef43e4f933048f94d0da898b-fire_extenguisher_case_2.scn
-res://Models/TEXTURED/generator_2.tscn::2d731b490bfaeac2779ec84062f920fe::1716593120::res://.godot/exported/133200997/export-57e2a704aa1359f98785a91b83e11360-generator_2.scn
-res://Models/TEXTURED/akm_2.tscn::4e056997ba7d06673398a3a51436dba1::1716593120::res://.godot/exported/133200997/export-3cf32b2c198657eccfe24e42ea811c4a-akm_2.scn
-res://tscn/World/Misc/exfil_room.tscn::434a03a498f1cc1bcb31021507f0ba11::1716501856::res://.godot/exported/133200997/export-638c394653b033d6ec36dbaaff85091f-exfil_room.scn
-res://tscn/World/Misc/spawn_room.tscn::9205b7c40f9905f7810b2e50f50d1056::1716590543::res://.godot/exported/133200997/export-1d8eeb87c1a6c1834f26a5725496721a-spawn_room.scn
-res://tscn/World/SHRooms/r_warehouse1.tscn::495e58e5132612a77587207853843d60::1716590542::res://.godot/exported/133200997/export-27b8f8b2832cccf04f1869af23141a29-r_warehouse1.scn
-res://tscn/World/SHRooms/r_warehouse2.tscn::029a47e7f060712153431fee1846a037::1716590543::res://.godot/exported/133200997/export-0382defdf2b1af5c6602420610682f7d-r_warehouse2.scn
-res://tscn/World/SHRooms/r_warehouse3.tscn::b8ad4f6ac248677b449f8ce7326517eb::1716595023::res://.godot/exported/133200997/export-7d4caf3857cbd7ed18f968225468b9fe-r_warehouse3.scn
-res://tscn/World/Misc/Death Barrier.tscn::b601e529a0c3f440c6b311f8bbc98aec::1716595745::res://.godot/exported/133200997/export-17d352363f6bb173554dc12d1600eddd-Death Barrier.scn
+res://tscn/Player/MPplayer.tscn::6397a5275cf62e684014c356181d9028::1717548228::res://.godot/exported/133200997/export-7f9741d6585ba979c2837ab7d68dbc78-MPplayer.scn
+res://tscn/Player/pauseMenu.tscn::983cd434133776b7566df2f1618ee131::1717548228::res://.godot/exported/133200997/export-a8578badf4373dba7089aa6001612873-pauseMenu.scn
+res://tscn/Player/player.tscn::390586a19826e43455f4a8f37cda46d3::1717612687::res://.godot/exported/133200997/export-f33fe4ca49a2fd96120ade11441d31fd-player.scn
+res://tscn/Weapons/Misc/raycastDebug.tscn::36de2f640aa6bbce9d22f894ef13cf44::1717548228::res://.godot/exported/133200997/export-1f6070747edaeb2191c854d0745b4cec-raycastDebug.scn
+res://tscn/Weapons/Misc/sd_bullet.tscn::315186b6fd9f2ff7ff0ca4204b0c890d::1717548228::res://.godot/exported/133200997/export-c10ab06ddca201dfb2f30832b2d64400-sd_bullet.scn
+res://tscn/Weapons/Pickups/1911Pickup.tscn::4abe9f32fb05ca2e6be039e536683f91::1717548228::res://.godot/exported/133200997/export-150c7af8bce76c13e26de7662314985d-1911Pickup.scn
+res://tscn/Weapons/Pickups/DBshottyAmmoPickup.tscn::e36b5d3c9059f67ce326ce1fc09908e9::1717548228::res://.godot/exported/133200997/export-175d8eba5279ebaa2796065a2d72946f-DBshottyAmmoPickup.scn
+res://tscn/Weapons/Pickups/DBshottyPickup.tscn::c14d5ea694320d9c93a40e114964663c::1717548228::res://.godot/exported/133200997/export-8c5af15f5fb44a8252499b59c3eddb44-DBshottyPickup.scn
+res://tscn/Weapons/Pickups/m_14_pickup.tscn::6882ecf6c08e3494412a580c92479ece::1717548228::res://.godot/exported/133200997/export-2a5f31a18b1fcc1edeb3fed999f137c5-m_14_pickup.scn
+res://tscn/Weapons/Pickups/ScrewdriverPickup.tscn::da4755e90401a9f970db8232312145c5::1717548228::res://.godot/exported/133200997/export-f54ec9b71de10b4f28852555ffc08283-ScrewdriverPickup.scn
+res://tscn/Weapons/Weps/1911.tscn::f875aa2b699c5c6c400e89d25f60b8f3::1717548228::res://.godot/exported/133200997/export-efdcc37673948748aa645a5f8bb927fb-1911.scn
+res://tscn/Weapons/Weps/d_bshotty.tscn::8fbfc269287d0df943cd4858d06e37ee::1717548228::res://.godot/exported/133200997/export-57bc6399a405db1465faaa37d4d579ef-d_bshotty.scn
+res://tscn/Weapons/Weps/metalBat.tscn::5d430b1e97d33da9fcd047adc46db61d::1717548228::res://.godot/exported/133200997/export-e239548f525c24e03ddb7c056c870366-metalBat.scn
+res://tscn/Weapons/Weps/m_14.tscn::e73867c4ec5a1620361a5dfdc690bcfa::1717548228::res://.godot/exported/133200997/export-2f205a9ce0c270c2716302325f645234-m_14.scn
+res://tscn/Weapons/Weps/screw_driver_plastic.tscn::ad292f830dab9f4773ffb23d2bb4facc::1717548228::res://.godot/exported/133200997/export-3d4acbd0704a21122bfb3448f79ff932-screw_driver_plastic.scn
+res://tscn/Weapons/Weps/ThrowableScrewdriver.tscn::53055b969772cd5086f2d0b9ba296fcd::1717548228::res://.godot/exported/133200997/export-67fe05f5cd7b48f0ca9cbf488c80bcdd-ThrowableScrewdriver.scn
+res://tscn/World/Maps/mainMenu.tscn::2c8dd8af7eeeadacb6d965a8a24304b1::1717621511::res://.godot/exported/133200997/export-320c1243bdd2d492f9bdc8b1578f6c63-mainMenu.scn
+res://tscn/World/Maps/map.tscn::e49587ca81bbcb4367266b110c849859::1717548356::res://.godot/exported/133200997/export-48fc148ca91e0b05ac8cf5ed69984d7d-map.scn
+res://tscn/World/Maps/MapSelectSP.tscn::1e6467539da36891450abcd5f6bb0797::1717548357::res://.godot/exported/133200997/export-e3a9fd58c88fc43f438bfbab44ae96f7-MapSelectSP.scn
+res://tscn/World/Maps/mp_world.tscn::d63c7fc01c9b32ae8afe9d1c48d61a20::1717548357::res://.godot/exported/133200997/export-ff9bfee3926a26f2236ea4a3df59a728-mp_world.scn
+res://tscn/World/Maps/tutorial.tscn::d011c4a1788d7d697e16bcb1965975ba::1717548356::res://.godot/exported/133200997/export-2d4a40859c83639eaa9f7d2a336590e9-tutorial.scn
+res://tscn/World/Misc/directional_light_3d.tscn::d020a402f2fc96c9f0096456e45bf178::1717548356::res://.godot/exported/133200997/export-d6360c76e0f6347f5cbc7d549fc2a532-directional_light_3d.scn
+res://tscn/World/Objects/box1.tscn::e1c7ebf1582bccbe49e14ca2fccacdbe::1717548355::res://.godot/exported/133200997/export-14254aeda941d9133e34a8d1fb7ec29f-box1.scn
+res://tscn/World/Objects/Box.tscn::c5439f14d5a4f400706e06cdb47640dd::1717548355::res://.godot/exported/133200997/export-7a3dcb9b883334ee31abcd6e321091f0-Box.scn
+res://tscn/World/Objects/Enemy1.tscn::a081257854e738c74347fcdb945f7cfc::1717548355::res://.godot/exported/133200997/export-0cc88700dfda5323b39916c8e65ac444-Enemy1.scn
+res://tscn/World/Objects/ground.tscn::a2138277e40955bd25488f9e5cac5171::1717548355::res://.godot/exported/133200997/export-11c337685d0f0b31dee0b3c781ac8947-ground.scn
+res://tscn/World/Objects/obstacle.tscn::b97a2ab53ea9a6f278d3e5fd25c79209::1717548355::res://.godot/exported/133200997/export-9e75da5fccde5e39396bb7dddfec0309-obstacle.scn
+res://tscn/World/Objects/radio.tscn::bceceb1c4def7143fc5778a6dfdddd3f::1717548355::res://.godot/exported/133200997/export-f3a33b752fd1f76c105921422ec5c291-radio.scn
+res://tscn/World/Objects/STaticTarget.tscn::32ac4eab26f80cf5c2db20f2f8fc9859::1717548355::res://.godot/exported/133200997/export-b979c61da45a3c71aa851543f2a5f47a-STaticTarget.scn
+res://tscn/World/Objects/Target1.tscn::7d3e894c032eae4784805ef2d40e379d::1717548355::res://.godot/exported/133200997/export-96356607dd7ab6f6cca2038f66ac4963-Target1.scn
+res://Weapon Resources/1911.tres::c26d6cbde3ce0ea3f3c6fedea0d952cc::1717548228::res://.godot/exported/133200997/export-0060ac6c5c439ebb877f81268124d9a5-1911.res
+res://Weapon Resources/DBshotty.tres::2b7062348365cc973bdac4c64ac540b1::1717548228::res://.godot/exported/133200997/export-039489165f1372ee10ee63712027429a-DBshotty.res
+res://Weapon Resources/m14.tres::6190a830eb22736c14f7be66eef44b53::1717548228::res://.godot/exported/133200997/export-bdd6dc0f7361e5f4e508e2c908613aa2-m14.res
+res://Weapon Resources/metalBat.tres::31a3aa541c6ffdedb0779b6d0dbd7df0::1717548228::res://.godot/exported/133200997/export-342602a78795354e16529045683f47ff-metalBat.res
+res://Weapon Resources/ThrowableScrewdriver.tres::fed6644b7d034b0f881fb8c045e91768::1717548228::res://.godot/exported/133200997/export-1b54dcdbb29fdcd3496610acf50daca3-ThrowableScrewdriver.res
+res://Weapon Resources/WeaponPickupGlow.tres::a1de4383c4bb9cb79f65023446b64bb0::1717548228::res://.godot/exported/133200997/export-374cfbb9f5983f10947835baefb7aec7-WeaponPickupGlow.res
+res://Mats/new_standard_material_3d.tres::ca80788f55b35e03e0ecc259e17eb737::1717621511::res://.godot/exported/133200997/export-757184c2ab394883d16ade7977222012-new_standard_material_3d.res
+res://Mats/wood.tres::4d6a8482bcba0b8cf0e33f18f6158932::1717621511::res://.godot/exported/133200997/export-b510be7693b80c9094a94e715ac1b370-wood.res
+res://tscn/Enemy/enemyDev2.tscn::dea8448ef45b825663fe90b9b5208eb5::1717548357::res://.godot/exported/133200997/export-b32de5cca194a0baa9ce5f0d8ac13e93-enemyDev2.scn
+res://tscn/Enemy/enemyDev.tscn::4c50100db5394e674aafedcc406858fd::1717548357::res://.godot/exported/133200997/export-a7a83e06575c8cc1c0792c62801abb8c-enemyDev.scn
+res://tscn/Player/DeathScreen.tscn::e162dea778d8c18c3a39b243db7f6261::1717548228::res://.godot/exported/133200997/export-2ac9ac715dcd3b376a097bf388961e70-DeathScreen.scn
+res://tscn/Player/player_spawn.tscn::17b8e743d2ea022f276f6551414fc955::1717612687::res://.godot/exported/133200997/export-d45cd911aaffa3cae822c3912a7f57ab-player_spawn.scn
+res://tscn/Weapons/Pickups/emptyPickup.tscn::dc3426caa874313632eaddcda98fb043::1717548228::res://.godot/exported/133200997/export-6ac2d25c0d3995fd4e4e509638872f83-emptyPickup.scn
+res://tscn/World/Misc/EnemySpawner3d.tscn::c388d3ef1b047ff7a0dd4151a35fe59e::1717548356::res://.godot/exported/133200997/export-3bc4510b5e61a527735453f9019d24ee-EnemySpawner3d.scn
+res://tscn/World/Misc/EnemySpawner.tscn::3ff5c65a4fa3a7b2cc759edb0d3d676f::1717548356::res://.godot/exported/133200997/export-d1533b6bfa311ac3a62e34eef472fdee-EnemySpawner.scn
+res://tscn/World/Objects/realcrate.tscn::b5884ddec60a10c01aff5c174f43d040::1717548356::res://.godot/exported/133200997/export-5dbc0ed5651e15106f52dfe75e5e6854-realcrate.scn
+res://tscn/World/SHRooms/Facility2.tscn::d02c719b7c6f2ff437d5766397d1d15c::1717548355::res://.godot/exported/133200997/export-bc4bb9af8da77f26c64e3b6e7ce8b7b6-Facility2.scn
+res://tscn/World/SHRooms/Room1dev.tscn::e9c3c0011cffddf69d50a76b26191d3c::1717548355::res://.godot/exported/133200997/export-1de0fef923b98d2d9c33ceb3ec32d4cf-Room1dev.scn
+res://tscn/World/SHRooms/Room2dev.tscn::f791fac1a0df85d7be940f0c28068f8e::1717548355::res://.godot/exported/133200997/export-c3f566c3a68c0d67711981e849bb30aa-Room2dev.scn
+res://tscn/World/SHRooms/RoomGenTest.tscn::988b09fd15aa1c7a5461b3f10744f0e4::1717612687::res://.godot/exported/133200997/export-b735202e4b2080ec4a27e5da17f6cbde-RoomGenTest.scn
+res://Models/PSX Model Pack/Filing Cabinet/cabinet.tscn::5327f162ca1c02d147f28f1cc9866f0b::1717548226::res://.godot/exported/133200997/export-39e03fc5bca2c70bac1ab85433144ef5-cabinet.scn
+res://Models/PSXAssaultRifle[FIXED]/AK/RPK/rpk.tscn::16bd9cd884f02c21cc29ac4cf9e0a009::1717548227::res://.godot/exported/133200997/export-deecd16d463aa53c9317a93ab61bfb43-rpk.scn
+res://Models/PSXCigarette Pack[FIXED]/opencigs.tscn::34aaa1342a1634db4e9ed915f390e0c0::1717548227::res://.godot/exported/133200997/export-88cf4999acca2df5c6ea6a507d2734dd-opencigs.scn
+res://Models/PSXMiscGuns/Makarov/makarov.tscn::87ce9821c10aa7c7704b5fb511ec0078::1717548227::res://.godot/exported/133200997/export-2cb15cdb372bcc61aaba1f258a0c34cc-makarov.scn
+res://Models/PSXShotgunPack[FIXED]/Files/pumpActionShotgun/pumplong.tscn::b70b66c5b93cff442f101430f52b0930::1717548227::res://.godot/exported/133200997/export-3356ab77f97269d07c302e741c576424-pumplong.scn
+res://tscn/World/Misc/main_menu_3d_scene.tscn::f9badd8bae326432f9485e44112767fb::1717548356::res://.godot/exported/133200997/export-f0e8161050947d91219540313dca41ec-main_menu_3d_scene.scn
+res://Exfil.tscn::17c165e8e32b8329b0325226903a1665::1717548224::res://.godot/exported/133200997/export-7d4e7f3e3a36bb23ac81078c89fa2ea9-Exfil.scn
+res://Mats/Plaster1.tres::3df7041c7b11ce35a9ad5ee30a38c47c::1717621511::res://.godot/exported/133200997/export-3d010894948ba8d21abd61bbd8ad35b1-Plaster1.res
+res://Mats/Tile1.tres::d65764143c8db80a7c871198515a3959::1717621511::res://.godot/exported/133200997/export-c5fd6da554b7ae0685f4fd72db2a695a-Tile1.res
+res://Models/TEXTURED/panel_electric_2.tscn::318b6c420cd1780bb73157022685996f::1717548228::res://.godot/exported/133200997/export-1ffde93d1703f2ebbbc3220f5eb291ea-panel_electric_2.scn
+res://Models/TEXTURED/metal_rack_stackable_small_2.tscn::4577b3a579de7cb30c2dacd0db2d346b::1717548228::res://.godot/exported/133200997/export-db3851cb5a979cdc03dc11bf0919647f-metal_rack_stackable_small_2.scn
+res://Models/TEXTURED/fire_extenguisher_case_2.tscn::9646bd326731faecfd189824bfbb5832::1717548228::res://.godot/exported/133200997/export-dbd86e02ef43e4f933048f94d0da898b-fire_extenguisher_case_2.scn
+res://Models/TEXTURED/generator_2.tscn::49441dd36e8cbfb8e0a93a5351523312::1717548228::res://.godot/exported/133200997/export-57e2a704aa1359f98785a91b83e11360-generator_2.scn
+res://Models/TEXTURED/akm_2.tscn::29e4acf679e61b70d252f7b8107a55fb::1717548228::res://.godot/exported/133200997/export-3cf32b2c198657eccfe24e42ea811c4a-akm_2.scn
+res://tscn/World/Misc/exfil_room.tscn::434a03a498f1cc1bcb31021507f0ba11::1717548356::res://.godot/exported/133200997/export-638c394653b033d6ec36dbaaff85091f-exfil_room.scn
+res://tscn/World/Misc/spawn_room.tscn::081934b780c70008ce0c58376c41f3d2::1717548356::res://.godot/exported/133200997/export-1d8eeb87c1a6c1834f26a5725496721a-spawn_room.scn
+res://tscn/World/SHRooms/r_warehouse1.tscn::72ceb502d2ed3ccc13491a7a2287fee5::1717612686::res://.godot/exported/133200997/export-27b8f8b2832cccf04f1869af23141a29-r_warehouse1.scn
+res://tscn/World/SHRooms/r_warehouse2.tscn::8572584d93be2bad294b3c7a020cd161::1717548228::res://.godot/exported/133200997/export-0382defdf2b1af5c6602420610682f7d-r_warehouse2.scn
+res://tscn/World/SHRooms/r_warehouse3.tscn::ffb641d09639a8f1a9301ab5c124b488::1717548228::res://.godot/exported/133200997/export-7d4caf3857cbd7ed18f968225468b9fe-r_warehouse3.scn
+res://tscn/World/Misc/Death Barrier.tscn::b601e529a0c3f440c6b311f8bbc98aec::1717548356::res://.godot/exported/133200997/export-17d352363f6bb173554dc12d1600eddd-Death Barrier.scn
+res://gdShaders/psx.tres::3716c621803c565a92d7d17221af2949::1717548228::res://.godot/exported/133200997/export-f387d603a028c773eeea57b9973b3c5d-psx.res
+res://Mats/concrete1.tres::4cbd050e9eb645961bb507fbe4359f6c::1717621511::res://.godot/exported/133200997/export-622849cc6cecd15ba906d8f04f17e55a-concrete1.res
+res://Mats/Metal1.tres::e39c16a595ceda322386b9592d88261c::1717621511::res://.godot/exported/133200997/export-0cb08130f3e173a9098786605754290d-Metal1.res
+res://Mats/PaperStack.tres::812c13759c665249a1f0dd6e50289253::1717554256::res://.godot/exported/133200997/export-4710233734e44d681772d8659f27f4a5-PaperStack.res
+res://Mats/plaster2.tres::73fc0bbb1c0f4104e6433ebe425e394a::1717621511::res://.godot/exported/133200997/export-691f52988f9bd4cac4ff00d7de95efb3-plaster2.res
+res://Mats/WoodBox1.tres::057e97c1b3a22e67a8b08642f2950bd1::1717549232::res://.godot/exported/133200997/export-044ff874c73fb3c86812617a40732b8a-WoodBox1.res
+res://Models/armsdealerrick/arms_dealer_rick.tscn::66a3bc736746bf7dc5f2bad21a10a9ac::1717548228::res://.godot/exported/133200997/export-76aca0d1bbe7a016ac94c95ec046d08c-arms_dealer_rick.scn
+res://Models/MrRobotModelsFiles/eliot_model.tscn::ea2de9cea7d00c8df55b868ce92e7d6f::1717548226::res://.godot/exported/133200997/export-665bcd2071086a354fb3424f37f095c7-eliot_model.scn
+res://Models/MrRobotModelsFiles/elliotskelly.tres::90554b459163ebfa74320020540bbc22::1717548226::res://.godot/exported/133200997/export-da295d95444b25f6c72762b16a68afbf-elliotskelly.res
+res://Models/MrRobotModelsFiles/Jog.tres::e09339256d0ec24cce51d0d87901306a::1717548226::res://.godot/exported/133200997/export-ed639caa6f690dd91fdd9c3a1d69e992-Jog.res
+res://Models/MrRobotModelsFiles/scav.tscn::0d6a14d8e955b73f88d98f53bc428465::1717548226::res://.godot/exported/133200997/export-03df238163cdcb09cdf5b90ad262ade4-scav.scn
+res://Models/PSXRevolverPack[FIXED]/38snub.tscn::0abab218ed2b62f93b25eefe57f4182e::1717548227::res://.godot/exported/133200997/export-acfd3f280f62cda0db5f4db8091929f5-38snub.scn
+res://Models/TEXTURED/BagPile.tscn::904fd9061d75c77ce026da271cbf5355::1717553086::res://.godot/exported/133200997/export-b8708894f5dda83167fa001b17a1da4c-BagPile.scn
+res://Models/TEXTURED/Barrel1.tscn::aa6046940cf238a46d11ed1f4e375508::1717549446::res://.godot/exported/133200997/export-970f7cf815e07c89c5890b15493560cf-Barrel1.scn
+res://Models/TEXTURED/chair.tscn::8ad3f1f45729c11f12090e3978cec8e1::1717556059::res://.godot/exported/133200997/export-f51742fbaf9df3421101d10868ea9e6c-chair.scn
+res://Models/TEXTURED/door1.tscn::30a81f29b9ab7c4c6262aa326d7c0dfd::1717548228::res://.godot/exported/133200997/export-83cda78fd31dfccf1aae7953b6eb2a6c-door1.scn
+res://Models/TEXTURED/food_baking_flour_2.tscn::329dcc216843ac0ab9a758b857f83dbf::1717548228::res://.godot/exported/133200997/export-dc8246192d658bb79dd46b1fcb20a6e4-food_baking_flour_2.scn
+res://Models/TEXTURED/painting1.tscn::525746b9ddbedf6cbca67221bc5e05a0::1717548228::res://.godot/exported/133200997/export-4dd372fc21ca3f497079820e620e571d-painting1.scn
+res://Models/TEXTURED/picnictable.tscn::a1b5c700c2fdbb99ccb22be5fd61e4c6::1717548228::res://.godot/exported/133200997/export-1d356463bf26a2df0cf32335f511c818-picnictable.scn
+res://Models/TEXTURED/playing_card.tscn::bc14616251a342d912fa1aa275b647a6::1717612686::res://.godot/exported/133200997/export-1cd56a157982e3fbaad3aec4e7b92a2e-playing_card.scn
+res://Models/TEXTURED/playing_card_stack.tscn::afb11188b6dee2f536c1babffcd26f3e::1717556059::res://.godot/exported/133200997/export-8120e5c1431ba23e0efba5d5be90567f-playing_card_stack.scn
+res://Models/TEXTURED/propane_storage.tscn::73f64270883c5de6e79290c293e48161::1717556059::res://.godot/exported/133200997/export-0d679fcaa4be83b0f47c081e6b30415f-propane_storage.scn
+res://Models/TEXTURED/pvc_pipe_2.tscn::b59d27b27d1ba8d2ade2a99a31e42e41::1717548228::res://.godot/exported/133200997/export-7987fe612a9c6f3fd151d0ccd3c4f939-pvc_pipe_2.scn
+res://Models/TEXTURED/rouble.tscn::8c0b6c86305719411201c6c6435f9f42::1717548228::res://.godot/exported/133200997/export-a9b9dfd69e555a488318f45a7f541b51-rouble.scn
+res://Models/TEXTURED/roubl_stack.tscn::56e8fe862042dfdbe0c24dba6835d429::1717556059::res://.godot/exported/133200997/export-167cf81582d66da006005297985ed9b1-roubl_stack.scn
+res://Models/TEXTURED/stub_nose_38_special_revolver.tscn::e51b20f7ca17e22a26a14959577a7edf::1717556059::res://.godot/exported/133200997/export-07a3b4e143be8f007a44b72b1f04b710-stub_nose_38_special_revolver.scn
+res://Models/TEXTURED/table.tscn::e936417aa1a28b48e66ef708b2b33ca0::1717556059::res://.godot/exported/133200997/export-4ff6045cc8089044d141d1fea4611222-table.scn
+res://Models/TEXTURED/tv.tscn::dc8976e848c2daaeeded66942fb589af::1717548228::res://.godot/exported/133200997/export-6ea89116a089cb83522dd86e5d0c0c70-tv.scn
+res://Models/TEXTURED/vodka.tscn::62868e3ffdb09db0de2a699ce2abcd94::1717548228::res://.godot/exported/133200997/export-5e7937bcc5a8a9fbe74fd44ee1e87db4-vodka.scn
+res://Models/TEXTURED/volvo.tscn::2b88a418272eaaad5d3bcbca17d55c84::1717553434::res://.godot/exported/133200997/export-8f83e5397fd57129f63906cf82bd2841-volvo.scn
+res://Models/TEXTURED/window_boarded.tscn::b4e34ca0d50f94111a1252b1cb159402::1717548228::res://.godot/exported/133200997/export-9a57a091316f826fd88614f9eeb07915-window_boarded.scn
+res://tscn/Effects/BloodEffect.tres::be568edf4d3af31aae88d51dd19567d0::1717612415::res://.godot/exported/133200997/export-c5a5b6ff715ff86d17cc3d32c49efe6f-BloodEffect.res
+res://tscn/Effects/BloodEffect.tscn::c77fda30a287820575166fd270158e6b::1717548354::res://.godot/exported/133200997/export-820fb5d7d793984a3c8c8798e2fe55d3-BloodEffect.scn
+res://tscn/Effects/gunshotsEffect.tscn::a8dfad0a1f950c5e10e1346207d10209::1717548354::res://.godot/exported/133200997/export-bf524678238f8638a06460c96ee9a9c5-gunshotsEffect.scn
+res://tscn/Enemy/enemyPistol.tscn::e3bbb034c3d288013c2c22591ac699ce::1717548354::res://.godot/exported/133200997/export-fed031fc4eb40d21cfd8f67cada49ddc-enemyPistol.scn
+res://tscn/Enemy/enemyUnarmed1.tscn::b12b64c1c4d120db310085c8740abed9::1717548357::res://.godot/exported/133200997/export-6273787f0af16d840f9e7a85e5f1abe4-enemyUnarmed1.scn
+res://tscn/Enemy/enemyUnarmed2.tscn::a9921218999aaab0d28e708244dad64f::1717548357::res://.godot/exported/133200997/export-742a2b92511ba1a301dc7a05a2c133db-enemyUnarmed2.scn
+res://tscn/NPC/arms_dealer_rick.tscn::86bf91abb95538ac4786f1f087c9f563::1717548354::res://.godot/exported/133200997/export-fb5367f8f8e683bb445b66e9dc2c7dee-arms_dealer_rick.scn
+res://tscn/NPC/flea_door.tscn::c5d2ac6df018bd9acc15dd3ded71df32::1717548228::res://.godot/exported/133200997/export-1489bf50a3d15dcea4f7c3b39014a07f-flea_door.scn
+res://tscn/NPC/HealthTable.tscn::5b1d8a0b3d9a77d192786946f043161e::1717548228::res://.godot/exported/133200997/export-ed16e1c26f346d49df5542b4bb06a6b5-HealthTable.scn
+res://tscn/NPC/UpgradeTable.tscn::46ba58463ce87e1f5bd7f56dc6ae1290::1717548228::res://.godot/exported/133200997/export-d272c49f9f6ae54a3d3d9fbbf8dea21e-UpgradeTable.scn
+res://tscn/Player/playerDamage.tres::5b0a2c9aa9d7d11925b54c0829632626::1717612687::res://.godot/exported/133200997/export-804debfae61b6f921cbf9141c371fd66-playerDamage.res
+res://tscn/Weapons/Pickups/38snubPickup.tscn::02c53145ab7c50c28a31a3d7d06b6e4d::1717548354::res://.godot/exported/133200997/export-42220132f5bdaf4c15502684d1aa6c92-38snubPickup.scn
+res://tscn/Weapons/Pickups/mp5sdPickup.tscn::42fdedaea1ded9fe6b66c2ff098d7630::1717548228::res://.godot/exported/133200997/export-6f7e554ce6ce7203bfefb8e82d547243-mp5sdPickup.scn
+res://tscn/Weapons/Weps/mp5sd.tscn::0d7f5170bfc9f0dede72e1bcfc574945::1717548228::res://.godot/exported/133200997/export-15225aba7099aaf7bc493f0dc83740a5-mp5sd.scn
+res://tscn/World/world_environment.tscn::9d7decec8e22a4d3f510918e741739ae::1717548651::res://.godot/exported/133200997/export-add9147dcfc8424a529327f23edc80b4-world_environment.scn
+res://Weapon Resources/38snub.tres::b4cf40350b72b0e0a4e9aed956d7079b::1717548228::res://.godot/exported/133200997/export-de372e0cc0731d429df850b05bcabbcf-38snub.res
+res://Weapon Resources/mp5sd.tres::f6943f1be9203b7e6fcb2d5ecc5ae3f0::1717548228::res://.godot/exported/133200997/export-5f9f4a66b1b5ef47cea083e5e4803942-mp5sd.res
+res://scav_pistol.tscn::e8eea2fc54bee92e6441719b049a519a::1717612686::res://.godot/exported/133200997/export-1d598b44e902ace0de5a60c78f70d83d-scav_pistol.scn
+res://scav_pistolX.tscn::5216695ea8a1bf9263eea1cd14a045be::1717548354::res://.godot/exported/133200997/export-5a2f13ddfea7342f1a7181ffdecdc474-scav_pistolX.scn
+res://sign_nosmoking.tscn::9e0cbf15198dc3c1e9aada3d7c4fbeb9::1717548354::res://.godot/exported/133200997/export-6e17b47ea9575e873b513ab12aab3f47-sign_nosmoking.scn

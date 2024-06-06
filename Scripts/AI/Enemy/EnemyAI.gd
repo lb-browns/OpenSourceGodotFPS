@@ -6,6 +6,7 @@ extends CharacterBody3D
 @export var HEALTH = 75.0
 @export var MAX_HEALTH = 75.0
 @export var NAME = "RICKY"
+@export var isLegendary = false
 
 @onready var canSeePlayer = false
 @onready var inAttackRange
@@ -32,9 +33,12 @@ func _ready():
 	
 	DAMAGE *= player.difficultyTier
 	MAX_HEALTH *= player.difficultyTier
+	chooseRandName()
+	randRarity()
+	setLegendary()
 	HEALTH = MAX_HEALTH
 	stateMachine = animTree.get("parameters/playback")
-	chooseRandName()
+	
 	SELF.apply_floor_snap()
 	
 
@@ -110,3 +114,14 @@ func chooseRandName():
 	var titleArray = [", From California", ", The Crack Head", ", Daves Friend", ", Ivans Cousin", ", The Gay One", "","","","","","",""]
 	var title1Array = ["Stinky ", "Fat ", "Skinny ", "Big ", "Little ", "", "", "", "", "", ""]
 	NAME = str(title1Array[randi() % title1Array.size()]) + str(nameArray[randi() % nameArray.size()]) + str(titleArray[randi() % titleArray.size()])
+
+func randRarity():
+	var chance = randi_range(0, 25)
+	if chance == 5:
+		isLegendary = true 
+
+func setLegendary():
+	if isLegendary:
+		MAX_HEALTH *= 3
+		DAMAGE *= 3
+		NAME = "Legendary " + NAME

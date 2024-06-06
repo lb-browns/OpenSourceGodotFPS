@@ -1,5 +1,6 @@
-res://Models/TEXTURED
 res://Mats
+C:/Test xports
+res://Models/TEXTURED
 res://Models/PSXRevolverPack[FIXED]
 res://Weapon Resources/
 res://Models/armsdealerrick
@@ -10,10 +11,6 @@ res://tscn/Weapons/Weps
 res://
 res://Models/MrRobotModelsFiles
 res://tscn/NPC
-/Applications/Blender.app/Contents/MacOS
-/Applications
-/Applications/Blender.app/Contents
-/Applications/Blender.app
 res://Scripts/AI/NPC
 res://tscn/Player
 res://Game Meta Data

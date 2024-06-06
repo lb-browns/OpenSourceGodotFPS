@@ -1,4 +1,4 @@
-res://scav_pistol.tscn
+res://tscn/World/Maps/mainMenu.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://Scripts/AI/NPC/Door.gd
 res://Scripts/Weapon/weaponResource.gd
@@ -10,14 +10,18 @@ res://Mats/concrete1.tres
 res://Mats/Metal1.tres
 res://Mats/new_standard_material_3d.tres
 res://gdShaders/RealPixelate.gdshader
-res://tscn/Effects/BloodEffect.tres
 res://Mats/Plaster1.tres
 res://Mats/Tile1.tres
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
+res://scav_pistol.tscn
 res://tscn/World/SHRooms/r_warehouse1.tscn
 res://Models/TEXTURED/playing_card.tscn
 res://tscn/Player/player.tscn
 res://tscn/Player/playerDamage.tres
 res://tscn/Player/player_spawn.tscn
 res://tscn/World/SHRooms/RoomGenTest.tscn
+res://Scripts/AI/Enemy/EnemyAI.gd
+res://Scripts/Player/Player.gd
+res://tscn/World/SHRooms/r_warehouse2.tscn
+res://tscn/World/SHRooms/r_warehouse3.tscn
