@@ -1,6 +1,5 @@
-[gd_scene load_steps=8 format=3 uid="uid://d4a0771x1suy0"]
+[gd_scene load_steps=7 format=3 uid="uid://d4a0771x1suy0"]
 
-[ext_resource type="PackedScene" uid="uid://c5f3khqp5y0os" path="res://tscn/World/SHRooms/Room1dev.tscn" id="1_h4slr"]
 [ext_resource type="Script" path="res://Scripts/World/roomSpawner.gd" id="1_pafx1"]
 [ext_resource type="PackedScene" uid="uid://gf3qhifevym8" path="res://tscn/World/SHRooms/r_warehouse2.tscn" id="3_38ong"]
 [ext_resource type="PackedScene" uid="uid://coni7pts3q0cc" path="res://tscn/Player/player.tscn" id="3_pav7b"]
@@ -10,7 +9,7 @@
 
 [node name="Node" type="Node"]
 script = ExtResource("1_pafx1")
-Rooms = [ExtResource("1_h4slr"), ExtResource("3_38ong"), ExtResource("4_b2wxp"), ExtResource("6_jy16t")]
+Rooms = [ExtResource("3_38ong"), ExtResource("4_b2wxp"), ExtResource("6_jy16t")]
 
 [node name="WorldEnvironment" parent="." instance=ExtResource("4_icyym")]
 
