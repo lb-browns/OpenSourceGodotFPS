@@ -7,6 +7,7 @@ extends CharacterBody3D
 @export var MAX_HEALTH = 75.0
 @export var NAME = "RICKY"
 @export var isLegendary = false
+@export var isBoss = false
 
 @onready var canSeePlayer = false
 @onready var inAttackRange
@@ -47,7 +48,7 @@ func _on_timer_timeout():
 	var y = randf_range(999, -999)
 	var z = randf_range(999, -999)
 	wanderPath = Vector3(x, y, z)
-	if inAttackRange:
+	if inAttackRange && animPlayer.current_animation_position == 0.0:
 		hitPlayer()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

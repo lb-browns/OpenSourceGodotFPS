@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=3 uid="uid://cnaasby7wgmyj"]
+[gd_scene load_steps=32 format=3 uid="uid://cnaasby7wgmyj"]
 
 [ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/Misc/spawn_room.tscn" id="1_ro47c"]
 [ext_resource type="Texture2D" uid="uid://de77s5khf3ws3" path="res://Models/- Classic 64 Asset Pack 0.6/Roof/Materials/roof_metal_01.jpg" id="2_l21xh"]
@@ -10,9 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="4_q8kpw"]
 [ext_resource type="PackedScene" uid="uid://nt1gb7skpfrc" path="res://tscn/World/Misc/exfil_room.tscn" id="5_qof0b"]
 [ext_resource type="PackedScene" uid="uid://b56ats1otgo53" path="res://tscn/World/Misc/EnemySpawner3d.tscn" id="6_va4hh"]
-[ext_resource type="PackedScene" uid="uid://cf2own0vnv1f0" path="res://tscn/Enemy/enemyPistol.tscn" id="7_cgnp5"]
-[ext_resource type="PackedScene" uid="uid://iw61nxf66vmp" path="res://tscn/Enemy/enemyUnarmed1.tscn" id="8_4tw7k"]
-[ext_resource type="PackedScene" uid="uid://b8p2wkjpqdx6j" path="res://tscn/Enemy/enemyUnarmed2.tscn" id="9_ediva"]
+[ext_resource type="PackedScene" uid="uid://cfeaoix30a6lm" path="res://tscn/Enemy/Sniper.tscn" id="11_jjg3v"]
 [ext_resource type="PackedScene" uid="uid://by3cgkt5vrm5r" path="res://Models/TEXTURED/BagPile.tscn" id="15_ipe5w"]
 [ext_resource type="PackedScene" uid="uid://4vjxhehbnm6h" path="res://Models/TEXTURED/akm_2.tscn" id="16_aap62"]
 [ext_resource type="PackedScene" uid="uid://bynjn8pda12yn" path="res://Models/TEXTURED/propane_storage.tscn" id="17_2ijlp"]
@@ -146,7 +144,7 @@ enemySpawnerRef = NodePath("../EnemySpawner3d")
 [node name="EnemySpawner3d" parent="." instance=ExtResource("6_va4hh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 1.15681, 21)
 spawnLimit = 1
-Enemies = [ExtResource("7_cgnp5"), ExtResource("8_4tw7k"), ExtResource("9_ediva")]
+Enemies = [ExtResource("11_jjg3v"), ExtResource("11_jjg3v"), ExtResource("11_jjg3v")]
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
 transform = Transform3D(-0.29984, 0, 0.953989, 0, 1, 0, -0.953989, 0, -0.29984, -6.10092, 2.32639, 18.5758)

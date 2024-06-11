@@ -210,6 +210,8 @@ func getEyelineData():
 			enemyHealthBar.value = eyeline.get_collider().HEALTH
 			if eyeline.get_collider().isLegendary:
 				enemyNameTag.add_theme_color_override("font_color", 'Yellow')
+			elif eyeline.get_collider().isBoss:
+				enemyNameTag.add_theme_color_override("font_color", 'RED')
 			elif eyeline.get_collider().isLegendary == false:
 				enemyNameTag.add_theme_color_override("font_color", 'White')
 		elif eyeline.is_colliding() && eyeline.get_collider().is_in_group("Trader"):

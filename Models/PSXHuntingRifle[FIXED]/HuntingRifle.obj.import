@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dap2keg3yub3k"
+path="res://.godot/imported/HuntingRifle.obj-696a84bbe40f73d49ab8d8122b6e26c7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/HuntingRifle.obj-696a84bbe40f73d49ab8d8122b6e26c7.mesh"]
+
+source_file="res://Models/PSXHuntingRifle[FIXED]/HuntingRifle.obj"
+dest_files=["res://.godot/imported/HuntingRifle.obj-696a84bbe40f73d49ab8d8122b6e26c7.mesh", "res://.godot/imported/HuntingRifle.obj-696a84bbe40f73d49ab8d8122b6e26c7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

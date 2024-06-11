@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://ck7e2xfpudix0"]
+
+[ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="1_mxapn"]
+[ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/Misc/spawn_room.tscn" id="2_fjqyl"]
+[ext_resource type="PackedScene" uid="uid://nt1gb7skpfrc" path="res://tscn/World/Misc/exfil_room.tscn" id="3_sdk2o"]
+[ext_resource type="PackedScene" uid="uid://cb3lpvb4gm4o8" path="res://Exfil.tscn" id="4_c1kbh"]
+[ext_resource type="PackedScene" uid="uid://cfeaoix30a6lm" path="res://tscn/Enemy/Sniper.tscn" id="5_pbd5v"]
+
+[node name="SniperArena" type="Node3D"]
+
+[node name="Player_Spawn" parent="." instance=ExtResource("1_mxapn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 2)
+
+[node name="SpawnRoom" parent="." instance=ExtResource("2_fjqyl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.126845, 0, 1.75444)
+
+[node name="ExfilRoom" parent="." instance=ExtResource("3_sdk2o")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -12, 3, -36)
+
+[node name="Exfil" parent="." instance=ExtResource("4_c1kbh")]
+unique_name_in_owner = true
+transform = Transform3D(6.63, 0, 0, 0, 2.58, 0, 0, 0, 7.25, -12, 5.48932, -36)
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6.25)
+size = Vector3(1, 1, 6)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0, -15.75)
+size = Vector3(14, 1, 13)
+
+[node name="EnemyScav" parent="." instance=ExtResource("5_pbd5v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 1, -14)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://gf3qhifevym8"]
+[gd_scene load_steps=29 format=3 uid="uid://gf3qhifevym8"]
 
 [ext_resource type="PackedScene" uid="uid://doxcopaphy7ou" path="res://tscn/Player/player_spawn.tscn" id="1_xbsoj"]
 [ext_resource type="PackedScene" uid="uid://c8p5eyd5b6xo7" path="res://tscn/World/Misc/spawn_room.tscn" id="2_i51jv"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://b8p2wkjpqdx6j" path="res://tscn/Enemy/enemyUnarmed2.tscn" id="7_vxdhd"]
 [ext_resource type="PackedScene" uid="uid://iw61nxf66vmp" path="res://tscn/Enemy/enemyUnarmed1.tscn" id="8_7md60"]
 [ext_resource type="PackedScene" uid="uid://cf2own0vnv1f0" path="res://tscn/Enemy/enemyPistol.tscn" id="9_0rd27"]
+[ext_resource type="PackedScene" uid="uid://cfeaoix30a6lm" path="res://tscn/Enemy/Sniper.tscn" id="12_r4b4x"]
 [ext_resource type="Texture2D" uid="uid://bb5cso8prcgwe" path="res://Models/- Classic 64 Asset Pack 0.6/Water/water_foamy_01.jpg" id="13_f3vse"]
 [ext_resource type="Texture2D" uid="uid://8y7jveclta5d" path="res://2dAssets/blood-png-126.png" id="15_iiriw"]
 [ext_resource type="Texture2D" uid="uid://dubxc6y6p41rr" path="res://Models/MrRobotModelsFiles/EliotTexture256fin.png" id="16_rflkw"]
@@ -900,8 +901,8 @@ material = SubResource("StandardMaterial3D_gavpj")
 
 [node name="EnemySpawner3d" parent="." instance=ExtResource("6_y2e6a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 3.6239, -36)
-spawnLimit = 7
-Enemies = [ExtResource("7_vxdhd"), ExtResource("8_7md60"), ExtResource("9_0rd27")]
+spawnLimit = 10
+Enemies = [ExtResource("7_vxdhd"), ExtResource("8_7md60"), ExtResource("9_0rd27"), ExtResource("12_r4b4x")]
 
 [node name="EnemySpawner3d2" parent="." instance=ExtResource("6_y2e6a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -5.32008, -32)
