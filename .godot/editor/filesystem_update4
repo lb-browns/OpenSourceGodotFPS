@@ -1,13 +1,12 @@
-res://Models/MrRobotModelsFiles/default.res
 res://tscn/Player/player.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://Scripts/AI/NPC/Door.gd
+res://Scripts/Weapon/weaponResource.gd
+res://Scripts/World/roomSpawner.gd
 res://gdShaders/tv.gdshader
 res://gdShaders/RealPixelate.gdshader
-res://Scripts/Weapon/weaponResource.gd
-res://tscn/Effects/BloodEffect.tres
 res://tscn/Player/playerDamage.tres
-res://Scripts/World/roomSpawner.gd
+res://tscn/Effects/BloodEffect.tres
 res://Mats/wood.tres
 res://Mats/plaster2.tres
 res://Mats/new_standard_material_3d.tres
@@ -26,3 +25,4 @@ res://tscn/World/SHRooms/r_warehouse1.tscn
 res://tscn/Enemy/enemyUnarmed1.tscn
 res://tscn/Enemy/enemyPistol.tscn
 res://tscn/Enemy/enemyUnarmed2.tscn
+res://Scripts/AI/Enemy/SniperAI.gd
