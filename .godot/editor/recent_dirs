@@ -1,3 +1,4 @@
+res://Scripts/UI
 res://tscn/Effects
 Z:/gti clones/tst/OpenSourceGodotFPS-main/Game Meta Data/godot-minimal-theme-main
 D:/downy/FBX2glTF-windows-x86_64
@@ -19,4 +20,3 @@ res://Scripts/AI/NPC
 res://tscn/Player
 res://Game Meta Data
 res://Textures/kenney_prototype-textures/PNG/Dark
-res://Textures/kenney_prototype-textures/PNG/Light

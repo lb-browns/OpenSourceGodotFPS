@@ -1,3 +1,6 @@
+Button
+Label
+VBoxContainer
 Node3D
 SubViewport
 ProgressBar
@@ -9,6 +12,3 @@ CSGCombiner3D
 SpotLight3D
 StaticBody3D
 CollisionPolygon3D
-CSGPolygon3D
-CollisionShape3D
-ColorRect

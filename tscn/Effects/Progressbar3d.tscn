@@ -2,9 +2,23 @@
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dm1rc"]
 bg_color = Color(0, 0, 0, 0.494118)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.8, 0.8, 0.360784, 1)
+corner_radius_bottom_right = 1000
+corner_radius_bottom_left = 1000
+expand_margin_left = 4.0
+expand_margin_top = 4.0
+expand_margin_bottom = 4.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ijck8"]
 bg_color = Color(0.368627, 0.0392157, 0.0352941, 1)
+border_width_right = 4
+border_color = Color(0.8, 0.8, 0.360784, 1)
+corner_radius_bottom_right = 1000
+corner_radius_bottom_left = 1000
 
 [node name="Healthbar3D" type="ProgressBar"]
 anchors_preset = 8
