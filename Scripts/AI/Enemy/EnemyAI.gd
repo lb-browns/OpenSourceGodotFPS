@@ -26,6 +26,10 @@ var stateMachine
 @onready var navAgent = $NavigationAgent3D
 @onready var animTree = $AnimationTree
 @onready var animPlayer = $CollisionShape3D/aaaa/AnimationPlayer
+@onready var nameLabel = $EnemyData/Name
+@onready var healthBar = $SubViewport/Healthbar3D
+@onready var healthBarSprite = $EnemyData/Health
+@onready var enemyData = $EnemyData
 
 signal enemyKilled
 
@@ -38,6 +42,9 @@ func _ready():
 	randRarity()
 	setLegendary()
 	HEALTH = MAX_HEALTH
+	nameLabel.text = NAME
+	healthBar.max_value = MAX_HEALTH
+	healthBar.value = HEALTH
 	stateMachine = animTree.get("parameters/playback")
 	
 	SELF.apply_floor_snap()
@@ -95,6 +102,7 @@ func hitPlayer():
 func takeDamage(weaponDamage):
 	print(HEALTH)
 	HEALTH -= weaponDamage
+	healthBar.value = HEALTH
 
 func Die():
 	emit_signal("enemyKilled")

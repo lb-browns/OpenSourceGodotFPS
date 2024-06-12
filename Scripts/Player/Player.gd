@@ -198,22 +198,21 @@ func unPause():
 
 func _on_quit_pressed():
 	get_tree().change_scene_to_packed(mainMenu)
+	
 
 func getEyelineData():
 	if eyeline.is_colliding() && eyeline.get_collider() != null:
-		if eyeline.is_colliding() && eyeline.get_collider().is_in_group("Enemy"):
-			print(eyeline.get_collider())
+		if eyeline.is_colliding() && eyeline.get_collider().is_in_group("Enemy") && !eyeline.get_collider().isBoss:
+			eyeline.get_collider().healthBarSprite.visible = true
+			eyeline.get_collider().nameLabel.visible = true
+			if eyeline.get_collider().isLegendary:
+				eyeline.get_collider().nameLabel.modulate = 'Yellow'
+		elif eyeline.is_colliding() && eyeline.get_collider().is_in_group("Enemy") && eyeline.get_collider().isBoss:
 			enemyNameTag.visible = true
 			enemyHealthBar.visible = true
 			enemyNameTag.text = eyeline.get_collider().NAME
 			enemyHealthBar.max_value = eyeline.get_collider().MAX_HEALTH
 			enemyHealthBar.value = eyeline.get_collider().HEALTH
-			if eyeline.get_collider().isLegendary:
-				enemyNameTag.add_theme_color_override("font_color", 'Yellow')
-			elif eyeline.get_collider().isBoss:
-				enemyNameTag.add_theme_color_override("font_color", 'RED')
-			elif eyeline.get_collider().isLegendary == false:
-				enemyNameTag.add_theme_color_override("font_color", 'White')
 		elif eyeline.is_colliding() && eyeline.get_collider().is_in_group("Trader"):
 			enemyNameTag.visible = true
 			enemyHealthBar.visible = true
@@ -257,8 +256,8 @@ func getEyelineData():
 					eyeline.get_collider().paymentSuccess()
 					updateRoubleCount()
 		else:
-			enemyHealthBar.visible = false
 			enemyNameTag.visible = false
+			enemyHealthBar.visible = false
 			canPurchase = false
 			interactDialog.visible = false
 
