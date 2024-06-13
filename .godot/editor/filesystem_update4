@@ -1,3 +1,4 @@
+res://Models/MrRobotModelsFiles/default.res
 res://tscn/Player/player.tscn
 res://Scripts/AI/Enemy/EnemySpawner.gd
 res://Scripts/AI/NPC/Door.gd
@@ -17,10 +18,3 @@ res://Mats/Plaster1.tres
 res://Mats/Tile1.tres
 res://gdShaders/pixelation.gdshader
 res://gdShaders/sky.gdshader
-res://Scripts/UI/ShopGUI.gd
-res://tscn/World/SHRooms/RoomGenTest.tscn
-res://tscn/World/SHRooms/r_warehouse2.tscn
-res://tscn/Enemy/enemyUnarmed1.tscn
-res://tscn/Enemy/enemyPistol.tscn
-res://tscn/Enemy/enemyUnarmed2.tscn
-res://tscn/Effects/Progressbar3d.tscn
